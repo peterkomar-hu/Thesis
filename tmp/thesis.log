@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.30)  30 SEP 2015 15:15
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.30)  30 SEP 2015 16:20
 entering extended mode
 **thesis.tex
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.tex
@@ -325,7 +325,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Kessler2014.aux)
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Komar2014.aux)
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Komar2015.aux)
-(C:\Doc\Harvard\graduation\Thesis\TheThesis\b.aux))
+(C:\Doc\Harvard\graduation\Thesis\TheThesis\b.aux)
+(C:\Doc\Harvard\graduation\Thesis\TheThesis\app_Komar2013.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
@@ -414,25 +415,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [5] (C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.lof [6
 
-]
-Overfull \hbox (1.6659pt too wide) in paragraph at lines 6--6
- \OT1/cmr/m/n/12 di-a-gram show-ing the six states pop-u-lated by the drive fro
-m level $\OMS/cmsy/m/n/12 j\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 
-0\OML/cmm/m/it/12 ; n\OMS/cmsy/m/n/12 i$ 
- []
-
-
-Overfull \hbox (1.5828pt too wide) in paragraph at lines 7--7
- [][][] [][]\OT1/cmr/m/n/12 (Color on-line) (a) Fi-nite time de-lay in-ten-sity
- cor-re-la-tion func-tion $\OML/cmm/m/it/12 g[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/1
-2 \OT1/cmr/m/n/12 )$ 
- []
-
-)
+] [7])
 \tf@lof=\write5
- [7] (C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.lot)
+ [8]
+(C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.lot)
 \tf@lot=\write6
- [8
+ [9
 
 ]
 Overfull \hbox (7.22266pt too wide) in paragraph at lines 58--73
@@ -441,7 +429,7 @@ de op-tome-chan-ics,'' P. Komar,
  []
 
 Missing character: There is no – in font cmr12!
-[9] [10] [11]) (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_intro.tex
+[10] [11] [12]) (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_intro.tex
 Chapter 1.
 ) [1
 
@@ -616,455 +604,295 @@ LaTeX Warning: Citation `Carmichael1991' on page 3 undefined on input line 139.
 
 LaTeX Warning: Citation `Brecha1999' on page 3 undefined on input line 139.
 
-[3]
+[3] <./figs_Komar2013/fig1a.pdf, id=425, 277.06645pt x 91.14539pt>
+File: ./figs_Komar2013/fig1a.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `sect:App:steady_state' on page 4 undefined on input l
-ine 172.
+<use ./figs_Komar2013/fig1a.pdf>
+Package pdftex.def Info: ./figs_Komar2013/fig1a.pdf used on input line 193.
+(pdftex.def)             Requested size: 281.85034pt x 92.7195pt.
+ [4] [5 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig1a.pdf>]
 
-[4]
-
-LaTeX Warning: File `./fig1a.pdf' not found on input line 219.
-
-
-! Package pdftex.def Error: File `./fig1a.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.219 ...aphics[width=0.45\textwidth]{./fig1a.pdf}
-                                                   \\[0.5cm]
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Citation `Grudinin2010' on page 6 undefined on input line 316.
 
 
-LaTeX Warning: File `./fig1b.pdf' not found on input line 220.
+LaTeX Warning: Citation `Zhang2012' on page 6 undefined on input line 316.
 
 
-! Package pdftex.def Error: File `./fig1b.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.220 ...aphics[width=0.45\textwidth]{./fig1b.pdf}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[5]
-
-LaTeX Warning: Citation `Grudinin2010' on page 6 undefined on input line 296.
+LaTeX Warning: Citation `Miao2009' on page 6 undefined on input line 321.
 
 
-LaTeX Warning: Citation `Zhang2012' on page 6 undefined on input line 296.
+LaTeX Warning: Citation `Dobrindt2010' on page 6 undefined on input line 321.
 
 
-LaTeX Warning: Citation `Miao2009' on page 6 undefined on input line 301.
+LaTeX Warning: Citation `Cheung2011' on page 6 undefined on input line 321.
 
 
-LaTeX Warning: Citation `Dobrindt2010' on page 6 undefined on input line 301.
+LaTeX Warning: Citation `Ludwig2012' on page 6 undefined on input line 321.
+
+<./figs_Komar2013/fig1b.pdf, id=451, 248.0871pt x 191.52805pt>
+File: ./figs_Komar2013/fig1b.pdf Graphic file (type pdf)
+
+<use ./figs_Komar2013/fig1b.pdf>
+Package pdftex.def Info: ./figs_Komar2013/fig1b.pdf used on input line 385.
+(pdftex.def)             Requested size: 260.17464pt x 200.87656pt.
+ [6] [7 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig1b.pdf>]
+<./figs_Komar2013/fig2a.pdf, id=473, 560.30441pt x 224.58289pt>
+File: ./figs_Komar2013/fig2a.pdf Graphic file (type pdf)
+
+<use ./figs_Komar2013/fig2a.pdf>
+Package pdftex.def Info: ./figs_Komar2013/fig2a.pdf used on input line 535.
+(pdftex.def)             Requested size: 346.89731pt x 139.04803pt.
+ [8]
+<./figs_Komar2013/fig2b.pdf, id=484, 560.22092pt x 224.58289pt>
+File: ./figs_Komar2013/fig2b.pdf Graphic file (type pdf)
+
+<use ./figs_Komar2013/fig2b.pdf>
+Package pdftex.def Info: ./figs_Komar2013/fig2b.pdf used on input line 554.
+(pdftex.def)             Requested size: 346.89731pt x 139.06517pt.
+
+<./figs_Komar2013/fig2c.pdf, id=489, 542.40434pt x 264.25894pt>
+File: ./figs_Komar2013/fig2c.pdf Graphic file (type pdf)
+
+<use ./figs_Komar2013/fig2c.pdf>
+Package pdftex.def Info: ./figs_Komar2013/fig2c.pdf used on input line 572.
+(pdftex.def)             Requested size: 346.89731pt x 169.01627pt.
+ [9 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig2a.pdf>] [10 
+<C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig2b.pdf> <C:/Doc/H
+arvard/graduation/Thesis/TheThesis/figs_Komar2013/fig2c.pdf>]
+
+LaTeX Warning: Citation `Carmichael1991' on page 11 undefined on input line 685
+.
+
+[11] [12] <./figs_Komar2013/fig2d.pdf, id=582, 544.45908pt x 201.70355pt>
+File: ./figs_Komar2013/fig2d.pdf Graphic file (type pdf)
+
+<use ./figs_Komar2013/fig2d.pdf>
+Package pdftex.def Info: ./figs_Komar2013/fig2d.pdf used on input line 847.
+(pdftex.def)             Requested size: 390.25534pt x 144.58011pt.
 
 
-LaTeX Warning: Citation `Cheung2011' on page 6 undefined on input line 301.
+LaTeX Warning: Citation `Lukin2003' on page 13 undefined on input line 873.
 
 
-LaTeX Warning: Citation `Ludwig2012' on page 6 undefined on input line 301.
+LaTeX Warning: Citation `Weis2010' on page 13 undefined on input line 873.
 
-[6] [7]
-
-LaTeX Warning: File `./fig2a.pdf' not found on input line 462.
-
-
-! Package pdftex.def Error: File `./fig2a.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.462 ...raphics[width=0.4\textwidth]{./fig2a.pdf}
-                                                  \\[-0.8cm]
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./fig2b.pdf' not found on input line 463.
-
-
-! Package pdftex.def Error: File `./fig2b.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.463 ...raphics[width=0.4\textwidth]{./fig2b.pdf}
-                                                  \\[-0.8cm]
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./fig2c.pdf' not found on input line 464.
-
-
-! Package pdftex.def Error: File `./fig2c.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.464 ...raphics[width=0.4\textwidth]{./fig2c.pdf}
-                                                  \\[0.3cm]
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./fig2d.pdf' not found on input line 465.
-
-
-! Package pdftex.def Error: File `./fig2d.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.465 ...raphics[width=0.4\textwidth]{./fig2d.pdf}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Float too large for page by 243.39442pt on input line 500.
-
-
-LaTeX Warning: Reference `App: Reflection' on page 8 undefined on input line 51
-5.
-
-[8]
-
-LaTeX Warning: Citation `Carmichael1991' on page 9 undefined on input line 593.
-
-
-[9]
-
-LaTeX Warning: Reference `sect:App:steady_state' on page 10 undefined on input 
-line 627.
-
-
-LaTeX Warning: Reference `sect:App:steady_state' on page 10 undefined on input 
-line 674.
-
-[10]
-
-LaTeX Warning: Citation `Lukin2003' on page 11 undefined on input line 767.
-
-
-LaTeX Warning: Citation `Weis2010' on page 11 undefined on input line 767.
-
-[11]
+[13 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig2d.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 804.
+(hyperref)                removing `math shift' on input line 912.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Delta' on input line 804.
+(hyperref)                removing `\Delta' on input line 912.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 804.
+(hyperref)                removing `math shift' on input line 912.
+
+[14] <./figs_Komar2013/fig3.pdf, id=613, 578.16pt x 289.08pt>
+File: ./figs_Komar2013/fig3.pdf Graphic file (type pdf)
+
+<use ./figs_Komar2013/fig3.pdf>
+Package pdftex.def Info: ./figs_Komar2013/fig3.pdf used on input line 1048.
+(pdftex.def)             Requested size: 346.89731pt x 173.44933pt.
+ [15]
+<./figs_Komar2013/fig4a.pdf, id=625, 295.71075pt x 169.91606pt>
+File: ./figs_Komar2013/fig4a.pdf Graphic file (type pdf)
+
+<use ./figs_Komar2013/fig4a.pdf>
+Package pdftex.def Info: ./figs_Komar2013/fig4a.pdf used on input line 1121.
+(pdftex.def)             Requested size: 346.89731pt x 199.34285pt.
+
+<./figs_Komar2013/fig4b.pdf, id=626, 243.12793pt x 155.26582pt>
+File: ./figs_Komar2013/fig4b.pdf Graphic file (type pdf)
+
+<use ./figs_Komar2013/fig4b.pdf>
+Package pdftex.def Info: ./figs_Komar2013/fig4b.pdf used on input line 1133.
+(pdftex.def)             Requested size: 346.89731pt x 221.53563pt.
+
+<./figs_Komar2013/fig4c.pdf, id=627, 243.12793pt x 155.26582pt>
+File: ./figs_Komar2013/fig4c.pdf Graphic file (type pdf)
+
+<use ./figs_Komar2013/fig4c.pdf>
+Package pdftex.def Info: ./figs_Komar2013/fig4c.pdf used on input line 1149.
+(pdftex.def)             Requested size: 346.89731pt x 221.53563pt.
 
 
-LaTeX Warning: File `./fig3.pdf' not found on input line 940.
-
-
-! Package pdftex.def Error: File `./fig3.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.940 ...raphics[width=0.43\textwidth]{./fig3.pdf}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[12]
-
-LaTeX Warning: Citation `O'Connell2010' on page 13 undefined on input line 1018
+LaTeX Warning: Citation `O'Connell2010' on page 16 undefined on input line 1171
 .
 
 
-LaTeX Warning: Citation `Metzger2004' on page 13 undefined on input line 1026.
+LaTeX Warning: Citation `Metzger2004' on page 16 undefined on input line 1179.
 
 
-LaTeX Warning: Citation `Gigan2006' on page 13 undefined on input line 1026.
+LaTeX Warning: Citation `Gigan2006' on page 16 undefined on input line 1179.
 
 
-LaTeX Warning: Citation `Arcizet2006' on page 13 undefined on input line 1026.
+LaTeX Warning: Citation `Arcizet2006' on page 16 undefined on input line 1179.
 
 
-LaTeX Warning: Citation `Kleckner2006' on page 13 undefined on input line 1026.
-
-
-
-LaTeX Warning: Citation `Corbitt2007' on page 13 undefined on input line 1026.
-
-
-LaTeX Warning: Citation `Schliesser2008' on page 13 undefined on input line 102
-6.
-
-
-LaTeX Warning: Citation `Thompson2008' on page 13 undefined on input line 1026.
+LaTeX Warning: Citation `Kleckner2006' on page 16 undefined on input line 1179.
 
 
 
-LaTeX Warning: Citation `Wilson2009' on page 13 undefined on input line 1026.
+LaTeX Warning: Citation `Corbitt2007' on page 16 undefined on input line 1179.
 
 
-LaTeX Warning: Citation `O'Connell2010' on page 13 undefined on input line 1026
+LaTeX Warning: Citation `Schliesser2008' on page 16 undefined on input line 117
+9.
+
+
+LaTeX Warning: Citation `Thompson2008' on page 16 undefined on input line 1179.
+
+
+
+LaTeX Warning: Citation `Wilson2009' on page 16 undefined on input line 1179.
+
+
+LaTeX Warning: Citation `O'Connell2010' on page 16 undefined on input line 1179
 .
 
 
-LaTeX Warning: Citation `Teufel2011' on page 13 undefined on input line 1026.
+LaTeX Warning: Citation `Teufel2011' on page 16 undefined on input line 1179.
 
 
-LaTeX Warning: Citation `Chan2011' on page 13 undefined on input line 1026.
+LaTeX Warning: Citation `Chan2011' on page 16 undefined on input line 1179.
 
-[13] [14]
-
-LaTeX Warning: Reference `sect:App:steady_state' on page 15 undefined on input 
-line 1116.
-
-
-LaTeX Warning: File `./fig4a.pdf' not found on input line 1162.
-
-
-! Package pdftex.def Error: File `./fig4a.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1162 ...phics[width=0.43\textwidth]{./fig4a.pdf}
-                                                  \\
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./fig4b.pdf' not found on input line 1163.
-
-
-! Package pdftex.def Error: File `./fig4b.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1163 ...phics[width=0.43\textwidth]{./fig4b.pdf}
-                                                  \\
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./fig4c.pdf' not found on input line 1164.
-
-
-! Package pdftex.def Error: File `./fig4c.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1164 ...phics[width=0.43\textwidth]{./fig4c.pdf}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Float too large for page by 87.06204pt on input line 1181.
-
-[15] [16]
-
-LaTeX Warning: Citation `Carmichael1991' on page 17 undefined on input line 120
-8.
-
-
-LaTeX Warning: Citation `Brecha1999' on page 17 undefined on input line 1208.
-
-
-LaTeX Warning: Citation `Carmichael1991' on page 17 undefined on input line 123
-8.
-
-
-LaTeX Warning: File `./fig5a.pdf' not found on input line 1244.
-
-
-! Package pdftex.def Error: File `./fig5a.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1244 ...phics[width=0.50\textwidth]{./fig5a.pdf}
-                                                  \\[-0.5cm]
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./fig5b.pdf' not found on input line 1245.
-
-
-! Package pdftex.def Error: File `./fig5b.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1245 ...phics[width=0.50\textwidth]{./fig5b.pdf}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `QuantumNoise' on page 17 undefined on input line 1280.
-
-
-[17]
-
-LaTeX Warning: Citation `Carmichael1991' on page 18 undefined on input line 131
-0.
-
-
-LaTeX Warning: Citation `Rice1988' on page 18 undefined on input line 1310.
-
-
-LaTeX Warning: Citation `Brecha1999' on page 18 undefined on input line 1310.
-
-
-LaTeX Warning: Citation `Chang2007' on page 18 undefined on input line 1311.
-
-[18]
-
-LaTeX Warning: Citation `Kronwald2012' on page 19 undefined on input line 1355.
-
-
-
-LaTeX Warning: File `./fig6.pdf' not found on input line 1405.
-
-
-! Package pdftex.def Error: File `./fig6.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1405 ...aphics[width=0.50\textwidth]{./fig6.pdf}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[19]
-
-LaTeX Warning: Reference `sect:App:steady_state' on page 20 undefined on input 
-line 1463.
-
-
-LaTeX Warning: File `./fig7.pdf' not found on input line 1498.
-
-
-! Package pdftex.def Error: File `./fig7.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1498 ...aphics[width=0.47\textwidth]{./fig7.pdf}
-                                                  \\
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[20]
-
-LaTeX Warning: Citation `Safavi-Naeini2011a' on page 21 undefined on input line
- 1617.
-
-
-LaTeX Warning: Citation `Schliesser2008' on page 21 undefined on input line 161
-7.
-
-
-LaTeX Warning: Citation `Eichenfield2009' on page 21 undefined on input line 16
-17.
-
-
-LaTeX Warning: Citation `Eichenfield2009' on page 21 undefined on input line 16
-22.
-
-
-LaTeX Warning: Citation `Ding2011' on page 21 undefined on input line 1622.
-
-
-LaTeX Warning: Citation `Verhagen2011' on page 21 undefined on input line 1622.
-
-
-
-LaTeX Warning: Citation `Chan2012' on page 21 undefined on input line 1626.
-
-
-LaTeX Warning: Citation `Purdy2010' on page 21 undefined on input line 1633.
-
-
-LaTeX Warning: Citation `Stamper-kurn' on page 21 undefined on input line 1634.
-
-
+[16 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig3.pdf>]
+[17 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig4a.pdf> <C:/D
+oc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig4b.pdf>] [18 <C:/Doc/H
+arvard/graduation/Thesis/TheThesis/figs_Komar2013/fig4c.pdf>] [19] [20]
 [21]
 
-LaTeX Warning: Citation `Robinson2005' on page 22 undefined on input line 1664.
+LaTeX Warning: Citation `Carmichael1991' on page 22 undefined on input line 136
+3.
+
+
+LaTeX Warning: Citation `Brecha1999' on page 22 undefined on input line 1363.
+
+
+LaTeX Warning: Citation `Carmichael1991' on page 22 undefined on input line 139
+3.
+
+
+LaTeX Warning: Citation `QuantumNoise' on page 22 undefined on input line 1409.
+
+
+[22]
+
+LaTeX Warning: Citation `Carmichael1991' on page 23 undefined on input line 143
+9.
+
+
+LaTeX Warning: Citation `Rice1988' on page 23 undefined on input line 1439.
+
+
+LaTeX Warning: Citation `Brecha1999' on page 23 undefined on input line 1439.
+
+
+LaTeX Warning: Citation `Chang2007' on page 23 undefined on input line 1440.
+
+[23]
+
+LaTeX Warning: Citation `Kronwald2012' on page 24 undefined on input line 1484.
+
+
+<./figs_Komar2013/fig5a.pdf, id=837, 657.45625pt x 361.35pt>
+File: ./figs_Komar2013/fig5a.pdf Graphic file (type pdf)
+
+<use ./figs_Komar2013/fig5a.pdf>
+Package pdftex.def Info: ./figs_Komar2013/fig5a.pdf used on input line 1493.
+(pdftex.def)             Requested size: 390.25534pt x 214.4959pt.
+
+<./figs_Komar2013/fig5b.pdf, id=838, 657.45625pt x 361.35pt>
+File: ./figs_Komar2013/fig5b.pdf Graphic file (type pdf)
+
+<use ./figs_Komar2013/fig5b.pdf>
+Package pdftex.def Info: ./figs_Komar2013/fig5b.pdf used on input line 1494.
+(pdftex.def)             Requested size: 390.25534pt x 214.4959pt.
+
+<./figs_Komar2013/fig6.pdf, id=847, 492.84125pt x 361.35pt>
+File: ./figs_Komar2013/fig6.pdf Graphic file (type pdf)
+
+<use ./figs_Komar2013/fig6.pdf>
+Package pdftex.def Info: ./figs_Komar2013/fig6.pdf used on input line 1561.
+(pdftex.def)             Requested size: 346.89731pt x 254.3548pt.
+ [24] [25 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig5a.pdf>
+ <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig5b.pdf>] [26 <C:
+/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig6.pdf>]
+<./figs_Komar2013/fig7.pdf, id=916, 501.54877pt x 207.71918pt>
+File: ./figs_Komar2013/fig7.pdf Graphic file (type pdf)
+
+<use ./figs_Komar2013/fig7.pdf>
+Package pdftex.def Info: ./figs_Komar2013/fig7.pdf used on input line 1654.
+(pdftex.def)             Requested size: 368.57964pt x 152.65115pt.
+ [27]
+
+LaTeX Warning: Citation `Safavi-Naeini2011a' on page 28 undefined on input line
+ 1773.
+
+
+LaTeX Warning: Citation `Schliesser2008' on page 28 undefined on input line 177
+3.
+
+
+LaTeX Warning: Citation `Eichenfield2009' on page 28 undefined on input line 17
+73.
+
+
+LaTeX Warning: Citation `Eichenfield2009' on page 28 undefined on input line 17
+78.
+
+
+LaTeX Warning: Citation `Ding2011' on page 28 undefined on input line 1778.
+
+
+LaTeX Warning: Citation `Verhagen2011' on page 28 undefined on input line 1778.
 
 
 
-LaTeX Warning: Citation `Davanc2012' on page 22 undefined on input line 1664.
+LaTeX Warning: Citation `Chan2012' on page 28 undefined on input line 1782.
 
 
-LaTeX Warning: Citation `Ludwig2012' on page 22 undefined on input line 1668.
+LaTeX Warning: Citation `Purdy2010' on page 28 undefined on input line 1789.
 
 
-LaTeX Warning: Citation `Notomi2008' on page 22 undefined on input line 1672.
+LaTeX Warning: Citation `Stamper-kurn' on page 28 undefined on input line 1790.
 
 
-LaTeX Warning: Citation `Tanaka2008' on page 22 undefined on input line 1672.
+[28 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig7.pdf>]
+
+LaTeX Warning: Citation `Robinson2005' on page 29 undefined on input line 1820.
 
 
-LaTeX Warning: Citation `Xiong2012' on page 22 undefined on input line 1674.
+
+LaTeX Warning: Citation `Davanc2012' on page 29 undefined on input line 1820.
 
 
-LaTeX Warning: Citation `Safavi-Naeini2011a' on page 22 undefined on input line
- 1682.
+LaTeX Warning: Citation `Ludwig2012' on page 29 undefined on input line 1824.
 
 
-LaTeX Warning: Citation `Eichenfield2009' on page 22 undefined on input line 16
-82.
+LaTeX Warning: Citation `Notomi2008' on page 29 undefined on input line 1828.
 
 
-LaTeX Warning: Citation `Grudinin2010' on page 22 undefined on input line 1682.
+LaTeX Warning: Citation `Tanaka2008' on page 29 undefined on input line 1828.
 
 
-[22]) [23] [24] [25] [26] [27] [28] [29] [30]
-(C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Stannigel2012.tex
+LaTeX Warning: Citation `Xiong2012' on page 29 undefined on input line 1830.
+
+
+LaTeX Warning: Citation `Safavi-Naeini2011a' on page 29 undefined on input line
+ 1838.
+
+
+LaTeX Warning: Citation `Eichenfield2009' on page 29 undefined on input line 18
+38.
+
+
+LaTeX Warning: Citation `Grudinin2010' on page 29 undefined on input line 1838.
+
+
+[29]) [30] (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Stannigel2012.tex
 Chapter 3.
 ) [31
 
@@ -1106,7 +934,13 @@ No file thesis.bbl.
 
 
 
-]
+] (C:\Doc\Harvard\graduation\Thesis\TheThesis\app_Komar2013.tex
+Appendix A.
+[38
+
+
+
+] [39] [40]) [41]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
  (C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.aux
@@ -1119,11 +953,12 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Kessler2014.aux)
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Komar2014.aux)
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Komar2015.aux)
-(C:\Doc\Harvard\graduation\Thesis\TheThesis\b.aux))
+(C:\Doc\Harvard\graduation\Thesis\TheThesis\b.aux)
+(C:\Doc\Harvard\graduation\Thesis\TheThesis\app_Komar2013.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 379B9E860EC85266C27AB813943B5D21;2914.
+(rerunfilecheck)             Checksum: B2A2FB11F37B4AAFB240130E6BEA44BB;3125.
 
 
 LaTeX Warning: There were undefined references.
@@ -1131,29 +966,32 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
  ) 
 Here is how much of TeX's memory you used:
- 6784 strings out of 494045
- 96285 string characters out of 3150402
- 220216 words of memory out of 3000000
- 9773 multiletter control sequences out of 15000+200000
- 18449 words of font info for 68 fonts, out of 3000000 for 9000
+ 6890 strings out of 494045
+ 98981 string characters out of 3150402
+ 206792 words of memory out of 3000000
+ 9848 multiletter control sequences out of 15000+200000
+ 18280 words of font info for 67 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 34i,17n,53p,1502b,390s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,17n,53p,1047b,390s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi6.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmmi8.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-<C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmsy6.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (48 pages, 326633 bytes).
+fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi12.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi6.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr7.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmti12.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/m
+sam10.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pf
+b>
+Output written on thesis.pdf (53 pages, 730219 bytes).
 PDF statistics:
- 710 PDF objects out of 1000 (max. 8388607)
- 122 named destinations out of 1000 (max. 500000)
- 329 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1101 PDF objects out of 1200 (max. 8388607)
+ 146 named destinations out of 1000 (max. 500000)
+ 423 words of extra memory for PDF output out of 10000 (max. 10000000)
 

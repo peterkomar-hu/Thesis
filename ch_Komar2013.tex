@@ -174,7 +174,7 @@ derive several results discussed in the paper.
 
 
 
-
+ 
  
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -182,12 +182,26 @@ derive several results discussed in the paper.
 \section{Multimode optomechanics}
 \label{sect:Multimode}
  
-We consider the setup shown schematically in \reffig{fig:cartoon}(a), consisting
-of two optical cavities separated by a semitransparent mirror.  The cavity modes
+We consider the setup shown schematically in \reffig{fig:cartoon_a},
+consisting of two optical cavities separated by a semitransparent mirror.  The cavity modes
 are coupled by photons tunneling through the fixed mirror in the middle, and the
 mode on the right couples to the motion of a vibrating endmirror %a mechanical
 oscillator through radiation pressure.
 % acting on the movable endmirror.
+\begin{figure}
+\centering
+\includegraphics[width=0.65\textwidth]{./figs_Komar2013/fig1a.pdf}
+\caption{  
+  \label{fig:cartoon_a}
+  Optomechanical system consisting of
+  two tunnel-coupled optical cavity modes
+  $c_1$ and $c_2$, and a mechanical oscillator $b$ 
+  coupled to one of the cavity
+  modes by radiation pressure. 
+  The coupled optical modes are diagonalized in terms of
+  symmetric and antisymmetric modes, $c_s$ and $c_a$.
+  }
+\end{figure}
 The Hamiltonian describing the system is $(\hbar=1)$
 \bel
 \begin{split}
@@ -212,32 +226,38 @@ $\Omega_i$ and frequency $\omega_L$, which are applied to the left and right
 cavities. 
 
 
+% % ==================================
+% \begin{figure}[htb]
+% \centering
+% $\vcenter{\hbox{
+% 	\includegraphics[width=0.48\textwidth]{./figs_Komar2013/fig1a.pdf}
+% }}$
+% 
+% $\vcenter{\hbox{
+% 	\includegraphics[width=0.48\textwidth]{./figs_Komar2013/fig1b.pdf}
+% }}$
+% \caption{ 
+%   \label{fig:cartoon} (Color online)
+%   (a)~Optomechanical system consisting of
+%   two tunnel-coupled optical cavity modes
+%   $c_1$ and $c_2$, and a mechanical oscillator $b$ 
+%   coupled to one of the cavity
+%   modes by radiation pressure. 
+%   The coupled optical modes are diagonalized in terms of
+%   symmetric and antisymmetric modes, $c_s$ and $c_a$.
+%   (b) Level diagram showing  the  relevant  zero-, one- and two-photon states
+%   at zero temperature and under the three-mode resonance condition
+%   $\omega_s - \omega_a = \omega_m$. 
+%   States are labeled by $\ket{n_a n_s n_b}$ denoting
+%   the number $n_a$ ($n_s$) of antisymmetric
+%   (symmetric) photons and the number of phonons $n_b$.
+%    The optomechanical coupling $g$ splits
+%    the degeneracy of states  $\ket{n_a n_s n_b}$ and
+%   $\ket{n_a-1, n_s+1, n_b+1}$.}
+% \end{figure}
+% % ==================================
 
- 
-% ==================================
-\begin{figure}[htb]
-\includegraphics[width=0.45\textwidth]{./fig1a.pdf} \\[0.5cm]
-\includegraphics[width=0.45\textwidth]{./fig1b.pdf}
-\caption{ 
-  \label{fig:cartoon} (Color online)
-  (a)~Optomechanical system consisting of
-  two tunnel-coupled optical cavity modes
-  $c_1$ and $c_2$, and a mechanical oscillator $b$ 
-  coupled to one of the cavity
-  modes by radiation pressure. 
-  The coupled optical modes are diagonalized in terms of
-  symmetric and antisymmetric modes, $c_s$ and $c_a$.
-  (b) Level diagram showing  the  relevant  zero-, one- and two-photon states
-  at zero temperature and under the three-mode resonance condition
-  $\omega_s - \omega_a = \omega_m$. 
-  States are labeled by $\ket{n_a n_s n_b}$ denoting
-  the number $n_a$ ($n_s$) of antisymmetric
-  (symmetric) photons and the number of phonons $n_b$.
-   The optomechanical coupling $g$ splits
-   the degeneracy of states  $\ket{n_a n_s n_b}$ and
-  $\ket{n_a-1, n_s+1, n_b+1}$.}
-\end{figure}
-% ==================================
+
 
 
 We are interested in a three-mode resonant interaction
@@ -360,7 +380,21 @@ Ludwig2012}.
 %is neglected within the RWA in
 %Eq.~\eqref{eq:Hamiltonian_eff}.
 
-
+\begin{figure}
+\centering
+	\includegraphics[width=0.6\textwidth]{./figs_Komar2013/fig1b.pdf}
+\caption{ 
+  \label{fig:cartoon_b}
+  Level diagram showing  the  relevant  zero-, one- and two-photon states
+  at zero temperature and under the three-mode resonance condition
+  $\omega_s - \omega_a = \omega_m$. 
+  States are labeled by $\ket{n_a n_s n_b}$ denoting
+  the number $n_a$ ($n_s$) of antisymmetric
+  (symmetric) photons and the number of phonons $n_b$.
+   The optomechanical coupling $g$ splits
+   the degeneracy of states  $\ket{n_a n_s n_b}$ and
+  $\ket{n_a-1, n_s+1, n_b+1}$.}
+\end{figure}
 The nonlinear terms proportional to $g$ 
 in  Eq.~\eqref{eq:Hamiltonian_eff} 
 describe 
@@ -371,7 +405,7 @@ The resulting low energy level diagram
 %populated by  weakly driving  the
 %antisymmetric mode 
 is shown in
-\reffig{fig:cartoon}(b),
+\reffig{fig:cartoon_b},
 %for $\omega_m=2J$. 
 where $\ket{n_a n_s n_b}$ represents a state with
 $n_a$ and $n_s$
@@ -398,6 +432,7 @@ Note that in the diagonal basis the weak driving field couples
 all states with photon number differing by one. 
 In the following sections we use this low energy Hilbert space
 to understand photon correlations in the system.
+
 
 
 
@@ -440,7 +475,7 @@ Before focussing on photon-photon correlations, we first
 study
 the average transmission through the cavity, which is proportional
 to the mean intracavity photon number. In
-\reffig{fig:spectrum}(a) and (b) we show the 
+\reffig{fig:spectrum_a} and \ref{fig:spectrum_b} we show the 
 intracavity photon number of the
 two optical modes,
 \bel
@@ -453,56 +488,112 @@ At $\Delta/g =
 indicating that the driving field is in resonance 
 with an eigenmode of the system.
 The position of these peaks can be  understood from the level diagram shown
-in Fig.~\ref{fig:cartoon}(b), which at finite $g$ shows a splitting
+in Fig.~\ref{fig:cartoon_b}, which at finite $g$ shows a splitting
 of the lowest photonic states into a doublet, $|1_\pm\rangle=(|100\rangle
 \pm|011\rangle)/\sqrt{2}$.
 % ==================================
-\begin{figure}[tb]
+% \begin{figure}[tb]
+% \centering
+%   \includegraphics[width=0.45\textwidth]{./figs_Komar2013/fig2a.pdf}\quad
+%   \includegraphics[width=0.45\textwidth]{./figs_Komar2013/fig2b.pdf}\\
+%   \includegraphics[width=0.45\textwidth]{./figs_Komar2013/fig2c.pdf}\quad
+%   \includegraphics[width=0.45\textwidth]{./figs_Komar2013/fig2d.pdf}
+%   \caption{
+%   \label{fig:spectrum}(Color online)
+%   (a) Normalized average photon number (green ``$+$")
+%   and photon-photon correlation function (blue ``$\circ$")
+%   for driven mode $c_a$
+%   as a function of laser detuning at zero temperature.
+%   Solid lines are calculated from analytic model
+%   (see Eqs.~(\ref{eq:na}-\ref{eq:g2AA}))
+%   and points show full numerical calculation.
+%   The average photon number is
+%   normalized by $n_0 = (\Omega/\kappa)^2$.
+%   (b) Same as in (a) for the undriven mode $c_s$,
+%   and
+%   (c) for the reflected field $c_R$.
+%   In all plots we took
+%    $g/\kappa = 20$ and $\gamma/\kappa$ = 0.2.
+%   Dots mark features seen at values of
+%   detuning $\Delta/g = 0 \text{ (A)}, \frac{1}{\sqrt{8}} \text{ (B)},
+%   \frac{1}{2} \text{ (C)}$ and  $\frac{\sqrt{6}}{4} \text{ (D)}$. 
+%   The
+%   small discrepancy between the analytic and numerical results
+%   in (c) is due to the approximation
+%   $g/\kappa \gg 1$   to  
+%   simplify the expressions in Eqs.~(\ref{eq:na}-\ref{eq:g2AA}).
+%   Bottom panels A-D illustrate the origin of these features as explained in the text.
+%   Suppression  (enhancement) of the
+%   steady state population of a specific level is
+%   indicated by a red X (green circle).
+%   }
+% \end{figure}
+% ==================================
+
+\begin{figure}
 \centering
-  \includegraphics[width=0.4\textwidth]{./fig2a.pdf}\\[-0.8cm]
-  \includegraphics[width=0.4\textwidth]{./fig2b.pdf}\\[-0.8cm]
-  \includegraphics[width=0.4\textwidth]{./fig2c.pdf}\\[0.3cm]
-  \includegraphics[width=0.4\textwidth]{./fig2d.pdf}
+  \includegraphics[width=0.8\textwidth]{./figs_Komar2013/fig2a.pdf}
+  
   \caption{
-  \label{fig:spectrum}(Color online)
-  (a) Normalized average photon number (green ``$+$")
+  \label{fig:spectrum_a}
+  Normalized average photon number (green ``$+$")
   and photon-photon correlation function (blue ``$\circ$")
   for driven mode $c_a$
   as a function of laser detuning at zero temperature.
   Solid lines are calculated from analytic model
   (see Eqs.~(\ref{eq:na}-\ref{eq:g2AA}))
   and points show full numerical calculation.
-%  Normalized average photon number 
-%  \sdb{(dashed green line, numerics with
-%  ``+")} and photon-photon correlation function
-%  \sdb{(solid blue line, numerics with ``o")} for driven mode $c_a$
-%  as a function of laser detuning at zero temperature.
   The average photon number is
-  normalized by $n_0 = (\Omega/\kappa)^2$.
-  (b) Same as in (a) for the undriven mode $c_s$,
-  and
-  (c) for the reflected field $c_R$.
-  In all plots we took
-   $g/\kappa = 20$ and $\gamma/\kappa$ = 0.2.
-  Dots mark features seen at values of
-  detuning $\Delta/g = 0 \text{ (A)}, \frac{1}{\sqrt{8}} \text{ (B)},
-  \frac{1}{2} \text{ (C)}$ and  $\frac{\sqrt{6}}{4} \text{ (D)}$. 
-  The
-  small discrepancy between the analytic and numerical results
-  in (c) is due to the approximation
-  $g/\kappa \gg 1$   to  
-  simplify the expressions in Eqs.~(\ref{eq:na}-\ref{eq:g2AA}).
-  Bottom panels A-D illustrate the origin of these features as explained in the text.
-  Suppression  (enhancement) of the
-  steady state population of a specific level is
-  indicated by a red X (green circle).
+  normalized by $n_0 = (\Omega/\kappa)^2$. ($g/\kappa = 20$ and $\gamma/\kappa$
+  = 0.2)
   }
 \end{figure}
-% ==================================
+
+\begin{figure}
+\centering
+  \includegraphics[width=0.8\textwidth]{./figs_Komar2013/fig2b.pdf}
+  \caption{
+  \label{fig:spectrum_b}
+  Normalized average photon number (green ``$+$")
+  and photon-photon correlation function (blue ``$\circ$")
+  for the undriven mode $c_s$
+  as a function of laser detuning at zero temperature.
+  Solid lines are calculated from analytic model
+  (see Eqs.~(\ref{eq:na}-\ref{eq:g2AA}))
+  and points show full numerical calculation.
+  The average photon number is
+  normalized by $n_0 = (\Omega/\kappa)^2$. ($g/\kappa = 20$ and $\gamma/\kappa$
+  = 0.2)
+  }
+\end{figure}
  
+\begin{figure}
+\centering
+  \includegraphics[width=0.8\textwidth]{./figs_Komar2013/fig2c.pdf}
+  \caption{
+  \label{fig:spectrum_c}
+  Normalized average photon number (green ``$+$")
+  and photon-photon correlation function (blue ``$\circ$")
+  for the reflected field $c_R$,
+  as a function of laser detuning at zero temperature.
+  Solid lines are calculated from analytic model
+  (see Eqs.~(\ref{eq:na}-\ref{eq:g2AA}))
+  and points show full numerical calculation.
+  The average photon number is
+  normalized by $n_0 = (\Omega/\kappa)^2$.
+  The
+  small discrepancy between the analytic and numerical results is due to the
+  approximation $g/\kappa \gg 1$   to  
+  simplify the expressions in Eqs.~(\ref{eq:na}-\ref{eq:g2AA})
+  ($g/\kappa = 20$ and $\gamma/\kappa$ = 0.2)
+  }
+\end{figure}
+ 
+
+
 In addition to the transmission,
 we plot the mean reflected photon number
-in  \reffig{fig:spectrum}(c).
+in  \reffig{fig:spectrum_c}.
 As discussed below, the reflected 
 photon statistics
 can also exhibit signatures of
@@ -516,7 +607,7 @@ for a symmetric two-sided cavity (see Appendix
 %$c_R = c_a + i\frac{\Omega}{\kappa}$.
 The mean reflected photon number
 $\bar n_R = \ev{c_R\+ c_R}$
-is plotted in \reffig{fig:spectrum}(c).
+is plotted in \reffig{fig:spectrum_c}.
 %shows the reflected photon number, 
 %$\bar n_R = \ev{c_R\+ c_R}$. 
 At $\Delta/g = \pm \frac{1}{2}$, 
@@ -549,9 +640,10 @@ $g^{(2)}_{ii}(0)\rightarrow 0$ corresponds to the
 complete photon blockade regime
 in which two photons never occupy the cavity
 at the same time.
-The solid curves in \reffig{fig:spectrum} show $g^{(2)}_{aa}(0)$,
-$g^{(2)}_{ss}(0)$ and $g^{(2)}_{RR}(0)$ as a function of the laser  detuning and
-in the limit of weak driving $\Omega/\kappa \ll1 $.
+The solid curves show $g^{(2)}_{aa}(0)$ in \reffig{fig:spectrum_a},
+$g^{(2)}_{ss}(0)$ in \reffig{fig:spectrum_b} and $g^{(2)}_{RR}(0)$ 
+\reffig{fig:spectrum_c} as a function of the laser  detuning and in the limit of
+weak driving $\Omega/\kappa \ll1 $.
 %for modes $c_a$, $c_s$ and the reflected
 %mode $c_R$, respectively.
 The most pronounced features of these correlation functions occur at 
@@ -583,11 +675,11 @@ one- and two-photon resonances.
 To gain insight into the two photon correlation functions shown in 
 %We can capture the 
 %features in  
-\reffig{fig:spectrum} ,
+\reffig{fig:spectrum_a}, \ref{fig:spectrum_b} and \ref{fig:spectrum_c},
 we develop  an approximate analytic model 
 for the system 
 by considering only the
-six levels shown in \reffig{fig:cartoon}(b).
+six levels shown in \reffig{fig:cartoon_b}.
 Assuming that the system is initially prepared in $|000\rangle$, these are
 the only levels significantly populated by weakly driving the
 $c_a$ mode. We make the ansatz \cite{Carmichael1991}
@@ -667,7 +759,8 @@ in these expressions, we obtain the positions
 of the resonances  (antiresonances) in the 
 average intracavity photon numbers, in excellent
 agreement with the numerical results
-shown in \reffig{fig:spectrum}.
+shown in \reffig{fig:spectrum_a}, \ref{fig:spectrum_b} and
+\ref{fig:spectrum_c}.
 %We discuss these features in  detail below.
 Our six-level model also provides the
 equal-time correlations
@@ -705,7 +798,8 @@ equal-time correlations
 		\label{eq:g2AA}
 \eal
 Again, these expressions are in agreement with
-the features seen in the numerical results in \reffig{fig:spectrum}.
+the features seen in the numerical results in \reffig{fig:spectrum_a},
+\ref{fig:spectrum_b} and \ref{fig:spectrum_c}.
 The positions of maxima and minima are
 seen directly by the arguments of
 the factors $R_K(\omega)$. 
@@ -748,18 +842,30 @@ the antiresonance.
 %the drive through one- or two-photon resonance
 %with these eigenstates of the coupled OM system.
 
-
+\begin{figure}
+\centering
+  \includegraphics[width=0.9\textwidth]{./figs_Komar2013/fig2d.pdf}
+  \caption{
+  \label{fig:spectrum_d}
+  Illustration of the origin of the features marked with A,B,C and D on
+  \reffig{fig:spectrum_a}, \ref{fig:spectrum_b} and \ref{fig:spectrum_c} as
+  explained in the text.
+  Suppression  (enhancement) of the
+  steady state population of a specific level is
+  indicated by a red X (green circle).
+  }
+\end{figure}
 We now discuss each feature
-in \reffig{fig:spectrum} in terms of our six-level
-model together with the diagonal basis
+in \reffig{fig:spectrum_a}, \ref{fig:spectrum_b} and \ref{fig:spectrum_c} in
+terms of our six-level model together with the diagonal basis
 in Eqs.~(\ref{eq:ket0}-\ref{eq:ket20}).
 First, at 
-detuning $\Delta = 0$ (point A in \reffig{fig:spectrum})
+detuning $\Delta = 0$ (point A in \reffig{fig:spectrum_a})
 we see $g^{(2)}_{aa}(0)>1$, indicating bunching.  
 This is due to destructive interference that
 suppresses
 the population in  $\ket{100}$ 
-(panel A in \reffig{fig:spectrum}), and
+(panel A in \reffig{fig:spectrum_d}), and
 can be understood as the system being
 driven into a dark state,
 $\ket{d} \propto g \ket{000} - \Omega \ket{011}$, similar to
@@ -801,12 +907,14 @@ $\ket{0} \rightarrow \ket{2_+}$
 % KS: I replaced cartoon -> inset
 % SB: inset -> panel
 
+
+
 \subsection{Absence of two-photon resonance at $\Delta = 0$}
 
 At first glance,
-the level diagram in \reffig{fig:cartoon} together with
+the level diagram in \reffig{fig:cartoon_b} together with
 bunching 
-in \reffig{fig:spectrum}(a) 
+in \reffig{fig:spectrum_a} 
 suggest a two-photon resonance
 at zero detuning $\Delta = 0$,
 where the energy of the
@@ -903,7 +1011,7 @@ suppressed.
 Further evidence of the absence of a
 two-photon resonance at $\Delta=0$ is
 the lack of bunching in the undriven mode in  
-\reffig{fig:spectrum}(b).
+\reffig{fig:spectrum_b}.
 If there were a two-photon resonance,
 one would expect that bunching
 should also occur in the undriven mode,
@@ -911,7 +1019,7 @@ since the state $\ket{2_0}$ involves both $c_a$
 and $c_s$ modes. 
 This is indeed the case
 at detuning $\Delta = \frac{\sqrt{6}}{4} g$
-(see point D in \reffig{fig:spectrum}),
+(see point D in \reffig{fig:spectrum_b}),
 where
 both modes show bunching as a result of
 two-photon resonance.
@@ -935,15 +1043,15 @@ $\ket{011}$,
 so we do not expect
 bunching in the $c_s$ mode from this effect.
 % ==================================
-\begin{figure}[htb] 
+\begin{figure} 
 \centering
-  \includegraphics[width=0.43\textwidth]{./fig3.pdf}
+  \includegraphics[width=0.8\textwidth]{./figs_Komar2013/fig3.pdf}
   \caption{
   \label{fig:populations}(Color online)
   Average number (green dashed) and intensity correlation
   (blue solid)
   of total photon number in the coupled OM system.
-  Parameters are the same as in \reffig{fig:spectrum},
+  Parameters are the same as in \reffig{fig:spectrum_a},
   and dots mark the same detunings.
   One- and two-photon resonances are
   seen at C and D,
@@ -1008,6 +1116,51 @@ drive frequency.
 
 \subsection{Finite temperature}
 
+\begin{figure}
+\centering
+  \includegraphics[width=0.8\textwidth]{./figs_Komar2013/fig4a.pdf}
+  \caption{
+  \label{fig:thermal_g2_a}
+  Level diagram showing the
+  six states populated by the drive from level $|0,0,n\rangle$ (left), 
+  and the associated
+  eigenmodes (right) with $n$-dependent splittings.
+}
+\end{figure} 
+
+\begin{figure}
+\centering
+  \includegraphics[width=0.8\textwidth]{./figs_Komar2013/fig4b.pdf}
+  \caption{
+  \label{fig:thermal_g2_b}
+  Driven mode correlation function $g^{(2)}_{aa}(0)$
+  for thermal mechanical occupation $N_{\rm th} = 0,1,2$.
+  Solid lines show the analytic calculation with $\gamma \rightarrow 0$,
+   and  dots show the full numerical results for $N_{\rm th} = 2$ only.
+  The inset shows the minimal $g^{(2)}_{aa}(0)$ as a function of $N_{\rm th}$ 
+  for several
+  coupling strengths. 
+  Parameters are $g/\kappa=20$, and (for numerics) $\gamma/\kappa =  10^{-3}$.
+}
+\end{figure} 
+
+\begin{figure}
+\centering
+  \includegraphics[width=0.8\textwidth]{./figs_Komar2013/fig4c.pdf}
+  \caption{
+  \label{fig:thermal_g2_c}
+  Undriven mode correlation function $g^{(2)}_{ss}(0)$
+  for thermal mechanical occupation $N_{\rm th} = 0,1,2$.
+  Solid lines show the analytic calculation with $\gamma \rightarrow 0$,
+   and  dots show the full numerical results for $N_{\rm th} = 2$ only.
+  The inset shows the minimal $g^{(2)}_{ss}(0)$ as a function of $N_{\rm th}$ 
+  for several
+  coupling strengths. 
+  Parameters are $g/\kappa=20$, and (for numerics) $\gamma/\kappa =  10^{-3}$.
+}
+\end{figure} 
+
+
 So far in our analysis
 we have focused on the case where the mechanical
 system is prepared in its vibrational 
@@ -1070,7 +1223,7 @@ for each phonon number $n$,
  by the weak drive and coupling $g$,
  starting from the state $|0 0 n\rangle$. 
  As
- shown in Fig.~\ref{fig:thermal_g2}(a) the coupling between the states
+ shown in Fig.~\ref{fig:thermal_g2_a} the coupling between the states
  within each six-level subspace
  depends explicitly on the phonon number $n$. 
 Following the same approach as above,
@@ -1121,9 +1274,9 @@ $\bar A_{2,0,n}$ and $\bar A_{0,2,n+2}$ in the
 
 
 
-In \reffig{fig:thermal_g2} we plot the correlation functions,
-$g^{(2)}_{aa}(0)$ and $g^{(2)}_{ss}(0)$ for different thermal phonon numbers,
-$N_{\rm th}$. 
+We plot the correlation functions,
+$g^{(2)}_{aa}(0)$ in \reffig{fig:thermal_g2_b} and $g^{(2)}_{ss}(0)$ in
+\reffig{fig:thermal_g2_c} for different thermal phonon numbers, $N_{\rm th}$. 
 Solid lines were calculated from the above
 analytic approach with $\gamma \rightarrow 0$, 
 and we find excellent agreement with
@@ -1152,40 +1305,42 @@ resonances appear in the correlation functions,
 and for small but finite occupation numbers we  find
 new antibunching features that are absent for $N_{\rm th}=0$.
 These new features  can be understood from the $n$-dependent splitting of the
-one- and two-photon manifolds as indicated in \reffig{fig:thermal_g2}(a).
+one- and two-photon manifolds as indicated in \reffig{fig:thermal_g2_a}.
 For higher temperatures the individual resonances start to overlap, and we
 observe an overall increase over a broad region of large positive and negative
 detunings due to the cumulative effect of different phonon numbers.
-% ==================================
-\begin{figure}[tb]
-\centering
-  \includegraphics[width=0.43\textwidth]{./fig4a.pdf}\\
-  \includegraphics[width=0.43\textwidth]{./fig4b.pdf}\\
-  \includegraphics[width=0.43\textwidth]{./fig4c.pdf}
-  \caption{
-  \label{fig:thermal_g2}(Color online)
-  Correlation functions for finite temperature. (a) Level diagram showing the
-  six states populated by the drive from level $|0,0,n\rangle$ (left), 
-  and the associated
-  eigenmodes (right) with $n$-dependent splittings.
-  (b) Driven mode correlation function $g^{(2)}_{aa}(0)$
-  for thermal mechanical occupation $N_{\rm th} = 0,1,2$.
-  Solid lines show the analytic calculation with $\gamma \rightarrow 0$,
-   and  dots show the full numerical results for $N_{\rm th} = 2$ only.
-  The inset shows the minimal $g^{(2)}_{aa}(0)$ as a function of $N_{\rm th}$ 
-  for several
-  coupling strengths. 
-  (c) Same as (b) for the undriven mode correlation function $g^{(2)}_{ss}(0)$. 
-  Parameters are $g/\kappa=20$, and (for numerics) $\gamma/\kappa =  10^{-3}$.
-}
-\end{figure} 
-% ================================== 
+% % ==================================
+% \begin{figure}
+% \centering
+%   \includegraphics[width=0.7\textwidth]{./figs_Komar2013/fig4a.pdf}\\
+%   \includegraphics[width=0.7\textwidth]{./figs_Komar2013/fig4b.pdf}\\
+%   \includegraphics[width=0.7\textwidth]{./figs_Komar2013/fig4c.pdf}
+%   \caption{
+%   \label{fig:thermal_g2}(Color online)
+%   Correlation functions for finite temperature. (a) Level diagram showing the
+%   six states populated by the drive from level $|0,0,n\rangle$ (left), 
+%   and the associated
+%   eigenmodes (right) with $n$-dependent splittings.
+%   (b) Driven mode correlation function $g^{(2)}_{aa}(0)$
+%   for thermal mechanical occupation $N_{\rm th} = 0,1,2$.
+%   Solid lines show the analytic calculation with $\gamma \rightarrow 0$,
+%    and  dots show the full numerical results for $N_{\rm th} = 2$ only.
+%   The inset shows the minimal $g^{(2)}_{aa}(0)$ as a function of $N_{\rm th}$ 
+%   for several
+%   coupling strengths. 
+%   (c) Same as (b) for the undriven mode correlation function $g^{(2)}_{ss}(0)$. 
+%   Parameters are $g/\kappa=20$, and (for numerics) $\gamma/\kappa =  10^{-3}$.
+% }
+% \end{figure} 
+% % ================================== 
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Delayed coincidence and single phonon states}
 \label{sect:Delayed_coincidence}
+
 
 In addition to the equal-time correlations discussed above,
 quantum signatures can also be manifested in photon
@@ -1238,33 +1393,7 @@ occurs in a cavity containing an
 atomic ensemble \cite{Carmichael1991},
 and while its origins are similar, there are important
 differences as we now discuss.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[tb] \centering
-  \includegraphics[width=0.50\textwidth]{./fig5a.pdf}\\[-0.5cm]
-  \includegraphics[width=0.50\textwidth]{./fig5b.pdf}
-  \caption{
-  \label{fig:g2aatau}(Color online)
-  (a) Finite time delay intensity
-  correlation function $g^{(2)}_{aa}(\tau)$  for detunings
-  $\Delta/g = 0 \text{ (A)}$ and $\frac{1}{\sqrt{2}}
-  \text{ (E)}$.
-  Detuning for curve A is the same as marked in \reffig{fig:spectrum},
-  while E shows a new effect not seen at equal times.
-  Thin dashed line indicates the classical bound 
-  (see \refeq{eq:classical_criterium}) for curve E. 
-  (b) Evolution of amplitude $A_{100}$ (normalized by its
-  steady state value)
-  at detuning A, $\Delta/g = 0$,
-  after detecting a driven $c_a$ photon at $\tau = 0$. 
-  Vertical dash-dotted lines mark delay times ($\tau_1, \tau_2$) where this amplitude
-  vanishes resulting in the vanishing of $g^{(2)}_{aa}(\tau)$
-  in (a).
-  Parameters are $g/\kappa = 8$ and $\gamma/\kappa$ = 0.02. 
-  } 
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 
 
@@ -1357,7 +1486,34 @@ However, like the Rabi oscillations,
 the increased correlation function decays back to its steady state
 value of 1 on
 the timescale of $\kappa^{-1}$.
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure} 
+\centering
+  \includegraphics[width=0.9\textwidth]{./figs_Komar2013/fig5a.pdf}\\[-0.5cm]
+  \includegraphics[width=0.9\textwidth]{./figs_Komar2013/fig5b.pdf}
+  \caption{
+  \label{fig:g2aatau}
+  (a) Finite time delay intensity
+  correlation function $g^{(2)}_{aa}(\tau)$  for detunings
+  $\Delta/g = 0 \text{ (A)}$ and $\frac{1}{\sqrt{2}}
+  \text{ (E)}$.
+  Detuning for curve A is the same as marked in \reffig{fig:spectrum_a},
+  while E shows a new effect not seen at equal times.
+  Thin dashed line indicates the classical bound 
+  (see \refeq{eq:classical_criterium}) for curve E. 
+  (b) Evolution of amplitude $A_{100}$ (normalized by its
+  steady state value)
+  at detuning A, $\Delta/g = 0$,
+  after detecting a driven $c_a$ photon at $\tau = 0$. 
+  Vertical dash-dotted lines mark delay times ($\tau_1, \tau_2$) where this amplitude
+  vanishes resulting in the vanishing of $g^{(2)}_{aa}(\tau)$
+  in (a).
+  Parameters are $g/\kappa = 8$ and $\gamma/\kappa$ = 0.02. 
+  } 
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
@@ -1402,9 +1558,9 @@ undriven mode, as we now discuss.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \begin{figure}[htb] \centering
-  \includegraphics[width=0.50\textwidth]{./fig6.pdf}
+  \includegraphics[width=0.8\textwidth]{./figs_Komar2013/fig6.pdf}
   \caption{
-  \label{fig:g2sstau}(Color online)
+  \label{fig:g2sstau}
   Finite time delay intensity correlation function $g^{(2)}_{ss}(\tau)$
   for detunings $\Delta/g = 0 \text{ (A)}, \sqrt{6}/4 \text{ (D)}$
   and
@@ -1413,7 +1569,7 @@ undriven mode, as we now discuss.
   (see  \refeq{eq:classical_criterium}).
   Labels A, D, E correspond to the same detunings
   marked in 
-  \reffig{fig:spectrum}
+  \reffig{fig:spectrum_a}
   and
   \reffig{fig:g2aatau}.
   Parameters are $g/\kappa = 8$, and $\gamma/\kappa$ = 0.02.
@@ -1495,7 +1651,7 @@ $\frac{g}{\sqrt{2}}$
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \begin{figure}[htb]
 \centering  
-  \includegraphics[width=0.47\textwidth]{./fig7.pdf}\\
+  \includegraphics[width=0.85\textwidth]{./figs_Komar2013/fig7.pdf}\\
   \caption{
   \label{fig:levels_jumps}(Color online)
   Effect of detection of a $c_s$ photon

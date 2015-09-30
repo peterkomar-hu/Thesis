@@ -1,0 +1,137 @@
+\chapter{Appendices for Chapter \ref{ch:Komar2013}}
+\label{app:Komar2013}
+
+\section{Derivation of reflected mode operator}
+\label{App: Reflection}
+
+We obtain the reflected mode operator $c_R$ using input-output
+relations for a two-sided cavity. 
+By assuming that the two endmirrors have
+the same transmittivity ($\propto\kappa$), we can write the input-output
+relation for cavity mode $c_a$ on the driven mirror as
+\bel
+	c_{a,\text{out}} =
+	\sqrt{\kappa}c_a - c_{a,\text{in}},
+\eel
+where $c_{a,\text{in}} = -i\frac{\Omega}{\sqrt{\kappa}}$ is the incoming field
+operator on the mirror and $c_{a,\text{out}}$ is the output field operator.
+For direct comparision with $c_a$ we
+divide by $\sqrt{\kappa}$ and define the
+reflection mode operator as  
+$c_R \equiv c_{a,\text{out}}/\sqrt{\kappa} =
+c_a +i\frac{\Omega}{\kappa}$.
+
+
+\section{Analytic model}
+\label{sect:App:steady_state}
+
+
+%\label{sec:analytic_model}
+
+
+In this appendix we provide the analytic solutions
+used to calculate one- and two-time
+correlation functions in steady state.
+First, one-time correlations are calculated
+from  the steady state solutions of
+Eqs.~(\ref{eq:c000}--\ref{eq:c022}).
+We set the time derivatives to zero and
+solve the equations iteratively,
+order by order in the weak drive.
+This procedure yields
+\bal
+	\label{eq:alpha000}\bar A_{000} &\approx& 1,\\
+	\label{eq:alpha100}\bar A_{100} &=& -i\alpha \frac{1}{1 + 4x^2},\\
+	\label{eq:alpha011}\bar A_{011} &=& -\alpha \frac{2x}{1 + 4x^2},\\
+	\label{eq:alpha200}\bar A_{200} &=& -\frac{\alpha^2}{\sqrt{2}}\frac{1 + 2x^2}{(1 +
+	4x^2)(1 + 6x^2)},\\
+	\label{eq:alpha111}\bar A_{111} &=& i\alpha^2\frac{2x}{(1 + 4x^2)(1 + 6x^2)},\\
+	\label{eq:alpha022}\bar A_{022} &=& \alpha^2\frac{4x^2}{(1 + 4x^2)(1 + 6x^2)},
+\eal
+where $\alpha = \Omega/\tilde\kappa$ ($|\alpha|^2 \ll 1$), $x = g/(4\tilde\kappa)$ and
+$\tilde \kappa = \kappa -i\Delta$.  
+Using these amplitudes, we can express all
+equal time averages.
+The mean photon numbers are
+\bal
+	\bar n_a &=& |\bar A_{100}|^2 ,\\
+	\bar n_s &=& |\bar A_{011}|^2 ,\\
+	\bar n_R &=& \left|\bar A_{100} + i\frac{\Omega}{\kappa}\right|^2,
+\eal 
+and the photon-photon correlation functions are
+\bal
+\label{eq:g2aa0}
+	g^{(2)}_{aa}(0) &=& \frac{2|\bar A_{200}|^2}{|\bar A_{100}|^4},\\
+\label{eq:g2ss0}
+	g^{(2)}_{ss}(0) &= & \frac{2|\bar A_{022}|^2}{|\bar A_{011}|^4},\\
+\label{eq:g2AA0}
+	g^{(2)}_{RR}(0) &= &
+	\frac{\left|-\left(\frac{\Omega}{\kappa}\right)^2+
+	2i\frac{\Omega}{\kappa}\bar A_{100} +
+	\sqrt{2}\bar A_{200}\right|^2}
+	{\left|i\frac{\Omega}{\kappa}+\bar A_{100}\right|^4}.
+\eal
+To
+leading order in $\kappa/g$ these
+yield Eqs.~(\ref{eq:na}--\ref{eq:g2AA}).
+
+
+At finite temperature we calculate steady state amplitudes
+within each phonon subspace $n$ similarly
+in the ansatz of \refeq{eq:psi_thermal}.
+Using the  notation $R_\kappa(\omega)$ introduced 
+in Section \ref{sec:onetime_correlation},
+the steady state amplitudes
+within the subspace with $n$ phonons in the optical
+groundstate are
+\begin{align}
+%p_{1,0,n}=
+|\bar A_{10n}|^2=&\frac{\Omega^2\sqrt{R_\kappa(0)}}
+{R_{\kappa}\left(\frac{g}{2}\sqrt{n+1}\right)},\\
+|\bar A_{01n+1}|^2=&\frac{\Omega^2 g^2 (n+1) }{4
+R_{\kappa}\left(\frac{g}{2}\sqrt{n+1}\right)},\\
+|\bar A_{20n}|^2 =&\frac{ \Omega^4
+R_\kappa(g/\sqrt{8})}{R_\kappa\left(g\sqrt{(2n+1)/8}\right)R_\kappa\left(\frac{g}{2}
+\sqrt{n+1}\right)},\\
+|\bar A_{02n+2}|^2 =&\frac{ \Omega^4 g^4 (n+1) (n+2)}{32
+R_\kappa\left(g\sqrt{(2n+1)/8}\right)R_\kappa\left(\frac{g}{2}
+\sqrt{n+1}\right)}.
+\end{align}
+
+
+Two-time correlation functions are calculated similarly,
+using the conditional state after a jump
+(see Eqs.~(\ref{eq:psi^a}) and (\ref{eq:psi^s}))
+as the initial condition.
+For example the
+unnormalized state after detection of a photon in the
+$c_a$ mode is $c_a\ket{\psi} =  \bar A_{100}\ket{000} +
+	\sqrt{2}\bar A_{200}\ket{100} + \bar A_{111}\ket{011}$. 
+We solve
+Eqs.~(\ref{eq:c000}--\ref{eq:c011}) for the amplitudes 
+with this state as initial
+condition.
+The finite delay correlation of the driven mode is
+\bel
+\begin{split}
+	&g^{(2)}_{aa}(\tau) = \frac{|A_{100}(\tau)|^2}{|\bar A_{100}|^4}.
+\end{split}
+\eel
+in good agreement with the numerics.
+The correlation of the undriven
+mode $g^{(2)}_{ss}(\tau)$ is calculated similarly. 
+The unnormalized
+state after detection in the $c_s$ mode is  $c_s\ket{\psi} = 
+\bar A_{011}\ket{001}  + \bar A_{111}\ket{101} +  \sqrt{2}
+\bar A_{022}\ket{012}$.
+Using this  as the
+initial
+condition we solve Eqs.~(\ref{eq:c001}--\ref{eq:c012}) for the amplitudes
+in the conditional state. 
+In the limit of $\gamma \ll \kappa$ we obtain
+\bel
+	g^{(2)}_{ss}(\tau) 
+	=
+	\frac{|A_{012}(\tau)|^2}{|\bar A_{011}|^4}.
+\eel 
+
