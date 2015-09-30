@@ -1,0 +1,138 @@
+% This file was created with JabRef 2.8.1.
+% Encoding: Cp1252
+
+@ARTICLE{Borregaard2015,
+  author = {Borregaard, J. and K\'{o}m\'{a}r, P. and Kessler, E. M. and S\o rensen,
+	A. S. and Lukin, M. D.},
+  title = {{Heralded Quantum Gates with Integrated Error Detection in Optical
+	Cavities}},
+  journal = {Physical Review Letters},
+  year = {2015},
+  volume = {114},
+  pages = {110502},
+  doi = {10.1103/PhysRevLett.114.110502},
+  file = {:C$\backslash$:/Doc/Harvard/Research/MyPapers/PRL\_2015.pdf:pdf},
+  issn = {0031-9007},
+  mendeley-groups = {\_My papers,!Thesis},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.114.110502}
+}
+
+@ARTICLE{Borregaard2015,
+  author = {K\'{o}m\'{a}r, P. and Bennett, S. D. and Stannigel, K. and Habraken,
+	S. J M and Rabl, P. and Zoller, P. and Lukin, M. D.},
+  title = {{Single-photon nonlinearities in two-mode optomechanics}},
+  journal = {Physical Review A},
+  year = {2013},
+  volume = {87},
+  pages = {013839},
+  abstract = {We present a detailed theoretical analysis of a weakly driven, multimode
+	optomechanical system, in which two optical modes are strongly and
+	near-resonantly coupled to a single mechanical mode via a three-wave
+	mixing interaction. We calculate one- and two-time intensity correlations
+	of the two optical fields and compare them to analogous correlations
+	in atom-cavity systems. Nonclassical photon correlations arise when
+	the optomechanical coupling g exceeds the cavity decay rate $\kappa$,
+	and we discuss signatures of one- and two-photon resonances as well
+	as quantum interference. We also find a long-lived correlation that
+	decays slowly with the mechanical decay rate $\gamma$, reflecting
+	the heralded preparation of a single-phonon state after detection
+	of a photon. Our results provide insight into the quantum regime
+	of multimode optomechanics, with potential applications for quantum
+	information processing with photons and phonons.},
+  archiveprefix = {arXiv},
+  arxivid = {1210.4039},
+  doi = {10.1103/PhysRevA.87.013839},
+  eprint = {1210.4039},
+  file = {:C$\backslash$:/Doc/Harvard/Research/MyPapers/PRA\_2013.pdf:pdf},
+  issn = {10502947},
+  mendeley-groups = {\_My papers,!Thesis}
+}
+
+@ARTICLE{Komar2014,
+  author = {K\'{o}m\'{a}r, P. and Kessler, E. M. and Bishof, M. and Jiang, L.
+	and S\o rensen, a. S. and Ye, J. and Lukin, M. D.},
+  title = {{A quantum network of clocks}},
+  journal = {Nature Physics},
+  year = {2014},
+  volume = {10},
+  pages = {582--587},
+  abstract = {The development of precise atomic clocks plays an increasingly important
+	role in modern society. Shared timing information constitutes a key
+	resource for navigation with a direct correspondence between timing
+	accuracy and precision in applications such as the Global Positioning
+	System. By combining precision metrology and quantum networks, we
+	propose a quantum, cooperative protocol for operating a network of
+	geographically remote optical atomic clocks. Using nonlocal entangled
+	states, we demonstrate an optimal utilization of global resources,
+	and show that such a network can be operated near the fundamental
+	precision limit set by quantum theory. Furthermore, the internal
+	structure of the network, combined with quantum communication techniques,
+	guarantees security both from internal and external threats. Realization
+	of such a global quantum network of clocks may allow construction
+	of a real-time single international time scale (world clock) with
+	unprecedented stability and accuracy.},
+  archiveprefix = {arXiv},
+  arxivid = {arXiv:1310.6045v1},
+  doi = {10.1038/nphys3000},
+  eprint = {arXiv:1310.6045v1},
+  file = {:C$\backslash$:/Doc/Harvard/Research/MyPapers/NatPhys 2014\_printed.pdf:pdf},
+  isbn = {doi:10.1038/nphys3000},
+  issn = {1745-2473},
+  mendeley-groups = {\_My papers,Rydberg\_GHZ/!Ref Rydberg protocol,!Thesis},
+  url = {http://www.nature.com/nphys/journal/v10/n8/full/nphys3000.html?WT.ec\_id=NPHYS-201408$\backslash$nhttp://www.nature.com/doifinder/10.1038/nphys3000}
+}
+
+@ARTICLE{Kessler2014,
+  author = {Kessler, E. M. and K\'{o}m\'{a}r, P. and Bishof, M. and Jiang, L.
+	and S\o rensen, a. S. and Ye, J. and Lukin, M. D.},
+  title = {{Heisenberg-limited atom clocks based on entangled qubits}},
+  journal = {Physical Review Letters},
+  year = {2014},
+  volume = {112},
+  pages = {190403},
+  abstract = {clock, proposal},
+  archiveprefix = {arXiv},
+  arxivid = {arXiv:1310.6043v1},
+  doi = {10.1103/PhysRevLett.112.190403},
+  eprint = {arXiv:1310.6043v1},
+  file = {:C$\backslash$:/Doc/Harvard/Research/MyPapers/PRL\_2014.pdf:pdf},
+  issn = {10797114},
+  mendeley-groups = {\_My papers,Rydberg\_GHZ/!Ref Rydberg protocol,!Thesis}
+}
+
+@ARTICLE{Stannigel2012,
+  author = {Stannigel, K. and Komar, P. and Habraken, S. J M and Bennett, S.
+	D. and Lukin, M. D. and Zoller, P. and Rabl, P.},
+  title = {{Optomechanical quantum information processing with photons and phonons}},
+  journal = {Physical Review Letters},
+  year = {2012},
+  volume = {109},
+  pages = {013603},
+  abstract = {We describe how strong resonant interactions in multimode optomechanical
+	systems can be used to induce controlled nonlinear couplings between
+	single photons and phonons. Combined with linear mapping schemes
+	between photons and phonons, these techniques provide a universal
+	building block for various classical and quantum information processing
+	applications. Our approach is especially suited for nano-optomechanical
+	devices, where strong optomechanical coupling on a single photon
+	level is within experimental reach.},
+  archiveprefix = {arXiv},
+  arxivid = {1202.3273},
+  doi = {10.1103/PhysRevLett.109.013603},
+  eprint = {1202.3273},
+  file = {:C$\backslash$:/Doc/Harvard/Research/MyPapers/PRL\_2012.pdf:pdf},
+  issn = {00319007},
+  mendeley-groups = {Optomechanics,Ref-Nonclassical,\_My papers,!Thesis},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.109.013603}
+}
+
+@comment{jabref-meta: selector_keywords:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+
+@comment{jabref-meta: selector_review:}
+
