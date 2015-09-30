@@ -35,7 +35,7 @@ attracted significant interest, and
 motivated proposals for applications
 exploiting OM interactions at the quantum level,
 ranging  from
-quantum  
+quantum   
  transducers  
  \cite{Stannigel2010,Safavi-Naeini2011a,Regal2011,Taylor2011}
  and mechanical storage of light \cite{Zhang2003, Akram2010,Chang2011}
@@ -191,7 +191,9 @@ oscillator through radiation pressure.
 \begin{figure}
 \centering
 \includegraphics[width=0.65\textwidth]{./figs_Komar2013/fig1a.pdf}
-\caption{  
+\caption
+[Two-mode optomechanical system]
+{  
   \label{fig:cartoon_a}
   Optomechanical system consisting of
   two tunnel-coupled optical cavity modes
@@ -383,7 +385,9 @@ Ludwig2012}.
 \begin{figure}
 \centering
 	\includegraphics[width=0.6\textwidth]{./figs_Komar2013/fig1b.pdf}
-\caption{ 
+\caption
+[Lower level diagram of 2+1 optomechanical system]
+{ 
   \label{fig:cartoon_b}
   Level diagram showing  the  relevant  zero-, one- and two-photon states
   at zero temperature and under the three-mode resonance condition
@@ -534,7 +538,9 @@ of the lowest photonic states into a doublet, $|1_\pm\rangle=(|100\rangle
 \centering
   \includegraphics[width=0.8\textwidth]{./figs_Komar2013/fig2a.pdf}
   
-  \caption{
+  \caption
+  [Photon statistics in mode anti-symmetric mode, $a$]
+  {
   \label{fig:spectrum_a}
   Normalized average photon number (green ``$+$")
   and photon-photon correlation function (blue ``$\circ$")
@@ -552,7 +558,9 @@ of the lowest photonic states into a doublet, $|1_\pm\rangle=(|100\rangle
 \begin{figure}
 \centering
   \includegraphics[width=0.8\textwidth]{./figs_Komar2013/fig2b.pdf}
-  \caption{
+  \caption
+  [Photon statisics in mode symmetric mode, $s$]
+  {
   \label{fig:spectrum_b}
   Normalized average photon number (green ``$+$")
   and photon-photon correlation function (blue ``$\circ$")
@@ -570,7 +578,9 @@ of the lowest photonic states into a doublet, $|1_\pm\rangle=(|100\rangle
 \begin{figure}
 \centering
   \includegraphics[width=0.8\textwidth]{./figs_Komar2013/fig2c.pdf}
-  \caption{
+  \caption
+  [Photon statistics in the reflected mode, $R$]
+  {
   \label{fig:spectrum_c}
   Normalized average photon number (green ``$+$")
   and photon-photon correlation function (blue ``$\circ$")
@@ -845,7 +855,9 @@ the antiresonance.
 \begin{figure}
 \centering
   \includegraphics[width=0.9\textwidth]{./figs_Komar2013/fig2d.pdf}
-  \caption{
+  \caption
+  [Illustration of dominant processes]
+  {
   \label{fig:spectrum_d}
   Illustration of the origin of the features marked with A,B,C and D on
   \reffig{fig:spectrum_a}, \ref{fig:spectrum_b} and \ref{fig:spectrum_c} as
@@ -1046,8 +1058,10 @@ bunching in the $c_s$ mode from this effect.
 \begin{figure} 
 \centering
   \includegraphics[width=0.8\textwidth]{./figs_Komar2013/fig3.pdf}
-  \caption{
-  \label{fig:populations}(Color online)
+  \caption
+  [Aggregate photon statistics of both modes]
+  {
+  \label{fig:populations}
   Average number (green dashed) and intensity correlation
   (blue solid)
   of total photon number in the coupled OM system.
@@ -1119,7 +1133,9 @@ drive frequency.
 \begin{figure}
 \centering
   \includegraphics[width=0.8\textwidth]{./figs_Komar2013/fig4a.pdf}
-  \caption{
+  \caption
+  [Temperature dependence of the relevant levels]
+  {
   \label{fig:thermal_g2_a}
   Level diagram showing the
   six states populated by the drive from level $|0,0,n\rangle$ (left), 
@@ -1131,7 +1147,9 @@ drive frequency.
 \begin{figure}
 \centering
   \includegraphics[width=0.8\textwidth]{./figs_Komar2013/fig4b.pdf}
-  \caption{
+  \caption
+  [Effect of non-zero temperature on photon statistics of mode $a$]
+  {
   \label{fig:thermal_g2_b}
   Driven mode correlation function $g^{(2)}_{aa}(0)$
   for thermal mechanical occupation $N_{\rm th} = 0,1,2$.
@@ -1147,7 +1165,9 @@ drive frequency.
 \begin{figure}
 \centering
   \includegraphics[width=0.8\textwidth]{./figs_Komar2013/fig4c.pdf}
-  \caption{
+  \caption
+  [Effect of non-zero temperature on photon statistics of mode $s$]
+  {
   \label{fig:thermal_g2_c}
   Undriven mode correlation function $g^{(2)}_{ss}(0)$
   for thermal mechanical occupation $N_{\rm th} = 0,1,2$.
@@ -1168,7 +1188,7 @@ ground state, $|0_m\rangle$.
 This
 condition can be achieved using high frequency resonators 
 operated at cryogenic
-temperatures \cite{O'Connell2010},
+temperatures \cite{O'Connell2010}, 
 and in the limit of weak driving $\Omega/\kappa\ll1$ such
 that optical
 heating of the mechanical mode can be neglected. 
@@ -1231,17 +1251,15 @@ the amplitudes in Eq.~\eqref{eq:psi_thermal} evolve according to
 \bal
        \dot A_{0,0,n} &=& 0,\\
 \dot A_{1,0,n} &=& -i \frac{g}{2} \sqrt{n+1} A_{0,1, n+1} -i\Omega A_{,00,n}
-\nonumber\\
-&&-\tilde\kappa A_{1,0,n},\\
+-\tilde\kappa A_{1,0,n},\\
 \dot A_{0,1,n+1} &=& -i\frac{g}{2} \sqrt{n+1} A_{1,0,n} - \tilde\kappa
 A_{0,1,n+1},\\
 \dot A_{2,0,0} &=& -i g\sqrt{\frac{n+1}{2}} A_{1,1,n+1} -i\sqrt{2}\Omega
 A_{1,0,n}
-\nonumber\\
-&&-2 \tilde\kappa A_{2,0,n},\\
+-2 \tilde\kappa A_{2,0,n},\\
 \dot A_{1,1,n+1} &=& -ig\sqrt{\frac{n+1}{2}}  A_{2,0,n} -i
-g\sqrt{\frac{n+2}{2}}A_{0,2,n+2} \quad\nonumber\\
-&&- i\Omega A_{0,1,n+1} - 2\tilde\kappa A_{1,1,n+1},\\
+g\sqrt{\frac{n+2}{2}}A_{0,2,n+2} - i\Omega A_{0,1,n+1} - 2\tilde\kappa
+A_{1,1,n+1},\qquad \\
 \dot A_{0,2,n+2} &=& -ig\sqrt{\frac{n+2}{2}} A_{1,1,n+1} -2\tilde\kappa
 A_{0,2,n+2}.
 \eal
@@ -1492,7 +1510,9 @@ the timescale of $\kappa^{-1}$.
 \centering
   \includegraphics[width=0.9\textwidth]{./figs_Komar2013/fig5a.pdf}\\[-0.5cm]
   \includegraphics[width=0.9\textwidth]{./figs_Komar2013/fig5b.pdf}
-  \caption{
+  \caption
+  [Autocorrelation of mode $a$]
+  {
   \label{fig:g2aatau}
   (a) Finite time delay intensity
   correlation function $g^{(2)}_{aa}(\tau)$  for detunings
@@ -1559,7 +1579,8 @@ undriven mode, as we now discuss.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \begin{figure}[htb] \centering
   \includegraphics[width=0.8\textwidth]{./figs_Komar2013/fig6.pdf}
-  \caption{
+  \caption[Autocorrelation of mode $s$]
+  {
   \label{fig:g2sstau}
   Finite time delay intensity correlation function $g^{(2)}_{ss}(\tau)$
   for detunings $\Delta/g = 0 \text{ (A)}, \sqrt{6}/4 \text{ (D)}$
@@ -1652,8 +1673,9 @@ $\frac{g}{\sqrt{2}}$
 \begin{figure}[htb]
 \centering  
   \includegraphics[width=0.85\textwidth]{./figs_Komar2013/fig7.pdf}\\
-  \caption{
-  \label{fig:levels_jumps}(Color online)
+  \caption[Diagram with metastable subspace]
+  {
+  \label{fig:levels_jumps}
   Effect of detection of a $c_s$ photon
   at detuning E ($\Delta/g = \frac{1}{\sqrt{2}}$).
   In steady state (gray region on left), 

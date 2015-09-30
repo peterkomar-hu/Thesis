@@ -2,10 +2,10 @@
 \contentsline {section}{Abstract}{iii}{Doc-Start}
 \contentsline {section}{Table of Contents}{iv}{Doc-Start}
 \contentsline {section}{List of Figures}{vi}{chapter*.2}
-\contentsline {section}{List of Tables}{ix}{chapter*.3}
-\contentsline {section}{Citations to Previously Published Work}{x}{chapter*.3}
-\contentsline {section}{Acknowledgments}{xi}{chapter*.3}
-\contentsline {section}{Dedication}{xii}{chapter*.3}
+\contentsline {section}{List of Tables}{vii}{chapter*.3}
+\contentsline {section}{Citations to Previously Published Work}{viii}{chapter*.3}
+\contentsline {section}{Acknowledgments}{ix}{chapter*.3}
+\contentsline {section}{Dedication}{x}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction and Motivation}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Overview and Structure}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Optomechanical Systems}{1}{section.1.2}
@@ -23,9 +23,9 @@
 \contentsline {subsection}{\numberline {2.3.4}Finite temperature}{16}{subsection.2.3.4}
 \contentsline {section}{\numberline {2.4}Delayed coincidence and single phonon states}{21}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Driven mode}{22}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Heralded single phonon states}{24}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}Reaching strong coupling}{29}{section.2.5}
-\contentsline {section}{\numberline {2.6}Conclusions}{30}{section.2.6}
+\contentsline {subsection}{\numberline {2.4.2}Heralded single phonon states}{25}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Reaching strong coupling}{28}{section.2.5}
+\contentsline {section}{\numberline {2.6}Conclusions}{29}{section.2.6}
 \contentsline {chapter}{\numberline {3}Optomechanical quantum information processing with photons and phonons}{31}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction}{31}{section.3.1}
 \contentsline {chapter}{\numberline {4}Heralded Quantum Gates with Integrated Error Detection in Optical Cavities}{32}{chapter.4}
@@ -39,6 +39,6 @@
 \contentsline {chapter}{\numberline {8}Entangling collective Rydberg excitations of remote atomic ensembles}{36}{chapter.8}
 \contentsline {section}{\numberline {8.1}Introduction}{36}{section.8.1}
 \contentsline {chapter}{Bibliography}{37}{chapter*.4}
-\contentsline {chapter}{\numberline {A}Appendices for Chapter \ref {ch:Komar2013}}{38}{appendix.A}
-\contentsline {section}{\numberline {A.1}Derivation of reflected mode operator}{38}{section.A.1}
-\contentsline {section}{\numberline {A.2}Analytic model}{39}{section.A.2}
+\contentsline {chapter}{\numberline {A}Appendices for Chapter \ref {ch:Komar2013}}{43}{appendix.A}
+\contentsline {section}{\numberline {A.1}Derivation of reflected mode operator}{43}{section.A.1}
+\contentsline {section}{\numberline {A.2}Analytic model}{43}{section.A.2}
