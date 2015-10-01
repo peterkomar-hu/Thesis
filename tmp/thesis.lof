@@ -19,10 +19,20 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces A single-phonon single-photon transistor}}{38}{figure.3.3}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Controlled phase gate}}{40}{figure.3.4}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Level structures of qubit and control atoms}}{47}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces }}{51}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Level structure of auxiliary atom}}{52}{figure.4.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Comparison of effective and exact description}}{60}{figure.B.1}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Comparison of effective and exact description}}{72}{figure.B.1}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Level structure of qubit an auxiliary atoms}}{78}{figure.C.1}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Error and success probability vs cooperativity}}{84}{figure.C.2}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Levels structure of auxiliary atom}}{85}{figure.C.3}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Gate time and success probability vs driving strength}}{92}{figure.C.4}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Conditional fidelity}}{93}{figure.C.5}
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Gate time and success probability vs detuning}}{94}{figure.C.6}
