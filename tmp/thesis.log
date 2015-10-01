@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.30)  30 SEP 2015 19:28
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.30)  1 OCT 2015 11:11
 entering extended mode
 **thesis.tex
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.tex
@@ -608,7 +608,7 @@ No file thesis.bbl.
 r (name{cite.Stannigel2012}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.651 \bibitem{Stannigel2012}
+l.652 \bibitem{Stannigel2012}
                              ) [42]
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\app_Komar2013.tex
 Appendix A.
@@ -665,7 +665,7 @@ grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Programs/MiKTeX
 nts/cm/cmti12.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/m
 sam10.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pf
 b>
-Output written on thesis.pdf (55 pages, 749415 bytes).
+Output written on thesis.pdf (55 pages, 749437 bytes).
 PDF statistics:
  1203 PDF objects out of 1440 (max. 8388607)
  212 named destinations out of 1000 (max. 500000)
