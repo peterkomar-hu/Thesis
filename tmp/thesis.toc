@@ -45,7 +45,7 @@
 \contentsline {section}{\numberline {4.4}Additional errors}{51}{section.4.4}
 \contentsline {section}{\numberline {4.5}Possible implementation}{53}{section.4.5}
 \contentsline {section}{\numberline {4.6}Application}{54}{section.4.6}
-\contentsline {section}{\numberline {4.7}Conclusion}{54}{section.4.7}
+\contentsline {section}{\numberline {4.7}Conclusion}{55}{section.4.7}
 \contentsline {chapter}{\numberline {5}Long-distance entanglement distribution using individual atoms in optical cavities}{56}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{56}{section.5.1}
 \contentsline {chapter}{\numberline {6}Heisenberg-Limited Atom Clocks Based on Entangled Qubits}{57}{chapter.6}

@@ -191,6 +191,23 @@
   url = {http://stacks.iop.org/1367-2630/14/i=8/a=085017}
 }
 
+@ARTICLE{beige,
+  author = {Beige, Almut and Braun, Daniel and Tregenna, Ben and Knight, Peter
+	L.},
+  title = {Quantum Computing Using Dissipation to Remain in a Decoherence-Free
+	Subspace},
+  journal = {Phys. Rev. Lett.},
+  year = {2000},
+  volume = {85},
+  pages = {1762--1765},
+  month = {Aug},
+  doi = {10.1103/PhysRevLett.85.1762},
+  issue = {8},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.85.1762}
+}
+
 @ARTICLE{Borregaard2015b,
   author = {Borregaard, J and K\'{o}m\'{a}r, P. and Kessler, E. M. and Lukin,
 	M. D. and S\o rensen, A. S.},
@@ -264,6 +281,36 @@
   doi = {10.1126/science.1163218},
   eprint = {http://www.sciencemag.org/content/322/5899/235.full.pdf},
   url = {http://www.sciencemag.org/content/322/5899/235.abstract}
+}
+
+@ARTICLE{briegel,
+  author = {Briegel, H.-J. and D\"ur, W. and Cirac, J. I. and Zoller, P.},
+  title = {Quantum Repeaters: The Role of Imperfect Local Operations in Quantum
+	Communication},
+  journal = {Phys. Rev. Lett.},
+  year = {1998},
+  volume = {81},
+  pages = {5932--5935},
+  month = {Dec},
+  doi = {10.1103/PhysRevLett.81.5932},
+  issue = {26},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.81.5932}
+}
+
+@ARTICLE{burek,
+  author = {Michael J. Burek and Yiwen Chu and Madelaine S. Z. Liddy and Parth
+	Patel and Jake Rochman and Srujan Meesala and Wooyoung Hong and Qimin
+	Quan and Mikhail D. Lukin and Marko Loncar},
+  title = {High quality-factor optical nanocavities in bulk single-crystal diamond},
+  journal = {Nature Communications},
+  year = {2014},
+  volume = {5},
+  pages = {5718},
+  doi = {10.1038/ncomms6718},
+  owner = {Peter Komar},
+  timestamp = {2015.10.01}
 }
 
 @ARTICLE{Carmichael1991,
@@ -379,6 +426,34 @@
   url = {http://link.aps.org/doi/10.1103/PhysRevA.84.023812}
 }
 
+@ARTICLE{phystoday,
+  author = {Lilian Childress and Ronald Walsworth and Mikhail Lukin},
+  title = {Atom-like crystal defects: From quantum computers to biological sensors},
+  journal = {Physics Today},
+  year = {2014},
+  volume = {67},
+  pages = {38},
+  doi = {http://dx.doi.org/10.1063/PT.3.2549},
+  owner = {Peter Komar},
+  timestamp = {2015.10.01}
+}
+
+@ARTICLE{cirac,
+  author = {Cirac, J. I. and Zoller, P. and Kimble, H. J. and Mabuchi, H.},
+  title = {Quantum State Transfer and Entanglement Distribution among Distant
+	Nodes in a Quantum Network},
+  journal = {Phys. Rev. Lett.},
+  year = {1997},
+  volume = {78},
+  pages = {3221--3224},
+  month = {Apr},
+  doi = {10.1103/PhysRevLett.78.3221},
+  issue = {16},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.78.3221}
+}
+
 @ARTICLE{Corbitt2007,
   author = {Corbitt, Thomas and Wipf, Christopher and Bodiya, Timothy and Ottaway,
 	David and Sigg, Daniel and Smith, Nicolas and Whitcomb, Stanley and
@@ -461,6 +536,21 @@
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.104.033901}
 }
 
+@ARTICLE{duan2,
+  author = {Duan, L.-M. and Kimble, H. J.},
+  title = {Scalable Photonic Quantum Computation through Cavity-Assisted Interactions},
+  journal = {Phys. Rev. Lett.},
+  year = {2004},
+  volume = {92},
+  pages = {127902},
+  month = {Mar},
+  doi = {10.1103/PhysRevLett.92.127902},
+  issue = {12},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.92.127902}
+}
+
 @ARTICLE{DuanPRL2004,
   author = {Duan, L.-M. and Kimble, H. J.},
   title = {Scalable Photonic Quantum Computation through Cavity-Assisted Interactions},
@@ -474,6 +564,35 @@
   numpages = {4},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.92.127902}
+}
+
+@ARTICLE{duan3,
+  author = {L.-M. Duan and M. D. Lukin and J. I. Cirac and P. Zoller},
+  title = {Long-distance quantum communication with atomic ensembles and linear
+	optics},
+  journal = {Nature},
+  year = {2001},
+  volume = {414},
+  pages = {413--418},
+  doi = {10.1038/35106500},
+  owner = {Peter Komar},
+  timestamp = {2015.10.01}
+}
+
+@ARTICLE{duan1,
+  author = {Duan, L.-M. and Wang, B. and Kimble, H. J.},
+  title = {Robust quantum gates on neutral atoms with cavity-assisted photon
+	scattering},
+  journal = {Phys. Rev. A},
+  year = {2005},
+  volume = {72},
+  pages = {032333},
+  month = {Sep},
+  doi = {10.1103/PhysRevA.72.032333},
+  issue = {3},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevA.72.032333}
 }
 
 @ARTICLE{Eichenfield2009,
@@ -499,6 +618,21 @@
   doi = {10.1038/nphoton.2009.42},
   owner = {Peter Komar},
   timestamp = {2015.10.01}
+}
+
+@ARTICLE{feynman,
+  author = {Feynman, Richard P.},
+  title = {Simulating physics with computers},
+  journal = {International Journal of Theoretical Physics},
+  year = {1982},
+  volume = {21},
+  pages = {467-488},
+  number = {6-7},
+  doi = {10.1007/BF02650179},
+  issn = {0020-7748},
+  language = {English},
+  publisher = {Kluwer Academic Publishers-Plenum Publishers},
+  url = {http://dx.doi.org/10.1007/BF02650179}
 }
 
 @ARTICLE{Fiore2011,
@@ -556,6 +690,21 @@
   timestamp = {2015.10.01}
 }
 
+@ARTICLE{vitali,
+  author = {Giovannetti, V. and Vitali, D. and Tombesi, P. and Ekert, A.},
+  title = {Scalable quantum computation with cavity QED systems},
+  journal = {Phys. Rev. A},
+  year = {2000},
+  volume = {62},
+  pages = {032306},
+  month = {Aug},
+  doi = {10.1103/PhysRevA.62.032306},
+  issue = {3},
+  numpages = {11},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevA.62.032306}
+}
+
 @ARTICLE{Groblacher2009,
   author = {Simon Gr\"{o}blacher and Klemens Hammerer and Michael R. Vanner and
 	Markus Aspelmeyer},
@@ -568,6 +717,21 @@
   doi = {10.1038/nature08171},
   owner = {Peter Komar},
   timestamp = {2015.10.01}
+}
+
+@ARTICLE{grassi,
+  author = {Grassl, M. and Beth, Th. and Pellizzari, T.},
+  title = {Codes for the quantum erasure channel},
+  journal = {Phys. Rev. A},
+  year = {1997},
+  volume = {56},
+  pages = {33--38},
+  month = {Jul},
+  doi = {10.1103/PhysRevA.56.33},
+  issue = {1},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevA.56.33}
 }
 
 @ARTICLE{Grudinin2010,
@@ -614,6 +778,62 @@
   doi = {10.1038/ncomms2201},
   owner = {Peter Komar},
   timestamp = {2015.10.01}
+}
+
+@ARTICLE{Johansson20131234,
+  author = {J.R. Johansson and P.D. Nation and Franco Nori},
+  title = {QuTiP 2: A Python framework for the dynamics of open quantum systems
+	},
+  journal = {Computer Physics Communications },
+  year = {2013},
+  volume = {184},
+  pages = {1234 - 1240},
+  number = {4},
+  abstract = {We present version 2 of QuTiP, the Quantum Toolbox in Python. Compared
+	to the preceding version [J.R. Johansson, P.D. Nation, F. Nori, Comput.
+	Phys. Commun. 183 (2012) 1760.], we have introduced numerous new
+	features, enhanced performance, and made changes in the Application
+	Programming Interface (API) for improved functionality and consistency
+	within the package, as well as increased compatibility with existing
+	conventions used in other scientific software packages for Python.
+	The most significant new features include efficient solvers for arbitrary
+	time-dependent Hamiltonians and collapse operators, support for the
+	Floquet formalism, and new solvers for Bloch–Redfield and Floquet–Markov
+	master equations. Here we introduce these new features, demonstrate
+	their use, and give a summary of the important backward-incompatible
+	\{API\} changes introduced in this version. Program Summary Program
+	title: QuTiP: The Quantum Toolbox in Python Catalog identifier: AEMB_v2_0
+	Program summary URL:http://cpc.cs.qub.ac.uk/summaries/AEMB_v2_0.html
+	Program obtainable from: \{CPC\} Program Library, Queen’s University,
+	Belfast, N. Ireland Licensing provisions: \{GNU\} General Public
+	License, version 3 No. of lines in distributed program, including
+	test data, etc.: 33625 No. of bytes in distributed program, including
+	test data, etc.: 410064 Distribution format: tar.gz Programming language:
+	Python. Computer: i386, x86-64. Operating system: Linux, Mac OSX.
+	RAM: 2+ Gigabytes Classification: 7. External routines: NumPy, SciPy,
+	Matplotlib, Cython Catalog identifier of previous version: AEMB_v1_0
+	Journal reference of previous version: Comput. Phys. Comm. 183 (2012)
+	1760 Does the new version supercede the previous version?: Yes Nature
+	of problem: Dynamics of open quantum systems Solution method: Numerical
+	solutions to Lindblad, Floquet–Markov, and Bloch–Redfield master
+	equations, as well as the Monte Carlo wave function method. Reasons
+	for new version: Compared to the preceding version we have introduced
+	numerous new features, enhanced performance, and made changes in
+	the Application Programming Interface (API) for improved functionality
+	and consistency within the package, as well as increased compatibility
+	with existing conventions used in other scientific software packages
+	for Python. The most significant new features include efficient solvers
+	for arbitrary time-dependent Hamiltonians and collapse operators,
+	support for the Floquet formalism, and new solvers for Bloch–Redfield
+	and Floquet–Markov master equations. Restrictions: Problems must
+	meet the criteria for using the master equation in Lindblad, Floquet–Markov,
+	or Bloch–Redfield form. Running time: A few seconds up to several
+	tens of hours, depending on size of the underlying Hilbert space.
+	},
+  doi = {http://dx.doi.org/10.1016/j.cpc.2012.11.019},
+  issn = {0010-4655},
+  keywords = {Open quantum systems},
+  url = {http://www.sciencedirect.com/science/article/pii/S0010465512003955}
 }
 
 @ARTICLE{Komar2013,
@@ -680,6 +900,21 @@
   url = {http://www.nature.com/nphys/journal/v10/n8/full/nphys3000.html?WT.ec\_id=NPHYS-201408$\backslash$nhttp://www.nature.com/doifinder/10.1038/nphys3000}
 }
 
+@ARTICLE{kastoryano,
+  author = {Kastoryano, M. J. and Reiter, F. and S{\o}rensen, A. S.},
+  title = {Dissipative Preparation of Entanglement in Optical Cavities},
+  journal = {Phys. Rev. Lett.},
+  year = {2011},
+  volume = {106},
+  pages = {090502},
+  month = {Feb},
+  doi = {10.1103/PhysRevLett.106.090502},
+  issue = {9},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.106.090502}
+}
+
 @ARTICLE{Kessler2014,
   author = {Kessler, E. M. and K\'{o}m\'{a}r, P. and Bishof, M. and Jiang, L.
 	and S\o rensen, a. S. and Ye, J. and Lukin, M. D.},
@@ -696,6 +931,18 @@
   eprint = {arXiv:1310.6043v1},
   file = {:C$\backslash$:/Doc/Harvard/Research/MyPapers/PRL\_2014.pdf:pdf},
   issn = {10797114}
+}
+
+@ARTICLE{kimble,
+  author = {H. J. Kimble},
+  title = {The quantum internet},
+  journal = {Nature},
+  year = {2008},
+  volume = {453},
+  pages = {1023--1030},
+  doi = {10.1038/nature07127},
+  owner = {Peter Komar},
+  timestamp = {2015.10.01}
 }
 
 @ARTICLE{Kippenberg2008,
@@ -732,6 +979,18 @@
   timestamp = {2015.10.01}
 }
 
+@ARTICLE{knill2,
+  author = {E. Knill and R. Laflamme and G. J. Milburn},
+  title = {A scheme for efficient quantum computation with linear optics},
+  journal = {Nature},
+  year = {2001},
+  volume = {409},
+  pages = {46--52},
+  doi = {10.1038/35051009},
+  owner = {Peter Komar},
+  timestamp = {2015.10.01}
+}
+
 @ARTICLE{Kronwald2012,
   author = {Kronwald, Andreas and Ludwig, Max and Marquardt, Florian},
   title = {Full photon statistics of a light beam transmitted through an optomechanical
@@ -746,6 +1005,34 @@
   numpages = {7},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevA.87.013847}
+}
+
+@ARTICLE{stirap2,
+  author = {Kuhn, Axel and Hennrich, Markus and Rempe, Gerhard},
+  title = {Deterministic Single-Photon Source for Distributed Quantum Networking},
+  journal = {Phys. Rev. Lett.},
+  year = {2002},
+  volume = {89},
+  pages = {067901},
+  month = {Jul},
+  doi = {10.1103/PhysRevLett.89.067901},
+  issue = {6},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.89.067901}
+}
+
+@ARTICLE{ladd,
+  author = {T. D. Ladd and F. Jelezko and R. Laflamme and Y. Nakamura and C.
+	Monroe and J. L. O’Brien},
+  title = {Quantum computers},
+  journal = {Nature},
+  year = {2010},
+  volume = {464},
+  pages = {45--53},
+  doi = {10.1038/nature08812},
+  owner = {Peter Komar},
+  timestamp = {2015.10.01}
 }
 
 @ARTICLE{Liao2012,
@@ -866,6 +1153,34 @@
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.91.130401}
 }
 
+@ARTICLE{maurer,
+  author = {Maurer, P. C. and Kucsko, G. and Latta, C. and Jiang, L. and Yao,
+	N. Y. and Bennett, S. D. and Pastawski, F. and Hunger, D. and Chisholm,
+	N. and Markham, M. and Twitchen, D. J. and Cirac, J. I. and Lukin,
+	M. D.},
+  title = {Room-Temperature Quantum Bit Memory Exceeding One Second},
+  journal = {Science},
+  year = {2012},
+  volume = {336},
+  pages = {1283-1286},
+  number = {6086},
+  abstract = {Stable quantum bits, capable both of storing quantum information for
+	macroscopic time scales and of integration inside small portable
+	devices, are an essential building block for an array of potential
+	applications. We demonstrate high-fidelity control of a solid-state
+	qubit, which preserves its polarization for several minutes and features
+	coherence lifetimes exceeding 1 second at room temperature. The qubit
+	consists of a single 13C nuclear spin in the vicinity of a nitrogen-vacancy
+	color center within an isotopically purified diamond crystal. The
+	long qubit memory time was achieved via a technique involving dissipative
+	decoupling of the single nuclear spin from its local environment.
+	The versatility, robustness, and potential scalability of this system
+	may allow for new applications in quantum information science.},
+  doi = {10.1126/science.1220513},
+  eprint = {http://www.sciencemag.org/content/336/6086/1283.full.pdf},
+  url = {http://www.sciencemag.org/content/336/6086/1283.abstract}
+}
+
 @ARTICLE{Metzger2004,
   author = {Constanze Höhberger Metzger and Khaled Karrai},
   title = {Cavity cooling of a microlever},
@@ -944,6 +1259,58 @@
   timestamp = {2015.10.01}
 }
 
+@ARTICLE{pachos,
+  author = {Pachos, Jiannis and Walther, Herbert},
+  title = {Quantum Computation with Trapped Ions in an Optical Cavity},
+  journal = {Phys. Rev. Lett.},
+  year = {2002},
+  volume = {89},
+  pages = {187903},
+  month = {Oct},
+  doi = {10.1103/PhysRevLett.89.187903},
+  issue = {18},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.89.187903}
+}
+
+@ARTICLE{pellizari,
+  author = {Pellizzari, T. and Gardiner, S. A. and Cirac, J. I. and Zoller, P.},
+  title = {Decoherence, Continuous Observation, and Quantum Computing: A Cavity
+	QED Model},
+  journal = {Phys. Rev. Lett.},
+  year = {1995},
+  volume = {75},
+  pages = {3788--3791},
+  month = {Nov},
+  doi = {10.1103/PhysRevLett.75.3788},
+  issue = {21},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.75.3788}
+}
+
+@ARTICLE{acin,
+  author = {S Perseguers and G J Lapeyre Jr and D Cavalcanti and M Lewenstein
+	and A Ac\'{i}n},
+  title = {Distribution of entanglement in large-scale quantum networks},
+  journal = {Reports on Progress in Physics},
+  year = {2013},
+  volume = {76},
+  pages = {096001},
+  number = {9},
+  abstract = {The concentration and distribution of quantum entanglement is an essential
+	ingredient in emerging quantum information technologies. Much theoretical
+	and experimental effort has been expended in understanding how to
+	distribute entanglement in one-dimensional networks. However, as
+	experimental techniques in quantum communication develop, protocols
+	for multi-dimensional systems become essential. Here, we focus on
+	recent theoretical developments in protocols for distributing entanglement
+	in regular and complex networks, with particular attention to percolation
+	theory and network-based error correction.},
+  url = {http://stacks.iop.org/0034-4885/76/i=9/a=096001}
+}
+
 @ARTICLE{Purdy2010,
   author = {Purdy, T. P. and Brooks, D. W. C. and Botter, T. and Brahms, N. and
 	Ma, Z.-Y. and Stamper-Kurn, D. M.},
@@ -990,6 +1357,21 @@
   url = {http://link.aps.org/doi/10.1103/RevModPhys.73.565}
 }
 
+@ARTICLE{ralph05,
+  author = {Ralph, T. C. and Hayes, A. J. F. and Gilchrist, Alexei},
+  title = {Loss-Tolerant Optical Qubits},
+  journal = {Phys. Rev. Lett.},
+  year = {2005},
+  volume = {95},
+  pages = {100501},
+  month = {Aug},
+  doi = {10.1103/PhysRevLett.95.100501},
+  issue = {10},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.95.100501}
+}
+
 @ARTICLE{Regal2011,
   author = {C A Regal and K W Lehnert},
   title = {From cavity electromechanics to cavity optomechanics},
@@ -1005,6 +1387,34 @@
 	oscillators as a new quantum resource and also inherently couple
 	their motion to photons throughout the electromagnetic spectrum.},
   url = {http://stacks.iop.org/1742-6596/264/i=1/a=012025}
+}
+
+@ARTICLE{,
+  author = {Andreas Reiserer and Norbert Kalb and Gerhard Rempe and Stephan Ritter},
+  title = {A quantum gate between a flying optical photon and a single trapped
+	atom},
+  journal = {Nature},
+  year = {2014},
+  volume = {508},
+  pages = {237--240},
+  doi = {10.1038/nature13177},
+  owner = {Peter Komar},
+  timestamp = {2015.10.01}
+}
+
+@ARTICLE{Florentin,
+  author = {Reiter, Florentin and S{\o}rensen, Anders S.},
+  title = {Effective operator formalism for open quantum systems},
+  journal = {Phys. Rev. A},
+  year = {2012},
+  volume = {85},
+  pages = {032111},
+  month = {Mar},
+  doi = {10.1103/PhysRevA.85.032111},
+  issue = {3},
+  numpages = {11},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevA.85.032111}
 }
 
 @ARTICLE{Rice1988,
@@ -1026,6 +1436,20 @@
 	saturation;Resonance;Spontaneous emission;Statistics;Stimulated emission}
 }
 
+@ARTICLE{ritter,
+  author = {Stephan Ritter and Christian N\"{o}lleke and Carolin Hahn and Andreas
+	Reiserer and Andreas Neuzner and Manuel Uphoff and Martin M\"{u}cke
+	and Eden Figueroa and Joerg Bochmann and Gerhard Rempe},
+  title = {An elementary quantum network of single atoms in optical cavities},
+  journal = {Nature},
+  year = {2012},
+  volume = {484},
+  pages = {195--200},
+  doi = {10.1038/nature11023},
+  owner = {Peter Komar},
+  timestamp = {2015.10.01}
+}
+
 @ARTICLE{Robinson2005,
   author = {Robinson, Jacob T. and Manolatou, Christina and Chen, Long and Lipson,
 	Michal},
@@ -1040,6 +1464,37 @@
   numpages = {4},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.95.143901}
+}
+
+@ARTICLE{Anders1prl,
+  author = {S{\o}rensen, Anders S. and M{\o}lmer, Klaus},
+  title = {Probabilistic Generation of Entanglement in Optical Cavities},
+  journal = {Phys. Rev. Lett.},
+  year = {2003},
+  volume = {90},
+  pages = {127903},
+  month = {Mar},
+  doi = {10.1103/PhysRevLett.90.127903},
+  issue = {12},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.90.127903}
+}
+
+@ARTICLE{Anders2prl,
+  author = {S{\o}rensen, Anders S. and M{\o}lmer, Klaus},
+  title = {Measurement Induced Entanglement and Quantum Computation with Atoms
+	in Optical Cavities},
+  journal = {Phys. Rev. Lett.},
+  year = {2003},
+  volume = {91},
+  pages = {097905},
+  month = {Aug},
+  doi = {10.1103/PhysRevLett.91.097905},
+  issue = {9},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.91.097905}
 }
 
 @ARTICLE{Safavi-Naeini2011,
@@ -1073,6 +1528,22 @@
 	conversion, long-lived quantum memory and state transfer from optical
 	to superconducting qubits, is considered.},
   url = {http://stacks.iop.org/1367-2630/13/i=1/a=013017}
+}
+
+@ARTICLE{stirap,
+  author = {Schiemann, S. and Kuhn, A. and Steuerwald, S. and Bergmann, K.},
+  title = {Efficient coherent population transfer in NO molecules using pulsed
+	lasers},
+  journal = {Phys. Rev. Lett.},
+  year = {1993},
+  volume = {71},
+  pages = {3637--3640},
+  month = {Nov},
+  doi = {10.1103/PhysRevLett.71.3637},
+  issue = {22},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.71.3637}
 }
 
 @ARTICLE{Schliesser2008,
@@ -1118,6 +1589,21 @@
   doi = {10.1038/451664a},
   owner = {Peter Komar},
   timestamp = {2015.10.01}
+}
+
+@ARTICLE{shor,
+  author = {Peter W. Shor},
+  title = {Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms
+	on a Quantum Computer},
+  journal = {SIAM Journal on Computing},
+  year = {1997},
+  volume = {26},
+  pages = {1484-1509},
+  number = {5},
+  doi = {10.1137/S0097539795293172},
+  eprint = { http://dx.doi.org/10.1137/S0097539795293172 },
+  url = { http://dx.doi.org/10.1137/S0097539795293172 
+}
 }
 
 @ARTICLE{Stamper-kurn,
@@ -1227,6 +1713,33 @@
   timestamp = {2015.10.01}
 }
 
+@ARTICLE{thompson,
+  author = {Thompson, J. D. and Tiecke, T. G. and de Leon, N. P. and Feist, J.
+	and Akimov, A. V. and Gullans, M. and Zibrov, A. S. and Vuleti\'{c},
+	V. and Lukin, M. D.},
+  title = {Coupling a Single Trapped Atom to a Nanoscale Optical Cavity},
+  journal = {Science},
+  year = {2013},
+  volume = {340},
+  pages = {1202-1205},
+  number = {6137},
+  abstract = {Hybrid quantum devices, in which dissimilar quantum systems are combined
+	in order to attain qualities not available with either system alone,
+	may enable far-reaching control in quantum measurement, sensing,
+	and information processing. A paradigmatic example is trapped ultracold
+	atoms, which offer excellent quantum coherent properties, coupled
+	to nanoscale solid-state systems, which allow for strong interactions.
+	We demonstrate a deterministic interface between a single trapped
+	rubidium atom and a nanoscale photonic crystal cavity. Precise control
+	over the atom's position allows us to probe the cavity near-field
+	with a resolution below the diffraction limit and to observe large
+	atom-photon coupling. This approach may enable the realization of
+	integrated, strongly coupled quantum nano-optical circuits.},
+  doi = {10.1126/science.1237125},
+  eprint = {http://www.sciencemag.org/content/340/6137/1202.full.pdf},
+  url = {http://www.sciencemag.org/content/340/6137/1202.abstract}
+}
+
 @ARTICLE{Thompson2008,
   author = {J. D. Thompson and B. M. Zwickl and A. M. Jayich and Florian Marquardt
 	and S. M. Girvin and J. G. E. Harris},
@@ -1239,6 +1752,50 @@
   doi = {10.1038/nature06715},
   owner = {Peter Komar},
   timestamp = {2015.10.01}
+}
+
+@ARTICLE{Tiecke,
+  author = {T. G. Tiecke and J. D. Thompson and N. P. de Leon and L. R. Liu and
+	V. Vuleti\'{c} and M. D. Lukin},
+  title = {Nanophotonic quantum phase switch with a single atom},
+  journal = {Nature},
+  year = {2014},
+  volume = {508},
+  pages = {241--244},
+  doi = {10.1038/nature13188},
+  owner = {Peter Komar},
+  timestamp = {2015.10.01}
+}
+
+@ARTICLE{togan,
+  author = {E. Togan and Y. Chu and A. S. Trifonov and L. Jiang and J. Maze and
+	L. Childress and M. V. G. Dutt and A. S. S{\o}rensen and P. R. Hemmer
+	and A. S. Zibrov and M. D. Lukin},
+  title = {Quantum entanglement between an optical photon and a solid-state
+	spin qubit},
+  journal = {Nature},
+  year = {2010},
+  volume = {466},
+  pages = {730--734},
+  doi = {10.1038/nature09256},
+  owner = {Peter Komar},
+  timestamp = {2015.10.01}
+}
+
+@ARTICLE{varnava,
+  author = {Varnava, Michael and Browne, Daniel E. and Rudolph, Terry},
+  title = {Loss Tolerance in One-Way Quantum Computation via Counterfactual
+	Error Correction},
+  journal = {Phys. Rev. Lett.},
+  year = {2006},
+  volume = {97},
+  pages = {120501},
+  month = {Sep},
+  doi = {10.1103/PhysRevLett.97.120501},
+  issue = {12},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.97.120501}
 }
 
 @ARTICLE{Verhagen2011,
@@ -1378,5 +1935,21 @@
   numpages = {5},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.109.233906}
+}
+
+@ARTICLE{zheng,
+  author = {Zheng, Shi-Biao},
+  title = {Implementation of Toffoli gates with a single asymmetric Heisenberg
+	$XY$ interaction},
+  journal = {Phys. Rev. A},
+  year = {2013},
+  volume = {87},
+  pages = {042318},
+  month = {Apr},
+  doi = {10.1103/PhysRevA.87.042318},
+  issue = {4},
+  numpages = {5},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevA.87.042318}
 }
 

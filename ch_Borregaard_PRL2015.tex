@@ -33,7 +33,7 @@ quantum communication.
 
 Optical cavities are ideal for conversion between the stationary gate qubits and
 flying qubits (photons), which is fundamental for quantum networks \cite{ritter,
-komar, acin}. Quantum gates can, in principle, also be directly implemented in
+Komar2014, acin}. Quantum gates can, in principle, also be directly implemented in
 optical cavities \cite{pellizari}, but the experimental requirements for this
 are very challenging due to spontaneous emission and cavity loss. The essential
 parameter quantifying this is the cooperativity of the atom-cavity system, $C$.
@@ -46,7 +46,7 @@ necessity of intermediate entanglement purification in quantum repeaters thus
 increasing the distribution rate significantly. Compared to using other
 deterministic, cavity based gates, an increase in the rate of up to two orders
 of magnitude can be achieved for modest cooperativities ($<100$) and a distance
-of 1000 km \cite{repeater}.
+of 1000 km \cite{Borregaard2015b}.
 
 \section{Heralding gate}
 
@@ -118,9 +118,10 @@ $\ket{E}\leftrightarrow\ket{f}$ is a closed transition, i.e. $\gamma_{g}=0$.  }
 
 \subsection{Model}
 We now analyze the performance of the gates and derive the success
-probabilities, gate times and gate errors (see Tab.~S1 in \cite{SM}) The
-Hamiltonian in a proper rotating frame is (see \reffig{fig:levels})
-\begin{eqnarray}
+probabilities, gate times and gate errors (see Tab.~S1 in Appendix
+\ref{app:Borregaard_PRL2015}) The Hamiltonian in a proper rotating frame is (see
+\reffig{fig:levels})
+\begin{eqnarray} 
 \hat{H}&=&
 \Delta_{E}\ket{E}
 \bra{E}+g_{f}(\hat{a}\ket{E}\bra{f}+H.c)+\hat{V}+\hat{V}^{\dagger} \nonumber \\
@@ -161,8 +162,9 @@ nC}\right\}\label{eq:detunings}
 \end{equation} 
 and $\hat{P}_{n}$ projects on the states with $n$ qubits in state $\ket{1}$. For
 simplicity, we have assumed that the auxiliary atom is identical to the qubit
-atoms such that $g_{f}=g$ and $\gamma_{f}=\gamma$ (see \cite{SM} for a more
-general treatment) and we have defined the cooperativity $C=g^{2}/\gamma\kappa$.
+atoms such that $g_{f}=g$ and $\gamma_{f}=\gamma$ (see Appendix
+\ref{app:Borregaard_PRL2015} for a more general treatment) and we have defined
+the cooperativity $C=g^{2}/\gamma\kappa$.
 We consider the limit $C\gg1$ and from Eq.~\eqref{eq:detunings} we find that the
 energy shift, in the case when all qubit atoms are in $\ket{0}$, becomes very
 small $\Delta_{0}\sim\Delta_{E}\Omega^{2}/(16\gamma^{2} C^{2})\rightarrow 0$,
@@ -189,13 +191,14 @@ conditioning on measuring the auxiliary atom in state $\ket{g}$ at the end of
 the gate, the detectable errors from cavity decay and spontaneous emission only
 reduce the success probability instead of reducing the fidelity. Consequently,
 the fidelity becomes limited by more subtle, undetectable errors (see
-Ref.~\cite{SM}). The dominant error originates from the qubit dependent decay
-rate, $\Gamma_{n}$, of $\ket{g}\to\ket{f}$. As we demonstrate in Ref.~\cite{SM},
-this leads to a fidelity lower bounded by $1-F \lesssim 0.3/C$, with a success
-probability of $P_{\text{s}} \sim 1 - 3/\sqrt{C}$. Thus is a substantial
-improvement over the leading error in the case of deterministic cavity-assisted
-gates. For generic states, the fidelity can even be markedly higher, and
-improving with increasing particle number $N$ \cite{SM}
+Appendix \ref{app:Borregaard_PRL2015}). The dominant error originates from the
+qubit dependent decay rate, $\Gamma_{n}$, of $\ket{g}\to\ket{f}$. As we
+demonstrate in Appendix \ref{app:Borregaard_PRL2015}), this leads to a fidelity lower bounded by $1-F
+\lesssim 0.3/C$, with a success probability of $P_{\text{s}} \sim 1 -
+3/\sqrt{C}$. Thus is a substantial improvement over the leading error in the
+case of deterministic cavity-assisted gates. For generic states, the fidelity
+can even be markedly higher, and improving with increasing particle number $N$,
+see Appendix \ref{app:Borregaard_PRL2015}.
 
 In the special case of only two qubits, the Toffoli gate is referred to as a
 CZ-gate, and in this case, we can even improve the gate to have an arbitrarily
@@ -228,8 +231,9 @@ $t_{\text{CZ}}\sim15\pi\sqrt{C}\gamma/(2\Omega^{2})$ for $C\gg1$. Since
 $t_{\text{CZ}}>t_{\text{T}}$ we focus on $t_{\text{CZ}}$. The gate time is set
 by the strength ($\Omega$) of the driving pulse, which is limited by
 non-adiabatic errors. This is investigated in the supplemental material where we
-also verify our analytical results numerically~\cite{SM}. Assuming realisitc
-parameters of $\kappa=100\gamma$ \cite{thompson,Tiecke}, we find that a driving
+also verify our analytical results numerically in Appendix
+\ref{app:Borregaard_PRL2015}.
+Assuming realisitc parameters of $\kappa=100\gamma$ \cite{thompson,Tiecke}, we find that a driving
 of $\Omega=\sqrt{C}\gamma/4$ keeps the non-adiabatic error of the gate below
 $4\cdot10^{-5}$ for $C\leq1000$. The gate times decreases as $1/\sqrt{C}$ as
 shown in \reffig{fig:prob}. For a cooperativity of $100$ the gate time is
@@ -250,7 +254,8 @@ that $\gamma_{g}=\gamma$. The gate error decreases as
 $\gamma^{2}/\Delta_{E2}^{2}$ and is independent of $C$.  We have assumed
 $\Omega\sim\Delta_{E2}/8$ resulting in a gate time $\sim400/\gamma$.
 Solid/dashed lines are analytical results and symbols are numerical simulations
-(see \cite{SM}). For both plots, we have assumed $\kappa=100\gamma$.}
+(see Appendix \ref{app:Borregaard_PRL2015}). For both plots, we have assumed
+$\kappa=100\gamma$.}
 \label{fig:prob}
 \end{figure} 
 
@@ -305,20 +310,22 @@ arbitrarily small. The error of the CZ-gate for different $\Delta_{E2}$ is shown
 in \reffig{fig:fidel_time}, assuming an initial state of
 $(\ket{0}+\ket{1})^{\otimes 2}$. Note that in order to prevent an increasing
 scattering probability of level $\ket{E2}$, we need to have $\Omega_{MW}\propto
-C^{1/4}$ resulting in a gate error that is independent of the cooperativity.
-\cite{SM}.
+C^{1/4}$ resulting in a gate error that is independent of the cooperativity, see
+Appendix \ref{app:Borregaard_PRL2015}.
 The success probability and time of the gates are the same as before with
 $\Omega\to\tilde{\Omega}\sim\frac{\Omega_{\text{MW}}\Omega}{2\Delta_{E2}}$. With
 similar considerations about the validity of our perturbation as
 before, we find that for realistic parameters, we can use $\Omega=\Delta_{E2}/8,
-\Omega_{\text{MW}}\sim4\gamma C^{1/4}$ resulting in a gate time of $\sim10$ $\mu$s for typical atomic decay rates and $C\lesssim1000$~\cite{SM}.   
+\Omega_{\text{MW}}\sim4\gamma C^{1/4}$ resulting in a gate time of $\sim10$
+$\mu$s for typical atomic decay rates and $C\lesssim1000$, see Appendix
+\ref{app:Borregaard_PRL2015}.
 
 \section{Possible implementation}
 
 As an example implementation, we consider ultra-cold ${}^{87}$Rb atoms coupled
 to nanophotonic cavities~\cite{thompson,Tiecke}. There are some additional
 errors originating from the extra states in the ${}^{87}$Rb atoms in this case.
-In Ref. \cite{SM}, we treat these errors and find that with a detuning of
+In Appendix \ref{app:Borregaard_PRL2015}, we treat these errors and find that with a detuning of
 $\Delta_{E2}=100\gamma$ and a cooperativity of $C\approx100$, a heralded CZ gate
 with $\sim67\%$ success probability and a heralded error of $\approx 10^{-3}$
 can be realized in $\approx10$ $\mu$s time. This justifies neglecting atomic
@@ -343,7 +350,7 @@ structure, the probabilistic nature of the gate can be efficiently circumvented.
 The success rate of distributing entanglement across the total distance L,
 scales as $\sim (L/L_{0})^{1-\log_{2}(3/p)}$, where $p<1$ is the success
 probability of the swap, $L$ is the total distribution distance and $L_{0}$ is
-the length between the links~\cite{repeater} (note that in the limit $p\to1$,
+the length between the links~\cite{Borregaard2015b} (note that in the limit $p\to1$,
 the above expression underestimates the rate, e.g., for $p=1$ the actual rate is
 $\sim3$ times faster for 128 links). This is a substantial improvement over
 direct transmission where the success rate scales exponentially with $L$. For a

@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{Akram2010}
 U~Akram, N~Kiesel, M~Aspelmeyer, and G~J Milburn.
@@ -21,19 +21,18 @@ S~Basiri-Esfahani, U~Akram, and G~J Milburn.
 \newblock Phonon number measurements using single photon opto-mechanics.
 \newblock {\em New Journal of Physics}, 14(8):085017, 2012.
 
+\bibitem{beige}
+Almut Beige, Daniel Braun, Ben Tregenna, and Peter~L. Knight.
+\newblock Quantum computing using dissipation to remain in a decoherence-free
+  subspace.
+\newblock {\em Phys. Rev. Lett.}, 85:1762--1765, Aug 2000.
+
 \bibitem{Borregaard2015b}
 J~Borregaard, P.~K\'{o}m\'{a}r, E.~M. Kessler, M.~D. Lukin, and A.~S.
   S\o~rensen.
 \newblock Long-distance entanglement distribution using individual atoms in
   optical cavities.
 \newblock {\em Physical Review A}, 92(1):012307, July 2015.
-
-\bibitem{Borregaard2015a}
-J.~Borregaard, P.~K\'{o}m\'{a}r, E.~M. Kessler, A.~S. S\o~rensen, and M.~D.
-  Lukin.
-\newblock Heralded quantum gates with integrated error detection in optical
-  cavities.
-\newblock {\em Physical Review Letters}, 114(March):110502, 2015.
 
 \bibitem{Brecha1999}
 R.~J. Brecha, P.~R. Rice, and M.~Xiao.
@@ -45,6 +44,20 @@ R.~J. Brecha, P.~R. Rice, and M.~Xiao.
 Ferdinand Brennecke, Stephan Ritter, Tobias Donner, and Tilman Esslinger.
 \newblock Cavity optomechanics with a bose-einstein condensate.
 \newblock {\em Science}, 322(5899):235--238, 2008.
+
+\bibitem{briegel}
+H.-J. Briegel, W.~D\"ur, J.~I. Cirac, and P.~Zoller.
+\newblock Quantum repeaters: The role of imperfect local operations in quantum
+  communication.
+\newblock {\em Phys. Rev. Lett.}, 81:5932--5935, Dec 1998.
+
+\bibitem{burek}
+Michael~J. Burek, Yiwen Chu, Madelaine S.~Z. Liddy, Parth Patel, Jake Rochman,
+  Srujan Meesala, Wooyoung Hong, Qimin Quan, Mikhail~D. Lukin, and Marko
+  Loncar.
+\newblock High quality-factor optical nanocavities in bulk single-crystal
+  diamond.
+\newblock {\em Nature Communications}, 5:5718, 2014.
 
 \bibitem{Carmichael1991}
 H.J. Carmichael, R.J. Brecha, and P.R. Rice.
@@ -89,6 +102,18 @@ H.~K. Cheung and C.~K. Law.
   membrane in a cavity.
 \newblock {\em Phys. Rev. A}, 84:023812, Aug 2011.
 
+\bibitem{phystoday}
+Lilian Childress, Ronald Walsworth, and Mikhail Lukin.
+\newblock Atom-like crystal defects: From quantum computers to biological
+  sensors.
+\newblock {\em Physics Today}, 67:38, 2014.
+
+\bibitem{cirac}
+J.~I. Cirac, P.~Zoller, H.~J. Kimble, and H.~Mabuchi.
+\newblock Quantum state transfer and entanglement distribution among distant
+  nodes in a quantum network.
+\newblock {\em Phys. Rev. Lett.}, 78:3221--3224, Apr 1997.
+
 \bibitem{Corbitt2007}
 Thomas Corbitt, Christopher Wipf, Timothy Bodiya, David Ottaway, Daniel Sigg,
   Nicolas Smith, Stanley Whitcomb, and Nergis Mavalvala.
@@ -120,6 +145,24 @@ L.-M. Duan and H.~J. Kimble.
   interactions.
 \newblock {\em Phys. Rev. Lett.}, 92:127902, Mar 2004.
 
+\bibitem{duan2}
+L.-M. Duan and H.~J. Kimble.
+\newblock Scalable photonic quantum computation through cavity-assisted
+  interactions.
+\newblock {\em Phys. Rev. Lett.}, 92:127902, Mar 2004.
+
+\bibitem{duan3}
+L.-M. Duan, M.~D. Lukin, J.~I. Cirac, and P.~Zoller.
+\newblock Long-distance quantum communication with atomic ensembles and linear
+  optics.
+\newblock {\em Nature}, 414:413--418, 2001.
+
+\bibitem{duan1}
+L.-M. Duan, B.~Wang, and H.~J. Kimble.
+\newblock Robust quantum gates on neutral atoms with cavity-assisted photon
+  scattering.
+\newblock {\em Phys. Rev. A}, 72:032333, Sep 2005.
+
 \bibitem{Eichenfield2009}
 Matt Eichenfield, Jasper Chan, Ryan~M. Camacho, Kerry~J. Vahala, and Oskar
   Painter.
@@ -130,6 +173,12 @@ Matt Eichenfield, Jasper Chan, Ryan~M. Camacho, Kerry~J. Vahala, and Oskar
 Ivan Favero and Khaled Karrai.
 \newblock Optomechanics of deformable optical cavities.
 \newblock {\em Nature Photonics}, 3:201--205, 2009.
+
+\bibitem{feynman}
+Richard~P. Feynman.
+\newblock Simulating physics with computers.
+\newblock {\em International Journal of Theoretical Physics}, 21(6-7):467--488,
+  1982.
 
 \bibitem{Fiore2011}
 Victor Fiore, Yong Yang, Mark~C. Kuzyk, Russell Barbour, Lin Tian, and Hailin
@@ -156,6 +205,16 @@ S.~Gigan, H.~R. Böhm, M.~Paternostro, F.~Blaser, G.~Langer, J.~B. Hertzberg,
 \newblock Self-cooling of a micromirror by radiation pressure.
 \newblock {\em Nature}, 444:67--70, 2006.
 
+\bibitem{vitali}
+V.~Giovannetti, D.~Vitali, P.~Tombesi, and A.~Ekert.
+\newblock Scalable quantum computation with cavity qed systems.
+\newblock {\em Phys. Rev. A}, 62:032306, Aug 2000.
+
+\bibitem{grassi}
+M.~Grassl, Th. Beth, and T.~Pellizzari.
+\newblock Codes for the quantum erasure channel.
+\newblock {\em Phys. Rev. A}, 56:33--38, Jul 1997.
+
 \bibitem{Groblacher2009}
 Simon Gr\"{o}blacher, Klemens Hammerer, Michael~R. Vanner, and Markus
   Aspelmeyer.
@@ -179,11 +238,26 @@ Jeff~T. Hill, Amir~H. Safavi-Naeini, Jasper Chan, and Oskar Painter.
 \newblock Coherent optical wavelength conversion via cavity optomechanics.
 \newblock {\em Nature Communications}, 3:1196, 2012.
 
+\bibitem{Johansson20131234}
+J.R. Johansson, P.D. Nation, and Franco Nori.
+\newblock Qutip 2: A python framework for the dynamics of open quantum systems.
+\newblock {\em Computer Physics Communications}, 184(4):1234 -- 1240, 2013.
+
+\bibitem{kastoryano}
+M.~J. Kastoryano, F.~Reiter, and A.~S. S{\o}rensen.
+\newblock Dissipative preparation of entanglement in optical cavities.
+\newblock {\em Phys. Rev. Lett.}, 106:090502, Feb 2011.
+
 \bibitem{Kessler2014}
 E.~M. Kessler, P.~K\'{o}m\'{a}r, M.~Bishof, L.~Jiang, a.~S. S\o~rensen, J.~Ye,
   and M.~D. Lukin.
 \newblock Heisenberg-limited atom clocks based on entangled qubits.
 \newblock {\em Physical Review Letters}, 112(May):190403, 2014.
+
+\bibitem{kimble}
+H.~J. Kimble.
+\newblock The quantum internet.
+\newblock {\em Nature}, 453:1023--1030, 2008.
 
 \bibitem{Kippenberg2008}
 T.~J. Kippenberg and K.~J. Vahala.
@@ -194,6 +268,11 @@ T.~J. Kippenberg and K.~J. Vahala.
 Dustin Kleckner and Dirk Bouwmeester.
 \newblock Sub-kelvin optical cooling of a micromechanical resonator.
 \newblock {\em Nature}, 444:75--78, 2006.
+
+\bibitem{knill2}
+E.~Knill, R.~Laflamme, and G.~J. Milburn.
+\newblock A scheme for efficient quantum computation with linear optics.
+\newblock {\em Nature}, 409:46--52, 2001.
 
 \bibitem{Komar2014}
 P.~K\'{o}m\'{a}r, E.~M. Kessler, M.~Bishof, L.~Jiang, a.~S. S\o~rensen, J.~Ye,
@@ -206,6 +285,17 @@ Andreas Kronwald, Max Ludwig, and Florian Marquardt.
 \newblock Full photon statistics of a light beam transmitted through an
   optomechanical system.
 \newblock {\em Phys. Rev. A}, 87:013847, Jan 2013.
+
+\bibitem{stirap2}
+Axel Kuhn, Markus Hennrich, and Gerhard Rempe.
+\newblock Deterministic single-photon source for distributed quantum
+  networking.
+\newblock {\em Phys. Rev. Lett.}, 89:067901, Jul 2002.
+
+\bibitem{ladd}
+T.~D. Ladd, F.~Jelezko, R.~Laflamme, Y.~Nakamura, C.~Monroe, and J.~L. O’Brien.
+\newblock Quantum computers.
+\newblock {\em Nature}, 464:45--53, 2010.
 
 \bibitem{Liao2012}
 Jie-Qiao Liao and C.~K. Law.
@@ -244,6 +334,13 @@ William Marshall, Christoph Simon, Roger Penrose, and Dik Bouwmeester.
 \newblock Towards quantum superpositions of a mirror.
 \newblock {\em Phys. Rev. Lett.}, 91:130401, Sep 2003.
 
+\bibitem{maurer}
+P.~C. Maurer, G.~Kucsko, C.~Latta, L.~Jiang, N.~Y. Yao, S.~D. Bennett,
+  F.~Pastawski, D.~Hunger, N.~Chisholm, M.~Markham, D.~J. Twitchen, J.~I.
+  Cirac, and M.~D. Lukin.
+\newblock Room-temperature quantum bit memory exceeding one second.
+\newblock {\em Science}, 336(6086):1283--1286, 2012.
+
 \bibitem{Metzger2004}
 Constanze~Höhberger Metzger and Khaled Karrai.
 \newblock Cavity cooling of a microlever.
@@ -272,6 +369,22 @@ A.~D. O’Connell, M.~Hofheinz, M.~Ansmann, Radoslaw~C. Bialczak, M.~Lenander,
   resonator.
 \newblock {\em Nature}, 464:697--703, 2010.
 
+\bibitem{pachos}
+Jiannis Pachos and Herbert Walther.
+\newblock Quantum computation with trapped ions in an optical cavity.
+\newblock {\em Phys. Rev. Lett.}, 89:187903, Oct 2002.
+
+\bibitem{pellizari}
+T.~Pellizzari, S.~A. Gardiner, J.~I. Cirac, and P.~Zoller.
+\newblock Decoherence, continuous observation, and quantum computing: A cavity
+  qed model.
+\newblock {\em Phys. Rev. Lett.}, 75:3788--3791, Nov 1995.
+
+\bibitem{acin}
+S~Perseguers, G~J~Lapeyre Jr, D~Cavalcanti, M~Lewenstein, and A~Ac\'{i}n.
+\newblock Distribution of entanglement in large-scale quantum networks.
+\newblock {\em Reports on Progress in Physics}, 76(9):096001, 2013.
+
 \bibitem{Purdy2010}
 T.~P. Purdy, D.~W.~C. Brooks, T.~Botter, N.~Brahms, Z.-Y. Ma, and D.~M.
   Stamper-Kurn.
@@ -288,10 +401,26 @@ J.~M. Raimond, M.~Brune, and S.~Haroche.
 \newblock Manipulating quantum entanglement with atoms and photons in a cavity.
 \newblock {\em Rev. Mod. Phys.}, 73:565--582, Aug 2001.
 
+\bibitem{ralph05}
+T.~C. Ralph, A.~J.~F. Hayes, and Alexei Gilchrist.
+\newblock Loss-tolerant optical qubits.
+\newblock {\em Phys. Rev. Lett.}, 95:100501, Aug 2005.
+
 \bibitem{Regal2011}
 C~A Regal and K~W Lehnert.
 \newblock From cavity electromechanics to cavity optomechanics.
 \newblock {\em Journal of Physics: Conference Series}, 264(1):012025, 2011.
+
+\bibitem{ritter2014}
+Andreas Reiserer, Norbert Kalb, Gerhard Rempe, and Stephan Ritter.
+\newblock A quantum gate between a flying optical photon and a single trapped
+  atom.
+\newblock {\em Nature}, 508:237--240, 2014.
+
+\bibitem{Florentin}
+Florentin Reiter and Anders~S. S{\o}rensen.
+\newblock Effective operator formalism for open quantum systems.
+\newblock {\em Phys. Rev. A}, 85:032111, Mar 2012.
 
 \bibitem{Rice1988}
 P.R. Rice and H.J. Carmichael.
@@ -299,6 +428,13 @@ P.R. Rice and H.J. Carmichael.
   bad-cavity limit.
 \newblock {\em Quantum Electronics, IEEE Journal of}, 24(7):1351--1366, Jul
   1988.
+
+\bibitem{ritter}
+Stephan Ritter, Christian N\"{o}lleke, Carolin Hahn, Andreas Reiserer, Andreas
+  Neuzner, Manuel Uphoff, Martin M\"{u}cke, Eden Figueroa, Joerg Bochmann, and
+  Gerhard Rempe.
+\newblock An elementary quantum network of single atoms in optical cavities.
+\newblock {\em Nature}, 484:195--200, 2012.
 
 \bibitem{Robinson2005}
 Jacob~T. Robinson, Christina Manolatou, Long Chen, and Michal Lipson.
@@ -318,6 +454,12 @@ Amir~H Safavi-Naeini and Oskar Painter.
   translator.
 \newblock {\em New Journal of Physics}, 13(1):013017, 2011.
 
+\bibitem{stirap}
+S.~Schiemann, A.~Kuhn, S.~Steuerwald, and K.~Bergmann.
+\newblock Efficient coherent population transfer in no molecules using pulsed
+  lasers.
+\newblock {\em Phys. Rev. Lett.}, 71:3637--3640, Nov 1993.
+
 \bibitem{Schliesser2008}
 A.~Schliesser, R.~Rivi\`{e}re, G.~Anetsberger, O.~Arcizet, and T.~J.
   Kippenberg.
@@ -334,6 +476,23 @@ Michael Schmidt, Max Ludwig, and Florian Marquardt.
 R.~J. Schoelkopf and S.~M. Girvin.
 \newblock Wiring up quantum systems.
 \newblock {\em Nature}, 451:664--669, 2008.
+
+\bibitem{shor}
+Peter~W. Shor.
+\newblock Polynomial-time algorithms for prime factorization and discrete
+  logarithms on a quantum computer.
+\newblock {\em SIAM Journal on Computing}, 26(5):1484--1509, 1997.
+
+\bibitem{Anders2prl}
+Anders~S. S{\o}rensen and Klaus M{\o}lmer.
+\newblock Measurement induced entanglement and quantum computation with atoms
+  in optical cavities.
+\newblock {\em Phys. Rev. Lett.}, 91:097905, Aug 2003.
+
+\bibitem{Anders1prl}
+Anders~S. S{\o}rensen and Klaus M{\o}lmer.
+\newblock Probabilistic generation of entanglement in optical cavities.
+\newblock {\em Phys. Rev. Lett.}, 90:127903, Mar 2003.
 
 \bibitem{Stamper-kurn}
 Dan~M. Stamper-Kurn.
@@ -377,12 +536,37 @@ J.~D. Teufel, Dale Li, M.~S. Allman, K.~Cicak, A.~J. Sirois, J.~D. Whittaker,
 \newblock Circuit cavity electromechanics in the strong-coupling regime.
 \newblock {\em Nature}, 471:204--208, 2011.
 
+\bibitem{thompson}
+J.~D. Thompson, T.~G. Tiecke, N.~P. de~Leon, J.~Feist, A.~V. Akimov,
+  M.~Gullans, A.~S. Zibrov, V.~Vuleti\'{c}, and M.~D. Lukin.
+\newblock Coupling a single trapped atom to a nanoscale optical cavity.
+\newblock {\em Science}, 340(6137):1202--1205, 2013.
+
 \bibitem{Thompson2008}
 J.~D. Thompson, B.~M. Zwickl, A.~M. Jayich, Florian Marquardt, S.~M. Girvin,
   and J.~G.~E. Harris.
 \newblock Strong dispersive coupling of a high-finesse cavity to a
   micromechanical membrane.
 \newblock {\em Nature}, 452:72--75, 2007.
+
+\bibitem{Tiecke}
+T.~G. Tiecke, J.~D. Thompson, N.~P. de~Leon, L.~R. Liu, V.~Vuleti\'{c}, and
+  M.~D. Lukin.
+\newblock Nanophotonic quantum phase switch with a single atom.
+\newblock {\em Nature}, 508:241--244, 2014.
+
+\bibitem{togan}
+E.~Togan, Y.~Chu, A.~S. Trifonov, L.~Jiang, J.~Maze, L.~Childress, M.~V.~G.
+  Dutt, A.~S. S{\o}rensen, P.~R. Hemmer, A.~S. Zibrov, and M.~D. Lukin.
+\newblock Quantum entanglement between an optical photon and a solid-state spin
+  qubit.
+\newblock {\em Nature}, 466:730--734, 2010.
+
+\bibitem{varnava}
+Michael Varnava, Daniel~E. Browne, and Terry Rudolph.
+\newblock Loss tolerance in one-way quantum computation via counterfactual
+  error correction.
+\newblock {\em Phys. Rev. Lett.}, 97:120501, Sep 2006.
 
 \bibitem{Verhagen2011}
 E.~Verhagen, S.~Del\'{e}glise, S.~Weis, A.~Schliesser, and T.~J. Kippenberg.
@@ -424,5 +608,11 @@ Mian Zhang, Gustavo~S. Wiederhecker, Sasikanth Manipatruni, Arthur Barnard,
   Paul McEuen, and Michal Lipson.
 \newblock Synchronization of micromechanical oscillators using light.
 \newblock {\em Phys. Rev. Lett.}, 109:233906, Dec 2012.
+
+\bibitem{zheng}
+Shi-Biao Zheng.
+\newblock Implementation of toffoli gates with a single asymmetric heisenberg
+  $xy$ interaction.
+\newblock {\em Phys. Rev. A}, 87:042318, Apr 2013.
 
 \end{thebibliography}
