@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.30)  1 OCT 2015 12:09
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.30)  1 OCT 2015 13:37
 entering extended mode
 **thesis.tex
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.tex
@@ -329,10 +329,6 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\app_Stannigel2012.aux
 
 LaTeX Warning: Label `eq:Hlin' multiply defined.
-
-) (C:\Doc\Harvard\graduation\Thesis\TheThesis\b.aux
-
-LaTeX Warning: Label `Stannigel2012' multiply defined.
 
 ))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
@@ -950,26 +946,41 @@ Missing character: There is no ï in font cmr12!
 Missing character: There is no ¿ in font cmr12!
 Missing character: There is no ½ in font cmr12!
 ) [63]
-(C:\Doc\Harvard\graduation\Thesis\TheThesis\b.tex [64
+(C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.bbl [64
 
 
+]
+Missing character: There is no – in font cmr12!
+Missing character: There is no á in font cmr12!
+ [65] [66]
+Missing character: There is no ö in font cmr12!
+Missing character: There is no ä in font cmr12!
+ [67]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
 
-] [65] [66] [67] [68]pdfTeX warning (ext4): destination with the same identifie
-r (name{cite.Stannigel2012}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.652 \bibitem{Stannigel2012}
-                              [69]pdfTeX warning (ext4): destination with the s
-ame identifier (name{cite.Carmichael1991}) has been already used, duplicate ign
-ored
-<to be read again> 
-                   \relax 
-l.816 \bibitem{Carmichael1991}
-                               [70]) [71]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
+[68]
+Missing character: There is no ö in font cmr12!
+Missing character: There is no ’ in font cmr12!
+ [69]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [70]
+Underfull \hbox (badness 1142) in paragraph at lines 322--325
+[][]\OT1/cmr/m/n/12 Dan M. Stamper-Kurn.  Cav-ity op-tome-chan-ics with cold at
+oms.  page
+ []
 
-(C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.aux
+[71]
+Missing character: There is no é in font cmr12!
+Missing character: There is no è in font cmr12!
+Missing character: There is no é in font cmr12!
+ [72])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
+ [73]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
+ (C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.aux
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\frontmatter.aux)
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_intro.aux)
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Komar2013.aux)
@@ -980,10 +991,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Komar2014.aux)
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Komar2015.aux)
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\app_Komar2013.aux)
-(C:\Doc\Harvard\graduation\Thesis\TheThesis\app_Stannigel2012.aux)
-(C:\Doc\Harvard\graduation\Thesis\TheThesis\b.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
+(C:\Doc\Harvard\graduation\Thesis\TheThesis\app_Stannigel2012.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: AC6BB5E2EE7404FF8F1EB8BC8071D19F;4258.
 
@@ -993,16 +1003,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
  ) 
 Here is how much of TeX's memory you used:
- 7212 strings out of 494045
- 104539 string characters out of 3150402
- 195843 words of memory out of 3000000
- 9951 multiletter control sequences out of 15000+200000
+ 7176 strings out of 494045
+ 103762 string characters out of 3150402
+ 195431 words of memory out of 3000000
+ 9949 multiletter control sequences out of 15000+200000
  18568 words of font info for 70 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 34i,17n,50p,399b,433s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,17n,50p,399b,436s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Programs/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/p
@@ -1020,9 +1030,9 @@ nts/cm/cmti12.pfb><C:/Users/Petya/AppData/Roaming/MiKTeX/2.9/fonts/type1/public
 /dstroke/dsrom12.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbol
 s/msam10.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10
 .pfb>
-Output written on thesis.pdf (81 pages, 2380727 bytes).
+Output written on thesis.pdf (83 pages, 2376091 bytes).
 PDF statistics:
- 1835 PDF objects out of 2073 (max. 8388607)
- 348 named destinations out of 1000 (max. 500000)
+ 1805 PDF objects out of 2073 (max. 8388607)
+ 318 named destinations out of 1000 (max. 500000)
  576 words of extra memory for PDF output out of 10000 (max. 10000000)
 
