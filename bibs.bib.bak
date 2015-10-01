@@ -1,5 +1,5 @@
 % This file was created with JabRef 2.8.1.
-% Encoding: Cp1252 
+% Encoding: Cp1252
 
 @ARTICLE{Akram2010,
   author = {U Akram and N Kiesel and M Aspelmeyer and G J Milburn},
@@ -325,6 +325,19 @@
   url = {http://scitation.aip.org/content/aip/journal/apl/101/8/10.1063/1.4747726}
 }
 
+@ARTICLE{Chang2007,
+  author = {Darrick E. Chang and Anders S. S{\o}rensen and Eugene A. Demler and
+	Mikhail D. Lukin},
+  title = {A single-photon transistor using nanoscale surface plasmons},
+  journal = {Nature Physics},
+  year = {2007},
+  volume = {3},
+  pages = {807--812},
+  doi = {10.1038/nphys708},
+  owner = {Peter Komar},
+  timestamp = {2015.10.01}
+}
+
 @ARTICLE{Chang2011,
   author = {D E Chang and A H Safavi-Naeini and M Hafezi and O Painter},
   title = {Slowing and stopping light using an optomechanical crystal array},
@@ -348,19 +361,6 @@
 	this system is capable of achieving large bandwidths and storage/delay
 	times in a compact, on-chip platform.},
   url = {http://stacks.iop.org/1367-2630/13/i=2/a=023003}
-}
-
-@ARTICLE{Chang2007,
-  author = {Darrick E. Chang and Anders S. Sorensen and Eugene A. Demler and
-	Mikhail D. Lukin},
-  title = {A single-photon transistor using nanoscale surface plasmons},
-  journal = {Nature Physics},
-  year = {2007},
-  volume = {3},
-  pages = {807--812},
-  doi = {10.1038/nphys708},
-  owner = {Peter Komar},
-  timestamp = {2015.10.01}
 }
 
 @ARTICLE{Cheung2011,
@@ -459,6 +459,21 @@
   numpages = {4},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.104.033901}
+}
+
+@ARTICLE{DuanPRL2004,
+  author = {Duan, L.-M. and Kimble, H. J.},
+  title = {Scalable Photonic Quantum Computation through Cavity-Assisted Interactions},
+  journal = {Phys. Rev. Lett.},
+  year = {2004},
+  volume = {92},
+  pages = {127902},
+  month = {Mar},
+  doi = {10.1103/PhysRevLett.92.127902},
+  issue = {12},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.92.127902}
 }
 
 @ARTICLE{Eichenfield2009,
@@ -806,6 +821,23 @@
   url = {http://link.aps.org/doi/10.1103/RevModPhys.75.457}
 }
 
+@ARTICLE{MarquardtPRL2007,
+  author = {Marquardt, Florian and Chen, Joe P. and Clerk, A. A. and Girvin,
+	S. M.},
+  title = {Quantum Theory of Cavity-Assisted Sideband Cooling of Mechanical
+	Motion},
+  journal = {Phys. Rev. Lett.},
+  year = {2007},
+  volume = {99},
+  pages = {093902},
+  month = {Aug},
+  doi = {10.1103/PhysRevLett.99.093902},
+  issue = {9},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.99.093902}
+}
+
 @ARTICLE{Marquardt2009,
   author = {Marquardt, Florian and Girvin, Steven M.},
   title = {Trend: Optomechanics},
@@ -941,6 +973,21 @@
   numpages = {5},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.107.063601}
+}
+
+@ARTICLE{CavityQEDReview,
+  author = {Raimond, J. M. and Brune, M. and Haroche, S.},
+  title = {Manipulating quantum entanglement with atoms and photons in a cavity},
+  journal = {Rev. Mod. Phys.},
+  year = {2001},
+  volume = {73},
+  pages = {565--582},
+  month = {Aug},
+  doi = {10.1103/RevModPhys.73.565},
+  issue = {3},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/RevModPhys.73.565}
 }
 
 @ARTICLE{Regal2011,
@@ -1247,6 +1294,23 @@
   numpages = {4},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.103.207204}
+}
+
+@ARTICLE{WilsonRaePRL2007,
+  author = {Wilson-Rae, I. and Nooshi, N. and Zwerger, W. and Kippenberg, T.
+	J.},
+  title = {Theory of Ground State Cooling of a Mechanical Oscillator Using Dynamical
+	Backaction},
+  journal = {Phys. Rev. Lett.},
+  year = {2007},
+  volume = {99},
+  pages = {093901},
+  month = {Aug},
+  doi = {10.1103/PhysRevLett.99.093901},
+  issue = {9},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.99.093901}
 }
 
 @ARTICLE{Xiong2012,

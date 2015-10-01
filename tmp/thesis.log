@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.30)  1 OCT 2015 13:37
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.30)  1 OCT 2015 15:22
 entering extended mode
 **thesis.tex
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.tex
@@ -564,263 +564,53 @@ Package pdftex.def Info: ./figs_Komar2013/fig7.pdf used on input line 1675.
  [29]) [30]
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Stannigel2012.tex
 Chapter 3.
-
-LaTeX Warning: Citation `OptoReview' on page 31 undefined on input line 11.
-
-
-LaTeX Warning: Citation `FirstCavityCoolingExp' on page 31 undefined on input l
-ine 13.
-
-
-LaTeX Warning: Citation `TeufelNature2011' on page 31 undefined on input line 1
-7.
-
-
-LaTeX Warning: Citation `ChanNature2011' on page 31 undefined on input line 17.
-
-
-
-LaTeX Warning: Citation `WeisScience2010' on page 31 undefined on input line 19
-.
-
-
-LaTeX Warning: Citation `SafaviNaeiniNature2011' on page 31 undefined on input 
-line 19.
-
-
-LaTeX Warning: Citation `FiorePRL2011' on page 31 undefined on input line 21.
-
-
-LaTeX Warning: Citation `VerhagenNature2012' on page 31 undefined on input line
- 21.
-
 [31
 
 
 
-]
-
-LaTeX Warning: Citation `MarshallPRL2003' on page 32 undefined on input line 37
-.
-
-
-LaTeX Warning: Citation `LudwigNJP2008' on page 32 undefined on input line 37.
-
-
-LaTeX Warning: Citation `RablPRL2011' on page 32 undefined on input line 37.
-
-
-LaTeX Warning: Citation `NunnenkampPRL2011' on page 32 undefined on input line 
-37.
-
-
-LaTeX Warning: Citation `RablPRL2011' on page 32 undefined on input line 41.
-
-
-LaTeX Warning: Citation `ChanNature2011' on page 32 undefined on input line 43.
-
-
-
-LaTeX Warning: Citation `EichenfieldNature2009' on page 32 undefined on input l
-ine 43.
-
-
-LaTeX Warning: Citation `CarmonPRL2007' on page 32 undefined on input line 43.
-
-
-LaTeX Warning: Citation `DingAPL2011' on page 32 undefined on input line 43.
-
-
-LaTeX Warning: Citation `GuptaPRL2007' on page 32 undefined on input line 44.
-
-
-LaTeX Warning: Citation `BrenneckeScience2008' on page 32 undefined on input li
-ne 44.
-
-
-LaTeX Warning: Citation `FiorePRL2011' on page 32 undefined on input line 50.
-
-
-LaTeX Warning: Citation `VerhagenNature2012' on page 32 undefined on input line
- 50.
-
-
-LaTeX Warning: Citation `Painter2011' on page 32 undefined on input line 50.
-
-<./figs_Stannigel2012/Figure1.pdf, id=1105, 518.08154pt x 228.41536pt>
+] <./figs_Stannigel2012/Figure1.pdf, id=1136, 518.08154pt x 228.41536pt>
 File: ./figs_Stannigel2012/Figure1.pdf Graphic file (type pdf)
 
 <use ./figs_Stannigel2012/Figure1.pdf>
 Package pdftex.def Info: ./figs_Stannigel2012/Figure1.pdf used on input line 55
 .
 (pdftex.def)             Requested size: 390.25534pt x 172.06392pt.
-
-
-LaTeX Warning: Citation `EichenfieldNature2009' on page 32 undefined on input l
-ine 67.
-
-
-LaTeX Warning: Citation `ChanNature2011' on page 32 undefined on input line 67.
-
-
-
-LaTeX Warning: Citation `EichenfieldNature2009' on page 32 undefined on input l
-ine 67.
-
-
-LaTeX Warning: Citation `ChanNature2011' on page 32 undefined on input line 67.
-
-
-
-LaTeX Warning: Citation `MiaoPRL2009' on page 32 undefined on input line 76.
-
-
-LaTeX Warning: Citation `GrudininPRL2010' on page 32 undefined on input line 76
-.
-
-
-LaTeX Warning: Citation `DobrindtPRL2010' on page 32 undefined on input line 76
-.
-
-
-LaTeX Warning: Citation `Painter2011' on page 32 undefined on input line 76.
-
-
-LaTeX Warning: Citation `CheungPRA2011' on page 32 undefined on input line 76.
-
-
-LaTeX Warning: Citation `EichenfieldNature2009' on page 32 undefined on input l
-ine 78.
-
-
-LaTeX Warning: Citation `ChanNature2011' on page 32 undefined on input line 78.
-
-
-[32]
+ [32]
 Missing character: There is no Ê in font cmr12!
 Missing character: There is no Ê in font cmr12!
-
-
-LaTeX Warning: Citation `WilsonRaePRL2007' on page 33 undefined on input line 9
-1.
-
-
-LaTeX Warning: Citation `MarquardtPRL2007' on page 33 undefined on input line 9
-1.
-
-
-LaTeX Warning: Citation `FiorePRL2011' on page 33 undefined on input line 91.
-
-
-LaTeX Warning: Citation `VerhagenNature2012' on page 33 undefined on input line
- 91.
-
-
-LaTeX Warning: Citation `ZhangPRA2003' on page 33 undefined on input line 91.
-
-
-LaTeX Warning: Citation `AkramNJP2010' on page 33 undefined on input line 91.
-
-[33 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Stannigel2012/Figure1.pdf>
-]
-
-LaTeX Warning: Citation `DecoherenceRate' on page 34 undefined on input line 11
-0.
-
-<./figs_Stannigel2012/Figure2.pdf, id=1179, 518.21909pt x 235.72064pt>
+ [33 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Stannigel2012/Figure1.pdf
+>]
+<./figs_Stannigel2012/Figure2.pdf, id=1228, 518.21909pt x 235.72064pt>
 File: ./figs_Stannigel2012/Figure2.pdf Graphic file (type pdf)
 
 <use ./figs_Stannigel2012/Figure2.pdf>
-Package pdftex.def Info: ./figs_Stannigel2012/Figure2.pdf used on input line 11
-3.
+Package pdftex.def Info: ./figs_Stannigel2012/Figure2.pdf used on input line 12
+1.
 (pdftex.def)             Requested size: 433.62pt x 197.24866pt.
-
-
-LaTeX Warning: Citation `EichenfieldNature2009' on page 34 undefined on input l
-ine 142.
-
-
-LaTeX Warning: Citation `ChanNature2011' on page 34 undefined on input line 142
-.
-
-
-LaTeX Warning: Citation `CarmonPRL2007' on page 34 undefined on input line 142.
-
-
-
-LaTeX Warning: Citation `DingAPL2011' on page 34 undefined on input line 142.
-
-
-LaTeX Warning: Citation `EichenfieldNature2009' on page 34 undefined on input l
-ine 144.
-
-
-LaTeX Warning: Citation `GrudininPRL2010' on page 34 undefined on input line 14
-4.
-
-
-LaTeX Warning: Citation `GrudininPRL2010' on page 34 undefined on input line 14
-7.
-
-[34] [35 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Stannigel2012/Figure2
-.pdf>]
-
-LaTeX Warning: Citation `CavityQEDReview' on page 36 undefined on input line 16
-5.
-
-[36]
-
-LaTeX Warning: Citation `RablPRL2011' on page 37 undefined on input line 210.
-
-
-LaTeX Warning: Citation `ChanNature2011' on page 37 undefined on input line 215
-.
-
-<./figs_Stannigel2012/Figure3.pdf, id=1240, 500.87125pt x 149.82375pt>
+ [34] [35 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Stannigel2012/Figure
+2.pdf>] [36]
+<./figs_Stannigel2012/Figure3.pdf, id=1307, 500.87125pt x 149.82375pt>
 File: ./figs_Stannigel2012/Figure3.pdf Graphic file (type pdf)
 
 <use ./figs_Stannigel2012/Figure3.pdf>
-Package pdftex.def Info: ./figs_Stannigel2012/Figure3.pdf used on input line 21
-9.
+Package pdftex.def Info: ./figs_Stannigel2012/Figure3.pdf used on input line 22
+7.
 (pdftex.def)             Requested size: 433.62pt x 129.71234pt.
- [37]
-
-LaTeX Warning: Citation `DuanPRL2004' on page 38 undefined on input line 236.
-
-[38 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Stannigel2012/Figure3.pdf>
-]
-
-LaTeX Warning: Citation `ChanNature2011' on page 39 undefined on input line 275
-.
-
-
-LaTeX Warning: Citation `FiorePRL2011' on page 39 undefined on input line 291.
-
-
-LaTeX Warning: Citation `VerhagenNature2012' on page 39 undefined on input line
- 291.
-
-
-LaTeX Warning: Citation `ZhangPRA2003' on page 39 undefined on input line 291.
-
-
-LaTeX Warning: Citation `AkramNJP2010' on page 39 undefined on input line 291.
-
-<./figs_Stannigel2012/Figure4.pdf, id=1305, 482.55281pt x 150.5625pt>
+ [37] [38 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Stannigel2012/Figure
+3.pdf>]
+<./figs_Stannigel2012/Figure4.pdf, id=1379, 482.55281pt x 150.5625pt>
 File: ./figs_Stannigel2012/Figure4.pdf Graphic file (type pdf)
 
 <use ./figs_Stannigel2012/Figure4.pdf>
-Package pdftex.def Info: ./figs_Stannigel2012/Figure4.pdf used on input line 30
-2.
+Package pdftex.def Info: ./figs_Stannigel2012/Figure4.pdf used on input line 31
+0.
 (pdftex.def)             Requested size: 433.62pt x 135.3005pt.
  [39] [40 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Stannigel2012/Figure
 4.pdf>]
-
-LaTeX Warning: Citation `SM' on page 41 undefined on input line 360.
-
 Missing character: There is no Ê in font cmr12!
 Missing character: There is no Ê in font cmr12!
-[41]) [42] (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Borregaard2015a.tex
+ [41]) [42]
+(C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Borregaard2015a.tex
 Chapter 4.
 ) [43
 
@@ -919,7 +709,7 @@ Missing character: There is no ï in font cmr12!
 Missing character: There is no ¿ in font cmr12!
 Missing character: There is no ½ in font cmr12!
 
-<./figs_Stannigel2012/Figure_suppl.pdf, id=1554, 533.60756pt x 206.7725pt>
+<./figs_Stannigel2012/Figure_suppl.pdf, id=1629, 533.60756pt x 206.7725pt>
 File: ./figs_Stannigel2012/Figure_suppl.pdf Graphic file (type pdf)
 
 <use ./figs_Stannigel2012/Figure_suppl.pdf>
@@ -946,40 +736,39 @@ Missing character: There is no ï in font cmr12!
 Missing character: There is no ¿ in font cmr12!
 Missing character: There is no ½ in font cmr12!
 ) [63]
-(C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.bbl [64
+(C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.bbl
+Missing character: There is no – in font cmr12!
+ [64
 
 
 ]
-Missing character: There is no – in font cmr12!
 Missing character: There is no á in font cmr12!
- [65] [66]
+ [65]
 Missing character: There is no ö in font cmr12!
 Missing character: There is no ä in font cmr12!
- [67]
+ [66]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¶ in font cmr12!
-
-[68]
 Missing character: There is no ö in font cmr12!
 Missing character: There is no ’ in font cmr12!
- [69]
+ [67]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [70]
-Underfull \hbox (badness 1142) in paragraph at lines 322--325
+
+Underfull \hbox (badness 1142) in paragraph at lines 339--342
 [][]\OT1/cmr/m/n/12 Dan M. Stamper-Kurn.  Cav-ity op-tome-chan-ics with cold at
 oms.  page
  []
 
-[71]
+[68]
 Missing character: There is no é in font cmr12!
 Missing character: There is no è in font cmr12!
 Missing character: There is no é in font cmr12!
- [72])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
- [73]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
+ [69])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
+ [70]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
  (C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.aux
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\frontmatter.aux)
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_intro.aux)
@@ -992,27 +781,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Komar2015.aux)
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\app_Komar2013.aux)
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\app_Stannigel2012.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: AC6BB5E2EE7404FF8F1EB8BC8071D19F;4258.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
  ) 
 Here is how much of TeX's memory you used:
- 7176 strings out of 494045
- 103762 string characters out of 3150402
- 195431 words of memory out of 3000000
- 9949 multiletter control sequences out of 15000+200000
- 18568 words of font info for 70 fonts, out of 3000000 for 9000
+ 7163 strings out of 494045
+ 103516 string characters out of 3150402
+ 195581 words of memory out of 3000000
+ 9929 multiletter control sequences out of 15000+200000
+ 20129 words of font info for 76 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 34i,17n,50p,399b,436s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,17n,50p,383b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Programs/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/p
@@ -1030,9 +816,9 @@ nts/cm/cmti12.pfb><C:/Users/Petya/AppData/Roaming/MiKTeX/2.9/fonts/type1/public
 /dstroke/dsrom12.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbol
 s/msam10.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10
 .pfb>
-Output written on thesis.pdf (83 pages, 2376091 bytes).
+Output written on thesis.pdf (80 pages, 2391777 bytes).
 PDF statistics:
- 1805 PDF objects out of 2073 (max. 8388607)
- 318 named destinations out of 1000 (max. 500000)
+ 1873 PDF objects out of 2073 (max. 8388607)
+ 320 named destinations out of 1000 (max. 500000)
  576 words of extra memory for PDF output out of 10000 (max. 10000000)
 

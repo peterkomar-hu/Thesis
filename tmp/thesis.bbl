@@ -114,6 +114,12 @@ J.~M. Dobrindt and T.~J. Kippenberg.
   multiple cavity mode transducer.
 \newblock {\em Phys. Rev. Lett.}, 104:033901, Jan 2010.
 
+\bibitem{DuanPRL2004}
+L.-M. Duan and H.~J. Kimble.
+\newblock Scalable photonic quantum computation through cavity-assisted
+  interactions.
+\newblock {\em Phys. Rev. Lett.}, 92:127902, Mar 2004.
+
 \bibitem{Eichenfield2009}
 Matt Eichenfield, Jasper Chan, Ryan~M. Camacho, Kerry~J. Vahala, and Oskar
   Painter.
@@ -222,6 +228,12 @@ M.~D. Lukin.
   atomic ensembles.
 \newblock {\em Rev. Mod. Phys.}, 75:457--472, Apr 2003.
 
+\bibitem{MarquardtPRL2007}
+Florian Marquardt, Joe~P. Chen, A.~A. Clerk, and S.~M. Girvin.
+\newblock Quantum theory of cavity-assisted sideband cooling of mechanical
+  motion.
+\newblock {\em Phys. Rev. Lett.}, 99:093902, Aug 2007.
+
 \bibitem{Marquardt2009}
 Florian Marquardt and Steven~M. Girvin.
 \newblock Trend: Optomechanics.
@@ -270,6 +282,11 @@ T.~P. Purdy, D.~W.~C. Brooks, T.~Botter, N.~Brahms, Z.-Y. Ma, and D.~M.
 P.~Rabl.
 \newblock Photon blockade effect in optomechanical systems.
 \newblock {\em Phys. Rev. Lett.}, 107:063601, Aug 2011.
+
+\bibitem{CavityQEDReview}
+J.~M. Raimond, M.~Brune, and S.~Haroche.
+\newblock Manipulating quantum entanglement with atoms and photons in a cavity.
+\newblock {\em Rev. Mod. Phys.}, 73:565--582, Aug 2001.
 
 \bibitem{Regal2011}
 C~A Regal and K~W Lehnert.
@@ -383,6 +400,12 @@ Stefan Weis, Rémi Rivière, Samuel Deléglise, Emanuel Gavartin, Olivier Arcizet,
 D.~J. Wilson, C.~A. Regal, S.~B. Papp, and H.~J. Kimble.
 \newblock Cavity optomechanics with stoichiometric sin films.
 \newblock {\em Phys. Rev. Lett.}, 103:207204, Nov 2009.
+
+\bibitem{WilsonRaePRL2007}
+I.~Wilson-Rae, N.~Nooshi, W.~Zwerger, and T.~J. Kippenberg.
+\newblock Theory of ground state cooling of a mechanical oscillator using
+  dynamical backaction.
+\newblock {\em Phys. Rev. Lett.}, 99:093901, Aug 2007.
 
 \bibitem{Xiong2012}
 Chi Xiong, Wolfram H~P Pernice, Xiankai Sun, Carsten Schuck, King~Y Fong, and

@@ -8,17 +8,17 @@
 Optomechanics describes the radiation pressure interaction between an optical
 cavity mode and the motion of a macroscopic mechanical object, as it appears,
 for example, in a Fabry-P\'{e}rot cavity with a moveable
-mirror~\cite{OptoReview}.
+mirror~\cite{Kippenberg2008, Marquardt2009, AspelmeyerNJP2008}.
 First demonstrations of optomechanical (OM)  laser
-cooling~\cite{FirstCavityCoolingExp} have recently attracted significant
-interest and led to tremendous progress in the development of new fabrication
-methods and experimental techniques for controlling OM interactions at the
+cooling~\cite{Metzger2004, Gigan2006, Arcizet2006, Kleckner2006, Corbitt2007,
+Thompson2008, Schliesser2008, Wilson2009} have recently attracted significant
+interest and led to tremendous progress in the development of new fabrication methods and experimental techniques for controlling OM interactions at the
 quantum level.
-Apart from ground-state cooling~\cite{TeufelNature2011,ChanNature2011}, this
+Apart from ground-state cooling~\cite{Teufel2011, Chan2011}, this
 includes the demonstration of slow
-light~\cite{WeisScience2010,SafaviNaeiniNature2011}, and the coherent
+light~\cite{Weis2010, Safavi-Naeini2011}, and the coherent
 interconversion of optical and mechanical
-excitations~\cite{FiorePRL2011,VerhagenNature2012}. These achievements pave the
+excitations~\cite{Fiore2011, Verhagen2011}. These achievements pave the
 way for a new type of quantum light-matter interface and give rise to
 interesting perspectives for novel OM-based quantum technologies. As a
 solid-state approach, such an all-OM platform would benefit directly from
@@ -34,20 +34,20 @@ optimal way. Our approach is based on the resonant exchange of photons between
 two optical modes mediated by a single phonon. This resonance induces much
 stronger nonlinearities than achievable in single-mode OMSs, where nonlinear
 effects  are suppressed by a large mechanical
-frequency~\cite{MarshallPRL2003,LudwigNJP2008,RablPRL2011,NunnenkampPRL2011}.
+frequency~\cite{Marshall2003, Ludwig2008, Rabl2011, Nunnenkamp2011}.
 Consequently, multimode OMSs provide a promising route for accessing the
 single-photon strong-coupling regime, where the coupling $g_0$ as well as the
 mechanical frequency $\omega_m$ exceeds the cavity decay rate
-$\kappa$~\cite{RablPRL2011}.
+$\kappa$~\cite{Rabl2011}.
 This regime is within reach of state-of-the-art nanoscale OM
-devices~\cite{ChanNature2011,EichenfieldNature2009,CarmonPRL2007,DingAPL2011} or
-analogous cold atom OMSs~\cite{GuptaPRL2007,BrenneckeScience2008}, and here we
+devices~\cite{Chan2011,Eichenfield2009,Carmon2007,Ding2011} or
+analogous cold atom OMSs~\cite{Gupta2007,Brennecke2008}, and here we
 discuss how strong OM interactions in a multimode setup can be used to generate
 single photons and to perform controlled gate operations between photonic or
 mechanical qubits.
 Combined with very recently developed photon-phonon interfaces and quantum
-memories based on linearized OM couplings~\cite{FiorePRL2011,VerhagenNature2012,
-Painter2011}, our results provide a basis for efficient OM classical and quantum
+memories based on linearized OM couplings~\cite{Fiore2011,Verhagen2011,
+Safavi-Naeini2011a}, our results provide a basis for efficient OM classical and quantum
 information processing with applications ranging from photon transistors to
 quantum repeaters and networks.
 \begin{figure}
@@ -56,7 +56,7 @@ quantum repeaters and networks.
 \caption
 [Model of two resonators]
 { a) Setup of two tunnel-coupled OM crystal cavities (see
-Ref.~\cite{EichenfieldNature2009,ChanNature2011} for more details).  b) Level
+Ref.~\cite{Eichenfield2009,Chan2011} for more details).  b) Level
 diagram showing the lowest mechanical and optical excitations in a two mode OMS.
 Resonant coupling $(\delta=0)$ occurs when the tunnel splitting $2J$ between the
 optical modes is comparable to the mechanical frequency $\omega_m$. c) Different
@@ -73,9 +73,9 @@ $(\omega_c^\prime,\omega_L^\prime)$.
 \section{Model} 
 
 We consider a setup of two tunnel-coupled
-OMSs~\cite{MiaoPRL2009,GrudininPRL2010,DobrindtPRL2010,Painter2011,CheungPRA2011}
+OMSs~\cite{Miao2009,Grudinin2010,Dobrindt2010,Safavi-Naeini2011a,Cheung2011}
 as schematically shown in Fig.~\ref{fig:Setup}, focusing on the OM crystal
-design~\cite{EichenfieldNature2009,ChanNature2011} as a specific example.
+design~\cite{Eichenfield2009,Chan2011} as a specific example.
 Each OMS $i=1,2$ is represented by an optical mode of frequency $\omega_c$ and a
 bosonic operator $c_{i}$, which is coupled via optical gradient forces to the
 motion of an isolated mechanical mode $b_i$ with vibrational frequency
@@ -87,8 +87,15 @@ c_i (b_i+ b_i^\dag) \\
 &- J (c_1^\dag c_{2} + c_{1} c_{2}^\dag) +   \sum_{i=1,2}  \Omega_i ( c_i 
 e^{i\omega_L t} + Ê{\rm H.c.}),
 \end{split}\end{equation}
-where $J$ is the tunneling amplitude between the optical modes and $g_0$ denotes the single-photon OM coupling; $\Omega_i$ are the local amplitudes of external control laser fields of frequency $\omega_L$.  Below we also consider an additional set of cavity modes and driving fields with frequencies $\omega_c^\prime $ and  $\omega_L^\prime$, respectively.  
-As indicated in Fig.~\ref{fig:Setup}(c), we assume these modes to be separated in frequency and used for cooling the mechanical modes~\cite{WilsonRaePRL2007,MarquardtPRL2007}, and linear photon storage and retrieval operations~\cite{FiorePRL2011,VerhagenNature2012,ZhangPRA2003,AkramNJP2010} only.
+where $J$ is the tunneling amplitude between the optical modes and $g_0$ denotes
+the single-photon OM coupling; $\Omega_i$ are the local amplitudes of external
+control laser fields of frequency $\omega_L$.  Below we also consider an
+additional set of cavity modes and driving fields with frequencies
+$\omega_c^\prime $ and  $\omega_L^\prime$, respectively.
+As indicated in Fig.~\ref{fig:Setup}(c), we assume these modes to be separated
+in frequency and used for cooling the mechanical 
+modes~\cite{WilsonRaePRL2007, MarquardtPRL2007}, and linear photon storage and
+retrieval operations~\cite{Fiore2011, Verhagen2011, Zhang2003, Akram2010} only. 
 
 Apart from the coherent dynamics described by Eq.~\eqref{eq:H}, we include
 dissipation through cavity decay and mechanical damping and model the evolution
@@ -107,7 +114,8 @@ mechanical damping rate for a quality factor $Q$ and $N_{\rm th}=(e^{\hbar
 \omega_m/k_BT}-1)^{-1}$ the mechanical equilibrium occupation number for
 temperature $T$. Below we identify $\Gamma_m=\frac{\gamma}{2}(3N_{\rm
 th}+\frac{1}{2})$ as the characteristic decoherence rate for mechanical qubit
-states~\cite{DecoherenceRate}.
+states\footnote{$\Gamma_m$ corresponds to the initial decoherence rate of a
+phonon superposition $(|0_m\rangle+|1_m\rangle)/\sqrt{2}$.}.
 \begin{figure}
 \begin{center}
 \includegraphics[width=1\textwidth]{./figs_Stannigel2012/Figure2.pdf}
@@ -139,12 +147,12 @@ c_2\right)/\sqrt{2}$ with eigenfrequencies $\omega_{s,a}$ split by $2J$.
 Further, we assume that $\omega_m\sim 2J \gg g_0,\kappa, |\delta|$, where
 $\delta=2J-\omega_m$  (see Fig.~\ref{fig:Setup}(b)). This condition can be
 achieved in nanoscale OMSs where $\omega_m\sim $
-GHz~\cite{EichenfieldNature2009,ChanNature2011,CarmonPRL2007,DingAPL2011} and a
+GHz~\cite{Eichenfield2009,Chan2011,Carmon2007,Ding2011} and a
 matching tunnel splitting can be designed by appropriately adjusting the spacing
-between the cavities~\cite{EichenfieldNature2009,GrudininPRL2010}. In this
+between the cavities~\cite{Eichenfield2009,Grudinin2010}. In this
 regime we can make a rotating wave approximation with respect to the large
 frequency scale $\omega_m \sim 2J$ and after changing into a frame rotating with
-$\omega_L$ we obtain~\cite{GrudininPRL2010}
+$\omega_L$ we obtain~\cite{Grudinin2010}
 \begin{equation}\label{eq:HRWA}
 H= - \Delta_s c_s^\dag c_s - \Delta_a  c_a^\dag c_a   + \omega_m b^\dag b 
 + \frac{g_0}{2} (c_a c_s^\dag b^\dag +    c_a^\dag c_s  b)+ H_\Omega(t).
@@ -207,12 +215,12 @@ correlation function scales as $\textrm{min}_{\Delta_a}\{g^{(2)}(0)\}\simeq 8
 \kappa^2/g_0^2$. This demonstrates an improved scaling over off-resonant photon
 blockade effects in single-mode OMSs, where for large $\omega_m$ only a small
 reduction $g^{(2)}(0)\simeq 1-g_0^2 /(\kappa \omega_m)$ can be
-obtained~\cite{RablPRL2011}. Since the positions of the single and two-photon
+obtained~\cite{Rabl2011}. Since the positions of the single and two-photon
 resonances depend explicitly on the mechanical state $|n_m\rangle$,  finite
 temperature degrades the quality of the single-photon source.  Nevertheless,
 with increasing coupling strength the anti-bunching effect becomes surprisingly
 robust and when combined with cooling cycles to achieve $\langle n_m\rangle \sim
-1$~\cite{ChanNature2011}, allows the operation of OM single-photon sources even
+1$~\cite{Chan2011}, allows the operation of OM single-photon sources even
 at environmental temperatures of a few Kelvin.
 \begin{figure}
 \begin{center}
@@ -272,7 +280,7 @@ A minimal error is achieved for  $\tau_p^{-1}\approx \sqrt[3]{\kappa^2
 \Gamma_m}$ where we obtain $\epsilon\approx {\rm  max} \{  4\kappa^2/g_0^2,
 \sqrt[3]{\Gamma_m^2 /\kappa^2}\}$.
 Assuming an OM crystal device with $\omega_m/(2\pi)=4$ GHz and $Q=10^5$ as
-discussed in Ref.~\cite{ChanNature2011}, but with an improved OM coupling
+discussed in Ref.~\cite{Chan2011}, but with an improved OM coupling
 $g_0/(2\pi)=50$ MHz and a lower  decay rate $\kappa/(2\pi)=5$ MHz, we obtain
 gate errors $\epsilon\approx 0.1$ for environmental temperatures around
 $T\approx 100$ mK.
@@ -288,7 +296,7 @@ in long-lived mechanical modes.
 Our approach is depicted 
 in Fig.~\ref{fig:PhononQuantumGate}(a), 
 and combines the long coherence times of an OM 
-quantum memory~\cite{FiorePRL2011,VerhagenNature2012,ZhangPRA2003,AkramNJP2010} 
+quantum memory~\cite{Fiore2011,Verhagen2011,Zhang2003,Akram2010} 
 with the practical utility of exploiting interactions 
 between stationary phononic qubits.
 We focus on the limit $\Gamma_m\ll \kappa$, 
@@ -357,7 +365,8 @@ yielding an effective ME  for $c_s$, $b_1$ and $b_2$.
 Finally, we adiabatically eliminate the $c_s$ mode, valid in the
 limit $|\alpha|\sim \mathcal{O}(1)$ and $(g_0^2|\alpha|/4\delta)\ll
 |\Delta_s+i\kappa|$,
-to obtain an effective ME for the mechanical modes~\cite{SM},
+to obtain an effective ME for the mechanical modes (see Appendix
+\ref{app:Stannigel2012} for more details), 
 \begin{equation}\label{eq:Effective}
 \begin{split}
 \dot \rho_m =& -i[H_m + \Lambda (b_1^\dag b_1-b_2^\dag b_2)^2 Ê, \rho_m ] 
