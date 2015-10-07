@@ -3,11 +3,14 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces The characteristics of the three gates considered for the cavity-based repeaters. $C$ is the cooperativity of the atom-cavity system and $\eta _{\unhbox \voidb@x \hbox {\fontsize 6{7pt}\selectfont d}}$ is the single photon detection efficiency in gate 2. The time of the single qubit rotations is assumed to be 10 $\mu $s. }}{75}{table.5.1}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Parameters in the numerical optimization}}{77}{table.5.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {C.1}{\ignorespaces Comparison of CZ and Toffoli gates}}{77}{table.C.1}
-\contentsline {table}{\numberline {C.2}{\ignorespaces Perturbation validity criteria}}{89}{table.C.2}
+\contentsline {table}{\numberline {C.1}{\ignorespaces Comparison of CZ and Toffoli gates}}{108}{table.C.1}
+\contentsline {table}{\numberline {C.2}{\ignorespaces Perturbation validity criteria}}{120}{table.C.2}
+\addvspace {10\p@ }

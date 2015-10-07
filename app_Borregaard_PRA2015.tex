@@ -1,0 +1,520 @@
+\chapter{Appendices for Chapter \ref{ch:Borregaard_PRA2015}}
+\label{app:Borregaard_PRA2015}
+
+\section{Error analysis of the single-photon scheme} \label{single}
+
+The setup of the single-photon scheme is described in Sec. \ref{sec:1phot}. The
+single photon detectors are assumed to have a dark count probability of
+$P_{\text{dark}}$ and an efficiency of $\eta_{\text{d}}$ while the transmission
+efficiency of the fibers is denoted $\eta_{\text{f}}$.  As described in Sec.
+\ref{sec:generation}, the probability of an emitter to go from the excited
+state, $\ket{e}$ to the ground state $\ket{1}$ is $P_{\text{phot}}$ while the
+excitation probability is $\epsilon^{2}$. The scheme is conditioned on a single
+click at the central station. Depending on which detector gave the click, a
+single qubit rotation can be employed such that ideally the state
+$\ket{\Psi^{+}}$ is created. Going through all the possibilities of obtaining a
+single click at the central station, we find that the density matrix following a
+single click, and possible subsequent single qubit rotations, is
+\begin{eqnarray}
+\rho_{1click}&=&F_{1}\ket{\Psi^{+}}\bra{\Psi^{+}}+
+\alpha_{1}\ket{\Phi^{+}}\bra{\Phi^{+}}+\alpha_{1}
+\ket{\Phi^{-}}\bra{\Phi^{-}}\qquad\nonumber
+\\
+&&+\beta_{1}\ket{\Psi^{-}}\bra{\Psi^{-}}+
+\tilde{\alpha}_{1}\ket{00}\bra{00}+ \tilde{\beta}_{1}\ket{11}\bra{11},
+\end{eqnarray}
+with coefficients
+\begin{eqnarray}
+&&F_{1}=\frac{1}{P_{\text{1click}}}
+\Big[2\eta_{\text{d}}\eta_{\text{f}}P_p
+\epsilon^{2}(1-\epsilon^{2})(1-P_d)
++2\eta_{\text{f}}(1-\eta_{\text{d}})P_p
+\epsilon^{2}(1-\epsilon^{2})P_d(1-P_d)\nonumber
+\\
+&&\qquad+\frac{1}{2}\eta_{\text{d}}\eta_{\text{f}}P_p
+\epsilon^{4}(1-P_p(1-P_d)+2(1-\eta_{\text{f}})P_p\epsilon^{2}(1-
+\epsilon^{2})P_d(1-P_d) \nonumber \\
+&&\qquad+(1-\eta_{\text{d}}\eta_{\text{f}})P_p
+\epsilon^{4}(1-P_p)P_d(1-P_d)+(1-\epsilon^{2})\epsilon^{2}(1-P_p)
+P_d(1-P_d)\nonumber
+\\
+&&\qquad+\frac{1}{2}\epsilon^{2}(1-P_p)^{2}
+P_d(1-P_d)\Big] 
+\\
+&&\alpha_{1}=\frac{1}{P_{\text{1click}}}\Big[\frac{1}{2}
+\epsilon^{2}(1-P_p)^{2}P_d (1-P_d)\Big]
+\\
+&&\beta_{1}=\frac{1}{P_{\text{1click}}}\Big[\frac{1}{2}\eta_{\text{d}}
+\eta_{\text{f}}P_p\epsilon^{4}(1-P_p)
+(1-P_d) +2(1-\eta_{\text{f}})P_p\epsilon^{2}
+(1-\epsilon^{2})P_d(1-P_d) \nonumber \\
+&&\qquad+(1-\eta_{\text{d}}\eta_{\text{f}})P_p
+\epsilon^{4}(1-P_p)P_d(1-P_d)
++(1-\epsilon^{2})\epsilon^{2}(1-P_p)
+P_d(1-P_d) \nonumber \\
+&&\qquad+\frac{1}{2}\epsilon^{2}(1-P_p)^{2}
+P_d(1-P_d) 
++2\eta_{\text{f}}(1-\eta_{\text{d}})P_p
+\epsilon^{2}(1-\epsilon^{2})P_d(1-P_d)\Big] 
+\\
+&&\tilde{\alpha}_{1}=\frac{1}{P_{\text{1click}}}
+\Big[2(1-\epsilon^{2})^{2}P_d(1-P_d)
++2(1-\epsilon^{2})\epsilon^{2}(1-P_p)
+P_d(1-P_d)\Big] 
+\\
+&&\tilde{\beta}_{1}=\frac{1}{P_{\text{1click}}}
+\Big[\eta_{\text{d}}\eta_{\text{f}}P_p
+\epsilon^{4}(1-P_p)(1-P_d)
++2(1-\eta_{\text{d}}\eta_{\text{f}})P_p
+\epsilon^{4}(1-P_p)P_d(1-P_d) \nonumber \\
+&&\qquad +2(1-\eta_{\text{d}}\eta_{\text{f}})^{2}
+P_p^{2}\epsilon^{4}P_d(1-P_d)
++2(1-\eta_{\text{d}}\eta_{\text{f}})
+\eta_{\text{d}}\eta_{\text{f}}P_p^{2}
+\epsilon^{4}(1-P_d)^{2}\Big],
+\end{eqnarray}
+where $P_d = P_{\text{dark}}$ and $P_p = P_{\text{phot}}$.
+Here we have assumed that with probability $\epsilon^{2}(1-P_{\text{phot}})$, an
+emitter is excited but spontaneously decay to the ground states instead of
+emitting a cavity photon. Furthermore, we have assumed that the decay rates to
+the two ground states are equal such that the emitter ends up in
+$\frac{1}{2}(\ket{0}\bra{0}+\ket{1}\bra{1})$. Note that the detectors are not
+assumed to be number resolving.  $P_{\text{1click}}$ is the total success
+probability given by
+\begin{eqnarray}
+P_{\text{1click}}&=&2\eta_{\text{d}}
+\eta_{\text{f}}P_{\text{phot}}\epsilon^{2}
+(1-P_{\text{phot}}\epsilon^{2})(1-P_{\text{dark}})
++(2\eta_{\text{f}}\eta_{\text{d}}-
+\eta_{\text{f}}^{2}\eta_{\text{d}}^{2}) P_{\text{phot}}^{2}\epsilon^{4}
+\nonumber \\
+&&+2(1-\epsilon^{2}P_{\text{phot}})^{2}
+P_{\text{dark}}(1-P_{\text{dark}}) +2(1-\eta_{\text{d}}\eta_{\text{f}})^{2}
+P_{\text{phot}}^{2}\epsilon^{4}P_{\text{dark}}(1-P_{\text{dark}})\nonumber \\
+&&+4(1\!-\!\eta_{\text{d}}\eta_{\text{f}}) P_{\text{phot}}\epsilon^{2}
+(1\!-\!\epsilon^{2}P_{\text{phot}}) P_{\text{dark}}(1\!-\!P_{\text{dark}}).
+\end{eqnarray}
+Assuming $P_{\text{dark}}\ll1$, the dominant error is where both qubits are
+excited but only a single click is detected at the central station. This leaves
+the qubits in the state $\ket{11}\bra{11}$ and this error is efficiently
+detected by the purification scheme described in Ref. \cite{bennett}.
+
+\section{Error analysis of the two-photon scheme} \label{two}
+
+For the two photon scheme described in Sec. \ref{sec:generation}, we condition
+on a click in two detectors. Once again we assume that appropriate single qubit
+rotations are employed depending on which detector combination clicked such that
+ideally the state $\ket{\Phi^{+}}$ is created. We find that the density matrix
+describing the qubit state after a successful event is
+\begin{eqnarray}
+\rho_{2click}&=&F_{2}\ket{\Phi^{+}}\bra{\Phi^{+}}+\alpha_{2}\ket{\Psi^{+}}
+\bra{\Psi^{+}}+\alpha_{2}\ket{\Psi^{-}}\bra{\Psi^{-}}+\beta_{2}\ket{\Phi^{-}}\bra{\Phi^{-}},
+\end{eqnarray} 
+where we have defined
+\begin{eqnarray}
+F_{2}&=&\frac{(1-P_{\text{dark}})^{2}}{P_{\text{2click}}}
+\Big[\frac{1}{2}\eta_{d}^{2}\eta_{\text{f}}^{2}P_{\text{phot}}^{2} 
++\eta_{\text{d}}(1-\eta_{\text{d}})\eta_{\text{f}}^{2}
+P_{\text{dark}}P_{\text{phot}}^{2}
++\eta_{\text{f}}^{2}(1-\eta_{\text{d}})^{2}P_{\text{phot}}^{2}
+P_{\text{dark}}^{2}\nonumber \\
+&&+P_{\text{dark}}^{2}(1-P_{\text{phot}})^{2}+\eta_{\text{d}}
+(1-\eta_{\text{f}})\eta_{\text{f}}P_{\text{dark}}P_{\text{phot}}^{2}
++\eta_{\text{d}}\eta_{\text{f}}P_{\text{dark}}P_{\text{phot}}
+(1-P_{\text{phot}})\nonumber \\
+&&+(1-\eta_{\text{f}})^{2}P_{\text{phot}}^{2}P_{\text{dark}}^{2}
+ +2\eta_{\text{f}}(1-\eta_{\text{d}})(1-\eta_{\text{f}})
+P_{\text{phot}}^{2}P_{\text{dark}}^{2}\nonumber \\
+&&+2(1-\eta_{\text{d}}\eta_{\text{f}})P_{\text{phot}}
+(1-P_{\text{phot}})P_{\text{dark}}^{2}\Big]  
+\\
+\alpha_{2}&=&\frac{(1-P_{\text{dark}})^{2}}{P_{\text{2click}}}
+\Big[\eta_{d}(1-\eta_{\text{f}})\eta_{\text{f}}P_{\text{dark}}
+P_{\text{phot}}^{2} +P_{\text{dark}}^{2}(1-P_{\text{phot}})^{2}+\nonumber \\
+&&\eta_{\text{d}}
+\eta_{\text{f}}P_{\text{dark}}P_{\text{phot}}(1-P_{\text{phot}})
++(1-\eta_{\text{f}})^{2}P_{\text{phot}}^{2}P_{\text{dark}}^{2}\nonumber \\
+&&+2\eta_{\text{f}}(1-\eta_{\text{d}})(1-\eta_{\text{f}})
+P_{\text{phot}}^{2}P_{\text{dark}}^{2}
+ +2(1-\eta_{\text{d}}\eta_{\text{f}})P_{\text{phot}}
+(1-P_{\text{phot}})P_{\text{dark}}^{2}\nonumber \\
+&&+\eta_{\text{d}}(1-\eta_{\text{d}})\eta_{\text{f}}^{2}
+P_{\text{dark}}P_{\text{phot}}^{2}
+ +\eta_{\text{f}}^{2}(1-\eta_{\text{d}})^{2}P_{\text{phot}}^{2}
+P_{\text{dark}}^{2}\Big]  
+\\
+\beta_{2}&=&\alpha_{2}+\frac{(1-P_{\text{dark}})^{2}}
+{P_{\text{2click}}}\Big[\eta_{\text{d}}(1-\eta_{\text{d}})
+\eta_{\text{f}}^{2}P_{\text{dark}}P_{\text{phot}}^{2}
++\eta_{\text{f}}^{2}(1-\eta_{\text{d}})^{2}P_{\text{phot}}^{2}
+P_{\text{dark}}^{2}\Big].
+\end{eqnarray}
+The success probability $P_{\text{2click}}$ is 
+\begin{eqnarray}
+P_{\text{2click}}&=&(1-P_{\text{dark}})^{2}\Big[\frac{1}{2}
+\eta_{\text{d}}^{2}\eta_{\text{f}}^{2}P_{\text{phot}}^{2} 
+ +4\eta_{\text{d}}\eta_{\text{f}}(1-\eta_{\text{d}}\eta_{\text{f}})
+P_{\text{dark}}P_{\text{phot}}^{2}
++4P_{\text{dark}}^{2}(1-P_{\text{dark}})^{2} \nonumber \\
+&&+4\eta_{\text{d}}\eta_{\text{f}}P_{\text{dark}}P_{\text{phot}}
+(1-P_{\text{phot}})+4(1-\eta_{\text{d}}\eta_{\text{f}})^{2}P_{\text{phot}}^{2}
+P_{\text{dark}}^{2} 
+\nonumber \\
+&&+8(1-\eta_{\text{d}}\eta_{\text{f}})P_{\text{phot}}
+(1-P_{\text{phot}})P_{\text{dark}}^{2}\Big]
+\end{eqnarray}
+As in the single-photon scheme, we have not assumed number resolving detectors
+and we have assumed that with probability ($1-P_{\text{phot}}$), an emitter
+spontaneously decay to one of the ground states resulting in the state
+$\frac{1}{2}(\ket{0}\bra{0}+\ket{1}\bra{1})$.
+
+\section{Deterministic CNOT gate} \label{app:cnot}
+
+Here we describe the local entanglement generation scheme presented in
+Ref.~\cite{Anders1prl}, which can be used to make a deterministic CNOT gate as
+described in Section \ref{sec:CNOTgate}. We assume that weak coherent light
+is continuously shined onto the cavity such that at most one photon is in the
+cavity at all times. A single-photon detector continuously monitors if any
+photons are reflected from the cavity and the coherent light is blocked if a
+click is recorded before $n_{max}$ photons on average have been sent onto the
+cavity. If no click was recorded during this time, both atoms are interpreted as
+being in the $g$ levels. The steps of the entangling scheme are the following.
+\begin{enumerate}
+\item  Both atoms are initially prepared in the superposition $\ket{g}+\ket{f}$
+by e.g. a $\pi/2$-pulse.
+\item Coherent light is sent onto the cavity.  If a click is recorded before on
+average $n_{\text{max}}$ photons have been sent onto the cavity, the levels of
+the atoms are flipped ($\ket{g}\leftrightarrow\ket{f}$). If no click is
+recorded, the atoms are interpreted as being in $\ket{gg}$ and the procedure is
+repeated from step 1.
+\item Conditioned on the first click, another coherent light pulse is sent onto
+the cavity after the levels of the atoms have been flipped. If a click is
+recorded before $n=n_{\text{max}}-n_{1}$ photons on average have been sent onto
+the cavity, the entangling scheme is considered to be a success. Here $n_{1}$ is
+the average number of photons that had been sent onto the cavity before the
+first click. If no click is recorded, the atoms are interpreted as being in
+$\ket{gg}$ and the procedure is repeated from step 1.
+\end{enumerate}
+As described above, the entangling scheme is repeated until it is successful leading to a deterministic creation of entanglement in the end. As described in Ref. \cite{Anders2prl} a series of non-destructive measurements of the atoms together with single qubit rotations can be used to make a CNOT operation after the entanglement has been created. The non-destructive measurements can be performed using the same technique of monitoring reflected light as in the entangling scheme and we assume that we can effectively tune the couplings to the cavity such that possibly only a single atom couples.
+
+\section{Rate analysis} \label{app:rate}
+
+Here we analyse the rate of entanglement distribution for the different repeater
+architectures considered in the main text. The total rate of the repeater is set
+by the average time of entanglement creation, initial purification and
+entanglement swapping. Assuming that entanglement generation has a success
+probability, $P_{0}$, we estimate the average time $\tau_{\text{pair},l;m}$ it
+takes to generate $l$ entangled pairs in one elementary link using $m$ qubits,
+which can be operated in parallel, as
+\begin{equation}
+\tau_{\text{pair},l;m}=\mathcal{Z}_{l;m}(P_{0})(L_{0}/c+\tau_{\text{local}}).
+\end{equation}
+Here $c$ is the speed of light in the fibers and $\tau_{\text{local}}$ is the
+time of local operations such as initialization of the qubits. The factor
+$\mathcal{Z}_{l;m}(P_{0})$ can be thought of as the average number of coin
+tosses needed to get at least $l$ tails if we have access to $m$ coins, which we
+can flip simultaneously and the probability of tail is $P_{0}$ for each coin
+\cite{bernardes}. It is furthermore assumed that coins showing tail after a toss
+are kept and only the coins showing head are tossed again until $l$ tails are
+obtained. In the repeater context, the coins are entanglement generation
+attempts and tail is successful entanglement generation. The time it takes per
+"toss" is $L_{0}/c+\tau_{\text{local}}$. To calculate the expressions for
+$Z_{l;m}(P_{0})$, we follow the lines of Ref. \cite{bernardes} where similar
+factors are derived. The expression for $\mathcal{Z}_{m;m}(p)$ is already
+derived in Ref. \cite{bernardes} and their result is stated below
+\begin{equation}
+\mathcal{Z}_{m;m}=\sum_{k=1}^{m}\binom{m}{k}\frac{(-1)^{k+1}}{1-(1-p)^{k}}. 
+\end{equation}
+For $\mathcal{Z}_{l;m}$ where $l\neq m$, we only need to find expressions for
+$\mathcal{Z}_{1;m}$ with $m=1,2,3,4$, $\mathcal{Z}_{2;m}$ with $m=3,4$ and
+$\mathcal{Z}_{3;4}$ since we have a maximum of 4 qubits pr. repeater station.
+For $\mathcal{Z}_{2;3}$, we have that
+\begin{eqnarray} \label{eq:suppf}
+\mathcal{Z}_{2:3}&=&\binom{3}{3}\sum_{k=1}^{\infty}
+k(q^{3})^{k-1}p^{3}+\binom{3}{2}\sum_{k=1}^{\infty} k(q^{3})^{k-1}p^{2}q \qquad
+\nonumber \\
+&&+\binom{3}{1}\binom{2}{1}\sum_{k=1}^{\infty}
+\sum_{l=1}^{\infty}(k+l)[(q^{3})^{k-1}pq^{2}][(q^{2})^{l-1}pq] \nonumber \\
+&&+\binom{3}{1}\binom{2}{2}\sum_{k=1}^{\infty}
+\sum_{l=1}^{\infty}(k+l)[(q^{3})^{k-1}pq^{2}][(q^{2})^{l-1}p^{2}],
+\end{eqnarray}
+where $q=1-p$. 
+The first term in Eq.~\eqref{eq:suppf} describes the situations where three
+tails are obtained in a single toss after a given number of tosses, where all
+coins showed head.  We will refer tosses where all coins show tail as failed
+tosses. The second term describes the situation where we get two tails in the
+same toss after a given number of failed tosses. The third and fourth terms are
+where we get a single tail after a given number of failed tosses. The coin
+showing tail is then kept and the two remaining coins are tossed until we obtain
+another tail (third term) or two tails simultaneously (fourth term). The
+geometric series in Eq.~\eqref{eq:suppf} can be solved to give
+\begin{equation}
+\mathcal{Z}_{2;3}=\frac{5-(7-3p)}{(2-p)p(3+(p-3)p)} \approx\frac{5}{6p},
+\end{equation} 
+where the approximate expression is for $p\ll1$. Note that the factor of
+$\frac{5}{6}$ corresponds to a simple picture where it on average takes
+$\frac{1}{3}\frac{1}{p}$ attempts to get the first 'tail' using 3 coins and
+$\frac{1}{2}\frac{1}{p}$ attempts to get the second using the remaining $2$
+coins. In a similar manner, we find that
+\begin{eqnarray}
+\mathcal{Z}_{1;2}&=&\frac{1}{2p-p^{2}}\approx\frac{1}{2p} \\
+\mathcal{Z}_{1;3}&=&\frac{1}{3p-3p^{2}+p^{3}}\approx\frac{1}{3p} \\
+\mathcal{Z}_{1;4}&=&\frac{1}{4p-6p^{2}+4p^{3}-p^{4}}\approx\frac{1}{4p} \\
+\mathcal{Z}_{2;4}&=&\frac{-7+p(15+p(4p-13))}{(p-2)p(3+(p-3)p)(2+(p-2)p)}
+\approx\frac{7}{12p} \\
+\mathcal{Z}_{3;4}&=&\frac{-13+p(33+p(22p-6p^{2}-37))}
+{(p-2)p(3+(p-3)p)(2+(p-2)p)}
+\approx\frac{13}{12p}. 
+\end{eqnarray}
+Here the approximate expressions are all for $p\ll1$ and they correspond to the
+expressions one would get using simple pictures similar to the one described
+above in the discussion of $\mathcal{Z}_{2;3}$.
+
+After creating a number of entangled pairs in an elementary link of the
+repeater, they may be combined to create a purified pair of higher fidelity. As
+previously mentioned, we assume an entanglement pumping scheme since this
+requires less qubit resources than a cascading scheme. Let
+$P_{\text{pur}}(F_{0},F_{0})$ denote the success probability of the purification
+operation, which depends on the fidelity of the two initial pairs ($F_{0}$) and
+the fidelity of the CNOT gate used in the purification operation. Note that
+$P_{\text{pur}}$ also contains the success probability of the CNOT gate used in
+the purification for the heralded gate. We estimate the average time
+$\tau_{\text{pur},1}$, it takes to make one purified pair from two initial pairs
+of fidelity $F_{0}$, using $m$ qubits in parallel in the entanglement generation
+step, as
+\begin{equation}
+\tau_{\text{pur},1}=\frac{\tau_{\text{pair},2;m}+\tau_{\text{pur}}}
+{P_{\text{pur}}(F_{0},F_{0})},
+\end{equation}     
+where $\tau_{\text{pur}}\sim L_{0}/c+\tau_{\text{c}}$ is the time of the
+purification operation including the classical comunication time required to
+compare results. Here $\tau_{\text{c}}$ is the time of the CNOT operation and
+$L_{0}/c$  is the communication time between the two repeater stations sharing
+the entangled pairs. To further pump the entanglement of the purified pair, a
+new entangled pair is subsequently created using $m-1$ qubits operated in
+parallel. The average time it takes to make $j$ rounds of purification is thus
+estimated as
+\begin{equation} \label{eq:pur1}
+\tau_{\text{pur},j}=\frac{\tau_{\text{pur},j-1}+
+\tau_{pur}+\tau_{\text{pair},1:m-1}}{P_{\text{pur}}(F_{j-1},F_{0})},
+\end{equation}
+with $\tau_{\text{pur},0}=\tau_{\text{pair},2;m}- \tau_{\text{pair},1:m-1}$.
+Here $F_{j-1}$ is the fidelity of the purified pair after $j-1$ purifications.
+The total rate of a repeater, consisting both of purification and entanglement
+swapping, depends on the specific repeater achitecture. We will first consider
+the case of both a parallel and sequential repeater operated with deterministic
+gates and afterwards the same situations with probabilistic gates.
+
+\subsection{Deterministic gates}
+
+For a parallel repeater with $n$ swap levels and deterministic gates, we first
+estimate the average time it takes to generate $2^{n}$ purified pairs, i.e. a
+purified pair in each elementary link. We assume that each pair is purified $j$
+times such that the time to generate one purified pair is
+\begin{eqnarray} \label{eq:pur2}
+\tau_{\text{pur},j}&=&\frac{\mathcal{Z}_{2;m}(P_{0})
+(L_{0}/c+\tau_{\text{local}})}{P_{\text{pur}}(F_{0},F_{0}) \cdots
+P_{\text{pur}}(F_{j-1},F_{0})}+\sum_{i=0}^{j-1}\frac{\tau_{\text{pur}}}{P_{\text{pur}} (F_{i},F_{0})\cdots
+P_{\text{pur}}(F_{j-1},F_{0})} 
+\nonumber \\
+&&+\sum_{i=1}^{j-1}\frac{\mathcal{Z}_{1;m-1}(P_{0})(L_{0}/c+ \tau_{\text{local}})}{P_{\text{pur}}(F_{i},F_{0})\cdots 
+P_{\text{pur}}(F_{j-1},F_{0})},
+\end{eqnarray}
+where we have solved the recurrence in Eq.~\eqref{eq:pur1}. We now wish to
+estimate the total time, $\tau_{\text{link},2^{n}}$ it takes to make
+purification in every elementary link, i.e. the time it takes to make $2^{n}$
+pairs. A lower limit of $\tau_{\text{link},2^{n}}$ is simply
+$\tau_{\text{pur},j}$ but this is a very crude estimate if the purification have
+a limited success probability since the time is not determined by the average
+time but by the average time for the last link to succeed. We therefore make
+another estimate of the average time by treating $\tau_{\text{pur},j}$ as
+consisting of $2j$ independent binomial events with probabilities
+\begin{eqnarray}
+P_{1}&=&\frac{P_{\text{pur}}(F_{0},F_{0})\cdots P_{\text{pur}}
+(F_{j-1},F_{0})}{\mathcal{Z}_{2;m}(P_{0})} \\
+P_{2}^{(i)}&=&P_{\text{pur}}(F_{i},F_{0})\cdots P_{\text{pur}} (F_{j-1},F_{0})
+\\
+P_{3}^{(i)}&=&\frac{P_{\text{pur}}(F_{i},F_{0})\cdots P_{\text{pur}}
+(F_{j-1},F_{0})}{\mathcal{Z}_{1;m-1}(P_{0})}.
+\end{eqnarray}
+We then estimate the average time, $\tau_{link,2^{n}}$ it takes to make $2^{n}$
+purified pairs as
+\begin{eqnarray} \label{eq:purnlink}
+\tau_{\text{link},2^{n}}&=&\mathcal{Z}_{2^{n};2^{n}}(P_{1})
+(L_{0}/c+\tau_{\text{local}}) 
+ +\sum_{i=0}^{j-1}\mathcal{Z}_{2^{n},2^{n}}(P_{2}^{(i)}) \tau_{\text{pur}}
+\nonumber \\
+&&+\sum_{i=1}^{j-1}\mathcal{Z}_{2^{n},2^{n}}(P_{3}^{(i)})
+(L_{0}/c+\tau_{\text{local}}).
+\end{eqnarray}
+Eq.~\eqref{eq:purnlink} is a better estimate for the average time than
+$\tau_{\text{pur},j}$ in the limit of small success probabilities since it takes
+into account that we need success in all links. This is contained in the factors
+$\mathcal{Z}_{2^{n};2^{n}}$. However, it overestimates the average distribution
+time when the purification has a large success probability. How much it
+overestimates depends on $n$ and $j$. Comparing  $\tau_{\text{pur},j}$ to
+Eq.~\eqref{eq:purnlink} we find numerically that for $n\leq5$ and $j\leq2$ there
+is a factor $\lesssim2$ between the two estimates, in the limit of large success
+probability for the purification operation. As discussed in Sec.~\ref{sec:optim}
+we never consider more than 5 swap levels in our optimization and since we have
+a limited number of qubits pr. repeater station, we will never have to consider
+more than 2 rounds of purification. We can therefore use the estimate for
+$\tau_{\text{link},2^{n}}$ given in Eq.~\eqref{eq:purnlink}.
+
+To get the average time it takes to distribute one entangled pair over the total
+distance, $L_{tot}$, of the repeater, we need to add the time of the
+entanglement swapping, $\tau_{\text{swap},nd}$ to $\tau_{\text{link},2^{n}}$. We
+estimate $\tau_{\text{swap},n}$ as
+\begin{equation}
+\tau_{\text{swap},n}=(2^{n}-1)L_{0}/c+n\tau_{\text{c}},
+\end{equation} 
+where the first term is the time of the classical communication and
+$\tau_{\text{c}}$ is the time of the CNOT operation involved in the swap
+procedure. The average distribution rate, of a parallel repeater with
+deterministic gates, is thus
+$r=1/(\tau_{\text{link},2^{n}}+/\tau_{\text{swap},n})$.
+
+For a repeater using sequential entanglement creation with deterministic gates,
+we estimate the time it takes to generate purified pairs in all $2^{n}$ pairs as
+\begin{equation}
+\tau^{(s)}_{\text{link},2^{n}}=\left(\tau_{\text{link},2^{n-1}}\right)\vline_{m\to2m}+\left(\tau_{\text{link},2^{n-1}}\right)\vline_{m\to2m-1}.
+\end{equation}
+Here we have indicated that the number of qubits, which can be operated in
+parallel is $2m$ for the first $2^{n-1}$ pairs and $2m-1$ for the next $2^{n-1}$
+pair compared to the parallel repeater, where only $m$ qubits can be used in all
+$2^{n}$ pairs. Note, that we have assumed that first entanglement is established
+in half of the links and only when this is completed, entanglement is created in
+the remaining half of the links. This is clearly not the fastest way of
+operating the repeater but it gives an upper limit of the average distribution
+time and hence a lower limit on the rate. The entanglement swapping of the
+sequential repeater is exactly the same as for the parallel repeater and the
+average total rate, of the sequential repeater with deterministic gates, is thus
+$r=1/(\tau^{(s)}_{\text{link},2^{n}}+t_{\text{swap},n})$.
+
+\subsection{Probabilistic gates}
+
+To estimate the total, average distribution time of a repeater using parallel
+entanglement creation with $n$ swap levels and probabilistic gates, we will
+again treat $\tau_{\text{pur},j}$ as consisting of $2j$ independent binomial
+events, as we did for the deterministic gates. The time it takes to make a
+single swap can be estimated as
+\begin{eqnarray} \label{eq:swap1}
+\tau_{\text{swap},1}&=&\frac{\mathcal{Z}_{2;2}
+(P_{1})(L_{0}/c+\tau_{\text{local}})}{P_{\text{swap}}}+
+\frac{L_{0}/c}{P_{\text{swap}}}+\frac{\tau_{\text{c}}}{P_{\text{swap}}} \nonumber \\
+&&+\sum_{i=0}^{j-1}\frac{\mathcal{Z}_{2;2}
+(P_{2}^{(i)})\tau_{\text{pur}}}{P_{\text{swap}}} +\sum_{i=1}^{j}\frac{\mathcal{Z}_{2;2}(P_{3}^{(i)})
+(L_{0}/c+\tau_{\text{local}})}{P_{\text{swap}}},
+\end{eqnarray}
+where $P_{\text{swap}}$ is the probability of the swap operation, i.e. the
+probability of the CNOT gate. Eq.~\eqref{eq:swap1} can be iterated such that the
+average time it takes to make $n$ swap levels is estimated as
+\begin{eqnarray} \label{eq:swap2}
+\tau_{\text{swap},n}&=&\frac{\tilde{\mathcal{Z}}_{n;1}
+(P_{\text{swap}},P_{1})(L_{0}/c+\tau_{\text{local}})}{P_{\text{swap}}} +\sum_{i=1}^{n}\frac{\tilde{\mathcal{Z}}_{n;i}
+(P_{\text{swap}},P_{\text{swap}})(2^{i-1}L_{0}/c+\tau_{\text{c}})}
+{P_{\text{swap}}} \nonumber \\
+&&+\sum_{i=0}^{j-1}\frac{\tilde{\mathcal{Z}}_{n;1}
+(P_{\text{swap}},P_{2}^{(i)})\tau_{\text{pur}}}{P_{\text{swap}}} +\sum_{i=1}^{j-1}\frac{\tilde{\mathcal{Z}}_{n;1}
+(P_{\text{swap}},P_{3}^{(i)})(L_{0}/c+\tau_{\text{local}})}{P_{\text{swap}}}, \qquad
+\end{eqnarray}
+where 
+\begin{eqnarray}
+\tilde{\mathcal{Z}}_{n;i}(P_{\text{swap}},P)
+&=&\mathcal{Z}_{2;2}\left(\frac{P_{\text{swap}}}
+{\tilde{\mathcal{Z}}_{n-1;i}(P_{\text{swap}},P)}\right), \\ 
+\tilde{\mathcal{Z}}_{i;i}(P_{\text{swap}},P)&=&\mathcal{Z}_{2;2}(P) \\
+\tilde{\mathcal{Z}}_{i;i}(P_{\text{swap}},P_{\text{swap}})&=&1.
+\end{eqnarray}
+Here $P$ is either $P_{1}, P_{2}^{(i)}$ or $P_{3}^{(i)}$. In the limit of
+$P_{0},P_{\text{swap}}\ll1$ and assuming no initial purification,
+Eq.~\eqref{eq:swap2} reduces to the well-known fomula
+\cite{sangouard3,sangouard2}
+\begin{equation}
+\tau_{\text{swap},n}=\frac{\left(3/2\right)^{n}
+\left(L_{0}/c+\tau_{\text{local}}\right)}{P_{0}P_{swap}^{n}},
+\end{equation}
+since $\mathcal{Z}_{2;2}(P\ll1)\approx3/(2P)$ and the time of local operations
+in the swaps can be neglected in this limit. However, for higher success
+probabilities, Eq.~\eqref{eq:swap2} more accurately estimates the average
+distribution time. The average rate of a parallel repeater with probabilistic
+gates and $n$ swap levels is then $r=1/\tau_{\text{swap},n}$. From a numerical
+study, we again find that for $P_{\text{swap}}\approx1$ and $P_{0}\ll1$,
+Eq.~\eqref{eq:swap2} underestimates the average distribution rate with a factor
+that increases with the number of swap levels, $n$. However, for $n\leq 5$ and
+$j\leq2$, we find that this factor is $\lesssim2$.
+
+The operation of a sequential repeater with probabilistic gates is not
+straightforward since it is unclear how the sequential generation of
+entanglement should take place after a failed swap operation. We therefore
+choose to assume that initially, entanglement is generated in all $2^{n}$ links
+sequentially. When this is completed the first round of entanglement swapping is
+performed. If a swap fails, entanglement is restored in a parallel manner in
+this section, i.e. the sequential operation is only employed in the initial
+generation of entanglement. Thus if $i$'th swaps fail in the first swap level an
+extra waiting time of
+\begin{eqnarray} \label{eq:swap01}
+&&\mathcal{Z}_{i;i}\left(\frac{P_{\text{swap}}}
+{\mathcal{Z}_{2;2}(P_{1})}\right)(L_{0}/c+\tau_{\text{local}}) 
++\mathcal{Z}_{i;i}(P_{\text{swap}})(L_{0}/c+\tau_{\text{c}}) \nonumber \\
+&&+\sum_{k=0}^{j-1}\mathcal{Z}_{i;i}
+\left(\frac{P_{\text{swap}}}{\mathcal{Z}_{2;2}(P_{2}^{(k)})}
+\right)\tau_{\text{pur}} 
++\sum_{k=1}^{j-1}\mathcal{Z}_{i;i}
+\left(\frac{P_{\text{swap}}}{\mathcal{Z}_{2;2}(P_{3}^{(k)})}
+\right)(L_{0}/c+\tau_{\text{local}})
+\end{eqnarray}
+is needed to restore entanglement in the $2i$'th links in a parallel manner and
+swap them successfully. Eq.~\eqref{eq:swap01} is very similar to
+Eq.~\eqref{eq:swap1}, which estimates the time needed for a single swap at the
+first swap level. Nonetheless, the functions $\mathcal{Z}_{i;i}$, which appears
+in Eq.~\eqref{eq:swap01} takes into account that we need $i$ successful swaps
+instead of only a single swap.
+Furthermore, we assume that the swap operations of a swap level is only
+initiated when all swap operations in the preceeding level have been successful.
+The average time, it takes for all swap operations in the first level to
+succeed, is then estimated as
+\begin{eqnarray} \label{eq:seq1}
+\tau^{(s)}_{\text{swap},1}&=&\sum_{i=0}^{2^{n-1}}
+P_{\text{swap}}^{2^{n-1}-i}(1-P_{\text{swap}})^{i}\Bigg[ 
+ \mathcal{Z}_{i;i}\left(\frac{P_{\text{swap}}}
+{\mathcal{Z}_{2;2}(P_{1})}\right)(L_{0}/c+\tau_{\text{local}}) \nonumber \\
+&&+\mathcal{Z}_{i;i}(P_{\text{swap}})(L_{0}/c+\tau_{\text{c}}) 
++\sum_{k=0}^{j-1}\mathcal{Z}_{i;i} \left(\frac{P_{\text{swap}}}
+{\mathcal{Z}_{2;2}(P_{2}^{(k)})} \right)\tau_{\text{pur}} \nonumber \\
+&&+\sum_{k=1}^{j-1}\mathcal{Z}_{i;i}
+\left(\frac{P_{\text{swap}}}{\mathcal{Z}_{2;2}(P_{3}^{(k)})}
+\right)(L_{0}/c+\tau_{\text{local}})  +(L_{0}/c+\tau_{\text{c}})\delta_{i,0}
+\Bigg],
+\end{eqnarray}
+where $\delta_{i,0}$ is the Kronecker delta symbol and $\mathcal{Z}_{0;0}=0$. It
+is seen that in the limit $P_{\text{swap}}\to1$, Eq.~\eqref{eq:seq1} correctly
+reduces to $\tau^{(s)}_{\text{swap},1}=L_{0}/c+\tau_{\text{c}}$, which simply is
+the time of the classical communication of the results of the bell measurements
+and the time of the local operations. Eq.~\eqref{eq:seq1} can be generalized
+such that the time it takes to perform the $l$'th swap level is
+\begin{eqnarray}
+\tau^{(s)}_{\text{swap},l}&=&\sum_{i=0}^{2^{n-l}}
+P_{\text{swap}}^{2^{n-l}-i}(1-P_{\text{swap}})^{i}\Bigg[ 
+\mathcal{Z}_{i;i}\left(\!\frac{
+P_{\text{swap}}}{\tilde{\mathcal{Z}}_{l;1}(
+P_{\text{swap}},P_{1})\!}\right)(L_{0}/c+\tau_{\text{local}}) \nonumber \\
+&&+\sum_{k=1}^{l}\mathcal{Z}_{i;i}\!\left(\frac{
+P_{\text{swap}}}{\tilde{\mathcal{Z}}_{l;k}(P_{\text{swap}},
+P_{\text{swap}})}\right)\!(2^{k\!-\!1}L_{0}/c+\tau_{\text{c}}) \nonumber \\
+&&+\sum_{k=0}^{j-1}\mathcal{Z}_{i;i}\left(\frac{
+P_{\text{swap}}}{\tilde{\mathcal{Z}}_{l;1}(P_{\text{swap}},
+P_{2}^{(k)})}\right)\tau_{\text{pur}} \nonumber \\
+&&+\sum_{k=1}^{j-1}\mathcal{Z}_{i;i}\left(\frac{
+P_{\text{swap}}}{\tilde{\mathcal{Z}}_{l;1}(P_{\text{swap}},
+P_{3}^{(k)})}\right)(L_{0}/c+\tau_{\text{local}}) \nonumber \\
+&&+(2^{l-1}L_{0}/c+\tau_{\text{c}})\delta_{i,0} \Bigg],
+\end{eqnarray} 
+which can be compared to Eq.~\eqref{eq:swap2} which estimates the time to make a
+successful swap at the $n$'th level (let $n\to l$ for comparison). Once again
+the functions $\mathcal{Z}_{i;i}$ takes into account that we need $i$'th
+successful swaps instead of just a single successful swap. The total rate of a
+sequential repeater with probabilistic gates and $n$ swap levels can then be
+estimated as
+$r=1/(\tau^{(s)}_{\text{link},2^{n}}+\tau^{(s)}_{\text{swap},1}
++\cdots+\tau^{(s)}_{\text{swap},n})$.

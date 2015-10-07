@@ -23,16 +23,28 @@
 \contentsline {figure}{\numberline {4.2}{\ignorespaces }}{51}{figure.4.2}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Level structure of auxiliary atom}}{52}{figure.4.3}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The general architecture of a quantum repeater}}{60}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Entanglement generation I}}{61}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Schematics of the heralded CZ gate}}{63}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Secret key fraction}}{66}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Number of swap levels}}{68}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Purification}}{72}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces CNOT gate structure II}}{73}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces CNOT gates comparison}}{76}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Example of repeater architecture}}{78}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Optimal secret key rate I}}{80}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Optimal secret key rate II}}{81}{figure.5.11}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Comparison of effective and exact description}}{72}{figure.B.1}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Comparison of effective and exact description}}{103}{figure.B.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Level structure of qubit an auxiliary atoms}}{78}{figure.C.1}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Error and success probability vs cooperativity}}{84}{figure.C.2}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Levels structure of auxiliary atom}}{85}{figure.C.3}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Gate time and success probability vs driving strength}}{92}{figure.C.4}
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Conditional fidelity}}{93}{figure.C.5}
-\contentsline {figure}{\numberline {C.6}{\ignorespaces Gate time and success probability vs detuning}}{94}{figure.C.6}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Level structure of qubit an auxiliary atoms}}{109}{figure.C.1}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Error and success probability vs cooperativity}}{115}{figure.C.2}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Levels structure of auxiliary atom}}{116}{figure.C.3}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Gate time and success probability vs driving strength}}{123}{figure.C.4}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Conditional fidelity}}{124}{figure.C.5}
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Gate time and success probability vs detuning}}{125}{figure.C.6}
+\addvspace {10\p@ }
