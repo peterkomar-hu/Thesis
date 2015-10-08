@@ -25,7 +25,7 @@ where the large number of atoms, in principle, enables highly efficient quantum
 memories~\cite{sangouard3,cell}. Nonetheless, the limited efficiencies
 demonstrated in current experiments with atomic
 ensembles~\cite{sangouard3,hammerer} prevents the construction of a practical
-quantum repeater based on currently existing setups.
+quantum repeater based on currently existing setups. 
 
 Single emitter systems such as color centers and trapped ions have also been
 considered for quantum repeaters~\cite{childress,sangouard2}. The long coherence
@@ -36,7 +36,7 @@ information from the quantum memories onto light in the form of single photons.
 To this end, it is an advantage to place the emitter inside a cavity, which can
 greatly enhance the light-emitter coupling~\cite{acin,ritter}. Entanglement
 swapping can then be performed with a cavity mediated CNOT gate
-~\cite{zoller1,haroche1} but in this case, the detrimental effect of cavity loss
+~\cite{pellizari,haroche1} but in this case, the detrimental effect of cavity loss
 and spontaneous emission from the emitters may prevent obtaining efficient
 entanglement swapping. The parameter characterizing the effect of dissipation in
 the emitter-cavity system is the cooperativity, $C$. It has been argued that a
@@ -53,7 +53,7 @@ combines various proposals for entanglement generation and cavity-assisted CNOT
 gates. We find that the best scheme is where high-fidelity entanglement is
 generated using a two-photon detection scheme similar to Ref.~\cite{kimble2} and
 swapped to large distances using the heralded CZ-gate proposed in
-Ref.~\cite{johannes}. The heralded gate enables nearly perfect entanglement
+Ref.~\cite{Borregaard2015a}. The heralded gate enables nearly perfect entanglement
 swapping when successful allowing for many swaps without the need of
 entanglement purification. As a result, high-rate entanglement distribution is
 achieved even for low cooperativities.
@@ -174,8 +174,8 @@ the other hand it has a high fidelity, which is desirable for the subsequent
 stages of entanglement swapping as we will show below.
 
 For entanglement swapping we find that the best performance is achieved using
-the heralded CZ-gate described in Ref.~\cite{johannes}. The gate was described
-in detail for ${}^{87}$Rb atoms in Ref.~\cite{johannes} but it can be easily
+the heralded CZ-gate described in Ref.~\cite{Borregaard2015a}. The gate was described
+in detail for ${}^{87}$Rb atoms in Ref.~\cite{Borregaard2015a} but it can be easily
 generalized to any set of emitters, which have the appropriate level structure
 (see \reffig{fig:figure3}). Note that the gate operation relies on only qubit
 state $\ket{1}$ coupling to the cavity while the states $\ket{0}$ and $\ket{1}$
@@ -193,7 +193,7 @@ $\ket{0}$ state.
 \includegraphics[width=0.3\textwidth]{./figs_Borregaard_PRA2015/figure3c}
 \caption
 [Schematics of the heralded CZ gate]
-{ Schematics of the heralded CZ gate~\cite{johannes}. (a) is the level
+{ Schematics of the heralded CZ gate~\cite{Borregaard2015a}. (a) is the level
 structure of the auxiliary atom, (b) is the level structure of the qubit atoms
 and (c) shows the cavity containing the auxiliary atom and the two qubit atoms.
 Assuming that $\ket{E}$ only decays to $\ket{f}$ by e.g. driving the transition
@@ -215,7 +215,7 @@ auxiliary atom can function as an error detector in the sense that any cavity
 decay or spontaneous emission changes the state of the atom. Performing a
 heralding measurement of the state of the auxiliary atom at the end of the
 driving pulse removes all dissipative errors. As a consequence, the gate gets
-limited only by non-adiabatic effects. As shown in Ref.~\cite{johannes}, a
+limited only by non-adiabatic effects. As shown in Ref.~\cite{Borregaard2015a}, a
 heralded error below $4\cdot10^{-5}$ is possible with a gate time of
 $\sim377/(\gamma\sqrt{C})$, where $\gamma$ is the atomic linewidth. The failure
 probability of the gate scales as $1/\sqrt{C}$ and the high fidelity thus comes
@@ -542,8 +542,10 @@ Gate & Fidelity & Probability & Gate time  \\ \hline
 2 & $F\sim1-1.2/(\eta_{\text{d}}C)$ & $P_{g}=1$ &10 $\mu$s  \\ \hline
 3 & $F\sim1-3.6/\sqrt{C}$ & $P_{g}=1$ &10 $\mu$s \\ \hline
 \end{tabular}
-\caption{The characteristics of the three gates considered for the cavity-based
-repeaters. $C$ is the cooperativity of the atom-cavity system and
+\caption
+[The characteristics of the three gates]
+{The characteristics of the three gates considered for the
+cavity-based repeaters. $C$ is the cooperativity of the atom-cavity system and
 $\eta_{\text{d}}$ is the single photon detection efficiency in gate 2. The time
 of the single qubit rotations is assumed to be 10 $\mu$s. }
 \label{tab:table2}
@@ -657,9 +659,10 @@ pairs. To calculate the secret key fraction, we treat the distributed pairs as
 Werner states as described in section \ref{sec:secret}.
 \begin{figure} [H]
 \centering
-\includegraphics[width=0.48\textwidth]{./figs_Borregaard_PRA2015/figureX7a}
-\includegraphics[width=0.48\textwidth]{./figs_Borregaard_PRA2015/figureX7b}
-\caption[Optimal secret key rate I]
+% \includegraphics[width=0.48\textwidth]{./figs_Borregaard_PRA2015/figureX7a}
+% \includegraphics[width=0.48\textwidth]{./figs_Borregaard_PRA2015/figureX7b}
+\includegraphics[width=1\textwidth]{./figs_Borregaard_PRA2015/figureX7}
+\caption[Optimal secret key rate I]    
 {Normalized secret key rate per station
 ($\tilde{r}_{\text{secret}}$) as a function of the distribution distance
 (Distance) for the high-fidelity repeater and other cavity-based repeaters
@@ -681,13 +684,14 @@ or two-photon scheme.}
 \end{figure} 
 \begin{figure} [H]
 \centering
-\includegraphics[width=0.48\textwidth]{./figs_Borregaard_PRA2015/figureX8a}
-\includegraphics[width=0.48\textwidth]{./figs_Borregaard_PRA2015/figureX8b}
+% \includegraphics[width=0.48\textwidth]{./figs_Borregaard_PRA2015/figureX8a}
+% \includegraphics[width=0.48\textwidth]{./figs_Borregaard_PRA2015/figureX8b}
+\includegraphics[width=1\textwidth]{./figs_Borregaard_PRA2015/figureX8.pdf} 
 \caption[Optimal secret key rate II]{Normalized secret key rate per station
 ($\tilde{r}_{\text{secret}}$) as a function of the cooperativity ($C$) for the
 high-fidelity repeater and other repeaters assuming a distribution distance of
 1000 km. (a) is for 2 qubits per repeater station while (b) is for 4 qubits per
-repeater station. The labels are the same as in \reffig{fig:figureX7}}
+repeater station.}
 \label{fig:figureX8}
 \end{figure}
 
@@ -806,7 +810,7 @@ km.
 
 In conclusion, we have performed a detailed analysis of quantum repeaters based
 on individual emitters in optical cavities. We have found that a high-fidelity
-repeater based on the heralded gate described in Ref.~\cite{johannes} combined
+repeater based on the heralded gate described in Ref.~\cite{Borregaard2015a} combined
 with a two-photon detection scheme is the best option over a large parameter
 regime and enables high secret key rates over large distances even for limited
 cooperativities $<100$. Compared with a number of other cavity based repeaters
@@ -823,7 +827,7 @@ Ref.~\cite{sangouard1}, which is based on atomic ensembles. For a distance of
 ensemble-based repeater and an improvement of more than two orders of magnitude
 in the secret key rate is possible for $C\gtrsim100$. The main reason for the
 advantage of the high-fidelity repeater is that entanglement can be swapped very
-efficiently using the heralded CNOT gate described in Ref.~\cite{johannes}.
+efficiently using the heralded CNOT gate described in Ref.~\cite{Borregaard2015a}.
 Consequently, the number of swap levels in the repeater can be increased without
 the need of intermediate purification which greatly enhances the rate for large
 distances. A similar advantage could in principle be achieved by resorting to a
@@ -852,4 +856,3 @@ also rely on heralding measurements to detect errors during entanglement
 generation and two qubit operations.  Possibly some of the ideas from these
 schemes could be used to improve the communication beyond what we have found
 here.
-  

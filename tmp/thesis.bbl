@@ -5,6 +5,13 @@ U~Akram, N~Kiesel, M~Aspelmeyer, and G~J Milburn.
 \newblock Single-photon opto-mechanics in the strong coupling regime.
 \newblock {\em New Journal of Physics}, 12(8):083030, 2010.
 
+\bibitem{boris}
+Boris Albrecht, Pau Farrera, Xavier Fernandez-Gonzalvo, Matteo Cristiani, and
+  Hugues de~Riedmatten.
+\newblock A waveguide frequency converter connecting rubidium-based quantum
+  memories to the telecom c-band.
+\newblock {\em Nature Communications}, 5:3376, 2013.
+
 \bibitem{Arcizet2006}
 O.~Arcizet, P.-F. Cohadon, T.~Briant, M.~Pinard, and A.~Heidmann.
 \newblock Radiation-pressure cooling and optomechanical instability of a
@@ -27,12 +34,48 @@ Almut Beige, Daniel Braun, Ben Tregenna, and Peter~L. Knight.
   subspace.
 \newblock {\em Phys. Rev. Lett.}, 85:1762--1765, Aug 2000.
 
+\bibitem{blatt1}
+Jan Benhelm, Gerhard Kirchmair, Christian~F. Roos, and Rainer Blatt.
+\newblock Towards fault-tolerant quantum computing with trapped ions.
+\newblock {\em Nature Physics}, 4:463--466, 2008.
+
+\bibitem{bennett2}
+C.~H. Bennett and G.~Brassard.
+\newblock In {\em Proceedings IEEE International Conference on Computers,
+  Systems and Signal Processing}. IEEE, 1984.
+
+\bibitem{bennett}
+Charles~H. Bennett, Gilles Brassard, Sandu Popescu, Benjamin Schumacher,
+  John~A. Smolin, and William~K. Wootters.
+\newblock Purification of noisy entanglement and faithful teleportation via
+  noisy channels.
+\newblock {\em Phys. Rev. Lett.}, 76:722--725, Jan 1996.
+
+\bibitem{bernardes}
+Nadja~K. Bernardes, Ludmi\l{}a Praxmeyer, and Peter van Loock.
+\newblock Rate analysis for a hybrid quantum repeater.
+\newblock {\em Phys. Rev. A}, 83:012323, Jan 2011.
+
 \bibitem{Borregaard2015b}
 J~Borregaard, P.~K\'{o}m\'{a}r, E.~M. Kessler, M.~D. Lukin, and A.~S.
   S\o~rensen.
 \newblock Long-distance entanglement distribution using individual atoms in
   optical cavities.
 \newblock {\em Physical Review A}, 92(1):012307, July 2015.
+
+\bibitem{Borregaard2015a}
+J.~Borregaard, P.~K\'{o}m\'{a}r, E.~M. Kessler, A.~S. S\o~rensen, and M.~D.
+  Lukin.
+\newblock Heralded quantum gates with integrated error detection in optical
+  cavities.
+\newblock {\em Physical Review Letters}, 114(March):110502, 2015.
+
+\bibitem{cell}
+J.~Borregaard, M.~Zugenmaier, J.~M. Petersen, H.~Shen, G.~Vasilakis, K.~Jensen,
+  E.~S. Polzik, and A.~S. S{\o}rensen.
+\newblock Room temperature quantum memory and scalable single photon source
+  based on motional averaging.
+\newblock page arXiv:1501.03916, 2015.
 
 \bibitem{Brecha1999}
 R.~J. Brecha, P.~R. Rice, and M.~Xiao.
@@ -51,10 +94,21 @@ H.-J. Briegel, W.~D\"ur, J.~I. Cirac, and P.~Zoller.
   communication.
 \newblock {\em Phys. Rev. Lett.}, 81:5932--5935, Dec 1998.
 
+\bibitem{huelga}
+Daniel~E. Browne, Martin~B. Plenio, and Susana~F. Huelga.
+\newblock Robust creation of entanglement between ions in spatially separate
+  cavities.
+\newblock {\em Phys. Rev. Lett.}, 91:067901, Aug 2003.
+
+\bibitem{bruss}
+Dagmar Bru\ss{}.
+\newblock Optimal eavesdropping in quantum cryptography with six states.
+\newblock {\em Phys. Rev. Lett.}, 81:3018--3021, Oct 1998.
+
 \bibitem{burek}
 Michael~J. Burek, Yiwen Chu, Madelaine S.~Z. Liddy, Parth Patel, Jake Rochman,
   Srujan Meesala, Wooyoung Hong, Qimin Quan, Mikhail~D. Lukin, and Marko
-  Loncar.
+  Lon\v{c}ar.
 \newblock High quality-factor optical nanocavities in bulk single-crystal
   diamond.
 \newblock {\em Nature Communications}, 5:5718, 2014.
@@ -102,6 +156,12 @@ H.~K. Cheung and C.~K. Law.
   membrane in a cavity.
 \newblock {\em Phys. Rev. A}, 84:023812, Aug 2011.
 
+\bibitem{childress}
+L.~Childress, J.~M. Taylor, A.~S. S\o{}rensen, and M.~D. Lukin.
+\newblock Fault-tolerant quantum communication based on solid-state photon
+  emitters.
+\newblock {\em Phys. Rev. Lett.}, 96:070504, Feb 2006.
+
 \bibitem{phystoday}
 Lilian Childress, Ronald Walsworth, and Mikhail Lukin.
 \newblock Atom-like crystal defects: From quantum computers to biological
@@ -127,6 +187,13 @@ Marcelo Davan\c{c}o, Jasper Chan, Amir~H. Safavi-Naeini, Oskar Painter, and
 \newblock Slot-mode-coupled optomechanical crystals.
 \newblock {\em Opt. Express}, 20(22):24394--24410, Oct 2012.
 
+\bibitem{deutsch}
+David Deutsch, Artur Ekert, Richard Jozsa, Chiara Macchiavello, Sandu Popescu,
+  and Anna Sanpera.
+\newblock Quantum privacy amplification and the security of quantum
+  cryptography over noisy channels.
+\newblock {\em Phys. Rev. Lett.}, 77:2818--2821, Sep 1996.
+
 \bibitem{Ding2011}
 L.~Ding, C.~Baker, P.~Senellart, A.~Lemaitre, S.~Ducci, G.~Leo, and I.~Favero.
 \newblock Wavelength-sized gaas optomechanical resonators with gigahertz
@@ -139,13 +206,19 @@ J.~M. Dobrindt and T.~J. Kippenberg.
   multiple cavity mode transducer.
 \newblock {\em Phys. Rev. Lett.}, 104:033901, Jan 2010.
 
-\bibitem{DuanPRL2004}
-L.-M. Duan and H.~J. Kimble.
-\newblock Scalable photonic quantum computation through cavity-assisted
-  interactions.
-\newblock {\em Phys. Rev. Lett.}, 92:127902, Mar 2004.
+\bibitem{haroche1}
+P.~Domokos, J.~M. Raimond, M.~Brune, and S.~Haroche.
+\newblock Simple cavity-qed two-bit universal quantum logic gate: The principle
+  and expected performances.
+\newblock {\em Phys. Rev. A}, 52:3554--3559, Nov 1995.
 
-\bibitem{duan2}
+\bibitem{kimble2}
+L.-M. Duan and H.~J. Kimble.
+\newblock Efficient engineering of multiatom entanglement through single-photon
+  detections.
+\newblock {\em Phys. Rev. Lett.}, 90:253601, Jun 2003.
+
+\bibitem{DuanPRL2004}
 L.-M. Duan and H.~J. Kimble.
 \newblock Scalable photonic quantum computation through cavity-assisted
   interactions.
@@ -163,11 +236,27 @@ L.-M. Duan, B.~Wang, and H.~J. Kimble.
   scattering.
 \newblock {\em Phys. Rev. A}, 72:032333, Sep 2005.
 
+\bibitem{duan4}
+Lu-Ming Duan, G.~Giedke, J.~I. Cirac, and P.~Zoller.
+\newblock Entanglement purification of gaussian continuous variable quantum
+  states.
+\newblock {\em Phys. Rev. Lett.}, 84:4002--4005, Apr 2000.
+
+\bibitem{briegel2}
+W~D\"{u}r and H~J Briegel.
+\newblock Entanglement purification and quantum error correction.
+\newblock {\em Reports on Progress in Physics}, 70(8):1381, 2007.
+
 \bibitem{Eichenfield2009}
 Matt Eichenfield, Jasper Chan, Ryan~M. Camacho, Kerry~J. Vahala, and Oskar
   Painter.
 \newblock Optomechanical crystals.
 \newblock {\em Nature}, 462:78--82, 2009.
+
+\bibitem{ekert}
+Artur~K. Ekert.
+\newblock Quantum cryptography based on bell's theorem.
+\newblock {\em Phys. Rev. Lett.}, 67:661--663, Aug 1991.
 
 \bibitem{Favero2009}
 Ivan Favero and Khaled Karrai.
@@ -233,10 +322,27 @@ Subhadeep Gupta, Kevin~L. Moore, Kater~W. Murch, and Dan~M. Stamper-Kurn.
   motion.
 \newblock {\em Phys. Rev. Lett.}, 99:213601, Nov 2007.
 
+\bibitem{hammerer}
+Klemens Hammerer, Anders~S. S\o{}rensen, and Eugene~S. Polzik.
+\newblock Quantum interface between light and atomic ensembles.
+\newblock {\em Rev. Mod. Phys.}, 82:1041--1093, Apr 2010.
+
 \bibitem{Hill2012}
 Jeff~T. Hill, Amir~H. Safavi-Naeini, Jasper Chan, and Oskar Painter.
 \newblock Coherent optical wavelength conversion via cavity optomechanics.
 \newblock {\em Nature Communications}, 3:1196, 2012.
+
+\bibitem{monroe2014}
+D.~Hucul, I.~V. Inlek, G.~Vittorini, C.~Crocker, S.~Debnath, S.~M. Clark, and
+  C.~Monroe.
+\newblock Modular entanglement of atomic qubits using photons and phonons.
+\newblock {\em Nature Physics}, 11:37--42, 2015.
+
+\bibitem{jiang2007}
+Liang Jiang, Jacob~M. Taylor, Navin Khaneja, and Mikhail~D. Lukin.
+\newblock Optimal approach to quantum communication using dynamic programming.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  104(44):17291--17296, 2007.
 
 \bibitem{Johansson20131234}
 J.R. Johansson, P.D. Nation, and Franco Nori.
@@ -351,6 +457,12 @@ Haixing Miao, Stefan Danilishin, Thomas Corbitt, and Yanbei Chen.
 \newblock Standard quantum limit for probing mechanical energy quantization.
 \newblock {\em Phys. Rev. Lett.}, 103:100402, Sep 2009.
 
+\bibitem{nickerson}
+Naomi~H. Nickerson, Joseph~F. Fitzsimons, and Simon~C. Benjamin.
+\newblock Freely scalable quantum technologies using cells of 5-to-50 qubits
+  with very lossy and noisy photonic links.
+\newblock {\em Phys. Rev. X}, 4:041041, Dec 2014.
+
 \bibitem{Notomi2008}
 M.~Notomi, E.~Kuramochi, and H.~Taniyama.
 \newblock Ultrahigh-q nanocavity with 1d photonic gap.
@@ -373,6 +485,11 @@ A.~D. O’Connell, M.~Hofheinz, M.~Ansmann, Radoslaw~C. Bialczak, M.~Lenander,
 Jiannis Pachos and Herbert Walther.
 \newblock Quantum computation with trapped ions in an optical cavity.
 \newblock {\em Phys. Rev. Lett.}, 89:187903, Oct 2002.
+
+\bibitem{pan}
+Jian-Wei Pan, Christoph Simon, \v{C}aslav Brukner, and Anton Zeilinger.
+\newblock Entanglement purification for quantum communication.
+\newblock {\em Nature}, 410:1067--1070, 2001.
 
 \bibitem{pellizari}
 T.~Pellizzari, S.~A. Gardiner, J.~I. Cirac, and P.~Zoller.
@@ -453,6 +570,30 @@ Amir~H Safavi-Naeini and Oskar Painter.
 \newblock Proposal for an optomechanical traveling wave phononâ€“photon
   translator.
 \newblock {\em New Journal of Physics}, 13(1):013017, 2011.
+
+\bibitem{sangouard2}
+Nicolas Sangouard, Romain Dubessy, and Christoph Simon.
+\newblock Quantum repeaters based on single trapped ions.
+\newblock {\em Phys. Rev. A}, 79:042340, Apr 2009.
+
+\bibitem{sangouard3}
+Nicolas Sangouard, Christoph Simon, Hugues de~Riedmatten, and Nicolas Gisin.
+\newblock Quantum repeaters based on atomic ensembles and linear optics.
+\newblock {\em Rev. Mod. Phys.}, 83:33--80, Mar 2011.
+
+\bibitem{sangouard1}
+Nicolas Sangouard, Christoph Simon, Bo~Zhao, Yu-Ao Chen, Hugues de~Riedmatten,
+  Jian-Wei Pan, and Nicolas Gisin.
+\newblock Robust and efficient quantum repeaters with atomic ensembles and
+  linear optics.
+\newblock {\em Phys. Rev. A}, 77:062301, Jun 2008.
+
+\bibitem{scarani}
+Valerio Scarani, Helle Bechmann-Pasquinucci, Nicolas~J. Cerf, Miloslav
+  Du\ifmmode~\check{s}\else \v{s}\fi{}ek, Norbert L\"utkenhaus, and Momtchil
+  Peev.
+\newblock The security of practical quantum key distribution.
+\newblock {\em Rev. Mod. Phys.}, 81:1301--1350, Sep 2009.
 
 \bibitem{stirap}
 S.~Schiemann, A.~Kuhn, S.~Steuerwald, and K.~Bergmann.
@@ -561,6 +702,17 @@ E.~Togan, Y.~Chu, A.~S. Trifonov, L.~Jiang, J.~Maze, L.~Childress, M.~V.~G.
 \newblock Quantum entanglement between an optical photon and a solid-state spin
   qubit.
 \newblock {\em Nature}, 466:730--734, 2010.
+
+\bibitem{cirac2}
+S.~J. van Enk, J.~I. Cirac, and P.~Zoller.
+\newblock Ideal quantum communication over noisy channels: A quantum optical
+  implementation.
+\newblock {\em Phys. Rev. Lett.}, 78:4293--4296, Jun 1997.
+
+\bibitem{cirac1}
+S.~J. van Enk, J.~I. Cirac, and P.~Zoller.
+\newblock Purifying two-bit quantum gates and joint measurements in cavity qed.
+\newblock {\em Phys. Rev. Lett.}, 79:5178--5181, Dec 1997.
 
 \bibitem{varnava}
 Michael Varnava, Daniel~E. Browne, and Terry Rudolph.

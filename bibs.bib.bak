@@ -21,6 +21,20 @@
   url = {http://stacks.iop.org/1367-2630/12/i=8/a=083030}
 }
 
+@ARTICLE{boris,
+  author = {Boris Albrecht and Pau Farrera and Xavier Fernandez-Gonzalvo and
+	Matteo Cristiani and Hugues de Riedmatten},
+  title = {A waveguide frequency converter connecting rubidium-based quantum
+	memories to the telecom C-band},
+  journal = {Nature Communications},
+  year = {2013},
+  volume = {5},
+  pages = {3376},
+  doi = {10.1038/ncomms4376},
+  owner = {Peter Komar},
+  timestamp = {2015.10.08}
+}
+
 @ARTICLE{Arcizet2006,
   author = {O. Arcizet and P.-F. Cohadon and T. Briant and M. Pinard and A. Heidmann},
   title = {Radiation-pressure cooling and optomechanical instability of a micromirror},
@@ -208,6 +222,61 @@
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.85.1762}
 }
 
+@ARTICLE{blatt1,
+  author = {Jan Benhelm and Gerhard Kirchmair and Christian F. Roos and Rainer
+	Blatt},
+  title = {Towards fault-tolerant quantum computing with trapped ions},
+  journal = {Nature Physics},
+  year = {2008},
+  volume = {4},
+  pages = {463--466},
+  doi = {10.1038/nphys961},
+  owner = {Peter Komar},
+  timestamp = {2015.10.08}
+}
+
+@CONFERENCE{bennett2,
+  author = {C. H. Bennett and G. Brassard},
+  booktitle = {Proceedings IEEE International Conference on Computers, Systems and
+	Signal Processing},
+  year = {1984},
+  organization = {IEEE},
+  owner = {Peter Komar},
+  timestamp = {2015.10.08}
+}
+
+@ARTICLE{bennett,
+  author = {Bennett, Charles H. and Brassard, Gilles and Popescu, Sandu and Schumacher,
+	Benjamin and Smolin, John A. and Wootters, William K.},
+  title = {Purification of Noisy Entanglement and Faithful Teleportation via
+	Noisy Channels},
+  journal = {Phys. Rev. Lett.},
+  year = {1996},
+  volume = {76},
+  pages = {722--725},
+  month = {Jan},
+  doi = {10.1103/PhysRevLett.76.722},
+  issue = {5},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.76.722}
+}
+
+@ARTICLE{bernardes,
+  author = {Bernardes, Nadja K. and Praxmeyer, Ludmi\l{}a and van Loock, Peter},
+  title = {Rate analysis for a hybrid quantum repeater},
+  journal = {Phys. Rev. A},
+  year = {2011},
+  volume = {83},
+  pages = {012323},
+  month = {Jan},
+  doi = {10.1103/PhysRevA.83.012323},
+  issue = {1},
+  numpages = {13},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevA.83.012323}
+}
+
 @ARTICLE{Borregaard2015b,
   author = {Borregaard, J and K\'{o}m\'{a}r, P. and Kessler, E. M. and Lukin,
 	M. D. and S\o rensen, A. S.},
@@ -239,6 +308,18 @@
   file = {:C$\backslash$:/Doc/Harvard/Research/MyPapers/PRL\_2015.pdf:pdf},
   issn = {0031-9007},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.114.110502}
+}
+
+@ARTICLE{cell,
+  author = {J. Borregaard and M. Zugenmaier and J. M. Petersen and H. Shen and
+	G. Vasilakis and K. Jensen and E. S. Polzik and A. S. S{\o}rensen},
+  title = {Room temperature quantum memory and scalable single photon source
+	based on motional averaging},
+  year = {2015},
+  pages = {arXiv:1501.03916},
+  owner = {Peter Komar},
+  timestamp = {2015.10.08},
+  url = {http://arxiv.org/abs/1501.03916}
 }
 
 @ARTICLE{Brecha1999,
@@ -299,10 +380,41 @@
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.81.5932}
 }
 
+@ARTICLE{huelga,
+  author = {Browne, Daniel E. and Plenio, Martin B. and Huelga, Susana F.},
+  title = {Robust Creation of Entanglement between Ions in Spatially Separate
+	Cavities},
+  journal = {Phys. Rev. Lett.},
+  year = {2003},
+  volume = {91},
+  pages = {067901},
+  month = {Aug},
+  doi = {10.1103/PhysRevLett.91.067901},
+  issue = {6},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.91.067901}
+}
+
+@ARTICLE{bruss,
+  author = {Bru\ss{}, Dagmar},
+  title = {Optimal Eavesdropping in Quantum Cryptography with Six States},
+  journal = {Phys. Rev. Lett.},
+  year = {1998},
+  volume = {81},
+  pages = {3018--3021},
+  month = {Oct},
+  doi = {10.1103/PhysRevLett.81.3018},
+  issue = {14},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.81.3018}
+}
+
 @ARTICLE{burek,
   author = {Michael J. Burek and Yiwen Chu and Madelaine S. Z. Liddy and Parth
 	Patel and Jake Rochman and Srujan Meesala and Wooyoung Hong and Qimin
-	Quan and Mikhail D. Lukin and Marko Loncar},
+	Quan and Mikhail D. Lukin and Marko Lon\v{c}ar},
   title = {High quality-factor optical nanocavities in bulk single-crystal diamond},
   journal = {Nature Communications},
   year = {2014},
@@ -426,6 +538,23 @@
   url = {http://link.aps.org/doi/10.1103/PhysRevA.84.023812}
 }
 
+@ARTICLE{childress,
+  author = {Childress, L. and Taylor, J. M. and S\o{}rensen, A. S. and Lukin,
+	M. D.},
+  title = {Fault-Tolerant Quantum Communication Based on Solid-State Photon
+	Emitters},
+  journal = {Phys. Rev. Lett.},
+  year = {2006},
+  volume = {96},
+  pages = {070504},
+  month = {Feb},
+  doi = {10.1103/PhysRevLett.96.070504},
+  issue = {7},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.96.070504}
+}
+
 @ARTICLE{phystoday,
   author = {Lilian Childress and Ronald Walsworth and Mikhail Lukin},
   title = {Atom-like crystal defects: From quantum computers to biological sensors},
@@ -472,6 +601,28 @@
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.99.160801}
 }
 
+@ARTICLE{briegel2,
+  author = {W D\"{u}r and H J Briegel},
+  title = {Entanglement purification and quantum error correction},
+  journal = {Reports on Progress in Physics},
+  year = {2007},
+  volume = {70},
+  pages = {1381},
+  number = {8},
+  abstract = {We give a review on entanglement purification for bipartite and multipartite
+	quantum states, with the main focus on the theoretical work carried
+	out by our group in the last couple of years. We discuss entanglement
+	purification in the context of quantum communication, where we emphasize
+	its close relation to quantum error correction. Various bipartite
+	and multipartite entanglement purification protocols are discussed,
+	and their performance under idealized and realistic conditions is
+	studied. Several applications of entanglement purification in quantum
+	communication and computation are presented, which highlights the
+	fact that entanglement purification is a fundamental tool in quantum
+	information processing.},
+  url = {http://stacks.iop.org/0034-4885/70/i=8/a=R03}
+}
+
 @ARTICLE{Davanc2012,
   author = {Marcelo Davan\c{c}o and Jasper Chan and Amir H. Safavi-Naeini and
 	Oskar Painter and Kartik Srinivasan},
@@ -506,6 +657,23 @@
   url = {http://www.opticsexpress.org/abstract.cfm?URI=oe-20-22-24394}
 }
 
+@ARTICLE{deutsch,
+  author = {Deutsch, David and Ekert, Artur and Jozsa, Richard and Macchiavello,
+	Chiara and Popescu, Sandu and Sanpera, Anna},
+  title = {Quantum Privacy Amplification and the Security of Quantum Cryptography
+	over Noisy Channels},
+  journal = {Phys. Rev. Lett.},
+  year = {1996},
+  volume = {77},
+  pages = {2818--2821},
+  month = {Sep},
+  doi = {10.1103/PhysRevLett.77.2818},
+  issue = {13},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.77.2818}
+}
+
 @ARTICLE{Ding2011,
   author = {Ding, L. and Baker, C. and Senellart, P. and Lemaitre, A. and Ducci,
 	S. and Leo, G. and Favero, I.},
@@ -536,19 +704,36 @@
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.104.033901}
 }
 
-@ARTICLE{duan2,
-  author = {Duan, L.-M. and Kimble, H. J.},
-  title = {Scalable Photonic Quantum Computation through Cavity-Assisted Interactions},
-  journal = {Phys. Rev. Lett.},
-  year = {2004},
-  volume = {92},
-  pages = {127902},
-  month = {Mar},
-  doi = {10.1103/PhysRevLett.92.127902},
-  issue = {12},
-  numpages = {4},
+@ARTICLE{haroche1,
+  author = {Domokos, P. and Raimond, J. M. and Brune, M. and Haroche, S.},
+  title = {Simple cavity-QED two-bit universal quantum logic gate: The principle
+	and expected performances},
+  journal = {Phys. Rev. A},
+  year = {1995},
+  volume = {52},
+  pages = {3554--3559},
+  month = {Nov},
+  doi = {10.1103/PhysRevA.52.3554},
+  issue = {5},
+  numpages = {0},
   publisher = {American Physical Society},
-  url = {http://link.aps.org/doi/10.1103/PhysRevLett.92.127902}
+  url = {http://link.aps.org/doi/10.1103/PhysRevA.52.3554}
+}
+
+@ARTICLE{duan4,
+  author = {Duan, Lu-Ming and Giedke, G. and Cirac, J. I. and Zoller, P.},
+  title = {Entanglement Purification of Gaussian Continuous Variable Quantum
+	States},
+  journal = {Phys. Rev. Lett.},
+  year = {2000},
+  volume = {84},
+  pages = {4002--4005},
+  month = {Apr},
+  doi = {10.1103/PhysRevLett.84.4002},
+  issue = {17},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.84.4002}
 }
 
 @ARTICLE{DuanPRL2004,
@@ -564,6 +749,22 @@
   numpages = {4},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.92.127902}
+}
+
+@ARTICLE{kimble2,
+  author = {Duan, L.-M. and Kimble, H. J.},
+  title = {Efficient Engineering of Multiatom Entanglement through Single-Photon
+	Detections},
+  journal = {Phys. Rev. Lett.},
+  year = {2003},
+  volume = {90},
+  pages = {253601},
+  month = {Jun},
+  doi = {10.1103/PhysRevLett.90.253601},
+  issue = {25},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.90.253601}
 }
 
 @ARTICLE{duan3,
@@ -606,6 +807,53 @@
   doi = {10.1038/nature08524},
   owner = {Peter Komar},
   timestamp = {2015.10.01}
+}
+
+@ARTICLE{ekert,
+  author = {Ekert, Artur K.},
+  title = {Quantum cryptography based on Bell's theorem},
+  journal = {Phys. Rev. Lett.},
+  year = {1991},
+  volume = {67},
+  pages = {661--663},
+  month = {Aug},
+  doi = {10.1103/PhysRevLett.67.661},
+  issue = {6},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.67.661}
+}
+
+@ARTICLE{cirac1,
+  author = {van Enk, S. J. and Cirac, J. I. and Zoller, P.},
+  title = {Purifying Two-Bit Quantum Gates and Joint Measurements in Cavity
+	QED},
+  journal = {Phys. Rev. Lett.},
+  year = {1997},
+  volume = {79},
+  pages = {5178--5181},
+  month = {Dec},
+  doi = {10.1103/PhysRevLett.79.5178},
+  issue = {25},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.79.5178}
+}
+
+@ARTICLE{cirac2,
+  author = {van Enk, S. J. and Cirac, J. I. and Zoller, P.},
+  title = {Ideal Quantum Communication over Noisy Channels: A Quantum Optical
+	Implementation},
+  journal = {Phys. Rev. Lett.},
+  year = {1997},
+  volume = {78},
+  pages = {4293--4296},
+  month = {Jun},
+  doi = {10.1103/PhysRevLett.78.4293},
+  issue = {22},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.78.4293}
 }
 
 @ARTICLE{Favero2009,
@@ -767,6 +1015,21 @@
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.99.213601}
 }
 
+@ARTICLE{hammerer,
+  author = {Hammerer, Klemens and S\o{}rensen, Anders S. and Polzik, Eugene S.},
+  title = {Quantum interface between light and atomic ensembles},
+  journal = {Rev. Mod. Phys.},
+  year = {2010},
+  volume = {82},
+  pages = {1041--1093},
+  month = {Apr},
+  doi = {10.1103/RevModPhys.82.1041},
+  issue = {2},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/RevModPhys.82.1041}
+}
+
 @ARTICLE{Hill2012,
   author = {Jeff T. Hill and Amir H. Safavi-Naeini and Jasper Chan and Oskar
 	Painter},
@@ -778,6 +1041,47 @@
   doi = {10.1038/ncomms2201},
   owner = {Peter Komar},
   timestamp = {2015.10.01}
+}
+
+@ARTICLE{monroe2014,
+  author = {D. Hucul and I. V. Inlek and G. Vittorini and C. Crocker and S. Debnath
+	and S. M. Clark and C. Monroe},
+  title = {Modular entanglement of atomic qubits using photons and phonons},
+  journal = {Nature Physics},
+  year = {2015},
+  volume = {11},
+  pages = {37--42},
+  doi = {10.1038/nphys3150},
+  owner = {Peter Komar},
+  timestamp = {2015.10.08}
+}
+
+@ARTICLE{jiang2007,
+  author = {Jiang, Liang and Taylor, Jacob M. and Khaneja, Navin and Lukin, Mikhail
+	D.},
+  title = {Optimal approach to quantum communication using dynamic programming},
+  journal = {Proceedings of the National Academy of Sciences},
+  year = {2007},
+  volume = {104},
+  pages = {17291-17296},
+  number = {44},
+  abstract = {Reliable preparation of entanglement between distant systems is an
+	outstanding problem in quantum information science and quantum communication.
+	In practice, this has to be accomplished by noisy channels (such
+	as optical fibers) that generally result in exponential attenuation
+	of quantum signals at large distances. A special class of quantum
+	error correction protocols, quantum repeater protocols, can be used
+	to overcome such losses. In this work, we introduce a method for
+	systematically optimizing existing protocols and developing more
+	efficient protocols. Our approach makes use of a dynamic programming-based
+	searching algorithm, the complexity of which scales only polynomially
+	with the communication distance, letting us efficiently determine
+	near-optimal solutions. We find significant improvements in both
+	the speed and the final-state fidelity for preparing long-distance
+	entangled states.},
+  doi = {10.1073/pnas.0703284104},
+  eprint = {http://www.pnas.org/content/104/44/17291.full.pdf},
+  url = {http://www.pnas.org/content/104/44/17291.abstract}
 }
 
 @ARTICLE{Johansson20131234,
@@ -1209,6 +1513,23 @@
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.103.100402}
 }
 
+@ARTICLE{nickerson,
+  author = {Nickerson, Naomi H. and Fitzsimons, Joseph F. and Benjamin, Simon
+	C.},
+  title = {Freely Scalable Quantum Technologies Using Cells of 5-to-50 Qubits
+	with Very Lossy and Noisy Photonic Links},
+  journal = {Phys. Rev. X},
+  year = {2014},
+  volume = {4},
+  pages = {041041},
+  month = {Dec},
+  doi = {10.1103/PhysRevX.4.041041},
+  issue = {4},
+  numpages = {17},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevX.4.041041}
+}
+
 @ARTICLE{Notomi2008,
   author = {M. Notomi and E. Kuramochi and H. Taniyama},
   title = {Ultrahigh-Q Nanocavity with 1D Photonic Gap},
@@ -1272,6 +1593,19 @@
   numpages = {4},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.89.187903}
+}
+
+@ARTICLE{pan,
+  author = {Jian-Wei Pan and Christoph Simon and \v{C}aslav Brukner and Anton
+	Zeilinger},
+  title = {Entanglement purification for quantum communication},
+  journal = {Nature},
+  year = {2001},
+  volume = {410},
+  pages = {1067--1070},
+  doi = {10.1038/35074041},
+  owner = {Peter Komar},
+  timestamp = {2015.10.08}
 }
 
 @ARTICLE{pellizari,
@@ -1389,7 +1723,7 @@
   url = {http://stacks.iop.org/1742-6596/264/i=1/a=012025}
 }
 
-@ARTICLE{,
+@ARTICLE{ritter2014,
   author = {Andreas Reiserer and Norbert Kalb and Gerhard Rempe and Stephan Ritter},
   title = {A quantum gate between a flying optical photon and a single trapped
 	atom},
@@ -1528,6 +1862,71 @@
 	conversion, long-lived quantum memory and state transfer from optical
 	to superconducting qubits, is considered.},
   url = {http://stacks.iop.org/1367-2630/13/i=1/a=013017}
+}
+
+@ARTICLE{sangouard2,
+  author = {Sangouard, Nicolas and Dubessy, Romain and Simon, Christoph},
+  title = {Quantum repeaters based on single trapped ions},
+  journal = {Phys. Rev. A},
+  year = {2009},
+  volume = {79},
+  pages = {042340},
+  month = {Apr},
+  doi = {10.1103/PhysRevA.79.042340},
+  issue = {4},
+  numpages = {6},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevA.79.042340}
+}
+
+@ARTICLE{sangouard3,
+  author = {Sangouard, Nicolas and Simon, Christoph and de Riedmatten, Hugues
+	and Gisin, Nicolas},
+  title = {Quantum repeaters based on atomic ensembles and linear optics},
+  journal = {Rev. Mod. Phys.},
+  year = {2011},
+  volume = {83},
+  pages = {33--80},
+  month = {Mar},
+  doi = {10.1103/RevModPhys.83.33},
+  issue = {1},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/RevModPhys.83.33}
+}
+
+@ARTICLE{sangouard1,
+  author = {Sangouard, Nicolas and Simon, Christoph and Zhao, Bo and Chen, Yu-Ao
+	and de Riedmatten, Hugues and Pan, Jian-Wei and Gisin, Nicolas},
+  title = {Robust and efficient quantum repeaters with atomic ensembles and
+	linear optics},
+  journal = {Phys. Rev. A},
+  year = {2008},
+  volume = {77},
+  pages = {062301},
+  month = {Jun},
+  doi = {10.1103/PhysRevA.77.062301},
+  issue = {6},
+  numpages = {7},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevA.77.062301}
+}
+
+@ARTICLE{scarani,
+  author = {Scarani, Valerio and Bechmann-Pasquinucci, Helle and Cerf, Nicolas
+	J. and Du\ifmmode \check{s}\else \v{s}\fi{}ek, Miloslav and L\"utkenhaus,
+	Norbert and Peev, Momtchil},
+  title = {The security of practical quantum key distribution},
+  journal = {Rev. Mod. Phys.},
+  year = {2009},
+  volume = {81},
+  pages = {1301--1350},
+  month = {Sep},
+  doi = {10.1103/RevModPhys.81.1301},
+  issue = {3},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/RevModPhys.81.1301}
 }
 
 @ARTICLE{stirap,
