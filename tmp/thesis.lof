@@ -38,16 +38,20 @@
 \contentsline {figure}{\numberline {6.1}{\ignorespaces GHZ cascade}}{92}{figure.6.1}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Comparison of clock protocols}}{99}{figure.6.2}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces The concept of world-wide quantum clock network}}{105}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Entangled state preparation between distant nodes}}{107}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Performance of different operation schemes}}{113}{figure.7.3}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Schematics of security countermeasures}}{117}{figure.7.4}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Comparison of effective and exact description}}{133}{figure.B.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Comparison of effective and exact description}}{115}{figure.B.1}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Level structure of qubit an auxiliary atoms}}{139}{figure.C.1}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Error and success probability vs cooperativity}}{145}{figure.C.2}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Levels structure of auxiliary atom}}{146}{figure.C.3}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Gate time and success probability vs driving strength}}{153}{figure.C.4}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Conditional fidelity}}{154}{figure.C.5}
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Gate time and success probability vs detuning}}{155}{figure.C.6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Level structure of qubit an auxiliary atoms}}{121}{figure.C.1}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Error and success probability vs cooperativity}}{127}{figure.C.2}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Levels structure of auxiliary atom}}{128}{figure.C.3}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Gate time and success probability vs driving strength}}{135}{figure.C.4}
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Conditional fidelity}}{136}{figure.C.5}
-\contentsline {figure}{\numberline {C.6}{\ignorespaces Gate time and success probability vs detuning}}{137}{figure.C.6}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
