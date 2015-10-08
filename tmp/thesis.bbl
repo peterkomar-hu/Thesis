@@ -1,7 +1,12 @@
 \begin{thebibliography}{100}
 
-\bibitem{Mitchell2005}
-{\em Metrology with entangled states}, volume 5893, 2005.
+\bibitem{Abramovici1992}
+Alex Abramovici, William~E. Althouse, Ronald W.~P. Drever, Yekta Gürsel, Seiji
+  Kawamura, Frederick~J. Raab, David Shoemaker, Lisa Sievers, Robert~E. Spero,
+  Kip~S. Thorne, Rochus~E. Vogt, Rainer Weiss, Stanley~E. Whitcomb, and
+  Michael~E. Zucker.
+\newblock Ligo: The laser interferometer gravitational-wave observatory.
+\newblock {\em Science}, 256(5055):325--333, 1992.
 
 \bibitem{Akram2010}
 U~Akram, N~Kiesel, M~Aspelmeyer, and G~J Milburn.
@@ -14,6 +19,12 @@ Boris Albrecht, Pau Farrera, Xavier Fernandez-Gonzalvo, Matteo Cristiani, and
 \newblock A waveguide frequency converter connecting rubidium-based quantum
   memories to the telecom c-band.
 \newblock {\em Nature Communications}, 5:3376, 2013.
+
+\bibitem{Andersen2013}
+Ulrik~L. Andersen and Timothy~C. Ralph.
+\newblock High-fidelity teleportation of continuous-variable quantum states
+  using delocalized single photons.
+\newblock {\em Phys. Rev. Lett.}, 111:050504, Aug 2013.
 
 \bibitem{Andre2004}
 A.~Andr\'{e}, A.~S. S{\o}rensen, and M.~D. Lukin.
@@ -53,6 +64,11 @@ Jan Benhelm, Gerhard Kirchmair, Christian~F. Roos, and Rainer Blatt.
 \newblock Towards fault-tolerant quantum computing with trapped ions.
 \newblock {\em Nature Physics}, 4:463--466, 2008.
 
+\bibitem{Benhelm2008}
+Jan Benhelm, Gerhard Kirchmair, Christian~F. Roos, and Rainer Blatt.
+\newblock Towards fault-tolerant quantum computing with trapped ions.
+\newblock {\em Nature Physics}, 4:463--466, 2008.
+
 \bibitem{bennett2}
 C.~H. Bennett and G.~Brassard.
 \newblock In {\em Proceedings IEEE International Conference on Computers,
@@ -69,6 +85,13 @@ Charles~H. Bennett, Gilles Brassard, Sandu Popescu, Benjamin Schumacher,
 Nadja~K. Bernardes, Ludmi\l{}a Praxmeyer, and Peter van Loock.
 \newblock Rate analysis for a hybrid quantum repeater.
 \newblock {\em Phys. Rev. A}, 83:012323, 2011.
+
+\bibitem{Bernien2013}
+H.~Bernien, B.~Hensen, W.~Pfaff, G.~Koolstra, M.~S. Blok, L.~Robledo, T.~H.
+  Taminiau, M.~Markham, D.~J. Twitchen, L.~Childress, and R.~Hanson.
+\newblock Heralded entanglement between solid-state qubits separated by three
+  metres.
+\newblock {\em Nature}, 497:86--90, 2012.
 
 \bibitem{Bloom2013}
 B.~J. Bloom, T.~L. Nicholson, J.~R. Williams, S.~L. Campbell, M.~Bishof,
@@ -134,6 +157,12 @@ H.-J. Briegel, W.~D\"ur, J.~I. Cirac, and P.~Zoller.
 \newblock Quantum repeaters: The role of imperfect local operations in quantum
   communication.
 \newblock {\em Phys. Rev. Lett.}, 81:5932--5935, 1998.
+
+\bibitem{Broadbent2009}
+A.~Broadbent, J.~Fitzsimons, and E.~Kashefi.
+\newblock Universal blind quantum computation.
+\newblock In {\em Foundations of Computer Science, 2009. FOCS '09. 50th Annual
+  IEEE Symposium on}, pages 517--526, Oct 2009.
 
 \bibitem{huelga}
 Daniel~E. Browne, Martin~B. Plenio, and Susana~F. Huelga.
@@ -220,11 +249,23 @@ Lilian Childress, Ronald Walsworth, and Mikhail Lukin.
   sensors.
 \newblock {\em Physics Today}, 67:38, 2014.
 
+\bibitem{Childs2001}
+Andrew~M. Childs.
+\newblock Secure assisted quantum computation.
+\newblock {\em Quantum Info. Comput.}, 5(6):456--466, September 2005.
+
 \bibitem{Chou2010}
 C.~W. Chou, D.~B. Hume, J.~C.~J. Koelemeij, D.~J. Wineland, and T.~Rosenband.
 \newblock Frequency comparison of two high-accuracy ${\mathrm{al}}^{+}$ optical
   clocks.
 \newblock {\em Phys. Rev. Lett.}, 104:070802, Feb 2010.
+
+\bibitem{Chou2007}
+Chin-Wen Chou, Julien Laurat, Hui Deng, Kyung~Soo Choi, Hugues de~Riedmatten,
+  Daniel Felinto, and H.~Jeff Kimble.
+\newblock Functional quantum nodes for entanglement distribution over scalable
+  quantum networks.
+\newblock {\em Science}, 316(5829):1316--1320, 2007.
 
 \bibitem{cirac}
 J.~I. Cirac, P.~Zoller, H.~J. Kimble, and H.~Mabuchi.
@@ -269,6 +310,12 @@ L.~Ding, C.~Baker, P.~Senellart, A.~Lemaitre, S.~Ducci, G.~Leo, and I.~Favero.
   frequency.
 \newblock {\em Appl. Phys. Lett.}, 98:113108, 2011.
 
+\bibitem{Djerroud2010}
+Khelifa Djerroud, Ouali Acef, Andr\'{e} Clairon, Pierre Lemonde, Catherine~N.
+  Man, Etienne Samain, and Peter Wolf.
+\newblock Coherent optical link through the turbulent atmosphere.
+\newblock {\em Opt. Lett.}, 35(9):1479--1481, May 2010.
+
 \bibitem{Dobrindt2010}
 J.~M. Dobrindt and T.~J. Kippenberg.
 \newblock Theoretical analysis of mechanical displacement measurement using a
@@ -280,6 +327,12 @@ P.~Domokos, J.~M. Raimond, M.~Brune, and S.~Haroche.
 \newblock Simple cavity-qed two-bit universal quantum logic gate: The principle
   and expected performances.
 \newblock {\em Phys. Rev. A}, 52:3554--3559, 1995.
+
+\bibitem{Droste2013}
+S.~Droste, F.~Ozimek, Th. Udem, K.~Predehl, T.~W. H\"{a}nsch, H.~Schnatz,
+  G.~Grosche, and R.~Holzwarth.
+\newblock Optical-frequency transfer over a single-span 1840 km fiber link.
+\newblock {\em Phys. Rev. Lett.}, 111:110801, Sep 2013.
 
 \bibitem{kimble2}
 L.-M. Duan and H.~J. Kimble.
@@ -315,6 +368,11 @@ Lu-Ming Duan, G.~Giedke, J.~I. Cirac, and P.~Zoller.
 W~D\"{u}r and H~J Briegel.
 \newblock Entanglement purification and quantum error correction.
 \newblock {\em Reports on Progress in Physics}, 70:1381, 2007.
+
+\bibitem{Dur1999}
+W.~D\"{u}r, H.-J. Briegel, J.~I. Cirac, and P.~Zoller.
+\newblock Quantum repeaters based on entanglement purification.
+\newblock {\em Phys. Rev. A}, 59:169--181, Jan 1999.
 
 \bibitem{Eckstein1978}
 J.~N. Eckstein, A.~I. Ferguson, and T.~W. H\"ansch.
@@ -368,6 +426,12 @@ C.~Genes, A.~Mari, D.~Vitali, and P.~Tombesi.
   of {\em Advances In Atomic, Molecular, and Optical Physics}, pages 33 -- 86.
   Academic Press, 2009.
 
+\bibitem{Giedke2006}
+G.~Giedke, J.~M. Taylor, D.~D'Alessandro, M.~D. Lukin, and
+  A.~Imamo\ifmmode~\breve{g}\else \u{g}\fi{}lu.
+\newblock Quantum measurement of a mesoscopic spin ensemble.
+\newblock {\em Phys. Rev. A}, 74:032316, Sep 2006.
+
 \bibitem{Gigan2006}
 S.~Gigan, H.~R. Böhm, M.~Paternostro, F.~Blaser, G.~Langer, J.~B. Hertzberg,
   K.~C. Schwab, D.~Bäuerle, M.~Aspelmeyer, and A.~Zeilinger.
@@ -388,6 +452,11 @@ Vittorio Giovannetti, Seth Lloyd, and Lorenzo Maccone.
 Vittorio Giovannetti, Seth Lloyd, and Lorenzo Maccone.
 \newblock Advances in quantum metrology.
 \newblock {\em Nature Photonics}, 5:222--229, 2011.
+
+\bibitem{Gisin2002}
+Nicolas Gisin, Gr\'egoire Ribordy, Wolfgang Tittel, and Hugo Zbinden.
+\newblock Quantum cryptography.
+\newblock {\em Rev. Mod. Phys.}, 74:145--195, Mar 2002.
 
 \bibitem{grassi}
 M.~Grassl, Th. Beth, and T.~Pellizzari.
@@ -427,6 +496,12 @@ Jeff~T. Hill, Amir~H. Safavi-Naeini, Jasper Chan, and Oskar Painter.
 \newblock Coherent optical wavelength conversion via cavity optomechanics.
 \newblock {\em Nature Communications}, 3:1196, 2012.
 
+\bibitem{Hinkley2013}
+N.~Hinkley, J.~A. Sherman, N.~B. Phillips, M.~Schioppo, N.~D. Lemke, K.~Beloy,
+  M.~Pizzocaro, C.~W. Oates, and A.~D. Ludlow.
+\newblock An atomic clock with $10^-{18}$ instability.
+\newblock {\em Science}, 341(6151):1215--1218, 2013.
+
 \bibitem{monroe2014}
 D.~Hucul, I.~V. Inlek, G.~Vittorini, C.~Crocker, S.~Debnath, S.~M. Clark, and
   C.~Monroe.
@@ -461,6 +536,12 @@ David~J. Jones, Scott~A. Diddams, Jinendra~K. Ranka, Andrew Stentz, Robert~S.
 M.~J. Kastoryano, F.~Reiter, and A.~S. S{\o}rensen.
 \newblock Dissipative preparation of entanglement in optical cavities.
 \newblock {\em Phys. Rev. Lett.}, 106:090502, 2011.
+
+\bibitem{Kessler2014}
+E.~M. Kessler, P.~K\'{o}m\'{a}r, M.~Bishof, L.~Jiang, a.~S. S\o~rensen, J.~Ye,
+  and M.~D. Lukin.
+\newblock Heisenberg-limited atom clocks based on entangled qubits.
+\newblock {\em Phys. Rev. Lett.}, 112:190403, 2014.
 
 \bibitem{kimble}
 H.~J. Kimble.
@@ -505,11 +586,24 @@ T.~D. Ladd, F.~Jelezko, R.~Laflamme, Y.~Nakamura, C.~Monroe, and J.~L. O’Brien.
 \newblock Quantum computers.
 \newblock {\em Nature}, 464:45--53, 2010.
 
+\bibitem{Leibfried2004}
+D.~Leibfried, M.~D. Barrett, T.~Schaetz, J.~Britton, J.~Chiaverini, W.~M.
+  Itano, J.~D. Jost, C.~Langer, and D.~J. Wineland.
+\newblock Toward heisenberg-limited spectroscopy with multiparticle entangled
+  states.
+\newblock {\em Science}, 304(5676):1476--1478, 2004.
+
 \bibitem{Lemke2009}
 N.~D. Lemke, A.~D. Ludlow, Z.~W. Barber, T.~M. Fortier, S.~A. Diddams,
   Y.~Jiang, S.~R. Jefferts, T.~P. Heavner, T.~E. Parker, and C.~W. Oates.
 \newblock Spin-$1/2$ optical lattice clock.
 \newblock {\em Phys. Rev. Lett.}, 103:063001, Aug 2009.
+
+\bibitem{Leroux2010}
+Ian~D. Leroux, Monika~H. Schleier-Smith, and Vladan
+  Vuleti\ifmmode~\acute{c}\else \'{c}\fi{}.
+\newblock Implementation of cavity squeezing of a collective atomic spin.
+\newblock {\em Phys. Rev. Lett.}, 104:073602, Feb 2010.
 
 \bibitem{Liao2012}
 Jie-Qiao Liao and C.~K. Law.
@@ -538,6 +632,19 @@ M.~D. Lukin.
   atomic ensembles.
 \newblock {\em Rev. Mod. Phys.}, 75:457--472, 2003.
 
+\bibitem{Ma2012}
+Xiao-Song Ma, Thomas Herbst, Thomas Scheidl, Daqing Wang, Sebastian
+  Kropatschek, William Naylor, Bernhard Wittmann, Alexandra Mech, Johannes
+  Kofler, Elena Anisimova, Vadim Makarov, Thomas Jennewein, Rupert Ursin, and
+  Anton Zeilinger.
+\newblock Quantum teleportation over 143 kilometres using active feed-forward.
+\newblock {\em Nature}, 489:269--273, 2012.
+
+\bibitem{Mantri2013}
+Atul Mantri, Carlos~A. P\'erez-Delgado, and Joseph~F. Fitzsimons.
+\newblock Optimal blind quantum computation.
+\newblock {\em Phys. Rev. Lett.}, 111:230502, Dec 2013.
+
 \bibitem{MarquardtPRL2007}
 Florian Marquardt, Joe~P. Chen, A.~A. Clerk, and S.~M. Girvin.
 \newblock Quantum theory of cavity-assisted sideband cooling of mechanical
@@ -554,12 +661,27 @@ William Marshall, Christoph Simon, Roger Penrose, and Dik Bouwmeester.
 \newblock Towards quantum superpositions of a mirror.
 \newblock {\em Phys. Rev. Lett.}, 91:130401, 2003.
 
+\bibitem{Maunz2007}
+P.~Maunz, D.~L. Moehring, S.~Olmschenk, K.~C. Younge, D.~N. Matsukevich, and
+  C.~Monroe.
+\newblock Quantum interference of photon pairs from two remote trapped atomic
+  ions.
+\newblock {\em Nature Physics}, 3:538--541, 2007.
+
 \bibitem{maurer}
 P.~C. Maurer, G.~Kucsko, C.~Latta, L.~Jiang, N.~Y. Yao, S.~D. Bennett,
   F.~Pastawski, D.~Hunger, N.~Chisholm, M.~Markham, D.~J. Twitchen, J.~I.
   Cirac, and M.~D. Lukin.
 \newblock Room-temperature quantum bit memory exceeding one second.
 \newblock {\em Science}, 336:1283--1286, 2012.
+
+\bibitem{McConnell2013}
+Robert McConnell, Hao Zhang, Senka \ifmmode~\acute{C}\else \'{C}\fi{}uk,
+  Jiazhong Hu, Monika~H. Schleier-Smith, and Vladan
+  Vuleti\ifmmode~\acute{c}\else \'{c}\fi{}.
+\newblock Generating entangled spin states for quantum metrology by
+  single-photon detection.
+\newblock {\em Phys. Rev. A}, 88:063802, Dec 2013.
 
 \bibitem{Meiser:2008fo}
 D~Meiser, Jun Ye, and M~J Holland.
@@ -577,6 +699,12 @@ Haixing Miao, Stefan Danilishin, Thomas Corbitt, and Yanbei Chen.
 \newblock Standard quantum limit for probing mechanical energy quantization.
 \newblock {\em Phys. Rev. Lett.}, 103:100402, 2009.
 
+\bibitem{Mitchell2005}
+M.~W. Mitchell.
+\newblock Metrology with entangled states.
+\newblock In {\em Proc. SPIE 5893, Quantum Communications and Quantum Imaging
+  III}, volume 5893, pages 589310--589310--10, 2005.
+
 \bibitem{Monz2011}
 Thomas Monz, Philipp Schindler, Julio~T. Barreiro, Michael Chwalla, Daniel
   Nigg, William~A. Coish, Maximilian Harlander, Wolfgang H\"ansel, Markus
@@ -589,7 +717,7 @@ T.~L. Nicholson, M.~J. Martin, J.~R. Williams, B.~J. Bloom, M.~Bishof, M.~D.
   Swallows, S.~L. Campbell, and J.~Ye.
 \newblock Comparison of two independent sr optical clocks with
   $1\mathbf{\ifmmode\times\else\texttimes\fi{}}{10}^{-17}$ stability at
-  ${10}^{3}\text{ }\text{ }\mathbf{s}$.
+  ${10}^{3}\,\mathbf{s}$.
 \newblock {\em Phys. Rev. Lett.}, 109:230801, Dec 2012.
 
 \bibitem{nickerson}
@@ -620,6 +748,11 @@ A.~D. O’Connell, M.~Hofheinz, M.~Ansmann, Radoslaw~C. Bialczak, M.~Lenander,
 \newblock Quantum ground state and single-phonon control of a mechanical
   resonator.
 \newblock {\em Nature}, 464:697--703, 2010.
+
+\bibitem{Olmschenk2009}
+S.~Olmschenk, D.~N. Matsukevich, P.~Maunz, D.~Hayes, L.-M. Duan, and C.~Monroe.
+\newblock Quantum teleportation between distant matter qubits.
+\newblock {\em Science}, 323(5913):486--489, 2009.
 
 \bibitem{pachos}
 Jiannis Pachos and Herbert Walther.
@@ -696,6 +829,13 @@ P.R. Rice and H.J. Carmichael.
   bad-cavity limit.
 \newblock {\em Quantum Electronics, IEEE Journal of}, 24:1351--1366, 1988.
 
+\bibitem{Riste2013}
+D.~Rist\`{e}, M.~Dukalski, C.~A. Watson, G.~de~Lange, M.~J. Tiggelman, Ya.~M.
+  Blanter, K.~W. Lehnert, R.~N. Schouten, and L.~DiCarlo.
+\newblock Deterministic entanglement of superconducting qubits by parity
+  measurement and feedback.
+\newblock {\em Nature}, 502:350--354, 2013.
+
 \bibitem{ritter}
 Stephan Ritter, Christian N\"{o}lleke, Carolin Hahn, Andreas Reiserer, Andreas
   Neuzner, Manuel Uphoff, Martin M\"{u}cke, Eden Figueroa, Joerg Bochmann, and
@@ -769,6 +909,17 @@ S.~Schiemann, A.~Kuhn, S.~Steuerwald, and K.~Bergmann.
   lasers.
 \newblock {\em Phys. Rev. Lett.}, 71:3637--3640, 1993.
 
+\bibitem{Schiller2008}
+S.~Schiller, G.M. Tino, P.~Gill, C.~Salomon, U.~Sterr, E.~Peik, A.~Nevsky,
+  A.~Görlitz, D.~Svehla, G.~Ferrari, N.~Poli, L.~Lusanna, H.~Klein,
+  H.~Margolis, P.~Lemonde, P.~Laurent, G.~Santarelli, A.~Clairon, W.~Ertmer,
+  E.~Rasel, J.~Müller, L.~Iorio, C.~Lämmerzahl, H.~Dittus, E.~Gill,
+  M.~Rothacher, F.~Flechner, U.~Schreiber, V.~Flambaum, Wei-Tou Ni, Liang Liu,
+  Xuzong Chen, Jingbiao Chen, Kelin Gao, L.~Cacciapuoti, R.~Holzwarth, M.P.
+  Heß, and W.~Schäfer.
+\newblock Einstein gravity explorer–a medium-class fundamental physics mission.
+\newblock {\em Experimental Astronomy}, 23(2):573--610, 2009.
+
 \bibitem{Schliesser2008}
 A.~Schliesser, R.~Rivi\`{e}re, G.~Anetsberger, O.~Arcizet, and T.~J.
   Kippenberg.
@@ -786,11 +937,30 @@ R.~J. Schoelkopf and S.~M. Girvin.
 \newblock Wiring up quantum systems.
 \newblock {\em Nature}, 451:664--669, 2008.
 
+\bibitem{Seidel2007}
+A.~Seidel, M.P. Hess, J.~Kehrer, W.~Schafer, M.~Kufner, M.~Siccardi,
+  L.~Cacciapuoti, I.A. Sanches, and S.~Feltham.
+\newblock The aces microwave link: Instrument design and test results.
+\newblock In {\em 2007 IEEE International Frequency Control Symposium Joint
+  with the 21st European Frequency and Time Forum}, pages 1295--1298. IEEE,
+  2007.
+
+\bibitem{Sherson2006}
+Jacob~F. Sherson, Hanna Krauter, Rasmus~K. Olsson, Brian Julsgaard, Klemens
+  Hammerer, Ignacio Cirac, and Eugene~S. Polzik.
+\newblock Quantum teleportation between light and matter.
+\newblock {\em Nature}, 443:557--560, 2006.
+
 \bibitem{shor}
 Peter~W. Shor.
 \newblock Polynomial-time algorithms for prime factorization and discrete
   logarithms on a quantum computer.
 \newblock {\em SIAM Journal on Computing}, 26:1484--1509, 1997.
+
+\bibitem{MSgate}
+Anders S\o{}rensen and Klaus M\o{}lmer.
+\newblock Entanglement and quantum computation with ions in thermal motion.
+\newblock {\em Phys. Rev. A}, 62:022311, Jul 2000.
 
 \bibitem{Anders2prl}
 Anders~S. S{\o}rensen and Klaus M{\o}lmer.
@@ -825,6 +995,12 @@ Y.~Tanaka, T.~Asano, and S.~Noda.
 \newblock Design of photonic crystal nanocavity with q -factor of
   ${\sim}10^{9}$.
 \newblock {\em Lightwave Technology, Journal of}, 26:1532--1539, 2008.
+
+\bibitem{Tapley2005}
+B.~Tapley, J.~Ries, S.~Bettadpur, D.~Chambers, M.~Cheng, F.~Condi, B.~Gunter,
+  Z.~Kang, P.~Nagel, R.~Pastor, T.~Pekker, S.~Poole, and F.~Wang.
+\newblock Ggm02 – an improved earth gravity field model from grace.
+\newblock {\em Journal of Geodesy}, 79(8):467--478, 2005.
 
 \bibitem{Taylor2011}
 J.~M. Taylor, A.~S. S\o{}rensen, C.~M. Marcus, and E.~S. Polzik.
@@ -923,6 +1099,20 @@ D.~J. Wineland, W.~M C.~Monroe, Itano, D.~Leibfried, B.~E. King, and D.~M.
 \newblock Experimental issues in coherent quantum-state manipulation of trapped
   atomic ions.
 \newblock {\em J. Res. Natl. Inst. Stand. Technol.}, 103:259, 1998.
+
+\bibitem{Wolf2008}
+P.~Wolf, Ch.J. Bordé, A.~Clairon, L.~Duchayne, A.~Landragin, P.~Lemonde,
+  G.~Santarelli, W.~Ertmer, E.~Rasel, F.S. Cataliotti, M.~Inguscio, G.M. Tino,
+  P.~Gill, H.~Klein, S.~Reynaud, C.~Salomon, E.~Peik, O.~Bertolami, P.~Gil,
+  J.~Páramos, C.~Jentsch, U.~Johann, A.~Rathke, P.~Bouyer, L.~Cacciapuoti,
+  D.~Izzo, P.~De~Natale, B.~Christophe, P.~Touboul, S.G. Turyshev, J.~Anderson,
+  M.E. Tobar, F.~Schmidt-Kaler, J.~Vigué, A.A. Madej, L.~Marmet, M.-C. Angonin,
+  P.~Delva, P.~Tourrenc, G.~Metris, H.~Müller, R.~Walsworth, Z.H. Lu, L.J.
+  Wang, K.~Bongs, A.~Toncelli, M.~Tonelli, H.~Dittus, C.~Lämmerzahl,
+  G.~Galzerano, P.~Laporta, J.~Laskar, A.~Fienga, F.~Roques, and K.~Sengstock.
+\newblock Quantum physics exploring gravity in the outer solar system: the
+  sagas project.
+\newblock {\em Experimental Astronomy}, 23(2):651--687, 2009.
 
 \bibitem{Xiong2012}
 Chi Xiong, Wolfram H~P Pernice, Xiankai Sun, Carsten Schuck, King~Y Fong, and

@@ -38,7 +38,7 @@ containing multiple atoms have demonstrated stability that reaches the standard
 quantum limit (SQL) set by the available atom number 
 % within a clock 
 and interrogation time
-\cite{Bloom2014, Hinkley2013, Nicholson2012}.
+\cite{Bloom2013, Hinkley2013, Nicholson2012}.
 Reaching beyond the SQL, we stand to gain a significant improvement of clock
 performance by preparing atoms in quantum correlated states (e.g., spin squeezed
 states \cite{Leroux2010, Buzek1999}). Here we describe a new
@@ -58,7 +58,7 @@ stable optical oscillator from one color or location to another \cite{Ye2003,
 Droste2013}.
 On the other hand, quantum communication and entanglement techniques are
 enabling distant quantum objects to be connected in a quantum network
-\cite{Cirac1997, Kimble2008, Perseguers2013}.
+\cite{cirac, kimble, acin}.
 % , that can enable novel,
 % extraordinary capabilities.
 Combining these two technological frontiers, we show here that  a distributed
@@ -203,7 +203,7 @@ qubit $1_1$.
 This can be realized, e.g.  with a single qubit $\pi/2$-rotation
 (on qubit $1_1$)
 and a collective entangling operation, which is equivalent to a series of
-CNOT gates \cite{Nielsen:2000vn} (between $1_1$ and each $b_j$).
+CNOT gates \cite{Nielsen_Chuang} (between $1_1$ and each $b_j$).
 The result is a GHZ state, $[\ket{00\dots 0}_{1_1,b_2,b_3,\dots b_K} +
 i\ket{11\dots 1}_{1_1,b_2,b_3,\dots b_K}]/\sqrt{2}$.
 %performed with the local oscillator field at the center, $\mathcal{E}_1$. 
@@ -214,13 +214,13 @@ i\ket{11\dots 1}_{1_1,b_2,b_3,\dots b_K}]/\sqrt{2}$.
 % \eel
 In parallel, the center uses the other half of the ancillas $\{a_j\}$ to create single EPR pairs with each node $j\neq1$,
 either by directly sending flying qubits and converting them to stationary
-qubits, or by using quantum repeater techniques to prepare high-fidelity entanglement \cite{Duan2001}. As a result of this procedure, 
+qubits, or by using quantum repeater techniques to prepare high-fidelity entanglement \cite{duan3}. As a result of this procedure, 
 one part of the pair is stored at the center node (qubit $a_j$), while the other one
 is stored at the $j$th  node (qubit $1_j$), forming the states $[\ket{00}_{a_j,1_j} +
 \ket{11}_{a_j,1_j}]/\sqrt{2}$ for every $j$ (see \reffig{fig:entangling}).
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{./figs_Komar2014/fig2.pdf}
+\includegraphics[width=0.7\textwidth]{./figs_Komar2014/fig2.pdf}
 \caption
 [Entangled state preparation between distant nodes]
 {
@@ -331,7 +331,7 @@ N\gamma_\mathrm{LO})^{-1}$, preventing any quantum gain in the estimation.
 
 To circumvent this problem, we use entangled states consisting of products of
 successively larger GHZ ensembles, see SI and 
-\cite{Kessler2013}. In this approach, 
+\cite{Kessler2014}. In this approach, 
 % interrogated network 
 atoms are split into
 several independent, shared groups.
@@ -350,7 +350,7 @@ in GHZ states.
 % i\ket{1}^{2^jK}]/\sqrt{2}\right)^{n_0}$, where $n_0$ is a small integer.}
 Additionally, each node has a small number of uncorrelated atoms interrogated by
 the LOs. Using a protocol reminiscent of the phase estimation algorithm
-\cite{Kessler2013,Nielsen:2000vn, Giedke2006}, measurement results from each
+\cite{Kessler2014,Nielsen_Chuang, Giedke2006}, measurement results from each
 level $j$ allow to directly assess the bits $Z_j \in \{0,1\}$ of the binary
 fraction representation of the laser phase $\Phi_\mathrm{LO}=\delta_\mathrm{COM} T
 =2\pi [(Z_1-1) 2^{-1} + Z_2 2^{-2} + Z_3 2^{-3} \hdots]$.
@@ -435,7 +435,7 @@ up to small numerical corrections [cf. SI].
 % gives rise to a logarithmic correction in the total particle number.
 The $1/\tau$ scaling results from the effective cancellation of the low
 frequency part of the laser noise spectrum, achieved
-by the cascaded protocol described above, possibly in combination with additional stages of uncorrelated interrogations using varying Ramsey times \cite{Rosenband:2013vp,Borregaard2013}, see \cite{Kessler2013}.
+by the cascaded protocol described above, possibly in combination with additional stages of uncorrelated interrogations using varying Ramsey times \cite{Rosenband2013,Borregaard2013}, see \cite{Kessler2014}.
 This allows the cycle time $T$ (which is assumed to be equal to
 the interrogation time) to be extended to the total available measurement time
 $\tau$.
@@ -488,14 +488,14 @@ $\phi_j$, and combining the outcomes via classical channels, outperforms
 individually operated clocks (curve c) by a factor of $\sqrt K$ 
 (for both cases, assuming optimal
 quantum interrogation for individual nodes
-\cite{Kessler2013,Borregaard2013Squeezing}).
+\cite{Kessler2014,Borregaard2013_nearHeisenberg}).
 The quantum network protocol (curve a)
 increases this cooperative advantage by an additional factor of $\sqrt K$ for
 short averaging times, reaching Heisenberg-limit, Furthermore the ADEV
 converges to the fundamental bound [\refeq{eq:ADEV2}] $K$ times faster compared
 to the case of classical cooperation (curve b).
 Although an optimal, classical, local protocol
-(e.g. \cite{Rosenband:2013vp, Borregaard2013}), combined with classical
+(e.g. \cite{Rosenband2013, Borregaard2013}), combined with classical
 cooperation (curve d), eventually reaches the same
 bound [\refeq{eq:ADEV2}],
 % in this case, the obtainable stability is always
@@ -521,7 +521,7 @@ improvements could potentially be achieved using e.g. $\mathrm{Yb}^+$ ions, due 
 
 The quantum gain could be even more pronounced for neutral atomic clocks. For a
 network consisting of ten clocks similar to the one operated in JILA
-\cite{Bloom2014}, each containing 1000 neutral atoms with central frequency
+\cite{Bloom2013}, each containing 1000 neutral atoms with central frequency
 $\omega_0 = 2\pi\times 429~\mathrm{THz}$ and linewidth $\gamma_i = 2\pi \times
 1~\mathrm{mHz}$,  the quantum cooperative scheme can achieve a stability of $\sim
 2\times 10^{-18}$ after 1s averaging, and is an order of magnitude
@@ -628,7 +628,7 @@ different clocks are averaged and communicated with a time delay (a so called
 paper clock), in our quantum clock network all participants have access to the
 ultra-stable signal at any time.
 This makes it possible to measure systematic errors of different clocks in
-real time, which in turn allows to correct them \cite{Bloom2014}, unlike in the
+real time, which in turn allows to correct them \cite{Bloom2013}, unlike in the
 case of the paper clock which has to rely on the retrospectively averaged time 
 signals (see SI). 
 The enhanced stability of the network signal hereby allows for longer Ramsey
@@ -651,10 +651,10 @@ information science.
 % significant quantum enhancement \cite{Nicholson2012}.
 The remote entanglement can be implemented by using recently demonstrated
 techniques for individual atom-photon entanglement \cite{Olmschenk2009,
-Chou2007, Togan2010, Bernien2013, Riste2013}. Since the teleportation protocol
+Chou2007, togan, Bernien2013, Riste2013}. Since the teleportation protocol
 requires quantum links capable of sharing EPR pairs with sufficiently high
 repetition rate and fidelity, entanglement purification \cite{Dur1999} and
-quantum repeater techniques \cite{Duan2001} will likely be required. In
+quantum repeater techniques \cite{duan3} will likely be required. In
 practice, qubits used for entanglement distribution may not be ideal for clocks.
  However, as noted previously  remote entanglement does not need to involve
 coherent qubits at optical frequencies (e.g., polarization entanglement can be
@@ -676,7 +676,7 @@ or using collective interactions (such as \cite{MSgate}) and repetitive teleport
 % Lastly, the use of a continuous variable approach can be potentially explored to
 % create squeezed atomic states across the network \cite{Sherson2006, Ma2012}. The
 % use of collective measurements may allow one to reach Heisenberg limited
-% stability \cite{Borregaard2013Squeezing}, while  squeezing can be transferred
+% stability \cite{Borregaard2013_nearHeisenberg}, while  squeezing can be transferred
 % from photons to atomic ensembles \cite{Sherson2006, Hammerer2010}. An important
 % open question of sensitivity of these techniques to photon losses needs to be
 % addressed. 
