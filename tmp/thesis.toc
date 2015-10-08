@@ -1,11 +1,11 @@
 \contentsline {section}{Title Page}{i}{Doc-Start}
 \contentsline {section}{Abstract}{iii}{Doc-Start}
 \contentsline {section}{Table of Contents}{iv}{Doc-Start}
-\contentsline {section}{List of Figures}{vii}{chapter*.2}
-\contentsline {section}{List of Tables}{ix}{chapter*.3}
-\contentsline {section}{Citations to Previously Published Work}{x}{chapter*.3}
-\contentsline {section}{Acknowledgments}{xi}{chapter*.3}
-\contentsline {section}{Dedication}{xii}{chapter*.3}
+\contentsline {section}{List of Figures}{viii}{chapter*.2}
+\contentsline {section}{List of Tables}{x}{chapter*.3}
+\contentsline {section}{Citations to Previously Published Work}{xi}{chapter*.3}
+\contentsline {section}{Acknowledgments}{xii}{chapter*.3}
+\contentsline {section}{Dedication}{xiii}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction and Motivation}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Overview and Structure}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Optomechanical Systems}{1}{section.1.2}
@@ -59,37 +59,61 @@
 \contentsline {section}{\numberline {5.5}Conclusion}{85}{section.5.5}
 \contentsline {chapter}{\numberline {6}Heisenberg-Limited Atom Clocks Based on Entangled Qubits}{88}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction}{88}{section.6.1}
-\contentsline {chapter}{\numberline {7}A quantum network of clocks}{89}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{89}{section.7.1}
-\contentsline {chapter}{\numberline {8}Entangling collective Rydberg excitations of remote atomic ensembles}{90}{chapter.8}
-\contentsline {section}{\numberline {8.1}Introduction}{90}{section.8.1}
-\contentsline {chapter}{\numberline {A}Appendices for Chapter \ref {ch:Komar2013}}{91}{appendix.A}
-\contentsline {section}{\numberline {A.1}Derivation of reflected mode operator}{91}{section.A.1}
-\contentsline {section}{\numberline {A.2}Analytic model}{92}{section.A.2}
-\contentsline {chapter}{\numberline {B}Appendices for Chapter \ref {ch:Stannigel2012}}{95}{appendix.B}
-\contentsline {section}{\numberline {B.1}Phonon nonlinearities}{95}{section.B.1}
-\contentsline {subsection}{\numberline {B.1.1}Model}{95}{subsection.B.1.1}
-\contentsline {subsection}{\numberline {B.1.2}Displaced frame}{96}{subsection.B.1.2}
-\contentsline {subsection}{\numberline {B.1.3}Hybridized modes}{97}{subsection.B.1.3}
-\contentsline {subsection}{\numberline {B.1.4}Adiabatic elimination of the cavity mode}{99}{subsection.B.1.4}
-\contentsline {subsection}{\numberline {B.1.5}Simple perturbation theory}{100}{subsection.B.1.5}
-\contentsline {subsection}{\numberline {B.1.6}Corrections}{101}{subsection.B.1.6}
-\contentsline {subsection}{\numberline {B.1.7}Numerical simulation}{102}{subsection.B.1.7}
-\contentsline {section}{\numberline {B.2}Phonon-phonon interactions}{104}{section.B.2}
-\contentsline {chapter}{\numberline {C}Appendices for Chapter \ref {ch:Borregaard_PRL2015}}{107}{appendix.C}
-\contentsline {section}{\numberline {C.1}Perturbation theory}{107}{section.C.1}
-\contentsline {subsection}{\numberline {C.1.1}Success probability and fidelity}{112}{subsection.C.1.1}
-\contentsline {subsection}{\numberline {C.1.2}$N$-qubit Toffoli gate}{112}{subsection.C.1.2}
-\contentsline {subsection}{\numberline {C.1.3}CZ-gate}{114}{subsection.C.1.3}
-\contentsline {subsection}{\numberline {C.1.4}Two-photon driving}{116}{subsection.C.1.4}
-\contentsline {section}{\numberline {C.2}Gate time}{119}{section.C.2}
-\contentsline {section}{\numberline {C.3}Numerical simulation}{121}{section.C.3}
-\contentsline {section}{\numberline {C.4}Additional errors}{124}{section.C.4}
-\contentsline {chapter}{\numberline {D}Appendices for Chapter \ref {ch:Borregaard_PRA2015}}{128}{appendix.D}
-\contentsline {section}{\numberline {D.1}Error analysis of the single-photon scheme}{128}{section.D.1}
-\contentsline {section}{\numberline {D.2}Error analysis of the two-photon scheme}{130}{section.D.2}
-\contentsline {section}{\numberline {D.3}Deterministic CNOT gate}{131}{section.D.3}
-\contentsline {section}{\numberline {D.4}Rate analysis}{133}{section.D.4}
-\contentsline {subsection}{\numberline {D.4.1}Deterministic gates}{136}{subsection.D.4.1}
-\contentsline {subsection}{\numberline {D.4.2}Probabilistic gates}{139}{subsection.D.4.2}
-\contentsline {chapter}{Bibliography}{143}{appendix*.4}
+\contentsline {section}{\numberline {6.2}Feedback loop}{94}{section.6.2}
+\contentsline {section}{\numberline {6.3}Spectroscopic nosies}{95}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Phase estimation with multiple GHZ groups}{96}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Optimization}{97}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Comparison with other schemes}{98}{section.6.4}
+\contentsline {chapter}{\numberline {7}A quantum network of clocks}{101}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{101}{section.7.1}
+\contentsline {chapter}{\numberline {8}Entangling collective Rydberg excitations of remote atomic ensembles}{102}{chapter.8}
+\contentsline {section}{\numberline {8.1}Introduction}{102}{section.8.1}
+\contentsline {chapter}{\numberline {A}Appendices for Chapter \ref {ch:Komar2013}}{103}{appendix.A}
+\contentsline {section}{\numberline {A.1}Derivation of reflected mode operator}{103}{section.A.1}
+\contentsline {section}{\numberline {A.2}Analytic model}{104}{section.A.2}
+\contentsline {chapter}{\numberline {B}Appendices for Chapter \ref {ch:Stannigel2012}}{107}{appendix.B}
+\contentsline {section}{\numberline {B.1}Phonon nonlinearities}{107}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}Model}{107}{subsection.B.1.1}
+\contentsline {subsection}{\numberline {B.1.2}Displaced frame}{108}{subsection.B.1.2}
+\contentsline {subsection}{\numberline {B.1.3}Hybridized modes}{109}{subsection.B.1.3}
+\contentsline {subsection}{\numberline {B.1.4}Adiabatic elimination of the cavity mode}{111}{subsection.B.1.4}
+\contentsline {subsection}{\numberline {B.1.5}Simple perturbation theory}{112}{subsection.B.1.5}
+\contentsline {subsection}{\numberline {B.1.6}Corrections}{113}{subsection.B.1.6}
+\contentsline {subsection}{\numberline {B.1.7}Numerical simulation}{114}{subsection.B.1.7}
+\contentsline {section}{\numberline {B.2}Phonon-phonon interactions}{116}{section.B.2}
+\contentsline {chapter}{\numberline {C}Appendices for Chapter \ref {ch:Borregaard_PRL2015}}{119}{appendix.C}
+\contentsline {section}{\numberline {C.1}Perturbation theory}{119}{section.C.1}
+\contentsline {subsection}{\numberline {C.1.1}Success probability and fidelity}{124}{subsection.C.1.1}
+\contentsline {subsection}{\numberline {C.1.2}$N$-qubit Toffoli gate}{124}{subsection.C.1.2}
+\contentsline {subsection}{\numberline {C.1.3}CZ-gate}{126}{subsection.C.1.3}
+\contentsline {subsection}{\numberline {C.1.4}Two-photon driving}{128}{subsection.C.1.4}
+\contentsline {section}{\numberline {C.2}Gate time}{131}{section.C.2}
+\contentsline {section}{\numberline {C.3}Numerical simulation}{133}{section.C.3}
+\contentsline {section}{\numberline {C.4}Additional errors}{136}{section.C.4}
+\contentsline {chapter}{\numberline {D}Appendices for Chapter \ref {ch:Borregaard_PRA2015}}{140}{appendix.D}
+\contentsline {section}{\numberline {D.1}Error analysis of the single-photon scheme}{140}{section.D.1}
+\contentsline {section}{\numberline {D.2}Error analysis of the two-photon scheme}{142}{section.D.2}
+\contentsline {section}{\numberline {D.3}Deterministic CNOT gate}{143}{section.D.3}
+\contentsline {section}{\numberline {D.4}Rate analysis}{145}{section.D.4}
+\contentsline {subsection}{\numberline {D.4.1}Deterministic gates}{148}{subsection.D.4.1}
+\contentsline {subsection}{\numberline {D.4.2}Probabilistic gates}{151}{subsection.D.4.2}
+\contentsline {chapter}{\numberline {E}Appendices for Chapter \ref {ch:Kessler2014}}{155}{appendix.E}
+\contentsline {section}{\numberline {E.1}Figure of merit: Allan-variance}{155}{section.E.1}
+\contentsline {section}{\numberline {E.2}Single-step Uncorrelated ensemble}{157}{section.E.2}
+\contentsline {subsection}{\numberline {E.2.1}Sub-ensembles and projection noise}{157}{subsection.E.2.1}
+\contentsline {subsection}{\numberline {E.2.2}Effects of laser fluctuations: Phase slip errors}{158}{subsection.E.2.2}
+\contentsline {subsection}{\numberline {E.2.3}Optimal Ramsey time}{159}{subsection.E.2.3}
+\contentsline {section}{\numberline {E.3}Cascaded interrogation using GHZ states}{161}{section.E.3}
+\contentsline {subsection}{\numberline {E.3.1}Parity measurement}{162}{subsection.E.3.1}
+\contentsline {subsection}{\numberline {E.3.2}Failure of the maximally entangled GHZ}{163}{subsection.E.3.2}
+\contentsline {subsection}{\numberline {E.3.3}Cascaded GHZ scheme}{164}{subsection.E.3.3}
+\contentsline {subsection}{\numberline {E.3.4}Rounding errors: finding the optimal $n_0$}{166}{subsection.E.3.4}
+\contentsline {subsection}{\numberline {E.3.5}Phase slip errors: limitations to the Ramsey time $T$ from laser noise}{169}{subsection.E.3.5}
+\contentsline {subsection}{\numberline {E.3.6}Extending the Ramsey time beyond the laser noise limit}{170}{subsection.E.3.6}
+\contentsline {subsection}{\numberline {E.3.7}Individual qubit noise and final result}{173}{subsection.E.3.7}
+\contentsline {section}{\numberline {E.4}Analytic solution of $x^n = A\qopname \relax o{exp}[-1/x]$}{174}{section.E.4}
+\contentsline {section}{\numberline {E.5}Upper bound on the tail of the distribution of the estimated phase}{176}{section.E.5}
+\contentsline {subsection}{\numberline {E.5.1}Upper bound on the tail of the binomial distribution}{177}{subsection.E.5.1}
+\contentsline {subsection}{\numberline {E.5.2}Upper bound on the distribution of the estimated phase}{178}{subsection.E.5.2}
+\contentsline {section}{\numberline {E.6}Threshold fidelity}{180}{section.E.6}
+\contentsline {chapter}{Bibliography}{182}{appendix*.4}

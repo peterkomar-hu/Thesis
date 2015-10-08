@@ -1,0 +1,1350 @@
+\chapter{Appendices for Chapter \ref{ch:Kessler2014}}
+\label{app:Kessler2014}
+
+\section{Figure of merit: Allan-variance}
+% Quantum clocks provide an highly stabilized local oscillator signal by
+% subjecting a LO to a feedback mechanism driven by measurement result from
+% interrogating multiples of a certain type of qubit as the chosen frequency
+% reference.
+Provided $N$ qubits, we aim to devise an efficient interrogation scheme that
+provides input for the feedback mechanism, using Ramsey spectroscopy. After the
+$k$th Ramsey cycle, of length $T$, an estimate $\Phi^\mathrm{est}_\mathrm{LO}(t_k)$
+is obtained for the accumulated phase of the LO, $\Phi_\mathrm{LO}(t_k) =
+\intop_{t_k-T}^{t_k}\d{t}\delta\omega(t)$, ($t_k = kT$, $k=1,2\dots$, and
+$\delta\omega(t) =\omega(t)- \omega_0$), which differs from the real value by
+$\Delta\Phi_\mathrm{LO}(t_k) = \Phi^\mathrm{est}_\mathrm{LO}(t_k) -
+\Phi^\mathrm{real}_\mathrm{LO}(t_k)$.
+Using the obtained estimate, the feedback mechanism corrects the phase or
+frequency of the LO after every cycle, and thus creates a LO signal with better
+stability.
+% The stability of the clock is set by the
+% average uncertainty of this random process, $\Delta\Phi_\mathrm{LO}$,
+% which depends on $N$, $T$, the (non-stabilized) linewidth of the local
+% oscillator, $\gamma_\mathrm{LO}$, and the details of the applied measurement scheme.
+The figure of merit for stability is the Allan-variance,
+$ 
+	\sigma_y^2(\tau) = \frac{1}{\omega_0^2}
+	\ev{\delta\bar\omega^2(t_0)}_{t_0}
+$
+where $\delta\bar\omega(t_0)$ denotes the time-average of $\delta\omega(t_0 +
+t)$ over $t\in[0,\tau]$, where $\tau$ is the available averaging time,
+$\ev{\;}_{t_0}$ stands for time-average over $t_0$, which is much longer than
+ $\tau$, $\omega_0$ is the frequency of the chosen
+clock transition. Consequently, one readily shows that the Allan variance can be written as,
+\bel
+	\sigma_y^2(\tau) = \frac{1}{\omega_0^2\tau^2}
+	\sum_{i=1}^{\tau/T}\sum_{j=1}^{\tau/T} \Big\langle\Delta\Phi_\mathrm{LO}(t_0 +
+	iT)\Delta\Phi_\mathrm{LO}(t_0 + jT)\Big\rangle_{t_0}.
+\eel
+By assuming that $\Delta\Phi_\mathrm{LO}$ is a stationary random process, we
+substitute the average over $t_0$ with the average over many realizations. With the notation
+$\Delta\Phi_\mathrm{LO}(t_0 + jT) = \Delta\Phi_{\mathrm{LO},j}$, we can write this
+average as
+\bel
+	\label{eq:DeltaPhi}
+	\ev{\Delta\Phi_{\mathrm{LO},i}\Delta\Phi_{\mathrm{LO},j}} \approx
+	\ev{\Delta\Phi^2_\mathrm{LO}} \delta_{ij},
+\eel
+where we further used a white noise assumption, such that phase accumulations in consecutive Ramsey cycle are approximately
+uncorrelated. Also for realistic $1/f$ laser noise spectra, numerical studies show that this factorization assumption leads to only negligible corrections. Earlier
+results show that this is the case for initial LO frequency noise spectra,
+$S_\nu(f)$ that are less divergent than $1/f^2$ at low frequencies
+\cite{Andre2005}. As a result, the Allan-variance simplifies to,
+\bel
+\label{eq:Allan-var}
+	\sigma_y^2(\tau) = \frac{1}{\omega_0^2\tau T} \ev{\Delta\Phi^2_\mathrm{LO}},
+\eel
+linking the achieving stability directly to the frequency measurement uncertainty during the interrogation.
+\refeq{eq:Allan-var} serves as our starting point in finding the optimal
+measurement protocol that minimizes $\sigma_y^2(\tau)$ for fixed $N$ and $\tau$. In the following, we investigate and compare different classical and quantum mechanical strategies for the interrogation of the (from cycle to cycle fluctuating) quantity $\Phi_\mathrm{LO}$, and we demonstrate that the proposed interrogation protocol using cascaded GHZ states is optimal up to a logarithmic correction.
+
+
+\section{Single-step Uncorrelated ensemble}
+\label{sec:P1}
+First, we consider the case of naive interrogation using a Ramsey protocol with $N$
+ uncorrelated  atoms. 
+
+\subsection{Sub-ensembles and projection noise}
+Single ensemble Ramsey spectroscopy is limited to estimating
+either the real or the imaginary part of $e^{i\Phi_\mathrm{LO}}$. However, by
+dividing the available qubits into two sub-ensembles, $X$ and $Y$, preparing
+their individual qubits in different states,
+\bal
+	\label{eq:X_ensemble_uncorr}
+	X &:\quad& [\ket{0} + \ket{1}]/\sqrt{2},\\
+	\label{eq:Y_ensemble_uncorr}
+	Y &:\quad& [\ket{0} + i\ket{1}]/\sqrt{2},
+\eal
+and performing the same Ramsey measurement on them, we can get
+ estimates on both the real and imaginary parts of $e^{i\Phi_\mathrm{LO}}$ and
+deduce the value of $\Phi_\mathrm{LO}$ up to $2\pi$ shifts, instead of $\pi$.
+% In the basis
+% $\{\ket{0}, \ket{1}\}$ denoting the ground and excited state of a single
+% clock qubit, 
+% \bal
+% 	\pi/2 (\mathbf{y}-\mathrm{rotation}) &\mathrm{ acts as }& 
+% 	\hat R_{y,\pi/2} = \frac{1}{\sqrt{2}}
+% 	\twobytwomatrix {1}{-1} {1}{1},
+% 	\\
+% 	\pi/2 (\mathbf{x}-\mathrm{rotation}) &\mathrm{ acts as } &
+% 	\hat R_{x,\pi/2} = \frac{1}{\sqrt{2}}
+% 	\twobytwomatrix {1}{i} {i}{1},
+% 	\\
+% 	\mathrm{waiting time}(T) &\mathrm{ acts as } &
+% 	\hat T = \twobytwomatrix {1}{0} {0}{e^{i\Phi_\mathrm{LO}}}.
+% \eal
+At the end of the free evolution time, each qubit in ensemble $X$ ($Y$) is
+measured in the $x$-basis ($\ket{\pm} = [\ket{0}\pm\ket{1}]/\sqrt{2}$) and yields the
+'+' outcome with probability $p_x = [1-\cos\Phi_\mathrm{LO}]/2$ ($p_y =
+[1-\sin\Phi_\mathrm{LO}]/2$).
+% By introducing the notation $\phi_x = \arcsin(\cos
+% \Phi_\mathrm{LO})$ and $\phi_y = \arcsin(\sin \Phi_\mathrm{LO})$, we can write the
+% corresponding probabilities as \bel p_\nu = \frac{1}{2}[1-\sin\phi_\nu], \qquad
+% \mathrm{where } \nu \in \{x,y\}.
+% \eel
+% 
+% The collective spin vectors of the two sub-ensembles, each of which is obtained
+% after interrogating $N/2$ uncorrelated qubits, can be viewed as a single
+% realization of a binomial random variable $k_\nu$ (the number of qubits
+% measured in $\ket{0}$), obeying the distribution
+% \bel
+% 	\PP(k_\nu) = {N/2 \choose k_\nu} p_\nu ^{k_\nu} (1-p_\nu)^{N/2 - k_\nu}. 
+% \eel
+% From a single realization of $(k_x,k_y)$ we extract the estimate for
+% $(\phi_x,\phi_y)$ and their uncertainties, $\Delta\phi_x$ and $\Delta\phi_y$.
+% The maximum likelihood estimate of $\phi_\nu$ and $\Delta\phi_\nu$ are
+% \bel
+% 	\phi_\nu^\mathrm{est} = \arcsin\left[\frac{N/2- 2k_\nu}{N/2}\right],\qquad
+% 	\Delta\phi_\nu = \frac{1}{\sqrt{N/2}}.
+% \eel
+% We note that the uncertainty $\Delta \phi_\nu$ is independent of the estimate
+% $\phi_\nu^\mathrm{est}$. 
+
+After performing the measurement with $N$ total qubits, we obtain
+$\Phi_\mathrm{LO}^\mathrm{est}$ from the estimates of $p_x$ and $p_y$. Since both
+provide information on
+$\Phi_\mathrm{LO}^\mathrm{est}$ equivalent of $N/2$ measurement bits, this results
+in a total information of $N$ measurement bits, which gives an uncertainty of
+% The conditional
+% probability distribution of finding $(\phi_x^\mathrm{est},\phi_y^\mathrm{est})$,
+% while the real value of $\Phi_\mathrm{LO}$ is $\Phi_\mathrm{LO}^\mathrm{real}$, can
+% be approximated with a product of normal distributions,
+% \bel
+% 	\label{eq:P(phix,phiy)}
+% 	\PP(\phi_x^\mathrm{est}\,|\,\Phi_\mathrm{LO}^\mathrm{real})
+% 	\PP(\phi_y^\mathrm{est}\,|\,\Phi_\mathrm{LO}^\mathrm{real}) 
+% 	\approx
+% 	\mathcal{N}_{\phi_x^\mathrm{est}}(\arcsin(\cos\Phi_\mathrm{LO}^\mathrm{real}),
+% 	(N/2)^{-1})\,
+% 	\mathcal{N}_{\phi_y^\mathrm{est}}(\arcsin(\sin\Phi_\mathrm{LO}^\mathrm{real}),
+% 	(N/2)^{-1}),
+% \eel
+% where $\mathcal{N}_\phi(c, v)$ is a one-dimensional normal distribution of
+% variable $\phi$ centered at $c$, with variance $v$. The domain of
+% $(\phi_x^\mathrm{est}, \phi_y^\mathrm{est})$ is $[-\pi, \pi]\times [-\pi, \pi]$, but
+% the domain of $(\arcsin(\cos\Phi_\mathrm{LO}^\mathrm{real},
+% \arcsin(\sin\Phi_\mathrm{LO}^\mathrm{real})$ is only the path, $S =
+% \{(\phi_x,\phi_y)\,:\,|\phi_x| + |\phi_y|=\pi\}$. By projecting the distribution
+% of \refeq{eq:P(phix,phiy)} onto $S$ (according to the principle of maximum
+% likelihood) and assuming that $1/\sqrt{N/2} \ll \pi$, so that the part of $S$
+% that is relevantly close to the Gaussian is a straight line, we can obtain the
+% distribution of $\Phi_\mathrm{LO}^\mathrm{est}$. To carry out the projection, we
+% write \refeq{eq:P(phix,phiy)} in rotated coordinates, $\phi_\perp$
+% and $\phi_\parallel$, perpendicular to and parallel with the closest segment of
+% $S$, respectively. (E.g. if the Gaussian is positioned in the first quadrant,
+% then $\phi_\perp = (\phi_x + \phi_y)/\sqrt{2}$ and $\phi_\parallel = (\phi_x -
+% \phi_y)/\sqrt{2} = \Phi_\mathrm{LO}^{\mathrm{est}}/\sqrt{2}$). Since the Gaussian is
+% invariant under such rotations, the variances of the new coordinates are still $N/2$. After projecting out
+% $\phi_\perp$, the probability distribution of $\phi_\parallel$ becomes
+% \bel
+% 	\PP(\phi_\parallel\,|\, \Phi_\mathrm{LO}^\mathrm{real}) \approx
+% 	\mathcal{N}_{\phi_\parallel}(\sqrt{2}(\Phi_\mathrm{LO}^\mathrm{real}\mod [-\pi,
+% 	\pi]), (N/2)^{-1}),
+% \eel
+% where $\phi \mod [-\pi, \pi] = \phi - 2\pi\mathrm{Round}[\phi/(2\pi)]$. Expressed
+% with the original variable $\Phi_\mathrm{LO}^\mathrm{est}$, the distribution
+% becomes
+% \bel
+% 	\PP(\Phi_\mathrm{LO}^\mathrm{est}\,|\,\Phi_\mathrm{LO}^\mathrm{real}) \approx
+% 	\mathcal{N}_{\Phi_\mathrm{LO}^\mathrm{est}}(\Phi_\mathrm{LO}^\mathrm{real}\mod [-\pi,
+% 	\pi],\, N^{-1}),
+% \eel
+\bel
+	\label{eq:Projection}
+	\ev{\Delta\Phi^2_\mathrm{LO}}_\mathrm{pr} = \frac{1}{N},
+\eel
+up to $2\pi$ phase shifts, that are fundamentally undetectable.
+% This result shows that by dividing the available $N$ number of qubits into two
+% sub-ensembles, we can obtain estimates of the accumulated phase $\Phi_\mathrm{LO}$
+% up to $2\pi$ shifts with the same $1/\sqrt{N}$ precision. This
+% statistical uncertainty is called the quantum projection noise:
+This method is identical to the one described in \cite{Rosenband2013}.
+
+
+\subsection{Effects of laser fluctuations: Phase slip errors}
+% On top of the $1/\sqrt{N}$ statistical uncertainty, we have to take the
+% occasional phase slips into account. 
+Random fluctuations in the laser frequency (characterized by the laser spectrum noise spectrum $S_\nu(f) = {2\gamma_\mathrm{LO}}/{f}$) result in the fact that the laser phase itself has to be considered as a random variable after each cycle. 
+ Whenever in a given cycle the phase $\Phi_\mathrm{LO}(t_k)$ falls outside the
+ interval $[-\pi,\pi]$, the aforementioned technique leads to an estimate deviating from the true value by $\sim2\pi$. As the variance $s^2$ of the prior distribution of  $\Phi_\mathrm{LO}$ grows with the interrogation time $T$ (one finds $s^2= \gamma_\mathrm{LO}T$ ($s^2= (\gamma_\mathrm{LO}T)^2$) for a white ($1/f$) noise frequency spectrum, where $\gamma_\mathrm{LO}$ denotes the laser linewidth of the free-running
+(non-stabilized) LO) these undetected \textit{phase slips} pose a fundamental limitation on the allowed Ramsey time $T$, and thus on the overall achievable laser stability.
+
+If we assume a constant rate of phase diffusion, resulting in a Gaussian
+prior distribution of  $\Phi_\mathrm{LO}$,
+the probability of a phase slip single cycle of length
+$T$ can be estimated as
+\bal
+	\label{eq:Pslip in T}
+	\PP_\mathrm{slip} &=&  2\intop_\pi
+	^{\infty}\d{\Phi_\mathrm{LO}^\mathrm{real}}
+	\frac{1}{\sqrt{2\pi s^2}}
+	\exp\left[-\frac{(\Phi_\mathrm{LO}^\mathrm{real})^2}{2s^2}\right] \\
+	&=& 1-\mathrm{erf}\left(\frac{\pi}{\sqrt 2 s}\right) =
+	\label{eq:Pslip in T2}
+	\left(\frac{\sqrt{2}s}{\pi^{3/2}} +
+	\mathcal{O}(s^2)\right)\exp\left[-\frac{\pi^2}{2s^2}\right],
+\eal
+where erf denotes the error function.
+% For realistic regimes of operation, $s \ll 1$ in order to
+% make this probability as small as possible. Since $\gamma_\mathrm{LO}$ is usually give,
+% the only possibility to decrease the probability of phase slips is decreasing
+% $T$.
+% However, choosing $T$ to be too small will unreasonably increase the resulting
+% Allan-variance, as suggested by \refeq{eq:Allan-var}. 
+% The optimal value of $T$
+% should be chosen by comparing the errors introduced by the possible phase slips
+% to the contribution of the projection noise.
+% Before moving further, we have to make a small adjustment to the stationarity
+% assumption of $\Delta\Phi_\mathrm{LO}$, in \refeq{eq:DeltaPhi}. There, we assumed
+% that $\ev{\Delta\Phi_{\mathrm{LO},j}}$ is independent of the time, $t_j = jT$.
+% This is a reasonable assumption, if the feedback mechanism corrects all noise
+% contributions that have been accumulated during a cycle. However this is not the
+% case for phase slips. 
+ As a phase slip in an early Ramsey cycle will remain undetected in the following
+cycles, its error contribution will accumulate over the total averaging time
+$\tau$, in the worst case by a factor $\tau/T$.
+%We can can bound the probability that at
+%east one phase slip has happened until the time $t_j = jT$ is
+% \bel
+% 	\PP(\mathrm{slip in }jT) = 1-[1-\PP(\mathrm{slip in }T)]^{j} \approx
+% 	k\PP(\mathrm{slip in }T).
+% \eel
+% Although this probability is always very small, it increases with $j$, and
+% therefore makes $\Delta\Phi_\mathrm{LO}$ non-stationary. To bypass this
+% complication, we will substitute the probability with its upper bound,
+%\bel
+%	\PP(\mathrm{slip in }jT) \leq \PP(\mathrm{slip in }\tau) \approx
+%	\frac{\tau}{T}\PP_\mathrm{slip}.
+%\eel
+Using this upper bound, and assuming $\PP_\mathrm{slip  }\ll1$ we write the variance contribution of phase slips as
+\bel
+	\label{eq:Phase slip}
+	\ev{\Delta\Phi^2_\mathrm{LO}}_\mathrm{slip} = (2\pi)^2 \frac{\tau}{T} \PP_\mathrm{slip  }
+	\approx(2\pi)^2\frac{\tau}{T}\frac{\sqrt{2}}{\pi^{3/2}}\sqrt{\gamma_\mathrm{LO} T}
+	\exp\left[-\frac{\pi^2}{2\gamma_\mathrm{LO}T}\right],
+\eel
+where the $(2\pi)^2$ prefactor sets the absolute contribution of a manifested
+slip event to $\pm 2\pi$, and in the second step we approximated $\PP_\mathrm{slip}$ with the
+first term of its asymptotic series from \refeq{eq:Pslip in T2}.
+
+
+
+\subsection{Optimal Ramsey time}
+While \eqref{eq:Allan-var} suggests increasing Ramsey times improve the laser stability, we have seen in the previous section that they also lead to an increased occurrence of phase slips yielding a significant contribution to the measurement uncertainty.
+
+In order to find the optimal Ramsey time
+we add the contributions from quantum projection noise
+[\refeq{eq:Projection}] and phase slip noise [\refeq{eq:Phase slip}] under the assumption that the
+probability of phase slips is small, and obtain an expression for the
+Allan-variance, 
+\bel
+\label{eq:EK9}
+\sigma_y^2(\tau) = \frac{1}{\omega_0^2 \tau}\Gamma,
+\eel
+ where
+\bel
+\label{eq:abc}
+	\Gamma = \frac{1}{TN} +
+	\sqrt{32\pi}
+	\frac{\tau\gamma_\mathrm{LO}^{1/2}}{T^{3/2}}
+	\exp\left[-\frac{\pi^2}{2\gamma_\mathrm{LO}T}\right].
+	\eel
+In order to find the optimal Ramsey time $T_\mathrm{opt}$, that minimizes
+$\Gamma$, we introduce the new variable $x = \frac{2}{\pi^2}\gamma_\mathrm{LO}T$,
+and write
+\bel
+	\Gamma = \frac{2}{\pi^2}\frac{\gamma_\mathrm{LO}}{Nx} + \frac{16}{\pi^{5/2}}
+	\frac{\tau\gamma_\mathrm{LO}^2}{x^{3/2}} e^{-1/x}.
+\eel
+Taking the derivative with respect to $x$ results in
+\bel
+	\frac{d}{dx}\Gamma = -\frac{2}{\pi^2}\frac{\gamma_\mathrm{LO}}{Nx^2} +
+	\frac{16}{\pi^{5/2}}
+	\tau\gamma_\mathrm{LO}^2\left(-\frac{3}{2}\frac{1}{x^{3/2}} +
+	\frac{1}{x^{7/2}}\right) e^{-1/x},
+\eel
+which, after using the (self-consistent) assumption $x_\mathrm{opt} \ll 1$, results in the following
+transcendental equation for $x_\mathrm{opt}$,
+\bel
+	x_\mathrm{opt}^{3/2} = ((8/\sqrt{\pi}) \gamma_\mathrm{LO}\tau N)
+	e^{-1/x_\mathrm{opt}}.
+\eel
+In Section \ref{sec:Transcendental eq},
+ we provide the derivation of the asymptotic solution,
+\bal
+	x_\mathrm{opt} &=& [\log((8/\sqrt{\pi}) \gamma_\mathrm{LO}\tau N)]^{-1} \approx
+	[\log(\gamma_\mathrm{LO}\tau N)]^{-1},
+\eal
+yielding directly
+\bal
+\label{eq:T_opt}
+	T_\mathrm{opt} &\approx& \gamma_\mathrm{LO}^{-1}\frac{\pi^2}{2}
+	[\log(\gamma_\mathrm{LO}\tau N)]^{-1}.
+\eal
+%in the realistic case of $\gamma_\mathrm{LO}\tau N\gg 1$. a
+Self-consistently we confirm that already for values $\gamma_\mathrm{LO}\tau N\geq 10^4$, the approximation 
+in \refeq{eq:Phase slip} is well justified, so that the above value represents a true local minimum. 
+For larger values of $T$ the phase slip errors grow rapidly, and numerical studies confirm that \refeq{eq:T_opt} indeed represents a global minimum.
+%[Together with the strict monotonicity of the two contributions this confirms that the value $T_\mathrm{opt}$ is optimal.]
+
+The optimal interrogation time is mainly set by the LO coherence time
+$\gamma_\mathrm{LO}^{-1}$, and shows a weak dependence on the total number of qubits
+$N$, and the averaging time $\tau$ (Note, that
+if we model the LO with a $1/f$ frequency noise spectrum, only the
+exponent of the $\log$ term changes to $-1/2$ in this result). Using this optimized Ramsey time we find for the 
+minimal value of $\Gamma$ is
+\bal
+	\Gamma_\mathrm{min} &=&
+	\frac{2}{\pi^2}\frac{\gamma_\mathrm{LO}}{Nx_\mathrm{opt}}
+	+
+	\frac{16}{\pi^{5/2}}
+	\frac{\tau\gamma_\mathrm{LO}^2}{x_\mathrm{opt}^{3/2}} e^{-1/x_\mathrm{opt}} 	\\
+	&=&
+	\frac{2}{\pi^2}\frac{\gamma_\mathrm{LO}}{N}
+	\left(\frac{1}{x_\mathrm{opt}} + 1\right) 
+	\\
+	&\approx& 
+	\label{eq:gamma_eff}
+	\frac{2}{\pi^2}
+	\frac{\gamma_\mathrm{LO}\log(\gamma_\mathrm{LO}\tau N)}{N}.
+\eal
+
+This result is valid as long as the averaging time $\tau$ is longer than the
+proposed $T_\mathrm{opt}$ from \refeq{eq:T_opt}. If this is not the case, then
+$T_\mathrm{opt} = \tau$, the phase slip noise becomes
+negligible, and we end up with
+\bel
+	\label{eq:gamma_eff_short_tau}
+	\Gamma_\mathrm{min} = 
+	\frac{1}{\tau N}.
+\eel
+
+We approximate the
+crossover region (around $\tau\sim \gamma_\mathrm{LO}^{-1}$) by adding leading
+terms from \refeq{eq:gamma_eff} \& (\ref{eq:gamma_eff_short_tau}) and obtain
+\bel
+	\label{eq:sigma_y^2 boxed}
+	[\sigma_y(\tau)]_\mathrm{min}
+	\approx \frac{1}{\omega_0 \sqrt{N\tau}} \sqrt{\frac{1}{\tau}
+	+ \frac{2}{\pi^2}\gamma_\mathrm{LO}\log(\gamma_\mathrm{LO}\tau
+	N)}.
+\eel
+
+In summary, in the region $\tau<T_\mathrm{opt}$, the LO noise is negligible leading to a linear scaling of the ADEV with the total averaging time $\tau$. For large averaging times $\tau>T_\mathrm{opt}$, phase slips of the laser phase pose a limitation to the maximal possible Ramsey time which results in a $1/\sqrt \tau$ scaling of the laser stability. Since we employ uncorrelated atoms, the ADEV displays in both regimes the $1/\sqrt{N}$ scaling of the standard quantum limit (SQL).
+As modern atomic clocks typically are laser noise limited, $\gamma_\mathrm{LO}\gg \gamma_\mathrm{ind}$ (where $\gamma_\mathrm{ind}$ represents the clock atom linewidth), we neglected the effects of individual atomic dephasing in the above considerations.
+
+%\subsection{Individual qubit noise}
+% Although in most clock protocols, the LO has a much bigger linewidth than the
+% linewidth of the clock transition, the individual qubit noise could become
+% relevant, once the effective LO linewidth is decreased, as will happen in the
+% next main section. For this reason, we include the effect of individual qubit
+% noise. 
+
+%Furthermore, the clock atoms are subject to individual decoherence processes
+ %characterized by the atomic linewidth
+%$\gamma_\mathrm{ind}$ ($\ll \gamma_\mathrm{LO}$). Such a noise introduces a phase
+%diffusion on every qubit $\ev{\Delta\phi_i^2} = \gamma_\mathrm{ind}T$
+%($\Phi_\mathrm{LO}^\mathrm{est} = \sum_{i=1}^N\phi_i/N$), where $\phi_i$ is the
+%accumulated phase of qubit $i$. This results in the variance contribution,
+%\bel
+%	\label{eq:individual noise}
+%	\ev{\Delta\Phi^2_\mathrm{LO}}_\mathrm{ind} =
+%	\sum_{i=1}^N\frac{\ev{\Delta\phi_i}^2}{N^2} = \frac{\gamma_\mathrm{ind}T}{N},
+%\eel
+%which can be understood as the statistical uncertainty of the center of mass of
+%the $N$ independent phases, which have been subject to Brownian motion for
+%time $T$.
+
+
+%\section{Protocol \#2:\\ Multi-step Uncorrelated ensembles}
+%\label{sec:multi-step_uncorrelated}
+%
+%The LO frequency fluctuations discussed in the previous section affect all clock qubits in identical manner. 
+%It therefore represents a \textit{collective} noise, and as such (unlike, e.g., the individual dephasing of the clock qubits), does not represent a fundamental limitation for the LO phase estimation. 
+%The constrains for the Ramsey time arising from the corresponding slips of the laser phase can be circumvented by a
+%sequential classical interrogation with
+%variable Ramsey times \cite{Rosenband2013, Borregaard2013}.
+%In the first step, we imagine using only $n$ of the total $N$ qubits, as
+%described in the previous section, and keep the rest aside for the moment. By
+%doing so, the feedback mechanism will provide correction to the LO after every
+%cycle time of length $T_1$, whose length is optimized according to the argument
+%in the previous section to be
+%$
+%	T_1 = \gamma_\mathrm{LO}^{-1} \frac{\pi^2}{2}[\log(\gamma_\mathrm{LO}\tau N)]^{-1}.
+%$
+%As a result, the local oscillator with this feedback mechanism will become an
+%effective LO with narrower linewidth, 
+%$
+%	\gamma_1 
+%	:= \sigma_y^2 \omega_0^2\tau 
+%	= \frac{2}{\pi^2}{\gamma_\mathrm{LO} \log(\gamma_\mathrm{LO}\tau
+%	n)}/{n},
+%$
+%from \refeq{eq:gamma_eff}.
+%
+%Now we can regard the emerging situation as if we had been be provided with
+%$N-n$ qubits and a local oscillator with linewidth $\gamma_1$. Repeating the
+%same construction multiple times will result in a scheme where in each of the steps the optimal Ramsey time grows exponentially according to the recursive equation
+%\bel
+%	T_{j} = \gamma_j^{-1}\frac{\pi^2}{2} [\log(\gamma_{j-1} \tau n)]^{-1},
+%\eel
+%where the achieved effective linewidth is
+%\bel
+%	\label{eq:gamma_eff recursion}
+%	\gamma_{j} = \frac{2}{\pi^2}\frac{\gamma_{j-1} \log(\gamma_{j-1} \tau n)}{n},
+%\eel
+%where $j=0,1,2,\dots$, and $\gamma_0 \equiv \gamma_\mathrm{LO}$.
+%
+%As soon as the effective linewidth  for a certain step $j=m-1$ ($m\in \mathbf N$) is narrow enough, such that the  (formal) optimal Ramsey time exceeds the given averaging time $T_{m} \geq \tau$ the effective laser fluctuations have been reduced to a negligible value, and the laser operates effectively noise free (indicated by a linear scaling with $\tau$).
+%
+%\subsection{Pre-narrowing the linewidth}
+%\label{sec:Protocol2 pre-narrowing}
+%% At this point it is not clear weather it is best to allocate all qubits on
+%% this step-by-step narrowing of the linewidth (ie. $N\s = N$), or spare some of
+%% them for one final uncorrelated unsemble and take advetange of the narrowed
+%% linewidth with increased weight (ie. $N\s < N$). 
+%To get a hold on the
+%recursion in \refeq{eq:gamma_eff recursion}, we consider the following upper
+%bound,
+%\bel
+%	\gamma_{j} \leq \frac{2}{\pi^2}\frac{\gamma_{j-1} \log(\gamma_\mathrm{LO}\tau
+%	n)}{n},
+%\eel
+%for which we can obtain a closed form,
+%\bal	
+%	\gamma_{m-1}  \leq  \gamma_\mathrm{LO}q^{-(m-1)},
+%\eal
+%where $q = \frac{\pi^2}{2}\frac{n}{\log(\gamma_\mathrm{LO}\tau
+%n)}$.
+%The condition  $T_{m} \geq \tau$ can readily be rewritten in terms of the effective laser linewidth
+%\bel
+%\label{eq:conddd}
+%\tau \cond T_m = \gamma_{m-1}^{-1} \frac{q}{n} \leq \frac{q^m}{n\gamma_\mathrm{LO}},
+%\eel
+%and we find after solving for  $m$
+%\bel
+%m\approx \frac{\log(n\gamma_\mathrm{LO}\tau)}{\log(q)}.
+%\eel
+%Since we want to minimize the total number of required atoms $N^*=nm$ we choose $n$ such that $q=2$.
+%This yields $n\approx 4\log({\gamma_\mathrm{LO}\tau})/\pi^2$. With this choice, we find that this scheme efficiently narrows the laser linewidth to a value where the fluctuations become negligible (and thus enables to extend the Ramsey time to the maximum value $T\rightarrow\tau$) by employing only 
+%\bel
+%N^* \sim \log(\gamma_\mathrm{LO}\tau) ^2
+%\eel
+%atoms.
+%
+%\subsection{Laser stability and single particle decoherence}
+%Now, let us get back to the original problem, where $N$ qubits are provided.
+%Once we allocate $N\s$ of them for the pre-narrowing, we end up having a LO with
+%effective linewidth that fulfills  \refeq{eq:conddd}, reducing the laser fluctuations to a negligible level, and $N-N\s$ free qubits.
+%The latter can now be employed in a standard Ramsey scheme as described in Section~\ref{sec:P1} to further stabilize this pre-narrowed laser, yielding the final stability
+%\bel
+%\label{eq:EK1}
+%	[\sigma_y(\tau)]_\mathrm{min} \approx
+%	\frac{1}{\omega_0\tau\sqrt{N-N\s}} \approx \frac{1}{\omega_0\tau\sqrt{N}},
+%\eel
+%where in the second step we assumed $N\gg N\s$. This classical multistep scheme allows to exited the Ramsey time to values $T\sim \tau$, despite the limitations originating from the laser frequency fluctuations, and thus extend the region of linear $\tau$ scaling of the ADEV (compare \refeq{eq:gamma_eff_short_tau}) to arbitrary value at low cost in particle numbers.
+%
+%Up to this point we have neglected the effect of the finite linewidth of the clock atoms $\gamma_\mathrm{ind}$. Other than the laser fluctuations the corresponding decoherence processes cause an irreversible loss of information. This poses an fundamental limit to the optimal Ramsey time \cite{givanetti,Escher}, $T\lesssim \gamma_\mathrm{ind}^{-1}$. Therefore, in the regime where these processes become relevant ($\tau\geq\gamma_\mathrm{ind}^{-1}$), the optimal strategy employs $N^*=\log(\gamma_\mathrm{LO}/\gamma_\mathrm{ind})$ in the above described scheme atoms to narrow the laser linewidth enough to extend the Ramsey time to the maximal value allowed by the individual particle noise. As before, the remaining $N-N^*$ atoms are used to further stabilized the pre-narrowed LO, yielding 
+%\bel
+%\label{eq:EK2}
+%	[\sigma_y(\tau)]_\mathrm{min} \approx
+%	\frac{\sqrt{\gamma_\mathrm{ind}}}{\omega_0\sqrt{\tau(N-N\s)}} \approx \frac{1}{\omega_0}\sqrt{\frac{\gamma_\mathrm{ind}}{\tau N}}.
+%\eel
+%
+%As before, we approximate the crossover region between the two regimes ($\tau \lessgtr \gamma_\mathrm{ind}^{-1}$) by adding the squares of the \eqref{eq:EK1} and \eqref{eq:EK2} resulting in 
+%\bel
+%\label{eq:EK3}
+%	[\sigma_y(\tau)]_\mathrm{min} \approx \frac{1}{\omega_0 \sqrt{\tau N }}\sqrt{\frac{1}{\tau} + \gamma_\mathrm{ind}}
+%\eel
+%
+%% This result shows that,
+%% with the current protocol, we are able to extend the $1/\tau^2$ scaling up to
+%% $\tau_\mathrm{crossover}\sim \gamma_\mathrm{ind}^{-1}$. This means a
+%% $\gamma_\mathrm{LO}/\gamma_\mathrm{ind}$ factor of enhancement in long-term
+%% stability compared to the single-step uncorrelated protocol, (See
+%% \refeq{eq:sigma_y^2 boxed}).
+%This scheme represents an optimal classical strategy achieving a linear (i.e. noise free) scaling with $\tau$ up to the fundamental limit resulting from single particle decoherence processes.
+%It has first been presented in \cite{Rosenband2013,
+%Borregaard2013}. 
+
+\section{Cascaded interrogation using GHZ states}
+In this Section, we discuss the possibility of using quantum correlated
+states, namely GHZ states of the form
+\bel
+	[\ket{\mathbf{0}} + e^{i\chi} \ket{\mathbf{1}}]/\sqrt{2},
+\eel
+where $\ket{\mathbf{0}}$ and $\ket{\mathbf{1}}$ are product states of all qubits
+being in $\ket{0}$ or $\ket{1}$, respectively, and $\chi$ will be referred to as
+the phase of the GHZ state. Such a state, once prepared, is more sensitive to
+the accumulated phase of the LO, $\Phi_\mathrm{LO}$, by a factor of $N'$, the
+number of qubits entangled:
+\bel
+	\left(\prod_{j=1}^N \hat U_j\right) \left[\ket{\mathbf{0}} + e^{i\chi}
+	\ket{\mathbf{1}}\right]/\sqrt{2} 
+	= [\ket{\mathbf{0}} + e^{i(\chi + N'\Phi_\mathrm{LO})}
+	\ket{\mathbf{1}}]/\sqrt{2},
+\eel
+where $\hat U_j = \ket{0}\bra{0} + e^{i\Phi_\mathrm{LO}}\ket{1}\bra{1}$ is the
+time propagation operator for the interrogation time acting on the $j$th qubit. This property promises an
+enhancement in phase resolution, and therefore a better stability for quantum clocks.
+
+\subsection{Parity measurement}
+% In order to exploit the quantum enhancement, we need to prepare the entangled
+% states with the LO field, let them evolve, and measure an observable that is
+% sensitive to the phase of the GHZ state. 
+Using the idea with the two
+sub-ensembles [see \refeq{eq:X_ensemble_uncorr} and
+(\ref{eq:Y_ensemble_uncorr})], we imagine dividing the qubits into two equal
+groups, and preparing two separate GHZ states:
+\bal
+	\ket{X} &:=& [\ket{\mathbf{0}} + \ket{\mathbf{1}}]/\sqrt{2},\\
+	\ket{Y} &:=& [\ket{\mathbf{0}} + i\ket{\mathbf{1}}]/\sqrt{2},
+\eal
+each entangling $N'$ qubits.
+After the free evolution time, we imagine measuring each qubits in
+the $x$-basis ($\ket{\pm} = [\ket{0} \mp \ket{1}]/\sqrt{2}$) separately. In this
+basis, the above states are written as
+\bel
+	\left[\left(\frac{\ket{+} - \ket{-}}{\sqrt{2}}\right)^{\otimes N'}
+	+  e^{i\phi_\nu}\left(\frac{\ket{+} +\ket{-}}{\sqrt{2}}\right)^{\otimes
+	N'}\right]/\sqrt{2},
+\eel
+where $\phi_\nu = \chi_\nu + N'\Phi_\mathrm{LO}$, for $\nu\in\{x,y\}$ and
+$\chi_x = 0$, while $\chi_y = \pi/2$ for the two groups, respectively. The above
+state can be written as
+\bel
+	\frac{1}{2^{(N'+1)/2}}\sum_{\mathbf{q}\in\{+,-\}^{\times N'}}
+	\left[ \left(\prod_{j=1}^{N'} q_j \right) + e^{i\phi_\nu}\right]
+	\ket{q_1,q_2,\dots q_{N'}}.
+\eel
+Once
+the qubits are measured one by one, the probability to measure a certain outcome
+$\mathbf{q} = (q_1, q_2, \dots q_{N'})$, ($q_j \in \{+,-\}$) is
+\bel
+	\PP(\mathbf{q}) = \frac{1}{2^{N' +1}} |1+ p(\mathbf{q})e^{i\phi_\nu}|^2,
+\eel
+where $p(\mathbf{q}) = \prod_{j=1}^{N'} q_j$ is the parity of the sum of all
+measurement bits. This parity is the observable that is sensitive to the
+accumulated phase, since its distribution is
+\bel
+	\PP(p=\pm 1) = \frac{1\pm \cos(\phi_\nu)}{2}.
+\eel
+This is identical to the parity measurement scheme described in
+\cite{Bollinger1996}.
+By interrogating $n_0/2$ instances of $\ket{X}$ and $\ket{Y}$, respectively, we
+can measure the phase of the GHZ state, $N' \Phi_\mathrm{LO}$, with uncertainty
+$1/\sqrt{n_0}$, since each instance provides a single measurement bit, which can
+be combined the same way as we described in the case of uncorrelated ensembles.
+The resulting measurement uncertainty, $\Delta\Phi_\mathrm{LO}$, is
+\bel
+	\label{eq:projection_GHZ_1}
+	\ev{\Delta\Phi^2_\mathrm{LO}}_\mathrm{pr} = \frac{1}{(N')^2 n_0} =
+	\frac{n_0}{N^2},
+\eel
+which is a factor of $N/n_0$ smaller than the
+variance contribution of projection noise for the uncorrelated ensemble
+protocol, ($N = n_0 N'$).
+
+\subsection{Failure of the maximally entangled GHZ}
+Motivated by the increased phase resolution provided by the interrogation of GHZ
+states, we evaluate the stability of such a protocol. We find that it fails to
+provide improvement compared to the single-step uncorrelated protocol due to an
+increased phase slip rate. This is in agreement with earlier results
+\cite{Wineland1998,Rosenband2012_numerical}.
+
+% First, let us determine the effect of possible phase slips. 
+The probability, that the phase accumulated by $\ket{X}$ ($\ket{Y}$) during the
+interrogation time $T$, $N'\Phi_\mathrm{LO}$ lies outside the interval
+$[-\pi,\pi]$, is
+\bel
+	\PP_\mathrm{slip} = 2\intop_{\pi/N'}^\infty \d{\Phi_\mathrm{LO}^\mathrm{real}}
+	\frac{1}{\sqrt{2\pi \gamma_\mathrm{LO}T}}
+	\exp\left[-\frac{(\Phi_\mathrm{LO}^\mathrm{real})^2}{2\gamma_\mathrm{LO}T}\right],
+\eel 
+which, due to the much lower slipping threshold of $\pi/N'$ [instead of $\pi$
+in the uncorrelated case, compare \refeq{eq:Pslip in T}] will become significant
+for much shorter $T$ cycle times.
+The resulting variance contribution (following the same argument as before) is
+\bel
+	\label{eq:slip_GHZ_1}
+	\ev{\Delta\Phi^2_\mathrm{LO}}_\mathrm{slip} = \sqrt{32\pi}\frac{\tau}{T}
+	\sqrt{\gamma_\mathrm{LO}T}N'
+	\exp\left[-\frac{\pi^2 }{2\gamma_\mathrm{LO}T(N')^2}\right].
+\eel
+Neglecting the individual qubit noise by the same argument as before, we simply add the contributions
+from \refeq{eq:projection_GHZ_1} and \refeq{eq:slip_GHZ_1} to obtain the
+Allan-variance, $\sigma_y^2(\tau) = \frac{1}{\omega_0^2\tau} \Gamma$, where
+\bel
+	\Gamma =  \frac{1}{NN' T} +
+	\sqrt{32\pi} \frac{\tau \gamma_\mathrm{LO}^{1/2}}{T^{3/2}}N' 
+	\exp\left[-\frac{\pi^2 }{2\gamma_\mathrm{LO}T(N')^2}\right].
+\eel
+After 
+% introducing the new variable $x =
+% \frac{2}{\pi^2}\gamma_\mathrm{LO}T(N')^2$ and 
+optimizing $T$, we find
+\bel
+	T_\mathrm{opt} \approx \frac{\pi^2}{2}\frac{1}{\gamma_\mathrm{LO} (N')^2}
+	\frac{1}{\log[\gamma_\mathrm{LO}\tau N (N')^3]},
+\eel
+which results in the minimal Allan-variance,
+\bel
+	[\sigma_y(\tau)]_\mathrm{min} \approx
+	\frac{1}{\omega_0}\frac{\sqrt{2}}{\pi}\sqrt{\frac{\gamma_\mathrm{LO}N' 
+	\log[\gamma_\mathrm{LO}\tau N (N')^3]}{\tau N}},
+\eel
+which is at least a factor of $\sqrt{N'}$ \emph{bigger} than the smallest obtainable
+Allan-variance with the single-step uncorrelated protocol [\refeq{eq:gamma_eff}].
+In case of a $1/f$ LO frequency noise spectrum, $T_\mathrm{opt} \propto
+\frac{1}{N}$ (up to logarithmic terms), and the resulting Allan-variance is
+equal to \refeq{eq:gamma_eff}, up to logarithmic corrections, yielding
+effectively no advantage over the uncorrelated scheme.
+% Consequently if all atoms are used in highly entangled GHZ states, then the fast evolution of the
+% phase of the GHZ state requires a proportionally small optimal Ramsey time to
+% avoid slipping its phase.
+% Once the protocol is run with this optimal cycle time, $T_\mathrm{opt}$, the
+% promised stability enhancement diminishes.
+
+\subsection{Cascaded GHZ scheme}
+\label{sec:casGHZ}
+As demonstrated in the previous Section, single GHZ states fail to improve clock
+stability because the increase in sensitivity to the laser detuning, at the
+same time, leads to a
+drastic increase of phase slip errors originating from laser frequency fluctuations. 
+These fluctuations, however, affect all clock qubits in identical manner, and
+therefore represents a \textit{collective noise}. As such (and unlike, e.g., the individual dephasing of the clock qubits),
+they do not represent a fundamental limitation for the
+phase estimation.
+In the following, we show that this
+problem can be efficiently addressed using a cascade of GHZ states of varying
+sizes (and classical states with varying interrogation times) in an incoherent version of the phase estimation algorithm
+\cite{Nielsen_Chuang}. 
+To this end, we
+reformulate the problem of estimating $\Phi_\mathrm{LO}$ in a more suitable
+language.
+
+The laser phase after a given Ramsey cycle can be expressed in a base-$D$
+numeral system as
+\bel
+	\label{eq:D-digits}
+	(\Phi_\mathrm{LO} + \pi)/2\pi= \sum^\infty_{j=-\infty} Z_j / D^{j},
+\eel
+with base-$D$ digits $Z_j \in\{0,1, \hdots, D-1\}$.
+Let us for the moment assume that the laser phase $\Phi_\mathrm{LO}\in
+[-\pi,\pi]$, such that $(\Phi_\mathrm{LO} + \pi)/2\pi= \sum^\infty_{j=1} Z_j /
+D^{j}\equiv 0.Z_1Z_2Z_3\hdots$.
+
+Provided with $N$ qubits, we imagine dividing them into $M$
+different groups, the $j$th group ($j=0,1,\dots M-1$) contains $n_0$
+instances of GHZ states with $D^j$ number of entangled qubits.
+One readily shows that a GHZ state consisting of $D^{M-1}$ particles picks up
+the phase
+\begin{align}
+	\Phi_{M-1}&= D^{M-1} \Phi_\mathrm{LO} \mod [-\pi,\pi] \\
+	 &= 2\pi (0.Z_{M}Z_{M+1}Z_{M+2}\hdots)-\pi,
+\end{align}
+which depend only on digits $Z_{M}$ and higher of the laser phase to be
+measured.
+This insensitivity of the GHZ state with regard to the lower digits $Z_1$ to
+$Z_{M-1}$ restates the problems of phase slips. Only if the latter are known, a
+measurement of the phase of the GHZ state $\Phi_{M-1}$ yields useful information
+to determine $\Phi_\mathrm{LO}$. In other words, the natural number $Z_1Z_2\hdots
+Z_{M-1}$ represents the number of phase slips of the largest group of GHZ states
+($j=M-1$).
+These lower digits can be determined one by one from the accumulated phases
+$\Phi_j = D^{j} \Phi_\mathrm{LO} \mod [-\pi,\pi]$ of the smaller GHZ ensembles $j=0, \hdots, M-2$ by using the relation
+\bel
+	\label{eq:Z_j_measuring}
+	 [D(\Phi_{j-1} + \pi) - (\Phi_j +
+	\pi)]/(2\pi)=(Z_j.Z_{j+1}Z_{j+2}\hdots) - (0.Z_{j+1}Z_{j+2}\hdots) = Z_j.
+\eel
+
+
+Combining all measurement results we find that the best estimate for
+$\Phi_\mathrm{LO}$ is given by
+\bel
+\Phi_\mathrm{LO}^\mathrm{est} = 2\pi\sum_{j=1}^{M-1} Z^\mathrm{est}_j /D^{j} +
+\Phi^\mathrm{est}_{M-1}/D^{M-1},
+\eel
+the precision of which is mostly determined by the uncertainty of the phase of
+the last group ($j=M-1$), which contains the GHZ states with the most entangled
+qubits. Since there are $n_0$ independent instances of these GHZ states, their
+phase is known up to the uncertainty,
+$
+	\ev{\Delta\Phi^2_{M-1}}_\mathrm{pr} = \frac{1}{n_0} \approx \frac{\delta
+	D^{M-1}}{N }
+$
+, where $\delta = \frac{D}{D-1}$, and therefore we find
+\bel
+	\label{eq:projection_GHZ 2}
+	\ev{\Delta\Phi^2_\mathrm{LO}}_\mathrm{pr} =
+	\frac{\ev{\Delta\Phi^2_{M-1}}_\mathrm{pr}} {D^{2(M-1)}}  =
+	\frac{n_0\delta^2}{N^2}.
+\eel
+% not counting the contribution of phase slips that might have happened on lower
+% levels of the cascade.
+This would be the total uncertainty if we could tell with certainty that all
+phase slips of the lower levels had been detected correctly. However, the occurrence of an error in the estimation of any $Z_j$ (in the following referred to as \textit{rounding error}) has non-zero probability. 
+
+\subsection{Rounding errors: finding the optimal $n_0$}
+\label{sec:RE}
+If $\Phi_j$ is determined
+with poor precision, the estimate of $Z_{j+1}$ will have a significant uncertainty,
+causing the final estimate of $\Phi_\mathrm{LO}$ to be uncertain as well. Whenever
+$|\Phi_j^\mathrm{est} - \Phi_j^\mathrm{real}| > \pi/D$, we make a mistake by under-
+or overestimating the digit $Z_{j+1}$. To minimize the effect of
+this error, we need to optimize how the qubits are distributed on  various
+levels of the cascade. In other words, for a given total particle number $N$ and basis $D$
+we need to find the optimal value of $n_0$, the number of copies of GHZ states in each step 
+\footnote{In principle, the clock stability can further be improved by employing different numbers of copies in each step of the Cascade. However, this possibility will not be pursuit in this work.}.
+
+The probability that a rounding error occurs during the estimation of
+$Z_{j}$ is
+\bal
+	\PP_\mathrm{re} &=& 2\intop_{\pi/D}^\infty \d{\phi}
+	\rho(\phi - \Phi_j^\mathrm{real}) \leq 2\intop_{\pi/D}^\infty \d{\phi} n_0^{3/2}
+	\exp\left[-\frac{n_0\phi^2}{2}\right] \nonumber\\
+	&\approx  &
+	\frac{2}{\pi} n_0^{1/2} D \exp\left[-\frac{n_0\pi^2}{2D^2}\right]
+	,
+\eal
+where $\phi = \Phi_{j-1}^{\mathrm{est}} - \Phi_{j-1}^\mathrm{real}$, and $\rho$ is
+the conditional distribution of $\Phi_{j-1}^\mathrm{est}$ for given
+$\Phi_{j-1}^\mathrm{real}$.
+The employed upper bound is obtained in section \ref{sec:UpperBound}, with the
+assumption $\gamma_\mathrm{LO}/\gamma_\mathrm{ind} \gg N/n_0$ ($\gamma_\mathrm{ind}$
+is the individual qubit dephasing rate), so that the projection noise is the
+dominant noise term.
+Due to the fixed value of $n_0$ accross different levels of the cascade, this
+probability is independent of $j$, however the phase shift imposed on
+$\Phi_\mathrm{LO}$ by a manifested rounding error of $Z_{j}$ is $2\pi D^{-j}$ ($j=1,\dots M-1$), as rounding errors early in the cascade are more harmful than later ones.
+This results in the total variance contribution,
+\bel
+	\label{eq:Rounding_GHZ 2}
+	\ev{\Delta\Phi^2_\mathrm{LO}}_\mathrm{re}  =
+	\PP_\mathrm{re} \sum_{j=1}^{M-1}(2\pi
+	D^{-j})^2
+\approx 8\pi
+	\sqrt{\frac{N}{\delta}} D^{-\frac{M-3}{2}}
+	\exp\left[-\frac{n_0\pi^2}{2D^2}\right]
+	\frac{1}{D^2-1}.
+\eel
+
+%\subsection{Optimization}
+By adding the two error contributions from \refeq{eq:projection_GHZ 2}
+and \refeq{eq:Rounding_GHZ 2},
+we obtain the total uncertainty, $\ev{\Delta\Phi^2_\mathrm{LO}}$ and the
+corresponding Allan-variance [according to \refeq{eq:Allan-var}]
+\bal
+	\sigma_y^2(\tau) &=& \frac{1}{\omega_0^2\tau}\left[\frac{\delta}{N T
+	D^{M-1}}
+	+
+	\frac{8\pi}{T}
+	\sqrt{\frac{N}{\delta}} D^{-\frac{M-3}{2}}
+	\exp\left[-\frac{n_0\pi^2}{2D^2}\right]\frac{1}{D^2-1}
+	\right]\nonumber
+	\\
+	\label{eq:4 Gamma}
+	&=:& \frac{1}{\omega_0^2\tau}\left[\Gamma_1 + \Gamma_2\right]
+\eal
+
+We find the optimal value of $n_0$ by minimizing this quantity. Introducing the new variable $x \equiv \frac{2D^2}{n_0\pi^2}$, and using $ n_0 \approx N/(\delta D^{M-1})$ we write
+\bel
+	\Gamma_1 + \Gamma_2 = \frac{2}{\pi^2}\frac{\delta^2 D^2}{N^2 T  x} +
+	\frac{\sqrt{128} D^2}{T(D^2-1)} \frac{1}{x^{1/2}}
+	\exp\left[-\frac{1}{x}\right]
+\eel
+Taking the derivative with respect to $x$ and equating it with 0, while using
+the (self-consistent) assumption $x_\mathrm{opt} \ll 1$, results in the condition $\Gamma_2 \approx
+x_\mathrm{opt} \Gamma_1  \ll \Gamma_1$ and the transcendental equation
+\bel
+	x_\mathrm{opt}^{1/2} \approx \frac{\sqrt{32} \pi^2 N^2}{\delta^2
+	(D^2-1)} \exp\left[-\frac{1}{x_\mathrm{opt}}\right]
+\eel
+for $x_\mathrm{opt}$.
+The asymptotic solution in the case of $x_\mathrm{opt} \ll 1$ is provided by
+section \ref{sec:Transcendental eq}:
+\bal
+	x_\mathrm{opt} &\approx& \left[\log\left(\frac{\sqrt{32} \pi^2
+	N^2}{\delta^2 
+	(D^2-1)}\right)\right]^{-1}\sim\left[\log\left(N^2\right)\right]^{-1},
+	%\\
+%	M_\mathrm{opt} &=& \log\left(\frac{\pi^2}{2}\frac{N
+%	x_\mathrm{opt}}{\delta}\right)/\log (D) -1 \sim \frac{\log N}{\log D}
+%	-1,\quad\quad
+\eal
+yielding directly the optimal number of instances of GHZ states per level
+\bal
+\label{eq:EK6}
+	n_0^\mathrm{opt} \sim \frac{2}{\pi^2} D^2 \log\left(N^2\right).
+	%\\
+%	M_\mathrm{opt} &=& \log\left(\frac{\pi^2}{2}\frac{N
+%	x_\mathrm{opt}}{\delta}\right)/\log (D) -1 \sim \frac{\log N}{\log D}
+%	-1,\quad\quad
+\eal
+This choice guarantees rounding errors yield a negligible contribution to the total measurement uncertainty, and we find
+for the corresponding value of $\Gamma_1 + \Gamma_2$ 
+\bel
+	\label{eq:Gamma1_Gamma2}
+	[\Gamma_1 + \Gamma_2]_\mathrm{min} \approx \Gamma_1(x_\mathrm{opt}) 
+	=\frac{n_0^\mathrm{opt}\delta^2}{N^2T}
+	\sim
+	\frac{2}{\pi^2}\frac{\delta^2 D^2}{N^2 T} 
+	\log\left(N^2\right),
+\eel
+where the factor $\delta=D/(D-1) \in (1,2]$.
+Obviously, the use of a binary basis  ($D=2$) is optimal, and the effect of rounding errors lead to a logarithmic correction to the Heisenberg limit.
+
+\subsection{Phase slip errors: limitations to the Ramsey time $T$ from laser noise}
+\label{sec:PSE}
+Although the cascade is designed to detect phase slips at levels $j=1,2\dots
+M-1$, when we relax the condition $\Phi_\mathrm{LO}\in [-\pi,\pi]$, and allow
+$\Phi_\mathrm{LO} \in (-\infty, + \infty)$, the possible phase slips of level
+$j=0$ ($Z_0$) remains undetected.
+Once this happens, it introduces a $2\pi$ phase shift in $\Phi_\mathrm{LO}$, and
+therefore contributes to its overall uncertainty with
+\bel
+	\label{eq:Slip_GHZ 2}
+	\ev{\Delta\Phi^2_\mathrm{LO}}_\mathrm{slip} = (2\pi)^2\frac{\tau}{T}
+	\PP_\mathrm{slip} = 
+	\sqrt{32\pi} \frac{\tau \gamma_\mathrm{LO}^{1/2}}{T^{1/2}}
+	\exp\left[-\frac{\pi^2}{2\gamma_\mathrm{LO}T}\right],
+\eel
+where we
+assumed $\gamma_\mathrm{LO}T \ll 1$.
+This adds an extra noise term $\Gamma_3 := 
+\ev{\Delta\Phi_\mathrm{LO}^2}_\mathrm{slip}/T$ to the already optimized $[\Gamma_1 +
+\Gamma_2]_\mathrm{min}$ expression, yielding
+\bel
+	[\Gamma_1 + \Gamma_2]_\mathrm{min} + \Gamma_3 = 
+	\frac{2}{\pi^2}\frac{\delta^2n_0^\mathrm{opt}}{N^2y} +  \frac{16}{\pi^{5/2}}\tau
+	\gamma_\mathrm{LO}^2 \frac{1}{y^{3/2}}\exp\left[-\frac{1}{y}\right],
+\eel
+where $y = \frac{2}{\pi^2}\gamma_\mathrm{LO}T$. After taking the derivative
+with respect to $y$ and equating it with zero, the assumption $y_\mathrm{opt}\ll
+1$ results in the condition $\Gamma_3 \approx y_\mathrm{opt} [\Gamma_1 +
+\Gamma_2]_\mathrm{min} \ll [\Gamma_1 + \Gamma_2]_\mathrm{min}$ and the following
+transcendental equation,
+\bel
+	y_\mathrm{opt}^{3/2} \approx \frac{8\gamma_\mathrm{LO}\tau N^2}{\sqrt \pi\delta^2
+	n_0^\mathrm{opt}} \exp\left[-\frac{1}{y_\mathrm{opt}}\right],
+\eel
+for $y_\mathrm{opt}$.
+The asymptotic solution is given again by section \ref{sec:Transcendental eq}:
+\bal
+	y_\mathrm{opt} &=& \left[\log\left(\frac{8\gamma_\mathrm{LO}\tau N^2}{\sqrt \pi\delta^2
+	n_0^\mathrm{opt}}\right)\right]^{-1}\!\!\!\!\!\! \sim
+	\left[\log\left(\gamma_\mathrm{LO}\tau N^2\right)\right]^{-1}\quad
+	\\
+	\label{eq:T_op_GHZ 2}
+	T_\mathrm{opt} &=& \frac{\pi^2}{2}\frac{y_\mathrm{opt}}{\gamma_\mathrm{LO}} \sim
+	\frac{\pi^2}{2}\frac{[\log(\gamma_\mathrm{LO}\tau N^2)]^{-1}}{\gamma_\mathrm{LO}}
+\eal
+in the realistic limit of $\gamma_\mathrm{LO}\tau N^2 \gg 1$. The corresponding
+minimal value of $\Gamma_1 + \Gamma_2 + \Gamma_3$ is
+\begin{align}% 	[\Gamma_1 + \Gamma_2]_\mathrm{min}(y_\mathrm{opt}) =
+% 	\\
+% 	&&\qquad =
+	\Big[[\Gamma_1 + &\Gamma_2]_\mathrm{min} + \Gamma_3\Big]_\mathrm{min} \approx \Gamma_1(x_\mathrm{opt},y_\mathrm{opt}) =\frac{n_0^\mathrm{opt}\delta^2}{N^2T_\mathrm{opt}} \\\label{eq:EK4}
+	&\sim
+	 \gamma_\mathrm{LO}\frac{4\delta^2
+	D^2}{\pi^4}\frac{\log(\gamma_\mathrm{LO}\tau N^2)\log(N^2)}{N^2}.
+\end{align}
+
+Since $\Gamma_3$ grows exponentially with $T$, interrogation times exceeding $T_\mathrm{opt}$ drastically reduce the resulting laser stability. For averaging times $\tau>T_\mathrm{opt}$ this limit on the maximal interrogation time imposed by phase slip errors, leads to sub-optimal values of the ADEV $\sigma_y(\tau)\propto 1/\sqrt \tau$ according to \refeq{eq:EK9} \& (\ref{eq:EK4}).
+However, this limitation can be overcome as we demonstrate in the following section.
+
+
+If the averaging time $\tau$ is shorter than the
+interrogation time suggested by \refeq{eq:T_op_GHZ 2}, $\Gamma_3$
+is negligible compared to $\Gamma_1$, and the corresponding effective
+linewidth is 
+\bel
+\label{eq:EK7}
+	[\Gamma_1 + \Gamma_2]_\mathrm{min} + \Gamma_3 \approx\frac{n_0^\mathrm{opt}\delta^2}{N^2T} =  \frac{2}{\pi^2}\frac{\delta^2
+	D^2}{N^2 T} \log\left(N^2\right),
+\eel
+and the real optimum is at
+$T = \tau$.
+The resulting $\tau^{-1}$ scaling indicates that this is the noise-free measurement
+regime, and results in a Heisenberg-limited ADEV (up to the logarithmic correction arising from $n_0^\mathrm{opt}$).
+
+
+\subsection{Extending the Ramsey time beyond the laser noise limit}
+\label{sec:BLNL}
+
+As we have seen in the previous Section, for long $\tau>T_\mathrm{opt}$, the
+cascaded GHZ scheme is limited by the LO linewidth $\gamma_\mathrm{LO}$ yielding
+a sub-optimal laser stability [\refeq{eq:EK4}]. In the following we demonstrate
+a method to efficiently circumvent this problem, by employing additional
+classical interrogations with varying (effective) interrogation times
+\cite{Rosenband2013, Borregaard2013}. This allows us to directly assess the
+digits $Z_0, Z_{-1}, Z_{-2} \dots$, thus effectively countering the problem of
+phase slips on this level. As such it represents a direct extension of the
+cascaded GHZ states scheme in the classical domain.
+
+We assume we have additional $M^*$ groups of $n_0^*$ particles at our disposal.
+Using dynamical decoupling techniques \cite{ddc}, we realize that each ensemble
+($j=-1,-2\hdots,-M^*$) during the interrogation picks up a phase $\Phi_{j}=
+D^{j} \Phi_\mathrm{LO} \mod [-\pi,\pi]$ (alternatively, this can be achieved by
+choosing varying interrogation times for each ensemble according to $T_{j} =
+D^jT$, for $j<0$ \cite{Rosenband2013}).
+This implies that these ensembles evolve successively slower for decreasing $j$,
+and thus, in the spirit of Section~\ref{sec:casGHZ}, directly assess the digits
+left from the point in the D-numeral representation of $\Phi_\mathrm{LO}$
+[compare \refeq{eq:D-digits}] according to \refeq{eq:Z_j_measuring}, where we
+now allow negative values of $j$.
+
+If all digits are correctly estimated, this accounts for all phase slips up to
+the last ensemble $j=-M^*$. One readily shows in an analogous calculation to the
+one  in Section~\ref{sec:PSE} that for such a procedure with $M^*$ classical
+stages the optimal Ramsey time (i.e., the optimized interrogation time of the
+GHZ states) is exponentially prolonged
+\bel
+\label{eq:EK5}
+T^{(M^*)}_\mathrm{opt} = D^{M^*} T_\mathrm{opt}.
+\eel
+Note, that here we assumed that the total number of particles employed in the classical part of the scheme is negligible with regard to the total number of particles, $N^*=M^* n_0^* \ll N$. This is a well justified assumption, as in order to 
+prolong the optimal Ramsey time by a factor of $k$ from the original optimum $T_\mathrm{opt}$ 
+ we need a logarithmic number of groups only, $M^*\approx\log_D(k$), as implied by \refeq{eq:EK5}. 
+Furthermore, following the argumentation outlined in Section~\ref{sec:RE}, we find that only
+\bel
+ n_0^* \geq \frac{2}{\pi^2} D^2 \log\left(k N^2\right),
+\eel
+particles per level are sufficient to ensure that the rounding errors induced by the classical part of the cascade ($j<0$) are negligible. 
+
+ As seen in the previous Section, when the optimal Ramsey time exceeds the
+ averaging time, $T^{(M^*)}_\mathrm{opt} \geq \tau$ the effective linewidth is
+ given by \refeq{eq:EK7} (assuming $N^*\ll N$), as we can neglect the phase
+ slips contribution to the measurement uncertainty ($\Gamma_3$). Extending the
+ Ramsey time to its then optimal (i.e., maximal)  value $T\sim\tau$ we find the
+ ADEV [compare \refeq{eq:EK9}]
+\bel
+	\label{eq:sigma_y^2 boxed}
+	[\sigma_y(\tau)]_\mathrm{min}\approx \frac{1}{\omega_0} \frac{\delta\sqrt{ n_0^\mathrm{opt}} }{N\tau}
+	\approx \frac{\sqrt 2}{\sqrt \pi\omega_0} \frac{ D\delta}{N\tau} \sqrt{\log\left(N^2\right)}.
+\eel
+This result illustrates that the presented clock protocol achieves Heisenberg-limited clock stability up to a logarithmic correction arising from the number of atoms necessary to compensate for rounding and phase slip errors. The number of particles needed for the extension of the Ramsey time beyond the laser noise limit $T_\mathrm{opt}\approx\gamma_\mathrm{LO}^{-1}$ is given as $N^{*}\approx \frac{2}{\pi^2} D^2 \log\left(k N^2\right)\log_D(k)$ and thus negligible compared to the total particle number $N$. For the optimal choice of basis $D=2$ the constant factor reduces to $ D\delta = 4$. 
+
+The above procedure of interrogation with varying Ramsey times (for the groups $j<0$)  can be understood as a classical pre-narrowing of the laser linewidth \cite{Rosenband2013} to a value that eliminates the threat of phase slips,  before application of the quantum protocol. 
+
+\subsection{Individual qubit noise and final result}
+Up to this point we have neglected individual particle dephasing. 
+However, as we increase the Ramsey time beyond the laser noise limit $T > \gamma_\mathrm{LO}^{-1}$ we need to consider their effect.
+
+In general, the clock atoms are subject to individual decoherence processes
+ characterized by the atomic linewidth
+$\gamma_\mathrm{ind}$ ($\ll \gamma_\mathrm{LO}$). 
+For  the group with the largest GHZ states in our scheme this leads to an uncertainty contribution of $\ev{\Delta\Phi^2_{M-1}}_\mathrm{dephasing} =
+D^{M-1}\gamma_\mathrm{ind}T/n_0$ which results in the measurement uncertainty
+\bel
+	\label{eq:Dephasing_GHZ 2}
+	\ev{\Delta\Phi^2_\mathrm{LO}}_\mathrm{dephasing} =
+	\frac{\gamma_\mathrm{ind}T}{n_0 D^{M-1}} \approx
+	\frac{\delta\gamma_\mathrm{ind}T}{N},
+\eel
+which represents a fundamental noise floor in the form of the effective
+linewidth contribution $\Gamma_4 =
+\ev{\Delta\Phi_\mathrm{LO}^2}_\mathrm{dephasing}/T$.
+
+By adding \refeq{eq:EK7} and $\Gamma_4$, we obtain an approximation of the total
+ADEV under single particle noise,
+\bal
+\label{eq:EK8}
+	&&[\sigma_y(\tau)]_\mathrm{min} \approx
+	\frac{\delta}{\omega_0 \sqrt{\tau N}}
+	\left[
+	\frac{1}{T D^{M-1}}
+	 +  \gamma_\mathrm{ind}\right]^{1/2}
+	 \label{eq:sigma_y boxed GHZ 2},
+\eal
+where we used $n_0=N/\delta D^{M-1}$.
+This equation suggests that the quantum gain in the estimation becomes lost if
+$T\sim(\gamma_\mathrm{ind}D^{M-1} )^{-1}$. This is a well known result
+\cite{Huelga1997}, and in fact represents a fundamental limitation of the
+maximal Ramsey time allowed in the presence of single particle noise
+\cite{Escher:2011fn}.
+We approximate the crossover between the regimes
+$\tau<(\gamma_\mathrm{ind}D^{M-1} )^{-1}$ ($\tau>(\gamma_\mathrm{ind}D^{M-1}
+)^{-1}$), where \refeq{eq:EK8} is dominated by the first (second term) by taking
+$T=\tau$, and rewrite $D^{M-1}$ in terms of the total particle number $N$ to
+arrive at the final equation characterizing the stability of the cascaded GHZ
+scheme
+\bel
+	[\sigma_y(\tau)]_\mathrm{min}
+	\approx
+	\frac{1}{\omega_0 \sqrt{\tau N}}
+	\left[
+	\frac{1}{\tau N}\frac{2\delta^2 D^2}{\pi^2}  \log( N^2) +
+	  \delta \gamma_\mathrm{ind}\right]^{1/2}.
+	 \label{eq:sigma_y boxed GHZ 3}
+\eel
+Again, for the choice of a binary basis $D=2$ the constant factor is given as
+$\delta D=4$.
+
+In summary, we find that the cascaded GHZ scheme enables an optimal,
+Heisenberg-limited laser stability for short averaging times $\tau$ up to a
+logarithmic correction. This stability reaches the fundamental noise floor given
+by the single particle dephasing for averaging times $\tau_0 \approx
+(\gamma_\mathrm{ind}D^{M-1} )^{-1}$. Note, that in the limit $N\rightarrow
+\infty$ this crossover value goes to zero, and the clock stability is given by
+the best possible stability allowed by quantum mechanics for all $\tau$. In
+comparison, classical protocols reach this fundamental limit in the best case
+\cite{Rosenband2013} at the fixed time $\tau \approx \gamma_\mathrm{ind}^{-1}$.
+For averaging times larger than this value $\tau\geq \gamma_\mathrm{ind}^{-1}$
+the quantum protocol does not offer an advantage over an optimal classical
+protocol due to fundamental quantum metrological bounds \cite{Escher:2011fn}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% APPENDIX
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Analytic solution of $x^n = A\exp[-1/x]$}
+\label{sec:Transcendental eq}
+To carry out direct optimization of the Allan variance, we need to be able to
+solve transcendental equations of the following form
+\bel
+	\label{eq:Transcendental_eq}
+	x^n = A\exp\left[-\frac{1}{x}\right].
+\eel
+In this Section we obtain an analytic formula for the solution of this equation
+over the domain $x\in [0,\infty)$, in the limiting case of $A \gg 1$, where $n$
+is real. The sign of $n$ determines the number of solutions: In case of $n>0$,
+there are three solutions: $x_{s,0} = 0$, $x_{s,1}\ll 1$ and $x_{s,2}\gg 1$. In
+case of $n\leq 0$, there is always a single solution, $x_{s,1} \ll 1$. We are
+going to focus on the $x_{s,1} =: x_s$ solution, and give upper and lower
+bounds, such that $x_l \leq x_s \leq x_u$, and $x_u/x_l \rightarrow 1$ as $A\rightarrow
+\infty$.
+
+The general method of Taylor-expanding the
+right side of \refeq{eq:Transcendental_eq}  around $x=0$ fails due to the
+non-analytic property of $e^{-1/x}$ function at zero, and forces us to choose an
+alternate route. Here, we use a recursion formula, and prove its stability
+around $x_s$. Rearranging \refeq{eq:Transcendental_eq} and turning it into
+a recursion $f$ yields
+\bel
+	\label{eq:recursion}
+	x_{k} =
+	\frac{1}{\log A - n\log x_{k-1}} =: f(x_{k-1}),
+\eel 
+The iteration of $f$ is stable around the
+fixed point ($f(x_s) = x_s$), if and only if $1 > |f'(x_s)| = x_s |n|$,
+% \bel
+% 	1 > |f'(x_s)| = \left|\frac{n}{x_s(\log A - n\log x_s)^2}\right| = x_s |n|,
+% \eel
+which is true in the limit $x_s \ll 1$. Stability implies that the fix point can
+be obtained as the limit
+\bel
+	x_s = \lim_{k\rightarrow \infty}x_k = \lim_{k\rightarrow \infty} f^{[k]}(x_0),
+\eel
+if the $x_0$ starting point is sufficiently close to $x_s$,  where $f^{[k]}$
+denotes $k$ iterations of $f$.
+
+In case of $n\leq 0$, $f'(x_s) = n x_s \leq 0$ therefore  $[f^{[k]}(x_0)
+- f^{[k-1]}(x_0)]$ is an alternating sequence and we can quickly obtain
+upper ($x_u$) and lower ($x_l$) bounds by applying the
+recursion $f$ twice on $x_0 = 1$:
+\bel
+	x_l = x_1 = \frac{1}{\log A} ,\qquad x_u = x_2 = \frac{1}{\log A +
+	n\log\log A} ,
+\eel
+% \bel
+% 	\frac{1}{\log A} < x_s < \frac{1}{\log A +
+% 	n\log\log A}.
+% \eel
+% In the limit of $A\rightarrow \infty$, the solution is $x_s = [\log A]^{-1}$,
+% which is indeed $\ll 1$.
+
+In case of $n>0$ and $x_0 = 1$,  $f^{[k]}(x_s)$
+% the same $x_0$ starting point
+% results in
+% \bel
+% 	x_0 = 1,\qquad x_1 = \frac{1}{\log A}, \qquad x_2 = \frac{1}{\log A +
+% 	n\log\log A},\qquad \dots
+% \eel
+is monotonically decreasing (since $f'(x_s) > 0$), and we can safely
+choose the upper bound $x_u = x_2$. To obtain a lower bound, we introduce a new
+variable $\xi = - \log x$, and write \refeq{eq:recursion} as
+\bal
+	\xi_{k} &=& \log\log A + \log\left(1+ \frac{n}{\log A}\xi_{k-1}\right)
+	\\
+	&\leq&
+	\log\log A + \frac{n}{\log A}\xi_{k-1} =: g(\xi_{k-1}),
+\eal
+where we used that $\log (1+y) \leq y, \; \forall y\in \mathbb{R}^+$ and $g$ is
+a new recursion.
+Since $g$ is a monotonically increasing function, the  inequality holds for 
+multiple iterations, $\xi_{k} \leq g^{[k]}(\xi_0)$, and eventually give the 
+upper bound, $-\log x_s = \xi_s \leq \lim_{k\rightarrow \infty}g^{[k]}(\xi_0)$.
+% $\xi_s \leq \lim_{k\rightarrow \infty}g^{[k]}(\xi_0)$.
+% % 	=:
+% % 	\tilde\xi_{k+1}.
+% % \bel
+% % 	\xi_{k+1} \leq g(\xi_k) \leq g(g(\xi_{k-1}))\leq  \dots \leq g^{[k+1]}(\xi_0)
+% % 	=:
+% % 	\tilde\xi_{k+1}.
+% % \eel
+% Starting from $\xi_0$,  $\lim_{k\rightarrow \infty}
+% g^{[k]}(\xi_0)$ gives an upper bound on $\xi_s = -\log x_s$. The recursion for
+% the upper bounds results in a simple explicit expression for $\tilde \xi_k$,
+% \bel
+% 	\tilde\xi_{k+1} = \log\log A + \frac{n}{\log A} \tilde \xi_k\qquad \rightarrow
+% 	\qquad \tilde \xi_k = (\log\log A) 
+% 	\left[\frac{\left(\frac{n}{\log A}\right)^{k} - 1}{\frac{n}{\log
+% 	A}-1}\right],\qquad \mathrm{for }\; \tilde \xi_0 = 0.
+% \eel	
+In the limit of $A\ll 1$, we can assume $\frac{n}{\log A} < 1$, and the
+sequence of iterations of $g$ becomes convergent. Due to its simple form,
+we can evaluate its limit in a closed form,  which results in the following
+upper bound for $\xi_s$ and the corresponding lower bound for $x_s$.
+\bel
+	\xi_s < \frac{\log \log A}{1 - \frac{n}{\log
+	A}},\qquad\rightarrow \qquad x_s >  \left(\frac{1}{\log
+	A}\right)^{\frac{1}{1-\frac{n}{\log A}}}.
+\eel
+We can obtain an even better (and more conventional) lower bound by applying $f$
+once more:
+\bel
+	x_l = f\left[\left(\frac{1}{\log
+	A}\right)^{\frac{1}{1-\frac{n}{\log A}}}\right]	= \frac{1}{\log A +
+	\frac{1}{1-\frac{n}{\log A}} n \log\log A}
+\eel
+
+For both signs of $n$, $x_l \log A 
+\rightarrow 1$, $x_u \log A
+\rightarrow 1$, and $x_u/x_l\rightarrow 1$ as $A\rightarrow \infty$, from which
+we conclude that
+\bel
+	\lim_{A\rightarrow \infty}(x_s \log A) = 1.
+\eel
+For large enough $A$, we can approximate $x_s$ with $[\log A]^{-1}$, and the
+relative error is bounded by $|n|\frac{\log\log A}{\log A}$.
+
+
+\section{Upper bound on the tail of the distribution of the estimated phase}
+\label{sec:UpperBound}
+The probability of rounding errors is given an upper bound in order to obtain a
+more tractable form for optimization. 
+
+\subsection{Upper bound on the tail of the binomial distribution}
+\label{sec:Binomial} 
+Here we derive an upper bound for the binomial distribution
+\bel
+	\label{eq:binomial}
+	\PP(k) = {n \choose k} p^{k} (1-p)^{n-k}.
+\eel
+Central limit theorem implies that for large enough $n$, $\PP(k)$ can be
+approximated with the normal distribution, $\mathcal{N}(np, np(1-p))$,
+however, one can be concerned with the fact that this underestimates the tail of
+$\PP(k)$. Here we give $F(k)$ as a strict upper bound on
+$\PP(k)$,
+\bel
+	\label{eq:Upper bound}
+	\PP(k) < F(k) = \exp\left[-2(n-1)\left(\frac{k}{n}-p\right)^2\right].
+\eel
+% After transforming it with $k/n =
+% [1+\sin\tilde\Phi_j^\mathrm{estimated}]/2$ and $p =
+% [1+\sin\tilde\Phi_j^\mathrm{real}]/2$, and Taylor expanding the sine, we get
+% \bel
+% 	\rho\left(\left|\tilde\Phi_j^\mathrm{estimated} - \tilde\Phi_j^\mathrm{real}\right|
+% 	= y\right) < n \exp\left[-2(n-1)y^2\right] < n e^{-ny^2}
+% \eel
+% 
+% 
+% 
+
+To see that $F(k)$ is indeed an upper bound of $\PP(k)$ for all $n,p$ and $k$,
+let us examine the logarithm of the binomial distribution $\PP(k=ny)$,
+\bel
+	L(y) = \log{n \choose ny} + ny\log p + n(1-y)\log(1-p),
+\eel
+where $0\leq y \leq 1$. The properties, we are interested in, are
+\begin{itemize}
+  \item $L(y)< 0$ for all $y$, since $\PP(k)<1$,
+  \item $\left.\frac{\partial}{\partial y}L(y)\right|_{y=p} = 0$,  and positive
+  for $y<p$ and negative for $y>p$, since $L(y)=\mathrm{max}$ at $y=p$.
+  \item $\frac{\partial^2}{\partial y^2}L(y) = \frac{\partial^2}{\partial
+  y^2}{ n \choose ny} = -n^2\Big(\psi_1[1+n(1-y)] + \psi_1[1+ny]\Big)$, where
+  $\psi_1(x) = \frac{d}{dx}\log\Gamma(x)$, the first polygamma function.
+\end{itemize}
+By analyzing the series expansion of $\psi_1(1+\eta)$ for large and small $\eta$
+arguments,
+\bal
+	\psi_1(1+\eta) &=& \frac{1}{\eta} - \frac{1}{2\eta^2} +
+	\mathcal{O}(\eta^{-3})\qquad \eta \gg 1\\
+	\psi_1(1+\eta) &=& \frac{\pi^2}{6} -2.404\eta + \frac{\pi^4}{30}\eta^2 +
+	\mathcal{O}(\eta^3)\qquad \eta \ll 1,
+\eal
+one can show that $\frac{\partial^2}{\partial y^2}L(y)$ is always
+negative and has a global maximum at $y=1/2$, where it takes the value
+\bel
+	\left.\frac{\partial^2}{\partial y^2}L(y)\right|_{y=1/2} =
+% 	\left.\left[-\frac{n}{y(1-y)} -
+% 	\frac{1}{2}\left(\frac{1}{(1-y)^2} +
+% 	\frac{1}{y^2}\right) +
+% 	\mathcal{O}(n^{-1})\right]\right|_{y=1/2} = 
+	-4(n-1) -
+	\mathcal{O}(n^{-1}).
+\eel
+Therefore the constant function $f''(y) = -4(n-1)$ is an upper bound of $L'' =
+\frac{\partial^2}{\partial y^2}L$. Now, let us integrate both
+$L''$ and $f''$ twice, and choose the integration constants, so that $L(y) < f(y)$. Since $L'(y=p) = 0$,
+\bel
+	L'(y) < \intop_p^y\d{\zeta} f''(\zeta) =
+	-4(n-1)(y-p),
+\eel
+which is chosen to be $f'(y)$, and since $L(p) < 0$,
+\bel
+	L(y) < \intop_p^y \d{\zeta} L'(\zeta) <
+	\intop_p^y \d{\zeta} f'(\zeta) = -2(n-1)(y-p)^2,
+\eel
+which is chosen to be $f(y)$. 
+Consequently
+\bel
+	\PP(ny) = \exp [L(y)]  < \exp [f(y)] = F(ny).
+\eel
+% The upper panel of \reffig{fig:Gaussian_bound} shows $L''(y)$ (blue) and
+% $f''(y)$ (red) on the same plot for $n=100$. The lower panel shows $L(y)$
+% (blue), the upper bound $f(y)$ (red) and the Gaussian approximation $\log G(k)$
+% (black dashed) for $n=100$, $p=0.3$.
+% \begin{figure}[h]
+% \centering
+% \includegraphics[width=0.45\textwidth]{./Gaussian_bound.pdf}
+% \includegraphics[width=0.48\textwidth]{./Gaussian_distr.pdf}
+% \caption{
+% \label{fig:Gaussian_bound}
+% Right: $L''(y)$ and its upper bound, $f''(y)$ for $n=100$. Left: The logarithm
+% of corresponding binomial distribution, $L(y)$ and its upper bound $f(y)$
+% for $n=100$ and $p=0.3$. The dashed curve $\log G(k)$ is the Gaussian
+% approximation around the peak ($y=p$).}
+% \end{figure}
+
+
+\subsection{Upper bound on the distribution of the estimated phase}
+\label{sec:Phase_estimation}
+% In a Ramsey measurement, the phase $\Phi$ is estimated from the measurement
+% bits. We can estimate $\Phi$ within $[-\pi, \pi]$ by measuring $\cos\Phi$ and
+% $\sin\Phi$ from two separate, differently prepared groups of states].
+
+Here we give an upper bound on the distribution of the Ramsey phase $\Phi$, as
+determined by estimating $\cos\Phi$ and $\sin\Phi$ from two sub-groups of
+GHZ states ($X,Y$), each providing $n/2$ measurement (parity) bits.
+Qubits in group $X$ are prepared in $[\ket{\mathbf{0}} +
+\ket{\mathbf{1}}]/\sqrt{2} =:
+\ket{+}$, and measured in $\ket{+}$ with probability $p_x = [1+\cos\Phi]/2$
+ after time $T$, while qubits in ensemble $Y$ are prepared in $[\ket{\mathbf{0}} +
+ i\ket{\mathbf{1}}]/\sqrt{2}$, and measured in $\ket{+}$  with probability $p_y
+ = [1+\sin\Phi]/2$ after time $T$. The number of $\ket{+}$ outcomes $k_x$ and
+ $k_y$ from groups $X$ and $Y$, respectively are binomial random variables
+ with the distribution
+ \bel
+ 	\PP(k_\nu) = {n/2 \choose k_\nu} p_\nu^{k_\nu} (1-p_\nu)^{n/2-k_\nu},
+ \eel
+where $\nu \in\{ x,y\}$. Using the upper bound from \refeq{eq:Upper bound},
+and noting that $n/2 > 1$ we can give the following upper bound on the joint
+distribution of $k_x$ and $k_y$,
+\bel
+	\PP(k_x,k_y) < \exp\left[-\frac{n}{2}\left(\frac{2k_x}{n} - p_x\right)^2
+	-\frac{n}{2}\left(\frac{2k_y}{n} - p_y\right)^2\right].
+\eel
+Let us introduce the polar coordinates $r,\varphi$: $r\cos\varphi =
+\frac{2k_x}{n} - \frac{1}{2}$ and $r\sin\varphi = \frac{2k_y}{n} -
+\frac{1}{2}$, and smear the distribution into a continuous  density
+function $\rho(r,\varphi)$, and its upper bound accordingly:
+\bel
+	\rho(r,\varphi) < \frac{n^2}{4} r \exp\left[-\frac{n}{2}\left(r^2 -
+	2r\cos(\varphi-\Phi^\mathrm{real}) + 1\right)\right].
+\eel
+The marginal distribution of $r$ is independent of $\Phi^\mathrm{real}$, which
+means that $r$ does not hold any information about $\Phi^\mathrm{real}$. The upper
+bound on the marginal distribution of $\varphi$ can be written as
+\bal
+	\rho(\varphi) &<&  \left(\frac{n}{4} +
+	\frac{n^{3/2}\sqrt{\pi}}{\sqrt{32}}\right)\exp\left[-\frac{n}{2}\sin^2(\varphi
+	- \Phi^\mathrm{real})\right]
+	\\
+	\label{eq:Tail}
+	& \sim &
+	n^{3/2} \exp\left[-\frac{n}{2}(\varphi - \Phi^\mathrm{real})^2\right],
+\eal
+where in the second line we assumed $|\varphi - \Phi^\mathrm{real}| \ll 1$, and
+$n\gg 1$. This result is an upper bound on the distribution of $\varphi$, which
+we are going to use to give an upper bound on the rounding error probability,
+\bel 
+	P_\mathrm{re} = 2\intop_{\pi/D}^{\infty}\d{\varphi} \rho(\varphi +
+	\Phi^\mathrm{real}).
+\eel
+The rigorous upper bound on the tail of $\rho$ is provided by \refeq{eq:Tail},
+as long as $\pi/D \ll 1$, and $n \gg 1$.
+
+
+\section{Threshold fidelity} 
+In this section we estimate the fidelity of the pairwise entangling operations
+required to keep the benefit of quantum enhancement. (Following closely the
+analysis in the supplementary of \cite{Komar2014}) In the GHZ state generation step of
+every cycle, $n$ copies of the cascade are initialized. 
+This requires $N/n$ pairwise entangling operations per copy.
+Among other unitary operations, this is likely to be the bottleneck. If one
+ entangling operation can be
+performed with fidelity $F = \exp[-\epsilon]$ $(\epsilon \ll 1)$, then $N/n$
+repetitions succeed with fidelity $F_\mathrm{total} = F^{N/n}= \exp[-N\epsilon/n
+]$.
+
+Whenever a copy fails on level $i$ of the cascade, its measurement result
+$\phi_i$ becomes completely random. This happens with probability
+$(1-F_\mathrm{total})$.
+In the meantime, with probability $F_\mathrm{total}$, the result is consistent with
+$\phi_i = \phi_\mathrm{real}$, where $\phi_\mathrm{real}$ is the actual value of
+$\phi_i $. Out of the $n$ copies $nF_\mathrm{total}$ contributes to a peak
+centered at $\phi_\mathrm{real}$, with width of $1/\sqrt{F_\mathrm{total}n}$ and
+weight $F_\mathrm{total}$, while the rest contributes to a uniform distribution
+with weight $(1-F_\mathrm{total})$:
+The expectation value of $\phi_i$ is still
+\bel
+ 	\ev{\phi_i} = \phi_\mathrm{real},
+\eel
+but the variance is
+ \bel
+ 	\mathrm{Var}(\phi_i) \approx \frac{1}{n} +
+ 	\frac{\pi^2}{3}(1-F_\mathrm{total}).
+ \eel 
+The threshold fidelity $F_\mathrm{th}$ is defined by the criteria that if $F \geq
+F_\mathrm{th}$, then $\mathrm{Var}(\phi_i) \approx 1/n$. If this is satisfied, then
+losing the information from some of the copies does not deteriorate
+ the precision significantly.
+
+This requires $1-F_\mathrm{total} < \frac{3}{\pi^2 n}$, while
+$F_\mathrm{total}= \exp[-\epsilon N/n]$ from above. From these, we conclude that
+$F_\mathrm{th} = \exp[-\epsilon_\mathrm{th}]$, where
+\bel
+	\epsilon_\mathrm{th} \approx \frac{3}{\pi^2 N} \sim \frac{1}{N}.
+\eel
+In the case $N=50$ qubits, we require
+ $F_\mathrm{th} \approx 0.99$ fidelity level for the pairwise entangling
+ operations. A more feasible approach is entangling multiple
+ qubits at once with a collective gate, such as in \cite{Monz2011},
+ currently reaching 0.6 fidelity for up to 14 qubits. However, the resulting
+ infidelities  increase with the number of entangled qubits making the
+ creation of large entangled states still challenging.
+ 

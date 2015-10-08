@@ -8,7 +8,6 @@
   year = {2010},
   volume = {12},
   pages = {083030},
-  number = {8},
   abstract = {We give a theoretical description of a coherently driven opto-mechanical
 	system with a single added photon. The photon source is modeled as
 	a cavity that initially contains one photon and that is irreversibly
@@ -35,6 +34,31 @@
   timestamp = {2015.10.08}
 }
 
+@PHDTHESIS{Andre2005,
+  author = {Axel Andr\'{e}},
+  title = {Nonclassical states of light and atomic ensembles: Generation and
+	New Applications},
+  school = {Harvard University},
+  year = {2005},
+  owner = {Peter Komar},
+  timestamp = {2015.10.08}
+}
+
+@ARTICLE{Andre2004,
+  author = {Andr\'{e}, A. and S{\o}rensen, A. S. and Lukin, M. D.},
+  title = {Stability of Atomic Clocks Based on Entangled Atoms},
+  journal = {Phys. Rev. Lett.},
+  year = {2004},
+  volume = {92},
+  pages = {230801},
+  month = {Jun},
+  doi = {10.1103/PhysRevLett.92.230801},
+  issue = {23},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.92.230801}
+}
+
 @ARTICLE{Arcizet2006,
   author = {O. Arcizet and P.-F. Cohadon and T. Briant and M. Pinard and A. Heidmann},
   title = {Radiation-pressure cooling and optomechanical instability of a micromirror},
@@ -54,7 +78,6 @@
   year = {2008},
   volume = {10},
   pages = {095001},
-  number = {9},
   abstract = {The last five years have witnessed an amazing development in the field
 	of nano- and micromechanics. What was widely considered fantasy ten
 	years ago is about to become an experimental reality: the quantum
@@ -191,7 +214,6 @@
   year = {2012},
   volume = {14},
   pages = {085017},
-  number = {8},
   abstract = {We describe a system composed of two coupled optical cavity modes
 	with a coupling modulated by a bulk mechanical resonator. In addition,
 	one of the cavity modes is irreversibly coupled to a single photon
@@ -214,7 +236,6 @@
   year = {2000},
   volume = {85},
   pages = {1762--1765},
-  month = {Aug},
   doi = {10.1103/PhysRevLett.85.1762},
   issue = {8},
   numpages = {0},
@@ -254,7 +275,6 @@
   year = {1996},
   volume = {76},
   pages = {722--725},
-  month = {Jan},
   doi = {10.1103/PhysRevLett.76.722},
   issue = {5},
   numpages = {0},
@@ -269,7 +289,6 @@
   year = {2011},
   volume = {83},
   pages = {012323},
-  month = {Jan},
   doi = {10.1103/PhysRevA.83.012323},
   issue = {1},
   numpages = {13},
@@ -277,17 +296,46 @@
   url = {http://link.aps.org/doi/10.1103/PhysRevA.83.012323}
 }
 
+@ARTICLE{Bloom2013,
+  author = {B. J. Bloom and T. L. Nicholson and J. R. Williams and S. L. Campbell
+	and M. Bishof and X. Zhang and W. Zhang and S. L. Bromley and J.
+	Ye},
+  title = {An optical lattice clock with accuracy and stability at the $10^{-18}$
+	level},
+  journal = {Nature},
+  year = {2014},
+  volume = {506},
+  pages = {71--75},
+  doi = {10.1038/nature12941},
+  owner = {Peter Komar},
+  timestamp = {2015.10.08}
+}
+
+@ARTICLE{Bollinger1996,
+  author = {Bollinger, J. J . and Itano, Wayne M. and Wineland, D. J. and Heinzen,
+	D. J.},
+  title = {Optimal frequency measurements with maximally correlated states},
+  journal = {Phys. Rev. A},
+  year = {1996},
+  volume = {54},
+  pages = {R4649--R4652},
+  month = {Dec},
+  doi = {10.1103/PhysRevA.54.R4649},
+  issue = {6},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevA.54.R4649}
+}
+
 @ARTICLE{Borregaard2015b,
   author = {Borregaard, J and K\'{o}m\'{a}r, P. and Kessler, E. M. and Lukin,
 	M. D. and S\o rensen, A. S.},
   title = {Long-distance entanglement distribution using individual atoms in
 	optical cavities},
-  journal = {Physical Review A},
+  journal = {Phys. Rev. A},
   year = {2015},
   volume = {92},
   pages = {012307},
-  number = {1},
-  month = jul,
   doi = {10.1103/PhysRevA.92.012307},
   file = {:C$\backslash$:/Doc/Harvard/Research/MyPapers/PRA\_2015.pdf:pdf},
   issn = {1050-2947},
@@ -299,15 +347,44 @@
 	A. S. and Lukin, M. D.},
   title = {Heralded Quantum Gates with Integrated Error Detection in Optical
 	Cavities},
-  journal = {Physical Review Letters},
+  journal = {Phys. Rev. Lett.},
   year = {2015},
   volume = {114},
   pages = {110502},
-  number = {March},
   doi = {10.1103/PhysRevLett.114.110502},
   file = {:C$\backslash$:/Doc/Harvard/Research/MyPapers/PRL\_2015.pdf:pdf},
   issn = {0031-9007},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.114.110502}
+}
+
+@ARTICLE{Borregaard2013,
+  author = {Borregaard, J. and S\o{}rensen, A. S.},
+  title = {Efficient Atomic Clocks Operated with Several Atomic Ensembles},
+  journal = {Phys. Rev. Lett.},
+  year = {2013},
+  volume = {111},
+  pages = {090802},
+  month = {Aug},
+  doi = {10.1103/PhysRevLett.111.090802},
+  issue = {9},
+  numpages = {5},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.111.090802}
+}
+
+@ARTICLE{Borregaard2013_nearHeisenberg,
+  author = {Borregaard, J. and S\o{}rensen, A. S.},
+  title = {Near-Heisenberg-Limited Atomic Clocks in the Presence of Decoherence},
+  journal = {Phys. Rev. Lett.},
+  year = {2013},
+  volume = {111},
+  pages = {090801},
+  month = {Aug},
+  doi = {10.1103/PhysRevLett.111.090801},
+  issue = {9},
+  numpages = {5},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.111.090801}
 }
 
 @ARTICLE{cell,
@@ -315,11 +392,27 @@
 	G. Vasilakis and K. Jensen and E. S. Polzik and A. S. S{\o}rensen},
   title = {Room temperature quantum memory and scalable single photon source
 	based on motional averaging},
+  journal = {arXiv:},
   year = {2015},
-  pages = {arXiv:1501.03916},
+  pages = {1501.03916},
   owner = {Peter Komar},
   timestamp = {2015.10.08},
   url = {http://arxiv.org/abs/1501.03916}
+}
+
+@ARTICLE{Braunstein:1992bx,
+  author = {Braunstein, Samuel L.},
+  title = {Quantum limits on precision measurements of phase},
+  journal = {Phys. Rev. Lett.},
+  year = {1992},
+  volume = {69},
+  pages = {3598--3601},
+  month = {Dec},
+  doi = {10.1103/PhysRevLett.69.3598},
+  issue = {25},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.69.3598}
 }
 
 @ARTICLE{Brecha1999,
@@ -330,7 +423,6 @@
   year = {1999},
   volume = {59},
   pages = {2392--2417},
-  month = {Mar},
   doi = {10.1103/PhysRevA.59.2392},
   issue = {3},
   numpages = {0},
@@ -346,7 +438,6 @@
   year = {2008},
   volume = {322},
   pages = {235-238},
-  number = {5899},
   abstract = {Cavity optomechanics studies the coupling between a mechanical oscillator
 	and the electromagnetic field in a cavity. We report on a cavity
 	optomechanical system in which a collective density excitation of
@@ -372,7 +463,6 @@
   year = {1998},
   volume = {81},
   pages = {5932--5935},
-  month = {Dec},
   doi = {10.1103/PhysRevLett.81.5932},
   issue = {26},
   numpages = {0},
@@ -388,7 +478,6 @@
   year = {2003},
   volume = {91},
   pages = {067901},
-  month = {Aug},
   doi = {10.1103/PhysRevLett.91.067901},
   issue = {6},
   numpages = {4},
@@ -403,12 +492,26 @@
   year = {1998},
   volume = {81},
   pages = {3018--3021},
-  month = {Oct},
   doi = {10.1103/PhysRevLett.81.3018},
   issue = {14},
   numpages = {0},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.81.3018}
+}
+
+@ARTICLE{Buzek1999,
+  author = {Bu\v{z}ek, V. and Derka, R. and Massar, S.},
+  title = {Optimal Quantum Clocks},
+  journal = {Phys. Rev. Lett.},
+  year = {1999},
+  volume = {82},
+  pages = {2207--2210},
+  month = {Mar},
+  doi = {10.1103/PhysRevLett.82.2207},
+  issue = {10},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.82.2207}
 }
 
 @ARTICLE{burek,
@@ -425,15 +528,30 @@
   timestamp = {2015.10.01}
 }
 
+@ARTICLE{Burgh2005,
+  author = {de Burgh, Mark and Bartlett, Stephen D.},
+  title = {Quantum methods for clock synchronization: Beating the standard quantum
+	limit without entanglement},
+  journal = {Phys. Rev. A},
+  year = {2005},
+  volume = {72},
+  pages = {042301},
+  month = {Oct},
+  doi = {10.1103/PhysRevA.72.042301},
+  issue = {4},
+  numpages = {9},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevA.72.042301}
+}
+
 @ARTICLE{Carmichael1991,
   author = {H.J. Carmichael and R.J. Brecha and P.R. Rice},
   title = {Quantum interference and collapse of the wavefunction in cavity \{QED\}
 	},
-  journal = {Optics Communications },
+  journal = {Optics Communications},
   year = {1991},
   volume = {82},
   pages = {73 - 79},
-  number = {1�2},
   doi = {http://dx.doi.org/10.1016/0030-4018(91)90194-I},
   issn = {0030-4018},
   url = {http://www.sciencedirect.com/science/article/pii/003040189190194I}
@@ -447,12 +565,26 @@
   year = {2007},
   volume = {98},
   pages = {123901},
-  month = {Mar},
   doi = {10.1103/PhysRevLett.98.123901},
   issue = {12},
   numpages = {4},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.98.123901}
+}
+
+@ARTICLE{Caves1980,
+  author = {Caves, Carlton M.},
+  title = {Quantum-Mechanical Radiation-Pressure Fluctuations in an Interferometer},
+  journal = {Phys. Rev. Lett.},
+  year = {1980},
+  volume = {45},
+  pages = {75--79},
+  month = {Jul},
+  doi = {10.1103/PhysRevLett.45.75},
+  issue = {2},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.45.75}
 }
 
 @ARTICLE{Chan2011,
@@ -474,12 +606,10 @@
   author = {Chan, Jasper and Safavi-Naeini, Amir H. and Hill, Jeff T. and Meenehan,
 	Se�n and Painter, Oskar},
   title = {Optimized optomechanical crystal cavity with acoustic radiation shield},
-  journal = {Applied Physics Letters},
+  journal = {Appl. Phys. Lett.},
   year = {2012},
   volume = {101},
   pages = {081115},
-  number = {8},
-  eid = {081115},
   doi = {http://dx.doi.org/10.1063/1.4747726},
   url = {http://scitation.aip.org/content/aip/journal/apl/101/8/10.1063/1.4747726}
 }
@@ -504,7 +634,6 @@
   year = {2011},
   volume = {13},
   pages = {023003},
-  number = {2},
   abstract = {One of the major advances needed to realize all-optical information
 	processing of light is the ability to delay or coherently store and
 	retrieve optical information in a rapidly tunable manner. In the
@@ -530,7 +659,6 @@
   year = {2011},
   volume = {84},
   pages = {023812},
-  month = {Aug},
   doi = {10.1103/PhysRevA.84.023812},
   issue = {2},
   numpages = {10},
@@ -547,7 +675,6 @@
   year = {2006},
   volume = {96},
   pages = {070504},
-  month = {Feb},
   doi = {10.1103/PhysRevLett.96.070504},
   issue = {7},
   numpages = {4},
@@ -567,6 +694,23 @@
   timestamp = {2015.10.01}
 }
 
+@ARTICLE{Chou2010,
+  author = {Chou, C. W. and Hume, D. B. and Koelemeij, J. C. J. and Wineland,
+	D. J. and Rosenband, T.},
+  title = {Frequency Comparison of Two High-Accuracy ${\mathrm{Al}}^{+}$ Optical
+	Clocks},
+  journal = {Phys. Rev. Lett.},
+  year = {2010},
+  volume = {104},
+  pages = {070802},
+  month = {Feb},
+  doi = {10.1103/PhysRevLett.104.070802},
+  issue = {7},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.104.070802}
+}
+
 @ARTICLE{cirac,
   author = {Cirac, J. I. and Zoller, P. and Kimble, H. J. and Mabuchi, H.},
   title = {Quantum State Transfer and Entanglement Distribution among Distant
@@ -575,7 +719,6 @@
   year = {1997},
   volume = {78},
   pages = {3221--3224},
-  month = {Apr},
   doi = {10.1103/PhysRevLett.78.3221},
   issue = {16},
   numpages = {0},
@@ -593,12 +736,20 @@
   year = {2007},
   volume = {99},
   pages = {160801},
-  month = {Oct},
   doi = {10.1103/PhysRevLett.99.160801},
   issue = {16},
   numpages = {4},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.99.160801}
+}
+
+@BOOK{Rao1945,
+  title = {Mathematical Methods of Statistics},
+  publisher = {Princeton University Press, Princeton, NJ},
+  year = {1946},
+  author = {Harald Cram\'{e}r},
+  owner = {Peter Komar},
+  timestamp = {2015.10.08}
 }
 
 @ARTICLE{briegel2,
@@ -608,7 +759,6 @@
   year = {2007},
   volume = {70},
   pages = {1381},
-  number = {8},
   abstract = {We give a review on entanglement purification for bipartite and multipartite
 	quantum states, with the main focus on the theoretical work carried
 	out by our group in the last couple of years. We discuss entanglement
@@ -631,8 +781,6 @@
   year = {2012},
   volume = {20},
   pages = {24394--24410},
-  number = {22},
-  month = {Oct},
   abstract = {We present a design methodology and analysis of a cavity optomechanical
 	system in which a localized GHz frequency mechanical mode of a nanobeam
 	resonator is evanescently coupled to a high quality factor (Q \&\#x0003E;
@@ -666,7 +814,6 @@
   year = {1996},
   volume = {77},
   pages = {2818--2821},
-  month = {Sep},
   doi = {10.1103/PhysRevLett.77.2818},
   issue = {13},
   numpages = {0},
@@ -678,12 +825,10 @@
   author = {Ding, L. and Baker, C. and Senellart, P. and Lemaitre, A. and Ducci,
 	S. and Leo, G. and Favero, I.},
   title = {Wavelength-sized GaAs optomechanical resonators with gigahertz frequency},
-  journal = {Applied Physics Letters},
+  journal = {Appl. Phys. Lett.},
   year = {2011},
   volume = {98},
   pages = {113108},
-  number = {11},
-  eid = {113108},
   doi = {http://dx.doi.org/10.1063/1.3563711},
   url = {http://scitation.aip.org/content/aip/journal/apl/98/11/10.1063/1.3563711}
 }
@@ -696,7 +841,6 @@
   year = {2010},
   volume = {104},
   pages = {033901},
-  month = {Jan},
   doi = {10.1103/PhysRevLett.104.033901},
   issue = {3},
   numpages = {4},
@@ -712,7 +856,6 @@
   year = {1995},
   volume = {52},
   pages = {3554--3559},
-  month = {Nov},
   doi = {10.1103/PhysRevA.52.3554},
   issue = {5},
   numpages = {0},
@@ -728,7 +871,6 @@
   year = {2000},
   volume = {84},
   pages = {4002--4005},
-  month = {Apr},
   doi = {10.1103/PhysRevLett.84.4002},
   issue = {17},
   numpages = {0},
@@ -743,7 +885,6 @@
   year = {2004},
   volume = {92},
   pages = {127902},
-  month = {Mar},
   doi = {10.1103/PhysRevLett.92.127902},
   issue = {12},
   numpages = {4},
@@ -759,7 +900,6 @@
   year = {2003},
   volume = {90},
   pages = {253601},
-  month = {Jun},
   doi = {10.1103/PhysRevLett.90.253601},
   issue = {25},
   numpages = {4},
@@ -788,12 +928,26 @@
   year = {2005},
   volume = {72},
   pages = {032333},
-  month = {Sep},
   doi = {10.1103/PhysRevA.72.032333},
   issue = {3},
   numpages = {4},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevA.72.032333}
+}
+
+@ARTICLE{Eckstein1978,
+  author = {Eckstein, J. N. and Ferguson, A. I. and H\"ansch, T. W.},
+  title = {High-Resolution Two-Photon Spectroscopy with Picosecond Light Pulses},
+  journal = {Phys. Rev. Lett.},
+  year = {1978},
+  volume = {40},
+  pages = {847--850},
+  month = {Mar},
+  doi = {10.1103/PhysRevLett.40.847},
+  issue = {13},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.40.847}
 }
 
 @ARTICLE{Eichenfield2009,
@@ -816,7 +970,6 @@
   year = {1991},
   volume = {67},
   pages = {661--663},
-  month = {Aug},
   doi = {10.1103/PhysRevLett.67.661},
   issue = {6},
   numpages = {0},
@@ -832,7 +985,6 @@
   year = {1997},
   volume = {79},
   pages = {5178--5181},
-  month = {Dec},
   doi = {10.1103/PhysRevLett.79.5178},
   issue = {25},
   numpages = {0},
@@ -848,12 +1000,24 @@
   year = {1997},
   volume = {78},
   pages = {4293--4296},
-  month = {Jun},
   doi = {10.1103/PhysRevLett.78.4293},
   issue = {22},
   numpages = {0},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.78.4293}
+}
+
+@ARTICLE{Escher:2011fn,
+  author = {B. M. Escher and R. L. de Matos Filho and L. Davidovich},
+  title = {General framework for estimating the ultimate precision limit in
+	noisy quantum-enhanced metrology},
+  journal = {Nature Physics},
+  year = {2011},
+  volume = {7},
+  pages = {406--411},
+  doi = {10.1038/nphys1958},
+  owner = {Peter Komar},
+  timestamp = {2015.10.08}
 }
 
 @ARTICLE{Favero2009,
@@ -875,7 +1039,6 @@
   year = {1982},
   volume = {21},
   pages = {467-488},
-  number = {6-7},
   doi = {10.1007/BF02650179},
   issn = {0020-7748},
   language = {English},
@@ -892,7 +1055,6 @@
   year = {2011},
   volume = {107},
   pages = {133601},
-  month = {Sep},
   doi = {10.1103/PhysRevLett.107.133601},
   issue = {13},
   numpages = {5},
@@ -938,6 +1100,33 @@
   timestamp = {2015.10.01}
 }
 
+@ARTICLE{Giovanetti2011,
+  author = {Vittorio Giovannetti and Seth Lloyd and Lorenzo Maccone},
+  title = {Advances in quantum metrology},
+  journal = {Nature Photonics},
+  year = {2011},
+  volume = {5},
+  pages = {222--229},
+  doi = {10.1038/nphoton.2011.35},
+  owner = {Peter Komar},
+  timestamp = {2015.10.08}
+}
+
+@ARTICLE{Giovannetti2006,
+  author = {Giovannetti, Vittorio and Lloyd, Seth and Maccone, Lorenzo},
+  title = {Quantum Metrology},
+  journal = {Phys. Rev. Lett.},
+  year = {2006},
+  volume = {96},
+  pages = {010401},
+  month = {Jan},
+  doi = {10.1103/PhysRevLett.96.010401},
+  issue = {1},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.96.010401}
+}
+
 @ARTICLE{vitali,
   author = {Giovannetti, V. and Vitali, D. and Tombesi, P. and Ekert, A.},
   title = {Scalable quantum computation with cavity QED systems},
@@ -945,7 +1134,6 @@
   year = {2000},
   volume = {62},
   pages = {032306},
-  month = {Aug},
   doi = {10.1103/PhysRevA.62.032306},
   issue = {3},
   numpages = {11},
@@ -974,7 +1162,6 @@
   year = {1997},
   volume = {56},
   pages = {33--38},
-  month = {Jul},
   doi = {10.1103/PhysRevA.56.33},
   issue = {1},
   numpages = {0},
@@ -990,7 +1177,6 @@
   year = {2010},
   volume = {104},
   pages = {083901},
-  month = {Feb},
   doi = {10.1103/PhysRevLett.104.083901},
   issue = {8},
   numpages = {4},
@@ -1007,7 +1193,6 @@
   year = {2007},
   volume = {99},
   pages = {213601},
-  month = {Nov},
   doi = {10.1103/PhysRevLett.99.213601},
   issue = {21},
   numpages = {4},
@@ -1022,12 +1207,24 @@
   year = {2010},
   volume = {82},
   pages = {1041--1093},
-  month = {Apr},
   doi = {10.1103/RevModPhys.82.1041},
   issue = {2},
   numpages = {0},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/RevModPhys.82.1041}
+}
+
+@ARTICLE{Higgins2007,
+  author = {B. L. Higgins and D. W. Berry and S. D. Bartlett and H. M. Wiseman
+	and G. J. Pryde},
+  title = {Entanglement-free Heisenberg-limited phase estimation},
+  journal = {Nature},
+  year = {2007},
+  volume = {450},
+  pages = {392--396},
+  doi = {10.1038/nature06257},
+  owner = {Peter Komar},
+  timestamp = {2015.10.08}
 }
 
 @ARTICLE{Hill2012,
@@ -1056,6 +1253,22 @@
   timestamp = {2015.10.08}
 }
 
+@ARTICLE{Huelga1997,
+  author = {Huelga, S. F. and Macchiavello, C. and Pellizzari, T. and Ekert,
+	A. K. and Plenio, M. B. and Cirac, J. I.},
+  title = {Improvement of Frequency Standards with Quantum Entanglement},
+  journal = {Phys. Rev. Lett.},
+  year = {1997},
+  volume = {79},
+  pages = {3865--3868},
+  month = {Nov},
+  doi = {10.1103/PhysRevLett.79.3865},
+  issue = {20},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.79.3865}
+}
+
 @ARTICLE{jiang2007,
   author = {Jiang, Liang and Taylor, Jacob M. and Khaneja, Navin and Lukin, Mikhail
 	D.},
@@ -1064,7 +1277,6 @@
   year = {2007},
   volume = {104},
   pages = {17291-17296},
-  number = {44},
   abstract = {Reliable preparation of entanglement between distant systems is an
 	outstanding problem in quantum information science and quantum communication.
 	In practice, this has to be accomplished by noisy channels (such
@@ -1092,7 +1304,6 @@
   year = {2013},
   volume = {184},
   pages = {1234 - 1240},
-  number = {4},
   abstract = {We present version 2 of QuTiP, the Quantum Toolbox in Python. Compared
 	to the preceding version [J.R. Johansson, P.D. Nation, F. Nori, Comput.
 	Phys. Commun. 183 (2012) 1760.], we have introduced numerous new
@@ -1140,11 +1351,34 @@
   url = {http://www.sciencedirect.com/science/article/pii/S0010465512003955}
 }
 
+@ARTICLE{Jones2000,
+  author = {Jones, David J. and Diddams, Scott A. and Ranka, Jinendra K. and
+	Stentz, Andrew and Windeler, Robert S. and Hall, John L. and Cundiff,
+	Steven T.},
+  title = {Carrier-Envelope Phase Control of Femtosecond Mode-Locked Lasers
+	and Direct Optical Frequency Synthesis},
+  journal = {Science},
+  year = {2000},
+  volume = {288},
+  pages = {635-639},
+  number = {5466},
+  abstract = {We stabilized the carrier-envelope phase of the pulses emitted by
+	a femtosecond mode-locked laser by using the powerful tools of frequency-domain
+	laser stabilization. We confirmed control of the pulse-to-pulse carrier-envelope
+	phase using temporal cross correlation. This phase stabilization
+	locks the absolute frequencies emitted by the laser, which we used
+	to perform absolute optical frequency measurements that were directly
+	referenced to a stable microwave clock.},
+  doi = {10.1126/science.288.5466.635},
+  eprint = {http://www.sciencemag.org/content/288/5466/635.full.pdf},
+  url = {http://www.sciencemag.org/content/288/5466/635.abstract}
+}
+
 @ARTICLE{Komar2013,
   author = {K\'{o}m\'{a}r, P. and Bennett, S. D. and Stannigel, K. and Habraken,
 	S. J M and Rabl, P. and Zoller, P. and Lukin, M. D.},
   title = {Single-photon nonlinearities in two-mode optomechanics},
-  journal = {Physical Review A - Atomic, Molecular, and Optical Physics},
+  journal = {Phys. Rev. A},
   year = {2013},
   volume = {87},
   pages = {013839},
@@ -1178,7 +1412,6 @@
   year = {2014},
   volume = {10},
   pages = {582--587},
-  number = {June},
   abstract = {The development of precise atomic clocks plays an increasingly important
 	role in modern society. Shared timing information constitutes a key
 	resource for navigation with a direct correspondence between timing
@@ -1211,7 +1444,6 @@
   year = {2011},
   volume = {106},
   pages = {090502},
-  month = {Feb},
   doi = {10.1103/PhysRevLett.106.090502},
   issue = {9},
   numpages = {4},
@@ -1223,11 +1455,10 @@
   author = {Kessler, E. M. and K\'{o}m\'{a}r, P. and Bishof, M. and Jiang, L.
 	and S\o rensen, a. S. and Ye, J. and Lukin, M. D.},
   title = {Heisenberg-limited atom clocks based on entangled qubits},
-  journal = {Physical Review Letters},
+  journal = {Phys. Rev. Lett.},
   year = {2014},
   volume = {112},
   pages = {190403},
-  number = {May},
   abstract = {clock, proposal},
   archiveprefix = {arXiv},
   arxivid = {arXiv:1310.6043v1},
@@ -1256,7 +1487,6 @@
   year = {2008},
   volume = {321},
   pages = {1172-1176},
-  number = {5893},
   abstract = {The coupling of optical and mechanical degrees of freedom is the underlying
 	principle of many techniques to measure mechanical displacement,
 	from macroscale gravitational wave detectors to microscale cantilevers
@@ -1318,7 +1548,6 @@
   year = {2002},
   volume = {89},
   pages = {067901},
-  month = {Jul},
   doi = {10.1103/PhysRevLett.89.067901},
   issue = {6},
   numpages = {4},
@@ -1339,6 +1568,23 @@
   timestamp = {2015.10.01}
 }
 
+@ARTICLE{Lemke2009,
+  author = {Lemke, N. D. and Ludlow, A. D. and Barber, Z. W. and Fortier, T.
+	M. and Diddams, S. A. and Jiang, Y. and Jefferts, S. R. and Heavner,
+	T. P. and Parker, T. E. and Oates, C. W.},
+  title = {Spin-$1/2$ Optical Lattice Clock},
+  journal = {Phys. Rev. Lett.},
+  year = {2009},
+  volume = {103},
+  pages = {063001},
+  month = {Aug},
+  doi = {10.1103/PhysRevLett.103.063001},
+  issue = {6},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.103.063001}
+}
+
 @ARTICLE{Liao2012,
   author = {Liao, Jie-Qiao and Law, C. K.},
   title = {Correlated two-photon scattering in cavity optomechanics},
@@ -1346,12 +1592,30 @@
   year = {2013},
   volume = {87},
   pages = {043809},
-  month = {Apr},
   doi = {10.1103/PhysRevA.87.043809},
   issue = {4},
   numpages = {9},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevA.87.043809}
+}
+
+@ARTICLE{LouchetChauvet:2010fs,
+  author = {Anne Louchet-Chauvet and J\"{u}rgen Appel and Jelmer J Renema and
+	Daniel Oblak and Niels Kjaergaard and Eugene S Polzik},
+  title = {Entanglement-assisted atomic clock beyond the projection noise limit},
+  journal = {New Journal of Physics},
+  year = {2010},
+  volume = {12},
+  pages = {065032},
+  number = {6},
+  abstract = {We use a quantum non-demolition measurement to generate a spin squeezed
+	state and to create entanglement in a cloud of 10 5 cold cesium atoms.
+	For the first time we operate an atomic clock improved by spin squeezing
+	beyond the projection noise limit in a proof-of-principle experiment.
+	For a clock-interrogation time of 10 μs, the experiments show
+	an improvement of 1.1 dB in the signal-to-noise ratio, compared
+	to the atomic projection noise limit.},
+  url = {http://stacks.iop.org/1367-2630/12/i=6/a=065032}
 }
 
 @ARTICLE{Ludwig2008,
@@ -1361,7 +1625,6 @@
   year = {2008},
   volume = {10},
   pages = {095013},
-  number = {9},
   abstract = {We consider a generic optomechanical system, consisting of a driven
 	optical cavity and a movable mirror attached to a cantilever. Systems
 	of this kind (and analogues) have been realized in many recent experiments.
@@ -1388,7 +1651,6 @@
   year = {2012},
   volume = {109},
   pages = {063601},
-  month = {Aug},
   doi = {10.1103/PhysRevLett.109.063601},
   issue = {6},
   numpages = {5},
@@ -1404,7 +1666,6 @@
   year = {2003},
   volume = {75},
   pages = {457--472},
-  month = {Apr},
   doi = {10.1103/RevModPhys.75.457},
   issue = {2},
   numpages = {0},
@@ -1421,7 +1682,6 @@
   year = {2007},
   volume = {99},
   pages = {093902},
-  month = {Aug},
   doi = {10.1103/PhysRevLett.99.093902},
   issue = {9},
   numpages = {4},
@@ -1449,7 +1709,6 @@
   year = {2003},
   volume = {91},
   pages = {130401},
-  month = {Sep},
   doi = {10.1103/PhysRevLett.91.130401},
   issue = {13},
   numpages = {4},
@@ -1467,7 +1726,6 @@
   year = {2012},
   volume = {336},
   pages = {1283-1286},
-  number = {6086},
   abstract = {Stable quantum bits, capable both of storing quantum information for
 	macroscopic time scales and of integration inside small portable
 	devices, are an essential building block for an array of potential
@@ -1483,6 +1741,28 @@
   doi = {10.1126/science.1220513},
   eprint = {http://www.sciencemag.org/content/336/6086/1283.full.pdf},
   url = {http://www.sciencemag.org/content/336/6086/1283.abstract}
+}
+
+@ARTICLE{Meiser:2008fo,
+  author = {D Meiser and Jun Ye and M J Holland},
+  title = {Spin squeezing in optical lattice clocks via lattice-based QND measurements},
+  journal = {New Journal of Physics},
+  year = {2008},
+  volume = {10},
+  pages = {073014},
+  number = {7},
+  abstract = {Quantum projection noise will soon limit the best achievable precision
+	of optical atomic clocks based on lattice-confined neutral atoms.
+	Squeezing the collective atomic pseudo-spin via measurement of the
+	clock state populations during Ramsey interrogation suppresses the
+	projection noise. We show here that the lattice laser field can be
+	used to perform ideal quantum non-demolition measurements without
+	clock shifts or decoherence and explore the feasibility of such an
+	approach in theory with the lattice field confined in a ring-resonator.
+	Detection of the motional sideband due to the atomic vibration in
+	the lattice wells can yield signal sizes a hundredfold above the
+	projection noise limit.},
+  url = {http://stacks.iop.org/1367-2630/10/i=7/a=073014}
 }
 
 @ARTICLE{Metzger2004,
@@ -1505,12 +1785,78 @@
   year = {2009},
   volume = {103},
   pages = {100402},
-  month = {Sep},
   doi = {10.1103/PhysRevLett.103.100402},
   issue = {10},
   numpages = {4},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.103.100402}
+}
+
+@PROCEEDINGS{Mitchell2005,
+  title = {Metrology with entangled states},
+  year = {2005},
+  volume = {5893},
+  abstract = {It is well known that classical states of light exhibit shot noise,
+	characteristic of independent or uncorrelated particles. For phase
+	estimation problems, this leads to a shot-noise limited uncertainty
+	of 1/sqrt[N], where N is the number of particles detected. It is
+	also well known that the shot-noise limit is not fundamental: squeezed
+	states and entangled states can be used for sub-shot-noise phase
+	measurements. The uncertainty principle sets a fundamental limit
+	of 1/N, known as the "Heisenberg" limit. We have recently demonstrated
+	a method, using parametric downconversion and post-selection, to
+	generate entangled "NOON" states suitable for sub-shot-noise phase
+	measurements [M.W. Mitchell et al, Nature 429, 161 (2004)]. We generated
+	a three-photon NOON state and demonstrated three-fold improvement
+	in phase resolution with this state. The relationship between phase
+	resolution and phase uncertainty depends on prior information about
+	the phase being estimated. As in the case of phase measurements with
+	squeezed states, extra precision in one dimension is gained at the
+	cost of reduced precision in other dimensions. Only when prior information
+	is incorporated can entangled-state metrology be applied to beat
+	the shot-noise limit. We illustrate this relationship and discuss
+	adaptive strategies for phase estimation and the possibility of reaching
+	the Heisenberg limit.},
+  author = {Mitchell, M. W.},
+  doi = {10.1117/12.621353},
+  journal = {Proc. SPIE},
+  pages = {589310-589310-10},
+  url = { http://dx.doi.org/10.1117/12.621353}
+}
+
+@ARTICLE{Monz2011,
+  author = {Monz, Thomas and Schindler, Philipp and Barreiro, Julio T. and Chwalla,
+	Michael and Nigg, Daniel and Coish, William A. and Harlander, Maximilian
+	and H\"ansel, Wolfgang and Hennrich, Markus and Blatt, Rainer},
+  title = {14-Qubit Entanglement: Creation and Coherence},
+  journal = {Phys. Rev. Lett.},
+  year = {2011},
+  volume = {106},
+  pages = {130506},
+  month = {Mar},
+  doi = {10.1103/PhysRevLett.106.130506},
+  issue = {13},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.106.130506}
+}
+
+@ARTICLE{Nicholson2012,
+  author = {Nicholson, T. L. and Martin, M. J. and Williams, J. R. and Bloom,
+	B. J. and Bishof, M. and Swallows, M. D. and Campbell, S. L. and
+	Ye, J.},
+  title = {Comparison of Two Independent Sr Optical Clocks with $1\mathbf{\ifmmode\times\else\texttimes\fi{}}{10}^{-17}$
+	Stability at ${10}^{3}\text{ }\text{ }\mathbf{s}$},
+  journal = {Phys. Rev. Lett.},
+  year = {2012},
+  volume = {109},
+  pages = {230801},
+  month = {Dec},
+  doi = {10.1103/PhysRevLett.109.230801},
+  issue = {23},
+  numpages = {5},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.109.230801}
 }
 
 @ARTICLE{nickerson,
@@ -1522,12 +1868,20 @@
   year = {2014},
   volume = {4},
   pages = {041041},
-  month = {Dec},
   doi = {10.1103/PhysRevX.4.041041},
   issue = {4},
   numpages = {17},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevX.4.041041}
+}
+
+@BOOK{Nielsen_Chuang,
+  title = {Quantum Computation and Quantum Information},
+  publisher = {Cambridge University Press, Cambridge, England,},
+  year = {2011},
+  author = {M. A. Nielsen and I. L. Chuang},
+  owner = {Peter Komar},
+  timestamp = {2015.10.08}
 }
 
 @ARTICLE{Notomi2008,
@@ -1537,8 +1891,6 @@
   year = {2008},
   volume = {16},
   pages = {11095--11102},
-  number = {15},
-  month = {Jul},
   abstract = {Recently, various wavelength-sized cavities with theoretical Q values
 	of ~108 have been reported, however, they all employ 2D or 3D photonic
 	band gaps to realize strong light confinement. Here we numerically
@@ -1558,7 +1910,6 @@
   year = {2011},
   volume = {107},
   pages = {063602},
-  month = {Aug},
   doi = {10.1103/PhysRevLett.107.063602},
   issue = {6},
   numpages = {5},
@@ -1587,7 +1938,6 @@
   year = {2002},
   volume = {89},
   pages = {187903},
-  month = {Oct},
   doi = {10.1103/PhysRevLett.89.187903},
   issue = {18},
   numpages = {4},
@@ -1616,7 +1966,6 @@
   year = {1995},
   volume = {75},
   pages = {3788--3791},
-  month = {Nov},
   doi = {10.1103/PhysRevLett.75.3788},
   issue = {21},
   numpages = {0},
@@ -1632,7 +1981,6 @@
   year = {2013},
   volume = {76},
   pages = {096001},
-  number = {9},
   abstract = {The concentration and distribution of quantum entanglement is an essential
 	ingredient in emerging quantum information technologies. Much theoretical
 	and experimental effort has been expended in understanding how to
@@ -1653,7 +2001,6 @@
   year = {2010},
   volume = {105},
   pages = {133602},
-  month = {Sep},
   doi = {10.1103/PhysRevLett.105.133602},
   issue = {13},
   numpages = {4},
@@ -1668,7 +2015,6 @@
   year = {2011},
   volume = {107},
   pages = {063601},
-  month = {Aug},
   doi = {10.1103/PhysRevLett.107.063601},
   issue = {6},
   numpages = {5},
@@ -1683,7 +2029,6 @@
   year = {2001},
   volume = {73},
   pages = {565--582},
-  month = {Aug},
   doi = {10.1103/RevModPhys.73.565},
   issue = {3},
   numpages = {0},
@@ -1698,12 +2043,26 @@
   year = {2005},
   volume = {95},
   pages = {100501},
-  month = {Aug},
   doi = {10.1103/PhysRevLett.95.100501},
   issue = {10},
   numpages = {4},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.95.100501}
+}
+
+@ARTICLE{Ramsey1950,
+  author = {Ramsey, Norman F.},
+  title = {A Molecular Beam Resonance Method with Separated Oscillating Fields},
+  journal = {Phys. Rev.},
+  year = {1950},
+  volume = {78},
+  pages = {695--699},
+  month = {Jun},
+  doi = {10.1103/PhysRev.78.695},
+  issue = {6},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRev.78.695}
 }
 
 @ARTICLE{Regal2011,
@@ -1713,7 +2072,6 @@
   year = {2011},
   volume = {264},
   pages = {012025},
-  number = {1},
   abstract = {We present an overview of experimental work to embed high- Q mesoscopic
 	mechanical oscillators in microwave and optical cavities. Based upon
 	recent progress, the prospect for a broad field of "cavity quantum
@@ -1721,6 +2079,23 @@
 	oscillators as a new quantum resource and also inherently couple
 	their motion to photons throughout the electromagnetic spectrum.},
   url = {http://stacks.iop.org/1742-6596/264/i=1/a=012025}
+}
+
+@ARTICLE{Reichert2000,
+  author = {Reichert, J. and Niering, M. and Holzwarth, R. and Weitz, M. and
+	Udem, Th. and H\"ansch, T. W.},
+  title = {Phase Coherent Vacuum-Ultraviolet to Radio Frequency Comparison with
+	a Mode-Locked Laser},
+  journal = {Phys. Rev. Lett.},
+  year = {2000},
+  volume = {84},
+  pages = {3232--3235},
+  month = {Apr},
+  doi = {10.1103/PhysRevLett.84.3232},
+  issue = {15},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.84.3232}
 }
 
 @ARTICLE{ritter2014,
@@ -1743,7 +2118,6 @@
   year = {2012},
   volume = {85},
   pages = {032111},
-  month = {Mar},
   doi = {10.1103/PhysRevA.85.032111},
   issue = {3},
   numpages = {11},
@@ -1759,8 +2133,6 @@
   year = {1988},
   volume = {24},
   pages = {1351-1366},
-  number = {7},
-  month = {Jul},
   doi = {10.1109/3.974},
   issn = {0018-9197},
   keywords = {quantum optics;bad-cavity limit;coupled atom-field system;photodetection;photon
@@ -1792,12 +2164,33 @@
   year = {2005},
   volume = {95},
   pages = {143901},
-  month = {Sep},
   doi = {10.1103/PhysRevLett.95.143901},
   issue = {14},
   numpages = {4},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.95.143901}
+}
+
+@ARTICLE{Rosenband2012_numerical,
+  author = {Till Rosenband},
+  title = {Numerical test of few-qubit clock protocols},
+  journal = {arXiv:},
+  year = {2012},
+  pages = {1203.0288},
+  owner = {Peter Komar},
+  timestamp = {2015.10.08},
+  url = {http://arxiv.org/abs/1203.0288v2}
+}
+
+@ARTICLE{Rosenband2013,
+  author = {T. Rosenband and D. R. Leibrandt},
+  title = {Exponential scaling of clock stability with atom number},
+  journal = {arXiv:},
+  year = {2013},
+  pages = {1303.6357},
+  owner = {Peter Komar},
+  timestamp = {2015.10.08},
+  url = {http://arxiv.org/abs/1303.6357v2}
 }
 
 @ARTICLE{Anders1prl,
@@ -1807,7 +2200,6 @@
   year = {2003},
   volume = {90},
   pages = {127903},
-  month = {Mar},
   doi = {10.1103/PhysRevLett.90.127903},
   issue = {12},
   numpages = {4},
@@ -1823,7 +2215,6 @@
   year = {2003},
   volume = {91},
   pages = {097905},
-  month = {Aug},
   doi = {10.1103/PhysRevLett.91.097905},
   issue = {9},
   numpages = {4},
@@ -1851,7 +2242,6 @@
   year = {2011},
   volume = {13},
   pages = {013017},
-  number = {1},
   abstract = {In this paper, we describe a general optomechanical system for converting
 	photons to phonons in an efficient and reversible manner. We analyze
 	classically and quantum mechanically the conversion process and proceed
@@ -1871,7 +2261,6 @@
   year = {2009},
   volume = {79},
   pages = {042340},
-  month = {Apr},
   doi = {10.1103/PhysRevA.79.042340},
   issue = {4},
   numpages = {6},
@@ -1887,7 +2276,6 @@
   year = {2011},
   volume = {83},
   pages = {33--80},
-  month = {Mar},
   doi = {10.1103/RevModPhys.83.33},
   issue = {1},
   numpages = {0},
@@ -1904,12 +2292,34 @@
   year = {2008},
   volume = {77},
   pages = {062301},
-  month = {Jun},
   doi = {10.1103/PhysRevA.77.062301},
   issue = {6},
   numpages = {7},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevA.77.062301}
+}
+
+@ARTICLE{Santarelli1998,
+  author = {Santarelli, G. and Audoin, Claude and Makdissi, A. and Laurent, P.
+	and Dick, G.J. and Clairon, C.},
+  title = {Frequency stability degradation of an oscillator slaved to a periodically
+	interrogated atomic resonator},
+  journal = {Ultrasonics, Ferroelectrics, and Frequency Control, IEEE Transactions
+	on},
+  year = {1998},
+  volume = {45},
+  pages = {887-894},
+  number = {4},
+  month = {July},
+  doi = {10.1109/58.710548},
+  issn = {0885-3010},
+  keywords = {atomic clocks;frequency measurement;frequency stability;measurement
+	standards;microwave oscillators;optical resonators;phase noise;quantum
+	optics;trapped ions;Cs;LPTF Cs atomic fountain;Ramsey interrogation;atomic
+	resonator;cold atom;frequency noise;frequency stability;ion trap;multi-Rabi
+	interrogation;periodic interrogation;phase noise;pulsed atomic frequency
+	standard;quantum mechanics;slaved oscillator;two-level atom;Atomic
+	clocks;Degradation;Frequency;Oscillators;Phase noise;Quantum mechanics;Stability}
 }
 
 @ARTICLE{scarani,
@@ -1921,7 +2331,6 @@
   year = {2009},
   volume = {81},
   pages = {1301--1350},
-  month = {Sep},
   doi = {10.1103/RevModPhys.81.1301},
   issue = {3},
   numpages = {0},
@@ -1937,7 +2346,6 @@
   year = {1993},
   volume = {71},
   pages = {3637--3640},
-  month = {Nov},
   doi = {10.1103/PhysRevLett.71.3637},
   issue = {22},
   numpages = {0},
@@ -1966,7 +2374,6 @@
   year = {2012},
   volume = {14},
   pages = {125005},
-  number = {12},
   abstract = {We propose and analyze a nanomechanical architecture where light is
 	used to perform linear quantum operations on a set of many vibrational
 	modes. Suitable amplitude modulation of a single laser beam is shown
@@ -1998,7 +2405,6 @@
   year = {1997},
   volume = {26},
   pages = {1484-1509},
-  number = {5},
   doi = {10.1137/S0097539795293172},
   eprint = { http://dx.doi.org/10.1137/S0097539795293172 },
   url = { http://dx.doi.org/10.1137/S0097539795293172 
@@ -2008,8 +2414,9 @@
 @ARTICLE{Stamper-kurn,
   author = {Dan M. Stamper-Kurn},
   title = {Cavity optomechanics with cold atoms},
+  journal = {arXiv:},
   year = {2012},
-  pages = {arXiv:1204.4351},
+  pages = {1204.4351},
   owner = {Peter Komar},
   timestamp = {2015.10.01},
   url = {http://arxiv.org/abs/1204.4351}
@@ -2023,7 +2430,6 @@
   year = {2012},
   volume = {109},
   pages = {013603},
-  month = {Jul},
   doi = {10.1103/PhysRevLett.109.013603},
   issue = {1},
   numpages = {5},
@@ -2039,7 +2445,6 @@
   year = {2010},
   volume = {105},
   pages = {220501},
-  month = {Nov},
   doi = {10.1103/PhysRevLett.105.220501},
   issue = {22},
   numpages = {4},
@@ -2054,8 +2459,6 @@
   year = {2008},
   volume = {26},
   pages = {1532-1539},
-  number = {11},
-  month = {June},
   doi = {10.1109/JLT.2008.923648},
   issn = {0733-8724},
   keywords = {Q-factor;microcavities;photonic crystals;2D photonic crystal nanocavities;Gaussian
@@ -2076,7 +2479,6 @@
   year = {2011},
   volume = {107},
   pages = {273601},
-  month = {Dec},
   doi = {10.1103/PhysRevLett.107.273601},
   issue = {27},
   numpages = {5},
@@ -2121,7 +2523,6 @@
   year = {2013},
   volume = {340},
   pages = {1202-1205},
-  number = {6137},
   abstract = {Hybrid quantum devices, in which dissimilar quantum systems are combined
 	in order to attain qualities not available with either system alone,
 	may enable far-reaching control in quantum measurement, sensing,
@@ -2181,6 +2582,22 @@
   timestamp = {2015.10.01}
 }
 
+@ARTICLE{ddc,
+  author = {Uhrig, G\"otz S.},
+  title = {Keeping a Quantum Bit Alive by Optimized $\ensuremath{\pi}$-Pulse
+	Sequences},
+  journal = {Phys. Rev. Lett.},
+  year = {2007},
+  volume = {98},
+  pages = {100504},
+  month = {Mar},
+  doi = {10.1103/PhysRevLett.98.100504},
+  issue = {10},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.98.100504}
+}
+
 @ARTICLE{varnava,
   author = {Varnava, Michael and Browne, Daniel E. and Rudolph, Terry},
   title = {Loss Tolerance in One-Way Quantum Computation via Counterfactual
@@ -2189,7 +2606,6 @@
   year = {2006},
   volume = {97},
   pages = {120501},
-  month = {Sep},
   doi = {10.1103/PhysRevLett.97.120501},
   issue = {12},
   numpages = {4},
@@ -2220,7 +2636,6 @@
   year = {2010},
   volume = {330},
   pages = {1520-1523},
-  number = {6010},
   abstract = {Electromagnetically induced transparency is a quantum interference
 	effect observed in atoms and molecules, in which the optical response
 	of an atomic medium is controlled by an electromagnetic field. We
@@ -2244,7 +2659,6 @@
   year = {2009},
   volume = {103},
   pages = {207204},
-  month = {Nov},
   doi = {10.1103/PhysRevLett.103.207204},
   issue = {20},
   numpages = {4},
@@ -2261,12 +2675,25 @@
   year = {2007},
   volume = {99},
   pages = {093901},
-  month = {Aug},
   doi = {10.1103/PhysRevLett.99.093901},
   issue = {9},
   numpages = {4},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.99.093901}
+}
+
+@ARTICLE{Wineland1998,
+  author = {D. J. Wineland and C. Monroe, W. M and Itano and D. Leibfried and
+	B. E. King and D. M. Meekhof},
+  title = {Experimental Issues in Coherent Quantum-State Manipulation of Trapped
+	Atomic Ions},
+  journal = {J. Res. Natl. Inst. Stand. Technol.},
+  year = {1998},
+  volume = {103},
+  pages = {259},
+  doi = {http://dx.doi.org/10.6028/jres.103.019},
+  owner = {Peter Komar},
+  timestamp = {2015.10.08}
 }
 
 @ARTICLE{Xiong2012,
@@ -2278,7 +2705,6 @@
   year = {2012},
   volume = {14},
   pages = {095014},
-  number = {9},
   abstract = {Silicon photonics has offered a versatile platform for the recent
 	development of integrated optomechanical circuits. However, silicon
 	is limited to wavelengths above1.1 μ m and does not allow device
@@ -2305,6 +2731,41 @@
   url = {http://stacks.iop.org/1367-2630/14/i=9/a=095014}
 }
 
+@ARTICLE{Ye2003,
+  author = {Jun Ye and Jin-Long Peng and R. Jason Jones and Kevin W. Holman and
+	John L. Hall and David J. Jones and Scott A. Diddams and John Kitching
+	and Sebastien Bize and James C. Bergquist and Leo W. Hollberg and
+	Lennart Robertsson and Long-Sheng Ma},
+  title = {Delivery of high-stability optical and microwave frequency standards
+	over an optical fiber network},
+  journal = {J. Opt. Soc. Am. B},
+  year = {2003},
+  volume = {20},
+  pages = {1459--1467},
+  number = {7},
+  month = {Jul},
+  abstract = {Optical and radio frequency standards located in JILA and National
+	Institute of Standards and Technology (NIST) laboratories have been
+	connected through a 3.45-km optical fiber link. An optical frequency
+	standard based on an iodine-stabilized Nd:YAG laser at 1064 nm (with
+	an instability of $\sim$4{\texttimes}10{\textminus}14 at 1 s) has
+	been transferred from JILA to NIST and simultaneously measured in
+	both laboratories. In parallel, a hydrogen maser-based radio frequency
+	standard (with an instability of $\sim$2.4{\texttimes}10{\textminus}13
+	at 1 s) is transferred from NIST to JILA. Comparison between these
+	frequency standards is made possible by the use of femtosecond frequency
+	combs in both laboratories. The degradation of the optical and rf
+	standards that are due to the instability in the transmission channel
+	has been measured. Active noise cancellation is demonstrated to improve
+	the transfer stability of the fiber link.},
+  doi = {10.1364/JOSAB.20.001459},
+  keywords = {Fiber optics and optical communications; Instrumentation, measurement,
+	and metrology; Metrological instrumentation; Phase measurement; Ultrafast
+	lasers},
+  publisher = {OSA},
+  url = {http://josab.osa.org/abstract.cfm?URI=josab-20-7-1459}
+}
+
 @ARTICLE{Zhang2003,
   author = {Zhang, Jing and Peng, Kunchi and Braunstein, Samuel L.},
   title = {Quantum-state transfer from light to macroscopic oscillators},
@@ -2312,7 +2773,6 @@
   year = {2003},
   volume = {68},
   pages = {013808},
-  month = {Jul},
   doi = {10.1103/PhysRevA.68.013808},
   issue = {1},
   numpages = {5},
@@ -2328,7 +2788,6 @@
   year = {2012},
   volume = {109},
   pages = {233906},
-  month = {Dec},
   doi = {10.1103/PhysRevLett.109.233906},
   issue = {23},
   numpages = {5},
@@ -2344,7 +2803,6 @@
   year = {2013},
   volume = {87},
   pages = {042318},
-  month = {Apr},
   doi = {10.1103/PhysRevA.87.042318},
   issue = {4},
   numpages = {5},
