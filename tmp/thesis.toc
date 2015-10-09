@@ -5,7 +5,7 @@
 \contentsline {section}{List of Tables}{xi}{chapter*.3}
 \contentsline {section}{Citations to Previously Published Work}{xii}{chapter*.3}
 \contentsline {section}{Acknowledgments}{xiii}{chapter*.3}
-\contentsline {section}{Dedication}{xiv}{chapter*.3}
+\contentsline {section}{Dedication}{xv}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction and Motivation}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Overview and Structure}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Optomechanical Systems}{1}{section.1.2}
