@@ -136,13 +136,47 @@ operation on two of the atoms can be made resistant to the dominating error,
 caused by the loss of a photon, by post-selecting on the third atom's
 state.
 
+\section{Quantum Repeaters}
+Creating quantum entanglement between degrees of freedom of system separated by
+large distances is the most important prerequisite of quantum communication
+protocols. Experimental realizations rely on exchanging weak light pulses
+via carefully monitored optical fibers[REF: european network]. The
+reliability of direct transmission of photon pulses is limited by the
+fiber attenuation length, the maximum of which ($\sim 20\,\mathrm{km}$) is
+achieved at telecom wavelength ($\sim 1\,\mu\mathrm{m}$).
+
+Classical communication solves the attenuation problem by incorporating fiber
+segments which amplify the signal. Conceptually, this classical amplification
+relies on detecting some of the signal's photons and emitting more in synchrony.
+Unfortunately, such a process fails for quantum channels using single-photon
+pulses. That is because the detection event can measure the photon only once,
+therefore it necessarily discards essential infromation about its quantum state.
+
+Overcoming the attenuation problem in quantum channels requires using more
+resources. The scheme of quantum repeaters consits of repeater stations placed
+between the sender and the receiver [REF:Bennett, DLCZ].
+These stations, instead of relaying the information forwards, create pairwise
+entanglement with their neighbors using direct photon transmission via the
+fibers which are much shorter than the total length. Once all etangled pairs are
+confirmed, each station performs a local quantum logic operation between the two
+pairs they have access to. This is called entanglement connection, resulting in
+etanglement between the two outermost parties. And alternative solution is
+encoding the information in states of a many-photon pulse, and applying periodic
+quantum error-correction along its way [REF: Liang].
+
+The reliability and transmission rate of such a quantum repeater protocol
+depends strongly on the fidelity of the entanglement connection step. In Chapter
+\ref{ch:Borregaard_PRA2015}, we show that the atom-cavity system described in
+Chapter \ref{ch:Borregaard_PRL2015}, used to perform the quantum logic gate,
+performs outstandingly for total distances $\sim
+500-1000\,\mathrm{km}$.
 
 
 
+\section{Atomic Clocks and Quantum Metrology}
 
 
 \section{Rydberg Interactions}
 
-\section{Quantum Repeaters}
 
-\section{Atomic Clocks and Quantum Metrology}
+
