@@ -1,59 +1,59 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Two-mode optomechanical system}}{10}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Lower level diagram of 2+1 optomechanical system}}{12}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Photon statistics in mode anti-symmetric mode, $a$}}{14}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Photon statisics in mode symmetric mode, $s$}}{15}{figure.2.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Photon statistics in the reflected mode, $R$}}{15}{figure.2.5}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Illustration of dominant processes}}{18}{figure.2.6}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Aggregate photon statistics of both modes}}{21}{figure.2.7}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Temperature dependence of the relevant levels}}{22}{figure.2.8}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Effect of non-zero temperature on photon statistics of mode $a$}}{22}{figure.2.9}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Effect of non-zero temperature on photon statistics of mode $s$}}{23}{figure.2.10}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Autocorrelation of mode $a$}}{29}{figure.2.11}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Autocorrelation of mode $s$}}{31}{figure.2.12}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Diagram with metastable subspace}}{32}{figure.2.13}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Two-mode optomechanical system}}{13}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Lower level diagram of 2+1 optomechanical system}}{15}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Photon statistics in mode anti-symmetric mode, $a$}}{17}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Photon statisics in mode symmetric mode, $s$}}{18}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Photon statistics in the reflected mode, $R$}}{18}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Illustration of dominant processes}}{21}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Aggregate photon statistics of both modes}}{24}{figure.2.7}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Temperature dependence of the relevant levels}}{25}{figure.2.8}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Effect of non-zero temperature on photon statistics of mode $a$}}{25}{figure.2.9}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Effect of non-zero temperature on photon statistics of mode $s$}}{26}{figure.2.10}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Autocorrelation of mode $a$}}{32}{figure.2.11}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Autocorrelation of mode $s$}}{34}{figure.2.12}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Diagram with metastable subspace}}{35}{figure.2.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Model of two resonators}}{38}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Behavior of the coupled system}}{40}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces A single-phonon single-photon transistor}}{43}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Controlled phase gate}}{45}{figure.3.4}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Model of two resonators}}{41}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Behavior of the coupled system}}{43}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces A single-phonon single-photon transistor}}{46}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Controlled phase gate}}{48}{figure.3.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Level structures of qubit and control atoms}}{52}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Success probability}}{56}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Level structure of auxiliary atom}}{57}{figure.4.3}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Level structures of qubit and control atoms}}{55}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Success probability}}{59}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Level structure of auxiliary atom}}{60}{figure.4.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces The general architecture of a quantum repeater}}{65}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Entanglement generation I}}{66}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Schematics of the heralded CZ gate}}{68}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Secret key fraction}}{71}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Number of swap levels}}{73}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Purification}}{77}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces CNOT gate structure II}}{78}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces CNOT gates comparison}}{81}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Example of repeater architecture}}{83}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Optimal secret key rate I}}{85}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Optimal secret key rate II}}{86}{figure.5.11}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The general architecture of a quantum repeater}}{68}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Entanglement generation I}}{69}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Schematics of the heralded CZ gate}}{71}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Secret key fraction}}{74}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Number of swap levels}}{76}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Purification}}{80}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces CNOT gate structure II}}{81}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces CNOT gates comparison}}{84}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Example of repeater architecture}}{86}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Optimal secret key rate I}}{88}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Optimal secret key rate II}}{89}{figure.5.11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces GHZ cascade}}{97}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Comparison of clock protocols}}{104}{figure.6.2}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces GHZ cascade}}{100}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Comparison of clock protocols}}{107}{figure.6.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces The concept of world-wide quantum clock network}}{110}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Entangled state preparation between distant nodes}}{112}{figure.7.2}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Performance of different operation schemes}}{118}{figure.7.3}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Schematics of security countermeasures}}{122}{figure.7.4}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Comparison of effective and exact description}}{139}{figure.B.1}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Level structure of qubit an auxiliary atoms}}{145}{figure.C.1}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Error and success probability vs cooperativity}}{151}{figure.C.2}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Levels structure of auxiliary atom}}{152}{figure.C.3}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Gate time and success probability vs driving strength}}{159}{figure.C.4}
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Conditional fidelity}}{160}{figure.C.5}
-\contentsline {figure}{\numberline {C.6}{\ignorespaces Gate time and success probability vs detuning}}{161}{figure.C.6}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces The concept of world-wide quantum clock network}}{113}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Entangled state preparation between distant nodes}}{115}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Performance of different operation schemes}}{121}{figure.7.3}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Schematics of security countermeasures}}{125}{figure.7.4}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {F.1}{\ignorespaces GHZ cascade protocol for $K$ clocks}}{209}{figure.F.1}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Comparison of effective and exact description}}{142}{figure.B.1}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Level structure of qubit an auxiliary atoms}}{148}{figure.C.1}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Error and success probability vs cooperativity}}{154}{figure.C.2}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Levels structure of auxiliary atom}}{155}{figure.C.3}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Gate time and success probability vs driving strength}}{162}{figure.C.4}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Conditional fidelity}}{163}{figure.C.5}
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Gate time and success probability vs detuning}}{164}{figure.C.6}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {F.1}{\ignorespaces GHZ cascade protocol for $K$ clocks}}{212}{figure.F.1}

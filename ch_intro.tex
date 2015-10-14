@@ -169,11 +169,81 @@ depends strongly on the fidelity of the entanglement connection step. In Chapter
 \ref{ch:Borregaard_PRA2015}, we show that the atom-cavity system described in
 Chapter \ref{ch:Borregaard_PRL2015}, used to perform the quantum logic gate,
 performs outstandingly for total distances $\sim
-500-1000\,\mathrm{km}$.
+100-1000\,\mathrm{km}$.
 
 
 
 \section{Atomic Clocks and Quantum Metrology}
+Atomic clocks are the currently available best time-keeping devices. They are
+used to keep and, in many cases, to broadcast a precise time and frequency
+standard. The workings of atomic clocks rely on two main components: the
+reference oscillator, realized by an isolated, narrow-linewidth
+electromagnetic transition of an atomic species [REF: clock atoms]; and the
+slaved oscillator, the microwave or optical source of strong, coherent light. The clock keeps time by
+periodically interrogating the atoms with the light of the slaved
+oscillator (laser), and measuring the deviation of their frequencies. The
+measurement result is used to correct the laser's frequency. This closes the
+feedback loop, and results in an actively stabilized laser field, which serves
+as a clock signal [REF: atomic clock review].
+
+The accuracy of an atomic clock, characterized by the average fractional
+frequency deviation or Allan-deviation [REF: old review on frequency
+uncertainty characterization], is determined by several factors. Employing
+higher reference frequency, longer interrogation cycle time, longer averaging
+time and more atoms all improve the overall accuracy. Consequently, there are
+many ways to improve the accuracy. Choosing an atomic transition with optical
+frequency, instead of microwave, boosts the clock's performace by five orders of
+magnitude. The central frequency of current record-holder atomic clocks are all
+in the optical domain [REF:
+Best optical clocks review]. The optimal interrogation time usually falls
+slightly above the coherence time of the laser, and fails to improve the scheme
+beyond atomic coherence time even in schemes that eliminate the limiting effect
+of the laser[REF: Johannes, Till: exponential schemes]. The maximal total
+averaging time is usually determined by the refresh rate of the time
+signal required by the application, and by other noises such as flicker noise of
+affecting the frequency[REF flicker noise].
+
+The dependence on the number of atoms is truly a quantum phenomena. It is due to
+the fundamental limit on the information a single measurement can obtain from a
+any atom. When $N$ atoms are measured independently, the Allen-deviation scales
+as $\propto N^{-1/2}$, and is said to be limited by ``projection noise'' or
+``Standard Quantum Limit''. It originates from the inherent uncertainty of
+the measurement result of a single two-level system preaperd in superposition
+[REF: SQL].
+
+The Standard Quantum Limit decribes the limit of precision if all atoms are
+perapred and measured independently, or as an uncorrelated ensemble, but it is
+higher than the fundamental quantum limit, due to Heisenberg uncertainty, which
+predicts $\propto N^{-1}$ scaling of the precision with increasing atom number
+$N$. This gap, and proposals trying to close it, between the two limits is the
+central topic of Quantum Metrology [REF: Quantum metrology, Escher(?)]. By
+preparing the collection of atoms in an entangled state, the subsequent
+measurement will have lower uncertainty and provide more information about the
+detuning of the laser frequency form the atomic reference. States such as
+squeezed states[REF: Andre, Borregaard], Greenberger-Horne-Zeilinger (GHZ)
+states [REF: Weinland, Bollinger(?)], and optimally entangled states [REF: Buzek,
+Optimal measurement of phase:Weiseman] all promise a significant improvement,
+and some even allow asymptotically reaching the Heisenberg limit for very large
+$N$. In Chapter \ref{ch:Kessler2014}, we obatin a limit of the best achievable
+performance using a cascade of GHZ states, and compare it with the best
+classical algorithms. We find that for total averaging times shorter than the
+atomic coherence time, the precision of our scheme surpasses the best
+precision of the best classical protocol.
+
+Once we establish that entngling the atoms is beneficial, the optimal
+protocol for a network of atomic clocks it becomes an important question. In
+Chapter \ref{ch:Komar2014}, we assume that a large number of identical atomic
+clocks are joined together in a quantum network using quantum communication
+schemes. We show that this network can be operated in a way that all atoms in
+each clock are entangled with all atoms in every other clock, forming a global
+GHZ state. We charaterize the enhancement of overall precision and compare it
+with schemes using only local or no entanglement.
+
+
+
+
+
+
 
 
 \section{Rydberg Interactions}
