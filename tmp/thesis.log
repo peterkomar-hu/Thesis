@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.30)  14 OCT 2015 11:52
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.30)  14 OCT 2015 12:21
 entering extended mode
 **thesis.tex
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.tex
@@ -462,57 +462,58 @@ Chapter 1.
 
 
 
-] [2] [3]) [4] (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Komar2013.tex
+] [2] [3] [4]) [5]
+(C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Komar2013.tex
 Chapter 2.
-[5
+[6
 
 
 
-] [6] <./figs_Komar2013/fig1a.pdf, id=1063, 277.06645pt x 91.14539pt>
+] [7] <./figs_Komar2013/fig1a.pdf, id=1068, 277.06645pt x 91.14539pt>
 File: ./figs_Komar2013/fig1a.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig1a.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig1a.pdf used on input line 193.
 (pdftex.def)             Requested size: 281.85034pt x 92.7195pt.
- [7] [8 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig1a.pdf>]
-<./figs_Komar2013/fig1b.pdf, id=1099, 248.0871pt x 191.52805pt>
+ [8] [9 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig1a.pdf>]
+<./figs_Komar2013/fig1b.pdf, id=1105, 248.0871pt x 191.52805pt>
 File: ./figs_Komar2013/fig1b.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig1b.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig1b.pdf used on input line 387.
 (pdftex.def)             Requested size: 260.17464pt x 200.87656pt.
- [9] [10 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig1b.pdf>]
-
-<./figs_Komar2013/fig2a.pdf, id=1125, 560.30441pt x 224.58289pt>
+ [10] [11 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig1b.pdf>
+]
+<./figs_Komar2013/fig2a.pdf, id=1130, 560.30441pt x 224.58289pt>
 File: ./figs_Komar2013/fig2a.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig2a.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig2a.pdf used on input line 539.
 (pdftex.def)             Requested size: 346.89731pt x 139.04803pt.
- [11]
-<./figs_Komar2013/fig2b.pdf, id=1136, 560.22092pt x 224.58289pt>
+ [12]
+<./figs_Komar2013/fig2b.pdf, id=1141, 560.22092pt x 224.58289pt>
 File: ./figs_Komar2013/fig2b.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig2b.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig2b.pdf used on input line 560.
 (pdftex.def)             Requested size: 346.89731pt x 139.06517pt.
 
-<./figs_Komar2013/fig2c.pdf, id=1141, 542.40434pt x 264.25894pt>
+<./figs_Komar2013/fig2c.pdf, id=1146, 542.40434pt x 264.25894pt>
 File: ./figs_Komar2013/fig2c.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig2c.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig2c.pdf used on input line 580.
 (pdftex.def)             Requested size: 346.89731pt x 169.01627pt.
- [12 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig2a.pdf>] [13
+ [13 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig2a.pdf>] [14
  <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig2b.pdf> <C:/Doc/
-Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig2c.pdf>] [14] [15]
-<./figs_Komar2013/fig2d.pdf, id=1238, 544.45908pt x 201.70355pt>
+Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig2c.pdf>] [15] [16]
+<./figs_Komar2013/fig2d.pdf, id=1243, 544.45908pt x 201.70355pt>
 File: ./figs_Komar2013/fig2d.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig2d.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig2d.pdf used on input line 857.
 (pdftex.def)             Requested size: 390.25534pt x 144.58011pt.
- [16 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig2d.pdf>]
+ [17 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig2d.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 924.
@@ -525,124 +526,124 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 924.
 
-[17] <./figs_Komar2013/fig3.pdf, id=1271, 578.16pt x 289.08pt>
+[18] <./figs_Komar2013/fig3.pdf, id=1276, 578.16pt x 289.08pt>
 File: ./figs_Komar2013/fig3.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig3.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig3.pdf used on input line 1060.
 (pdftex.def)             Requested size: 346.89731pt x 173.44933pt.
- [18]
-<./figs_Komar2013/fig4a.pdf, id=1284, 295.71075pt x 169.91606pt>
+ [19]
+<./figs_Komar2013/fig4a.pdf, id=1289, 295.71075pt x 169.91606pt>
 File: ./figs_Komar2013/fig4a.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig4a.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig4a.pdf used on input line 1135.
 (pdftex.def)             Requested size: 346.89731pt x 199.34285pt.
 
-<./figs_Komar2013/fig4b.pdf, id=1285, 243.12793pt x 155.26582pt>
+<./figs_Komar2013/fig4b.pdf, id=1290, 243.12793pt x 155.26582pt>
 File: ./figs_Komar2013/fig4b.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig4b.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig4b.pdf used on input line 1149.
 (pdftex.def)             Requested size: 346.89731pt x 221.53563pt.
 
-<./figs_Komar2013/fig4c.pdf, id=1286, 243.12793pt x 155.26582pt>
+<./figs_Komar2013/fig4c.pdf, id=1291, 243.12793pt x 155.26582pt>
 File: ./figs_Komar2013/fig4c.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig4c.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig4c.pdf used on input line 1167.
 (pdftex.def)             Requested size: 346.89731pt x 221.53563pt.
- [19 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig3.pdf>] [20 
+ [20 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig3.pdf>] [21 
 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig4a.pdf> <C:/Doc/H
-arvard/graduation/Thesis/TheThesis/figs_Komar2013/fig4b.pdf>] [21 <C:/Doc/Harva
-rd/graduation/Thesis/TheThesis/figs_Komar2013/fig4c.pdf>] [22] [23] [24] [25]
-<./figs_Komar2013/fig5a.pdf, id=1515, 657.45625pt x 361.35pt>
+arvard/graduation/Thesis/TheThesis/figs_Komar2013/fig4b.pdf>] [22 <C:/Doc/Harva
+rd/graduation/Thesis/TheThesis/figs_Komar2013/fig4c.pdf>] [23] [24] [25] [26]
+<./figs_Komar2013/fig5a.pdf, id=1520, 657.45625pt x 361.35pt>
 File: ./figs_Komar2013/fig5a.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig5a.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig5a.pdf used on input line 1511.
 (pdftex.def)             Requested size: 390.25534pt x 214.4959pt.
 
-<./figs_Komar2013/fig5b.pdf, id=1516, 657.45625pt x 361.35pt>
+<./figs_Komar2013/fig5b.pdf, id=1521, 657.45625pt x 361.35pt>
 File: ./figs_Komar2013/fig5b.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig5b.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig5b.pdf used on input line 1512.
 (pdftex.def)             Requested size: 390.25534pt x 214.4959pt.
 
-<./figs_Komar2013/fig6.pdf, id=1525, 492.84125pt x 361.35pt>
+<./figs_Komar2013/fig6.pdf, id=1530, 492.84125pt x 361.35pt>
 File: ./figs_Komar2013/fig6.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig6.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig6.pdf used on input line 1581.
 (pdftex.def)             Requested size: 346.89731pt x 254.3548pt.
- [26] [27 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig5a.pdf>
- <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig5b.pdf>] [28] [2
-9 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig6.pdf>]
-<./figs_Komar2013/fig7.pdf, id=1602, 501.54877pt x 207.71918pt>
+ [27] [28 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig5a.pdf>
+ <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig5b.pdf>] [29] [3
+0 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig6.pdf>]
+<./figs_Komar2013/fig7.pdf, id=1607, 501.54877pt x 207.71918pt>
 File: ./figs_Komar2013/fig7.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig7.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig7.pdf used on input line 1675.
 (pdftex.def)             Requested size: 368.57964pt x 152.65115pt.
- [30 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig7.pdf>] [31]
- [32]) [33]
+ [31 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig7.pdf>] [32]
+ [33]) [34]
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Stannigel2012.tex
 Chapter 3.
-[34
+[35
 
 
 
-] <./figs_Stannigel2012/Figure1.pdf, id=1683, 518.08154pt x 228.41536pt>
+] <./figs_Stannigel2012/Figure1.pdf, id=1688, 518.08154pt x 228.41536pt>
 File: ./figs_Stannigel2012/Figure1.pdf Graphic file (type pdf)
 
 <use ./figs_Stannigel2012/Figure1.pdf>
 Package pdftex.def Info: ./figs_Stannigel2012/Figure1.pdf used on input line 55
 .
 (pdftex.def)             Requested size: 390.25534pt x 172.06392pt.
- [35]
+ [36]
 Missing character: There is no Ê in font cmr12!
 Missing character: There is no Ê in font cmr12!
- [36 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Stannigel2012/Figure1.pdf
+ [37 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Stannigel2012/Figure1.pdf
 >]
-<./figs_Stannigel2012/Figure2.pdf, id=1774, 518.21909pt x 235.72064pt>
+<./figs_Stannigel2012/Figure2.pdf, id=1779, 518.21909pt x 235.72064pt>
 File: ./figs_Stannigel2012/Figure2.pdf Graphic file (type pdf)
 
 <use ./figs_Stannigel2012/Figure2.pdf>
 Package pdftex.def Info: ./figs_Stannigel2012/Figure2.pdf used on input line 12
 1.
 (pdftex.def)             Requested size: 433.62pt x 197.24866pt.
- [37] [38 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Stannigel2012/Figure
-2.pdf>] [39]
-<./figs_Stannigel2012/Figure3.pdf, id=1854, 500.87125pt x 149.82375pt>
+ [38] [39 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Stannigel2012/Figure
+2.pdf>] [40]
+<./figs_Stannigel2012/Figure3.pdf, id=1859, 500.87125pt x 149.82375pt>
 File: ./figs_Stannigel2012/Figure3.pdf Graphic file (type pdf)
 
 <use ./figs_Stannigel2012/Figure3.pdf>
 Package pdftex.def Info: ./figs_Stannigel2012/Figure3.pdf used on input line 22
 7.
 (pdftex.def)             Requested size: 433.62pt x 129.71234pt.
- [40] [41 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Stannigel2012/Figure
+ [41] [42 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Stannigel2012/Figure
 3.pdf>]
-<./figs_Stannigel2012/Figure4.pdf, id=1926, 482.55281pt x 150.5625pt>
+<./figs_Stannigel2012/Figure4.pdf, id=1931, 482.55281pt x 150.5625pt>
 File: ./figs_Stannigel2012/Figure4.pdf Graphic file (type pdf)
 
 <use ./figs_Stannigel2012/Figure4.pdf>
 Package pdftex.def Info: ./figs_Stannigel2012/Figure4.pdf used on input line 31
 0.
 (pdftex.def)             Requested size: 433.62pt x 135.3005pt.
- [42] [43 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Stannigel2012/Figure
+ [43] [44 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Stannigel2012/Figure
 4.pdf>]
 Missing character: There is no Ê in font cmr12!
 Missing character: There is no Ê in font cmr12!
- [44]) [45]
+ [45]) [46]
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Borregaard_PRL2015.tex
 Chapter 4.
-[46
+[47
 
 
 
-] [47] [48]
-<./figs_Borregaard_PRL2015/figure1a.pdf, id=2102, 170.52068pt x 175.60577pt>
+] [48] [49]
+<./figs_Borregaard_PRL2015/figure1a.pdf, id=2107, 170.52068pt x 175.60577pt>
 File: ./figs_Borregaard_PRL2015/figure1a.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figure1a.pdf>
@@ -650,17 +651,17 @@ Package pdftex.def Info: ./figs_Borregaard_PRL2015/figure1a.pdf used on input l
 ine 104.
 (pdftex.def)             Requested size: 151.76964pt x 156.29935pt.
 
-<./figs_Borregaard_PRL2015/figure1b.pdf, id=2103, 170.90335pt x 175.62755pt>
+<./figs_Borregaard_PRL2015/figure1b.pdf, id=2108, 170.90335pt x 175.62755pt>
 File: ./figs_Borregaard_PRL2015/figure1b.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figure1b.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRL2015/figure1b.pdf used on input l
 ine 105.
 (pdftex.def)             Requested size: 151.76964pt x 155.97571pt.
- [49] [50 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRL2015/f
+ [50] [51 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRL2015/f
 igure1a.pdf> <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRL201
-5/figure1b.pdf>] [51] [52]
-<./figs_Borregaard_PRL2015/figure3a.pdf, id=2554, 540.04623pt x 413.83095pt>
+5/figure1b.pdf>] [52] [53]
+<./figs_Borregaard_PRL2015/figure3a.pdf, id=2559, 540.04623pt x 413.83095pt>
 File: ./figs_Borregaard_PRL2015/figure3a.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figure3a.pdf>
@@ -668,33 +669,33 @@ Package pdftex.def Info: ./figs_Borregaard_PRL2015/figure3a.pdf used on input l
 ine 243.
 (pdftex.def)             Requested size: 195.12767pt x 149.52206pt.
 
-<./figs_Borregaard_PRL2015/figure3b2.pdf, id=2555, 476.9319pt x 399.53725pt>
+<./figs_Borregaard_PRL2015/figure3b2.pdf, id=2560, 476.9319pt x 399.53725pt>
 File: ./figs_Borregaard_PRL2015/figure3b2.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figure3b2.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRL2015/figure3b2.pdf used on input 
 line 245.
 (pdftex.def)             Requested size: 195.12767pt x 163.46384pt.
- [53]
-<./figs_Borregaard_PRL2015/figure4.pdf, id=2564, 348.84785pt x 176.14256pt>
+ [54]
+<./figs_Borregaard_PRL2015/figure4.pdf, id=2569, 348.84785pt x 176.14256pt>
 File: ./figs_Borregaard_PRL2015/figure4.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figure4.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRL2015/figure4.pdf used on input li
 ne 279.
 (pdftex.def)             Requested size: 325.215pt x 164.20865pt.
- [54 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRL2015/figure
+ [55 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRL2015/figure
 3a.pdf> <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRL2015/fig
-ure3b2.pdf>] [55 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PR
-L2015/figure4.pdf>] [56]) [57]
-[58] (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Borregaard_PRA2015.tex
+ure3b2.pdf>] [56 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PR
+L2015/figure4.pdf>] [57]) [58]
+[59] (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Borregaard_PRA2015.tex
 Chapter 5.
-[59
+[60
 
 
 
-] [60] [61]
-<./figs_Borregaard_PRA2015/figure1.pdf, id=3000, 364.72258pt x 185.73389pt>
+] [61] [62]
+<./figs_Borregaard_PRA2015/figure1.pdf, id=3005, 364.72258pt x 185.73389pt>
 File: ./figs_Borregaard_PRA2015/figure1.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figure1.pdf>
@@ -702,17 +703,17 @@ Package pdftex.def Info: ./figs_Borregaard_PRA2015/figure1.pdf used on input li
 ne 107.
 (pdftex.def)             Requested size: 289.07999pt x 147.21278pt.
 
-<./figs_Borregaard_PRA2015/figure2.pdf, id=3003, 393.4627pt x 242.296pt>
+<./figs_Borregaard_PRA2015/figure2.pdf, id=3008, 393.4627pt x 242.296pt>
 File: ./figs_Borregaard_PRA2015/figure2.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figure2.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRA2015/figure2.pdf used on input li
 ne 126.
 (pdftex.def)             Requested size: 303.53267pt x 186.92711pt.
- [62] [63 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA2015/f
-igure1.pdf>] [64 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PR
+ [63] [64 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA2015/f
+igure1.pdf>] [65 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PR
 A2015/figure2.pdf>]
-<./figs_Borregaard_PRA2015/figure3a.pdf, id=3306, 151.15997pt x 140.21344pt>
+<./figs_Borregaard_PRA2015/figure3a.pdf, id=3311, 151.15997pt x 140.21344pt>
 File: ./figs_Borregaard_PRA2015/figure3a.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figure3a.pdf>
@@ -720,7 +721,7 @@ Package pdftex.def Info: ./figs_Borregaard_PRA2015/figure3a.pdf used on input l
 ine 191.
 (pdftex.def)             Requested size: 130.08731pt x 120.66891pt.
 
-<./figs_Borregaard_PRA2015/figure3b.pdf, id=3307, 138.30621pt x 140.94386pt>
+<./figs_Borregaard_PRA2015/figure3b.pdf, id=3312, 138.30621pt x 140.94386pt>
 File: ./figs_Borregaard_PRA2015/figure3b.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figure3b.pdf>
@@ -728,36 +729,36 @@ Package pdftex.def Info: ./figs_Borregaard_PRA2015/figure3b.pdf used on input l
 ine 192.
 (pdftex.def)             Requested size: 130.08731pt x 132.5754pt.
 
-<./figs_Borregaard_PRA2015/figure3c.pdf, id=3308, 134.87459pt x 138.70421pt>
+<./figs_Borregaard_PRA2015/figure3c.pdf, id=3313, 134.87459pt x 138.70421pt>
 File: ./figs_Borregaard_PRA2015/figure3c.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figure3c.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRA2015/figure3c.pdf used on input l
 ine 193.
 (pdftex.def)             Requested size: 130.08731pt x 133.79369pt.
- [65] [66 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA2015/f
+ [66] [67 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA2015/f
 igure3a.pdf> <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA201
 5/figure3b.pdf> <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA
-2015/figure3c.pdf>] [67] [68]
-<./figs_Borregaard_PRA2015/figure5.pdf, id=4049, 512.91624pt x 425.59pt>
+2015/figure3c.pdf>] [68] [69]
+<./figs_Borregaard_PRA2015/figure5.pdf, id=4055, 512.91624pt x 425.59pt>
 File: ./figs_Borregaard_PRA2015/figure5.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figure5.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRA2015/figure5.pdf used on input li
 ne 289.
 (pdftex.def)             Requested size: 260.17464pt x 215.8791pt.
- [69 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA2015/figure
-5.pdf>] [70]
-<./figs_Borregaard_PRA2015/figureX4.pdf, id=4072, 548.0475pt x 429.605pt>
+ [70 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA2015/figure
+5.pdf>] [71]
+<./figs_Borregaard_PRA2015/figureX4.pdf, id=4077, 548.0475pt x 429.605pt>
 File: ./figs_Borregaard_PRA2015/figureX4.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figureX4.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRA2015/figureX4.pdf used on input l
 ine 338.
 (pdftex.def)             Requested size: 281.85034pt x 220.93767pt.
- [71 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA2015/figure
-X4.pdf>] [72] [73] [74]
-<./figs_Borregaard_PRA2015/figureX3.pdf, id=4134, 533.995pt x 420.57124pt>
+ [72 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA2015/figure
+X4.pdf>] [73] [74] [75]
+<./figs_Borregaard_PRA2015/figureX3.pdf, id=4140, 533.995pt x 420.57124pt>
 File: ./figs_Borregaard_PRA2015/figureX3.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figureX3.pdf>
@@ -765,7 +766,7 @@ Package pdftex.def Info: ./figs_Borregaard_PRA2015/figureX3.pdf used on input l
 ine 458.
 (pdftex.def)             Requested size: 260.17464pt x 204.92017pt.
 
-<./figs_Borregaard_PRA2015/figure4a.pdf, id=4141, 193.81592pt x 154.99628pt>
+<./figs_Borregaard_PRA2015/figure4a.pdf, id=4147, 193.81592pt x 154.99628pt>
 File: ./figs_Borregaard_PRA2015/figure4a.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figure4a.pdf>
@@ -773,34 +774,34 @@ Package pdftex.def Info: ./figs_Borregaard_PRA2015/figure4a.pdf used on input l
 ine 485.
 (pdftex.def)             Requested size: 173.44534pt x 138.70778pt.
 
-<./figs_Borregaard_PRA2015/figure4b.pdf, id=4142, 193.93835pt x 154.97218pt>
+<./figs_Borregaard_PRA2015/figure4b.pdf, id=4148, 193.93835pt x 154.97218pt>
 File: ./figs_Borregaard_PRA2015/figure4b.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figure4b.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRA2015/figure4b.pdf used on input l
 ine 486.
 (pdftex.def)             Requested size: 173.44534pt x 138.59636pt.
- [75 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA2015/figure
-X3.pdf>] [76 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA201
+ [76 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA2015/figure
+X3.pdf>] [77 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA201
 5/figure4a.pdf> <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA
 2015/figure4b.pdf>]
-<./figs_Borregaard_PRA2015/figureX2.pdf, id=4494, 593.21625pt x 456.70625pt>
+<./figs_Borregaard_PRA2015/figureX2.pdf, id=4499, 593.21625pt x 456.70625pt>
 File: ./figs_Borregaard_PRA2015/figureX2.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figureX2.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRA2015/figureX2.pdf used on input l
 ine 555.
 (pdftex.def)             Requested size: 260.17464pt x 200.31024pt.
- [77]
-<./figs_Borregaard_PRA2015/figureX6.pdf, id=4509, 659.46375pt x 521.95pt>
+ [78]
+<./figs_Borregaard_PRA2015/figureX6.pdf, id=4514, 659.46375pt x 521.95pt>
 File: ./figs_Borregaard_PRA2015/figureX6.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figureX6.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRA2015/figureX6.pdf used on input l
 ine 612.
 (pdftex.def)             Requested size: 281.85034pt x 223.08018pt.
- [78] [79 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA2015/f
-igureX2.pdf>] [80] [81 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borrega
+ [79] [80 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA2015/f
+igureX2.pdf>] [81] [82 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borrega
 ard_PRA2015/figureX6.pdf>]
 LaTeX Font Info:    Try loading font information for U+dsrom on input line 649.
 
@@ -808,7 +809,7 @@ LaTeX Font Info:    Try loading font information for U+dsrom on input line 649.
 (C:\Users\Petya\AppData\Roaming\MiKTeX\2.9\tex\latex\dstroke\udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
 )
-<./figs_Borregaard_PRA2015/figureX7.pdf, id=4587, 1083.81659pt x 553.1658pt>
+<./figs_Borregaard_PRA2015/figureX7.pdf, id=4592, 1083.81659pt x 553.1658pt>
 File: ./figs_Borregaard_PRA2015/figureX7.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figureX7.pdf>
@@ -832,120 +833,98 @@ Missing character: There is no ´ in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ´ in font cmr12!
 
-<./figs_Borregaard_PRA2015/figureX8.pdf, id=4590, 1072.85779pt x 565.08957pt>
+<./figs_Borregaard_PRA2015/figureX8.pdf, id=4595, 1072.85779pt x 565.08957pt>
 File: ./figs_Borregaard_PRA2015/figureX8.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figureX8.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRA2015/figureX8.pdf used on input l
 ine 689.
 (pdftex.def)             Requested size: 433.62pt x 228.39441pt.
- [82] [83 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA2015/f
-igureX7.pdf>] [84 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_P
-RA2015/figureX8.pdf>] [85] [86]
-[87] [88]) [89] [90]
+ [83] [84 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA2015/f
+igureX7.pdf>] [85 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_P
+RA2015/figureX8.pdf>] [86] [87]
+[88] [89]) [90] [91]
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Kessler2014.tex
 Chapter 6.
-[91
+[92
 
 
 
-] [92] [93]
-<./figs_Kessler2014/fig2.pdf, id=4798, 303.54076pt x 228.89474pt>
+] [93] [94]
+<./figs_Kessler2014/fig2.pdf, id=4803, 303.54076pt x 228.89474pt>
 File: ./figs_Kessler2014/fig2.pdf Graphic file (type pdf)
 
 <use ./figs_Kessler2014/fig2.pdf>
 Package pdftex.def Info: ./figs_Kessler2014/fig2.pdf used on input line 154.
 (pdftex.def)             Requested size: 346.89731pt x 261.59583pt.
- [94] [95 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Kessler2014/fig2.pdf
->] [96] [97] [98] [99] [100]
-<./figs_Kessler2014/fig1.pdf, id=4886, 308.48149pt x 189.80118pt>
+ [95] [96 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Kessler2014/fig2.pdf
+>] [97] [98] [99] [100] [101]
+<./figs_Kessler2014/fig1.pdf, id=4891, 308.48149pt x 189.80118pt>
 File: ./figs_Kessler2014/fig1.pdf Graphic file (type pdf)
 
 <use ./figs_Kessler2014/fig1.pdf>
 Package pdftex.def Info: ./figs_Kessler2014/fig1.pdf used on input line 604.
 (pdftex.def)             Requested size: 390.25534pt x 240.12384pt.
- [101] [102 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Kessler2014/fig1.p
-df>]) [103]
+ [102] [103 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Kessler2014/fig1.p
+df>]) [104]
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Komar2014.tex
 Chapter 7.
-[104
+[105
 
 
 
-] [105] <./figs_Komar2014/fig1.pdf, id=5164, 417.91873pt x 455.55733pt>
+] [106] <./figs_Komar2014/fig1.pdf, id=5169, 417.91873pt x 455.55733pt>
 File: ./figs_Komar2014/fig1.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2014/fig1.pdf>
 Package pdftex.def Info: ./figs_Komar2014/fig1.pdf used on input line 136.
 (pdftex.def)             Requested size: 346.89731pt x 378.14725pt.
- [106] [107] [108 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2014/fi
+ [107] [108] [109 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2014/fi
 g1.pdf>]
-<./figs_Komar2014/fig2.pdf, id=5465, 307.94489pt x 253.08069pt>
+<./figs_Komar2014/fig2.pdf, id=5470, 307.94489pt x 253.08069pt>
 File: ./figs_Komar2014/fig2.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2014/fig2.pdf>
 Package pdftex.def Info: ./figs_Komar2014/fig2.pdf used on input line 223.
 (pdftex.def)             Requested size: 303.53267pt x 249.45778pt.
- [109] [110 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2014/fig2.pdf
->] [111] [112] [113] [114]
-<./figs_Komar2014/fig3.pdf, id=5520, 881.47868pt x 596.91954pt>
+ [110] [111 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2014/fig2.pdf
+>] [112] [113] [114] [115]
+<./figs_Komar2014/fig3.pdf, id=5525, 881.47868pt x 596.91954pt>
 File: ./figs_Komar2014/fig3.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2014/fig3.pdf>
 Package pdftex.def Info: ./figs_Komar2014/fig3.pdf used on input line 444.
 (pdftex.def)             Requested size: 433.62pt x 293.64076pt.
- [115] [116 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2014/fig3.pdf
->] [117] [118]
-<./figs_Komar2014/fig4.pdf, id=5746, 281.02467pt x 298.45613pt>
+ [116] [117 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2014/fig3.pdf
+>] [118] [119]
+<./figs_Komar2014/fig4.pdf, id=5751, 281.02467pt x 298.45613pt>
 File: ./figs_Komar2014/fig4.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2014/fig4.pdf>
 Package pdftex.def Info: ./figs_Komar2014/fig4.pdf used on input line 579.
 (pdftex.def)             Requested size: 303.53267pt x 322.38702pt.
- [119] [120 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2014/fig4.pdf
->] [121] [122]) [123]
+ [120] [121 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2014/fig4.pdf
+>] [122] [123]) [124]
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\ch_Komar2015.tex
 Chapter 8.
-) [124
+) [125
 
 
 
 ] (C:\Doc\Harvard\graduation\Thesis\TheThesis\app_Komar2013.tex
 Appendix A.
-[125
+[126
 
 
 
-] [126] [127]) [128]
+] [127] [128]) [129]
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\app_Stannigel2012.tex
 Appendix B.
-[129
+[130
 
 
 
 ]
-Missing character: There is no ï in font cmr12!
-Missing character: There is no ¿ in font cmr12!
-Missing character: There is no ½ in font cmr12!
-Missing character: There is no ï in font cmr12!
-Missing character: There is no ¿ in font cmr12!
-Missing character: There is no ½ in font cmr12!
- [130]
-Missing character: There is no ï in font cmr12!
-Missing character: There is no ¿ in font cmr12!
-Missing character: There is no ½ in font cmr12!
-Missing character: There is no ï in font cmr12!
-Missing character: There is no ¿ in font cmr12!
-Missing character: There is no ½ in font cmr12!
-Missing character: There is no ï in font cmr12!
-Missing character: There is no ¿ in font cmr12!
-Missing character: There is no ½ in font cmr12!
-Missing character: There is no ï in font cmr12!
-Missing character: There is no ¿ in font cmr12!
-Missing character: There is no ½ in font cmr12!
-Missing character: There is no ï in font cmr12!
-Missing character: There is no ¿ in font cmr12!
-Missing character: There is no ½ in font cmr12!
 Missing character: There is no ï in font cmr12!
 Missing character: There is no ¿ in font cmr12!
 Missing character: There is no ½ in font cmr12!
@@ -956,14 +935,29 @@ Missing character: There is no ½ in font cmr12!
 Missing character: There is no ï in font cmr12!
 Missing character: There is no ¿ in font cmr12!
 Missing character: There is no ½ in font cmr12!
- [132] [133]
 Missing character: There is no ï in font cmr12!
 Missing character: There is no ¿ in font cmr12!
 Missing character: There is no ½ in font cmr12!
- [134]
 Missing character: There is no ï in font cmr12!
 Missing character: There is no ¿ in font cmr12!
 Missing character: There is no ½ in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+Missing character: There is no ½ in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+Missing character: There is no ½ in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+Missing character: There is no ½ in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+Missing character: There is no ½ in font cmr12!
+ [132]
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+Missing character: There is no ½ in font cmr12!
+ [133] [134]
 Missing character: There is no ï in font cmr12!
 Missing character: There is no ¿ in font cmr12!
 Missing character: There is no ½ in font cmr12!
@@ -971,15 +965,22 @@ Missing character: There is no ½ in font cmr12!
 Missing character: There is no ï in font cmr12!
 Missing character: There is no ¿ in font cmr12!
 Missing character: There is no ½ in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+Missing character: There is no ½ in font cmr12!
+ [136]
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+Missing character: There is no ½ in font cmr12!
 
-<./figs_Stannigel2012/Figure_suppl.pdf, id=5934, 533.60756pt x 206.7725pt>
+<./figs_Stannigel2012/Figure_suppl.pdf, id=5939, 533.60756pt x 206.7725pt>
 File: ./figs_Stannigel2012/Figure_suppl.pdf Graphic file (type pdf)
 
 <use ./figs_Stannigel2012/Figure_suppl.pdf>
 Package pdftex.def Info: ./figs_Stannigel2012/Figure_suppl.pdf used on input li
 ne 313.
 (pdftex.def)             Requested size: 433.62pt x 168.03062pt.
- [136] [137 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Stannigel2012/Figu
+ [137] [138 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Stannigel2012/Figu
 re_suppl.pdf>]
 Missing character: There is no ï in font cmr12!
 Missing character: There is no ¿ in font cmr12!
@@ -987,29 +988,29 @@ Missing character: There is no ½ in font cmr12!
 Missing character: There is no ï in font cmr12!
 Missing character: There is no ¿ in font cmr12!
 Missing character: There is no ½ in font cmr12!
- [138]
-Missing character: There is no ï in font cmr12!
-Missing character: There is no ¿ in font cmr12!
-Missing character: There is no ½ in font cmr12!
  [139]
 Missing character: There is no ï in font cmr12!
 Missing character: There is no ¿ in font cmr12!
 Missing character: There is no ½ in font cmr12!
+ [140]
 Missing character: There is no ï in font cmr12!
 Missing character: There is no ¿ in font cmr12!
 Missing character: There is no ½ in font cmr12!
-) [140]
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+Missing character: There is no ½ in font cmr12!
+) [141]
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\app_Borregaard_PRL2015.tex
 Appendix C.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[141
+[142
 
 
 
 ]
-<./figs_Borregaard_PRL2015/figureS1a.pdf, id=6033, 170.52068pt x 175.60577pt>
+<./figs_Borregaard_PRL2015/figureS1a.pdf, id=6038, 170.52068pt x 175.60577pt>
 File: ./figs_Borregaard_PRL2015/figureS1a.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figureS1a.pdf>
@@ -1017,17 +1018,17 @@ Package pdftex.def Info: ./figs_Borregaard_PRL2015/figureS1a.pdf used on input
 line 57.
 (pdftex.def)             Requested size: 151.76964pt x 156.29935pt.
 
-<./figs_Borregaard_PRL2015/figureS1b.pdf, id=6034, 170.90335pt x 175.62755pt>
+<./figs_Borregaard_PRL2015/figureS1b.pdf, id=6039, 170.90335pt x 175.62755pt>
 File: ./figs_Borregaard_PRL2015/figureS1b.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figureS1b.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRL2015/figureS1b.pdf used on input 
 line 58.
 (pdftex.def)             Requested size: 151.76964pt x 155.97571pt.
- [142] [143 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRL2015
+ [143] [144 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRL2015
 /figureS1a.pdf> <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRL
-2015/figureS1b.pdf>] [144]
-[145]
+2015/figureS1b.pdf>] [145]
+[146]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 183.
@@ -1036,8 +1037,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 183.
 
-[146] [147]
-<./figs_Borregaard_PRL2015/figure2a.pdf, id=6498, 524.96124pt x 449.68pt>
+[147] [148]
+<./figs_Borregaard_PRL2015/figure2a.pdf, id=6503, 524.96124pt x 449.68pt>
 File: ./figs_Borregaard_PRL2015/figure2a.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figure2a.pdf>
@@ -1045,31 +1046,31 @@ Package pdftex.def Info: ./figs_Borregaard_PRL2015/figure2a.pdf used on input l
 ine 243.
 (pdftex.def)             Requested size: 199.4681pt x 170.85959pt.
 
-<./figs_Borregaard_PRL2015/figure2b.pdf, id=6499, 516.38852pt x 443.9575pt>
+<./figs_Borregaard_PRL2015/figure2b.pdf, id=6504, 516.38852pt x 443.9575pt>
 File: ./figs_Borregaard_PRL2015/figure2b.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figure2b.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRL2015/figure2b.pdf used on input l
 ine 245.
 (pdftex.def)             Requested size: 199.4681pt x 171.4898pt.
- [148] [149 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRL2015
+ [149] [150 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRL2015
 /figure2a.pdf> <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRL2
 015/figure2b.pdf>]
-<./figs_Borregaard_PRL2015/figureS2.pdf, id=6568, 348.84785pt x 176.14256pt>
+<./figs_Borregaard_PRL2015/figureS2.pdf, id=6573, 348.84785pt x 176.14256pt>
 File: ./figs_Borregaard_PRL2015/figureS2.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figureS2.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRL2015/figureS2.pdf used on input l
 ine 285.
 (pdftex.def)             Requested size: 303.53267pt x 153.2616pt.
- [150 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRL2015/figur
+ [151 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRL2015/figur
 eS2.pdf>]
 Overfull \hbox (13.42093pt too wide) in alignment at lines 327--356
  [][][] []
  []
 
-[151] [152] [153] [154] [155]
-<./figs_Borregaard_PRL2015/figureSN1.pdf, id=6876, 500.11513pt x 399.98807pt>
+[152] [153] [154] [155] [156]
+<./figs_Borregaard_PRL2015/figureSN1.pdf, id=6881, 500.11513pt x 399.98807pt>
 File: ./figs_Borregaard_PRL2015/figureSN1.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figureSN1.pdf>
@@ -1077,7 +1078,7 @@ Package pdftex.def Info: ./figs_Borregaard_PRL2015/figureSN1.pdf used on input
 line 562.
 (pdftex.def)             Requested size: 208.13574pt x 166.4619pt.
 
-<./figs_Borregaard_PRL2015/figureSN2.pdf, id=6877, 498.86375pt x 394.47375pt>
+<./figs_Borregaard_PRL2015/figureSN2.pdf, id=6882, 498.86375pt x 394.47375pt>
 File: ./figs_Borregaard_PRL2015/figureSN2.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figureSN2.pdf>
@@ -1090,18 +1091,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Missing character: There is no Î in font cmr12!
 Missing character: There is no © in font cmr12!
-<./figs_Borregaard_PRL2015/figureSN3.pdf, id=6879, 506.89375pt x 402.50375pt>
+<./figs_Borregaard_PRL2015/figureSN3.pdf, id=6884, 506.89375pt x 402.50375pt>
 File: ./figs_Borregaard_PRL2015/figureSN3.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figureSN3.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRL2015/figureSN3.pdf used on input 
 line 585.
 (pdftex.def)             Requested size: 216.81pt x 172.15811pt.
- [156]
+ [157]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figs_Borregaard_PRL2015/figureSN4.pdf, id=6888, 506.70775pt x 386.6852pt>
+<./figs_Borregaard_PRL2015/figureSN4.pdf, id=6893, 506.70775pt x 386.6852pt>
 File: ./figs_Borregaard_PRL2015/figureSN4.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figureSN4.pdf>
@@ -1109,7 +1110,7 @@ Package pdftex.def Info: ./figs_Borregaard_PRL2015/figureSN4.pdf used on input
 line 607.
 (pdftex.def)             Requested size: 208.13574pt x 158.83107pt.
 
-<./figs_Borregaard_PRL2015/figureSN5.pdf, id=6889, 507.8975pt x 390.45876pt>
+<./figs_Borregaard_PRL2015/figureSN5.pdf, id=6894, 507.8975pt x 390.45876pt>
 File: ./figs_Borregaard_PRL2015/figureSN5.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figureSN5.pdf>
@@ -1125,27 +1126,27 @@ g Hamil-to-nian in Eq. [].
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[157 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRL2015/figure
+[158 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRL2015/figure
 SN1.pdf> <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRL2015/fi
-gureSN2.pdf>] [158 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_
-PRL2015/figureSN3.pdf>] [159 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_B
+gureSN2.pdf>] [159 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_
+PRL2015/figureSN3.pdf>] [160 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_B
 orregaard_PRL2015/figureSN4.pdf> <C:/Doc/Harvard/graduation/Thesis/TheThesis/fi
-gs_Borregaard_PRL2015/figureSN5.pdf>]) [160] [161]
+gs_Borregaard_PRL2015/figureSN5.pdf>]) [161] [162]
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\app_Borregaard_PRA2015.tex
 Appendix D.
-[162
+[163
 
 
 
-] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173]
-[174]) [175] [176]
+] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173] [174]
+[175]) [176] [177]
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\app_Kessler2014.tex
 Appendix E.
-[177
+[178
 
 
 
-] [178] [179] [180] [181] [182] [183] [184] [185] [186] [187]
+] [179] [180] [181] [182] [183] [184] [185] [186] [187] [188]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 709.
@@ -1158,7 +1159,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 709.
 
-[188] [189]
+[189] [190]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 818.
@@ -1167,13 +1168,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 818.
 
-[190] [191]
+[191] [192]
 Overfull \hbox (0.31442pt too wide) in paragraph at lines 878--882
 [][]\OT1/cmr/m/n/12 If the av-er-ag-ing time $\OML/cmm/m/it/12 $ \OT1/cmr/m/n/
 12 is shorter than the in-ter-ro-ga-tion time sug-gested by Eq. []F.31[],
  []
 
-[192]
+[193]
 Overfull \hbox (17.88977pt too wide) in paragraph at lines 906--917
 \OT1/cmr/m/n/12 nam-i-cal de-cou-pling tech-niques [[]], we re-al-ize that each
  en-sem-ble ($\OML/cmm/m/it/12 j \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12  \OT1/cmr/m
@@ -1181,7 +1182,7 @@ Overfull \hbox (17.88977pt too wide) in paragraph at lines 906--917
 12 ; \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 M[]$\OT1/cmr/m/n/12 )
  []
 
-[193] [194] [195]
+[194] [195] [196]
 Overfull \hbox (5.6311pt too wide) in paragraph at lines 1005--1017
 [][]\OT1/cmr/m/n/12 In sum-mary, we find that the cas-caded GHZ scheme en-ables
  an op-ti-mal, Heisenberg-
@@ -1215,19 +1216,19 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1023.
 
-[196] [197]
+[197] [198]
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 1155.
 
-[198] [199]
+[199] [200]
 Overfull \hbox (3.71622pt too wide) in paragraph at lines 1244--1244
 []\OT1/cmr/bx/n/14.4 Upper bound on the dis-tri-bu-tion of the es-ti-mated phas
 e 
  []
 
-[200] [201] [202]) [203]
+[201] [202] [203]) [204]
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\app_Komar2014.tex
 Appendix F.
 
@@ -1238,11 +1239,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 6.
 
-[204
+[205
 
 
 
-] [205] <./figs_Komar2014/fig_supp.pdf, id=7462, 417.43398pt x 480.984pt>
+] [206] <./figs_Komar2014/fig_supp.pdf, id=7467, 417.43398pt x 480.984pt>
 File: ./figs_Komar2014/fig_supp.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2014/fig_supp.pdf>
@@ -1254,8 +1255,8 @@ Overfull \hbox (33.97925pt too wide) in paragraph at lines 130--151
 [] = [][] [] \OML/cmm/m/it/12 =K$\OT1/cmr/m/n/12 ,
  []
 
-[206] [207 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2014/fig_supp.
-pdf>] [208]
+[207] [208 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2014/fig_supp.
+pdf>] [209]
 Overfull \hbox (16.74637pt too wide) in paragraph at lines 204--220
 $\OT1/cmr/m/n/12 []$, and $\OML/cmm/m/it/12 s[] \OT1/cmr/m/n/12 = []([] \OMS/
 cmsy/m/n/12   \OT1/cmr/m/n/12 []) = 1\OML/cmm/m/it/12 =n[]$ \OT1/cmr/m/n/12 fo
@@ -1263,8 +1264,8 @@ r $\OML/cmm/m/it/12 i \OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 1$, and $\OML/cmm/m/it
 /12 s[] \OT1/cmr/m/n/12 = [][] = [] [][] [][] =$
  []
 
-[209] [210] [211] [212] [213] [214] [215] [216] [217] [218] [219] [220]
-[221] [222] [223] [224]
+[210] [211] [212] [213] [214] [215] [216] [217] [218] [219] [220] [221]
+[222] [223] [224] [225]
 Overfull \hbox (6.25119pt too wide) in paragraph at lines 812--816
 [][]\OT1/cmr/m/n/12 This re-quires $1 \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 F[] <
  []$\OT1/cmr/m/n/12 , where the op-ti-mal value for $\OML/cmm/m/it/12 n$ \OT1/c
@@ -1272,21 +1273,21 @@ mr/m/n/12 is $\OML/cmm/m/it/12 n[] \OMS/cmsy/m/n/12  [][] []\OT1/cmr/m/n/12 (\
 OML/cmm/m/it/12 N=K\OT1/cmr/m/n/12 )$,
  []
 
-) [225] (C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.bbl [226
+) [226] (C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.bbl [227
 
 
-] [227]
-[228]
+] [228]
+[229]
 Missing character: There is no á in font cmr12!
- [229] [230] [231]
+ [230] [231] [232]
 Missing character: There is no ä in font cmr12!
- [232] [233]
+ [233] [234]
 Missing character: There is no ’ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¶ in font cmr12!
- [234] [235]
+ [235] [236]
 Missing character: There is no ’ in font cmr12!
- [236] [237]
+ [237] [238]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
@@ -1294,13 +1295,13 @@ Missing character: There is no ä in font cmr12!
 Missing character: There is no ß in font cmr12!
 Missing character: There is no ä in font cmr12!
 Missing character: There is no – in font cmr12!
- [238] [239]
+ [239] [240]
 Missing character: There is no – in font cmr12!
 
-[240]
+[241]
 Missing character: There is no á in font cmr12!
 Missing character: There is no ä in font cmr12!
- [241]
+ [242]
 Underfull \hbox (badness 1590) in paragraph at lines 1138--1142
 [][]\OT1/cmr/m/n/12 Mian Zhang, Gus-tavo S. Wieder-hecker, Sasikanth Ma-ni-pa-t
 runi, Arthur
@@ -1308,7 +1309,7 @@ runi, Arthur
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
- [242]
+ [243]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
  (C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.aux
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\frontmatter.aux)
@@ -1337,10 +1338,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 8347 strings out of 494045
- 123782 string characters out of 3150402
- 212507 words of memory out of 3000000
- 10443 multiletter control sequences out of 15000+200000
+ 8349 strings out of 494045
+ 123806 string characters out of 3150402
+ 212509 words of memory out of 3000000
+ 10444 multiletter control sequences out of 15000+200000
  22469 words of font info for 88 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  34i,17n,53p,1126b,475s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1368,9 +1369,9 @@ eX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Petya/AppData/Roamin
 g/MiKTeX/2.9/fonts/type1/public/dstroke/dsrom12.pfb><C:/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/symbols/msam10.pfb><C:/Programs/MiKTeX 2.9/fonts/type1
 /public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (258 pages, 8294796 bytes).
+Output written on thesis.pdf (259 pages, 8297520 bytes).
 PDF statistics:
- 7962 PDF objects out of 8907 (max. 8388607)
- 924 named destinations out of 1000 (max. 500000)
+ 7969 PDF objects out of 8907 (max. 8388607)
+ 925 named destinations out of 1000 (max. 500000)
  1452 words of extra memory for PDF output out of 10000 (max. 10000000)
 
