@@ -3,7 +3,7 @@
 
 \section{Overview and Structure}
 The field of quantum science aims to answer conceptual and practical questions
-about the fundamental behavior, controllability and applicability of physical
+about the fundamental behavior, controllability and applicability of 
 systems governed by quantum mechanics. Such systems arise once a few 
 degrees of freedom of a physical system become isolated from their macroscopic
 surroundings. 
@@ -16,7 +16,7 @@ dynamics is not constrained to a countable number of pointer (or
 ``classical'') states anymore, originally selected by the environment, and it
 moves around smoothly in the entire Hilbert space, with its motion governed by the
 Hamilton operator. Internal components of such a system are said to be ``strongly
-coupled'', and their dyamnics ``coherent''.
+coupled'', and their dynamics ``coherent''.
 
 The variety of (``quantum'') states in the Hilbert space  gives rise
 to counter-intuitive phenomena such as superposition, tunnelling and
@@ -28,15 +28,15 @@ concievable scheme based on solely classical dymanics.
 The discovery of
 efficient quantum algorithms for problems that are conjectured to be not
 efficiently computable fuelled the field of Quantum Computing. In Chapter
-\ref{ch:Komar2013} and \ref{ch:Stannigel2012}, we present the
+\ref{ch:Komar2013} and \ref{ch:Stannigel2012}, we analyze the
 capabilities of nano-scale optomechanical systems to perform coherent logical
 operations, the elemental steps of quantum computation.
 
 Protocols that
 rely on entanglement to distribute secret keys between distant parties with
-asymptotically perfect security is the main focus of Quantum
-Communication. In Chapter \ref{ch:Borregaard_PRL2015} and 
-\ref{ch:Borregaard_PRA2015}, we describe how a system consisting of a few atoms
+perfect security, which relies on fundamental physical limits rather than
+computational complexity, is the main focus of Quantum Communication. In Chapter
+\ref{ch:Borregaard_PRL2015} and \ref{ch:Borregaard_PRA2015}, we describe how a system consisting of a few atoms
 isolated in an optical cavity can be used to realize a quantum gate with
 integrated error-detection, and we analyze its usefulness in a quantum
 communitation setting.
@@ -44,9 +44,9 @@ communitation setting.
 The idea of preparing a detector in quantum
 superposition in order to focus its sensitivity to the quantity of interest is
 the central topic of Quantum Metrology. In Chapter \ref{ch:Kessler2014},
-\ref{ch:Komar2014} and \ref{ch:Komar2015}, we present an operational
-protocol for a network of atomic clocks, which combines local and remote
-entanglement to surpass the accuracy of classical protocols and asymtotically
+\ref{ch:Komar2014} and \ref{ch:Komar2015}, we present a
+protocol for operating a network of atomic clocks, which combines local and
+remote entanglement to surpass the accuracy of classical protocols and asymtotically
 reach the fundamental quantum limit of precision, the Heisenberg limit. 
 
 
@@ -57,6 +57,52 @@ reach the fundamental quantum limit of precision, the Heisenberg limit.
  
  
 \section{Optomechanical Systems}
+The current fabrication technology allows the creation of chips with
+nanometer-scale features such as waveguides [REF:waveguide], photonic band-gap
+materials [REF:photonic crystals], micron-size capacitive and inductive
+components [REF: LC], antenna arrays [REF: antennas], optical cavities [REF:
+optical cavities], and mechanical resonators of various shapes and sizes [REF:
+mechanical resonator]. 
+
+Engineering coupling between components with different physical nature can give
+rise to devices incorporating the best characteristics of each. Optical
+components are fast ($\sim 100\,\mathrm{THz}$) and fairly isolated, however the
+interaction between optical components is usually tiny [REF: Kerr effect on
+chips]. Mechanical components, however, are much slower ($\sim
+10-100\,\mathrm{GHz}$), but usually much more sensitive to changes in their
+surroundings. Using mechanical elements as transducers between two optical
+degrees of freedom allows efficient filters and frequency converters [REF:
+Painter: frequency conversion] when driven by classical light.
+
+The interaction between the light field and a mechanical surface, originates
+mainly from the light-pressure displacing the mechanics, giving rise to a
+non-linear parametric coupling between light intensity and mechanical motion
+[REF: Pierre Meyste's calculation]. In Chapter \ref{ch:Komar2013}, we
+analyze a quantum model of two optical cavities coupled by a mechanical
+oscillator. We find that if the system is driven by a weak laser pulse
+(accurately discribed by a Poission process of photon arrivals), the output
+light exhibits super- and sub-Poissionan charateristics. We found that if the
+system is properly tuned, such that the energy difference between
+the two optical modes is bridged by the mechanical mode, and it sufficiently
+cooled down, such that it is in its ground state the majority of the time,
+then we can use the photons leaving the output port to herald the creation of a
+single mechanical excitation.
+
+Using oscillators as quantum registers in a future quantum computer requires
+them to be anharmonic [REF: Superconducting QC]. Consecutive levels of an
+anharmonic oscillator are separated by unequal frequency intervals, which makes
+it possible to address certain transitions individually. The inherent
+non-linearity of the optomechanical coupling holds the promise of rendering the
+coupled oscillator system sufficiently anharmonic for this task. In Chapter
+\ref{ch:Stannigel2012}, we propose an quantum logic architecture based on
+coupled optomechanical components. We find that with sufficiently strong cooling
+the system exhibits non-classical behaviors and able to store and perform
+quantum logic gates on qubits of information.
+
+
+
+
+
 
 \section{Atom-Cavity Systems}
 
