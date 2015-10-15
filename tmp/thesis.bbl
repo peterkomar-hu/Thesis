@@ -20,6 +20,11 @@ Boris Albrecht, Pau Farrera, Xavier Fernandez-Gonzalvo, Matteo Cristiani, and
   memories to the telecom c-band.
 \newblock {\em Nature Communications}, 5:3376, 2013.
 
+\bibitem{Allan1966}
+D.W. Allan.
+\newblock Statistics of atomic frequency standards.
+\newblock {\em Proceedings of the IEEE}, 54(2):221--230, Feb 1966.
+
 \bibitem{Andersen2013}
 Ulrik~L. Andersen and Timothy~C. Ralph.
 \newblock High-fidelity teleportation of continuous-variable quantum states
@@ -43,10 +48,20 @@ O.~Arcizet, P.-F. Cohadon, T.~Briant, M.~Pinard, and A.~Heidmann.
   micromirror.
 \newblock {\em Nature}, 444:71--74, 2006.
 
+\bibitem{Aspelmeyer2014}
+Markus Aspelmeyer, Tobias~J. Kippenberg, and Florian Marquardt.
+\newblock Cavity optomechanics.
+\newblock {\em Rev. Mod. Phys.}, 86:1391--1452, Dec 2014.
+
 \bibitem{AspelmeyerNJP2008}
 Markus Aspelmeyer and Keith Schwab.
 \newblock Focus on mechanical systems at the quantum limit.
 \newblock {\em New Journal of Physics}, 10:095001, 2008.
+
+\bibitem{Barnes1966}
+J.A. Barnes and D.W. Allan.
+\newblock A statistical model of flicker noise.
+\newblock {\em Proceedings of the IEEE}, 54(2):176--178, Feb 1966.
 
 \bibitem{BasiriEsfahani2012}
 S~Basiri-Esfahani, U~Akram, and G~J Milburn.
@@ -92,6 +107,12 @@ H.~Bernien, B.~Hensen, W.~Pfaff, G.~Koolstra, M.~S. Blok, L.~Robledo, T.~H.
 \newblock Heralded entanglement between solid-state qubits separated by three
   metres.
 \newblock {\em Nature}, 497:86--90, 2012.
+
+\bibitem{Berry2009}
+D.~W. Berry, B.~L. Higgins, S.~D. Bartlett, M.~W. Mitchell, G.~J. Pryde, and
+  H.~M. Wiseman.
+\newblock How to perform the most accurate possible phase measurements.
+\newblock {\em Phys. Rev. A}, 80:052114, Nov 2009.
 
 \bibitem{Bloom2013}
 B.~J. Bloom, T.~L. Nicholson, J.~R. Williams, S.~L. Campbell, M.~Bishof,
@@ -254,6 +275,11 @@ Andrew~M. Childs.
 \newblock Secure assisted quantum computation.
 \newblock {\em Quantum Info. Comput.}, 5:456--466, 2005.
 
+\bibitem{Cheng2010}
+Cheng Chin, Rudolf Grimm, Paul Julienne, and Eite Tiesinga.
+\newblock Feshbach resonances in ultracold gases.
+\newblock {\em Rev. Mod. Phys.}, 82:1225--1286, Apr 2010.
+
 \bibitem{Chou2010}
 C.~W. Chou, D.~B. Hume, J.~C.~J. Koelemeij, D.~J. Wineland, and T.~Rosenband.
 \newblock Frequency comparison of two high-accuracy ${\mathrm{al}}^{+}$ optical
@@ -297,12 +323,22 @@ Mark de~Burgh and Stephen~D. Bartlett.
   quantum limit without entanglement.
 \newblock {\em Phys. Rev. A}, 72:042301, 2005.
 
+\bibitem{Derevianko2011}
+Andrei Derevianko and Hidetoshi Katori.
+\newblock \textit{Colloquium} : Physics of optical lattice clocks.
+\newblock {\em Rev. Mod. Phys.}, 83:331--347, May 2011.
+
 \bibitem{deutsch}
 David Deutsch, Artur Ekert, Richard Jozsa, Chiara Macchiavello, Sandu Popescu,
   and Anna Sanpera.
 \newblock Quantum privacy amplification and the security of quantum
   cryptography over noisy channels.
 \newblock {\em Phys. Rev. Lett.}, 77:2818--2821, 1996.
+
+\bibitem{Diddams2004}
+S.~A. Diddams, J.~C. Bergquist, S.~R. Jefferts, and C.~W. Oates.
+\newblock Standards of time and frequency at the outset of the 21st century.
+\newblock {\em Science}, 306(5700):1318--1324, 2004.
 
 \bibitem{Ding2011}
 L.~Ding, C.~Baker, P.~Senellart, A.~Lemaitre, S.~Ducci, G.~Leo, and I.~Favero.
@@ -414,6 +450,12 @@ Victor Fiore, Yong Yang, Mark~C. Kuzyk, Russell Barbour, Lin Tian, and Hailin
   optomechanical resonator.
 \newblock {\em Phys. Rev. Lett.}, 107:133601, 2011.
 
+\bibitem{Foresi1997}
+J.~S. Foresi, P.~R. Villeneuve, J.~Ferrera, E.~R. Thoen, G.~Steinmeyer, S.~Fan,
+  J.~D. Joannopoulos, L.~C. Kimerling, Henry~I. Smith, and E.~P. Ippen.
+\newblock Photonic-bandgap microcavities in optical waveguides.
+\newblock {\em Nature}, 390:143--145, 1997.
+
 \bibitem{QuantumNoise}
 C.~Gardiner and P.~Zoller.
 \newblock {\em Quantum Noise}.
@@ -513,6 +555,12 @@ S.~F. Huelga, C.~Macchiavello, T.~Pellizzari, A.~K. Ekert, M.~B. Plenio, and
   J.~I. Cirac.
 \newblock Improvement of frequency standards with quantum entanglement.
 \newblock {\em Phys. Rev. Lett.}, 79:3865--3868, 1997.
+
+\bibitem{Jaynes1963}
+E.T. Jaynes and F.W. Cummings.
+\newblock Comparison of quantum and semiclassical radiation theories with
+  application to the beam maser.
+\newblock {\em Proceedings of the IEEE}, 51(1):89--109, Jan 1963.
 
 \bibitem{jiang2007}
 Liang Jiang, Jacob~M. Taylor, Navin Khaneja, and Mikhail~D. Lukin.
@@ -616,6 +664,12 @@ Anne Louchet-Chauvet, J\"{u}rgen Appel, Jelmer~J Renema, Daniel Oblak, Niels
 \newblock Entanglement-assisted atomic clock beyond the projection noise limit.
 \newblock {\em New Journal of Physics}, 12:065032, 2010.
 
+\bibitem{Ludlow2015}
+Andrew~D. Ludlow and Jun Ye.
+\newblock Progress on the optical lattice clock.
+\newblock {\em Comptes Rendus Physique}, 16(5):499 -- 505, 2015.
+\newblock The measurement of time / La mesure du temps.
+
 \bibitem{Ludwig2008}
 Max Ludwig, Björn Kubala, and Florian Marquardt.
 \newblock The optomechanical instability in the quantum regime.
@@ -632,6 +686,13 @@ M.~D. Lukin.
   atomic ensembles.
 \newblock {\em Rev. Mod. Phys.}, 75:457--472, 2003.
 
+\bibitem{Lukin2001}
+M.~D. Lukin, M.~Fleischhauer, R.~Cote, L~M Duan, D~Jaksch, J~I Cirac, and
+  P~Zoller.
+\newblock {Dipole blockade and quantum information processing in mesoscopic
+  atomic ensembles.}
+\newblock {\em Physical review letters}, 87(3):037901, June 2001.
+
 \bibitem{Ma2012}
 Xiao-Song Ma, Thomas Herbst, Thomas Scheidl, Daqing Wang, Sebastian
   Kropatschek, William Naylor, Bernhard Wittmann, Alexandra Mech, Johannes
@@ -639,6 +700,23 @@ Xiao-Song Ma, Thomas Herbst, Thomas Scheidl, Daqing Wang, Sebastian
   Anton Zeilinger.
 \newblock Quantum teleportation over 143 kilometres using active feed-forward.
 \newblock {\em Nature}, 489:269--273, 2012.
+
+\bibitem{Mabuchi2002}
+H.~Mabuchi and A.~C. Doherty.
+\newblock Cavity quantum electrodynamics: Coherence in context.
+\newblock {\em Science}, 298(5597):1372--1377, 2002.
+
+\bibitem{Majer2007}
+J.~Majer, J.~M. Chow, J.~M. Gambetta, Jens Koch, B.~R. Johnson, J.~A. Schreier,
+  L.~Frunzio, D.~I. Schuster, A.~A. Houck, A.~Wallraff, A.~Blais, M.~H.
+  Devoret, S.~M. Girvin, and R.~J. Schoelkopf1.
+\newblock Coupling superconducting qubits via a cavity bus.
+\newblock {\em Nature}, 449:443--447, 2007.
+
+\bibitem{Makhlin1999}
+Yuriy Makhlin, Gerd Sc\"{o}hn, and Alexander Shnirman.
+\newblock Josephson-junction qubits with controlled couplings.
+\newblock {\em Nature}, 398:305--307, 1999.
 
 \bibitem{Mantri2013}
 Atul Mantri, Carlos~A. P\'erez-Delgado, and Joseph~F. Fitzsimons.
@@ -689,10 +767,21 @@ D~Meiser, Jun Ye, and M~J Holland.
   measurements.
 \newblock {\em New Journal of Physics}, 10:073014, 2008.
 
+\bibitem{Mekis1996}
+Attila Mekis, J.~C. Chen, I.~Kurland, Shanhui Fan, Pierre~R. Villeneuve, and
+  J.~D. Joannopoulos.
+\newblock High transmission through sharp bends in photonic crystal waveguides.
+\newblock {\em Phys. Rev. Lett.}, 77:3787--3790, Oct 1996.
+
 \bibitem{Metzger2004}
 Constanze~H\"{o}hberger Metzger and Khaled Karrai.
 \newblock Cavity cooling of a microlever.
 \newblock {\em Nature}, 432:1002--1005, 2004.
+
+\bibitem{Meystre2013}
+Pierre Meystre.
+\newblock {A short walk through quantum optomechanics}.
+\newblock {\em Annalen der Physik}, 525(3):215--233, March 2013.
 
 \bibitem{Miao2009}
 Haixing Miao, Stefan Danilishin, Thomas Corbitt, and Yanbei Chen.
@@ -711,6 +800,12 @@ Thomas Monz, Philipp Schindler, Julio~T. Barreiro, Michael Chwalla, Daniel
   Hennrich, and Rainer Blatt.
 \newblock 14-qubit entanglement: Creation and coherence.
 \newblock {\em Phys. Rev. Lett.}, 106:130506, 2011.
+
+\bibitem{Muralidharan2015}
+Sreraman Muralidharan, Linshu Li, Jungsang Kim, Norbert L\"{u}tkenhaus,
+  Mikhail~D. Lukin, and Liang Jiang.
+\newblock Efficient long distance quantum communication.
+\newblock {\em arXiv:}, 1509.08435, 2015.
 
 \bibitem{Nicholson2012}
 T.~L. Nicholson, M.~J. Martin, J.~R. Williams, B.~J. Bloom, M.~Bishof, M.~D.
@@ -759,10 +854,31 @@ Jiannis Pachos and Herbert Walther.
 \newblock Quantum computation with trapped ions in an optical cavity.
 \newblock {\em Phys. Rev. Lett.}, 89:187903, 2002.
 
+\bibitem{Painter2001}
+Oskar Painter, Kartik Srinivasan, John~D O'Brien, Axel Scherer, and P~Daniel
+  Dapkus.
+\newblock Tailoring of the resonant mode properties of optical nanocavities in
+  two-dimensional photonic crystal slab waveguides.
+\newblock {\em Journal of Optics A: Pure and Applied Optics}, 3(6):S161, 2001.
+
 \bibitem{pan}
 Jian-Wei Pan, Christoph Simon, \v{C}aslav Brukner, and Anton Zeilinger.
 \newblock Entanglement purification for quantum communication.
 \newblock {\em Nature}, 410:1067--1070, 2001.
+
+\bibitem{Peev2009}
+M~Peev, C~Pacher, R~All\'{e}aume, C~Barreiro, J~Bouda, W~Boxleitner,
+  T~Debuisschert, E~Diamanti, M~Dianati, J~F Dynes, S~Fasel, S~Fossier,
+  M~F\"{u}rst, J-D Gautier, O~Gay, N~Gisin, P~Grangier, A~Happe, Y~Hasani,
+  M~Hentschel, H~H\"{u}bel, G~Humer, T~L\"{a}nger, M~Legr\'{e}, R~Lieger,
+  J~Lodewyck, T~Lor\"{u}nser, N~L\"{u}tkenhaus, A~Marhold, T~Matyus,
+  O~Maurhart, L~Monat, S~Nauerth, J-B Page, A~Poppe, E~Querasser, G~Ribordy,
+  S~Robyr, L~Salvail, A~W Sharpe, A~J Shields, D~Stucki, M~Suda, C~Tamas,
+  T~Themel, R~T Thew, Y~Thoma, A~Treiber, P~Trinkler, R~Tualle-Brouri,
+  F~Vannel, N~Walenta, H~Weier, H~Weinfurter, I~Wimberger, Z~L Yuan, H~Zbinden,
+  and A~Zeilinger.
+\newblock The secoqc quantum key distribution network in vienna.
+\newblock {\em New Journal of Physics}, 11(7):075001, 2009.
 
 \bibitem{pellizari}
 T.~Pellizzari, S.~A. Gardiner, J.~I. Cirac, and P.~Zoller.
@@ -858,6 +974,12 @@ Till Rosenband.
 \newblock Numerical test of few-qubit clock protocols.
 \newblock {\em arXiv:}, 1203.0288, 2012.
 
+\bibitem{Rutman1978}
+J.~Rutman.
+\newblock Characterization of phase and frequency instabilities in precision
+  frequency sources: Fifteen years of progress.
+\newblock {\em Proceedings of the IEEE}, 66(9):1048--1075, Sept 1978.
+
 \bibitem{Safavi-Naeini2011}
 A.~H. Safavi-Naeini, T.~P.~Mayer Alegre, J.~Chan, M.~Eichenfield, M.~Winger,
   Q.~Lin, J.~T. Hill, D.~E. Chang, and O.~Painter.
@@ -867,9 +989,14 @@ A.~H. Safavi-Naeini, T.~P.~Mayer Alegre, J.~Chan, M.~Eichenfield, M.~Winger,
 
 \bibitem{Safavi-Naeini2011a}
 Amir~H Safavi-Naeini and Oskar Painter.
-\newblock Proposal for an optomechanical traveling wave phonon–photon
+\newblock Proposal for an optomechanical traveling wave phonon-photon
   translator.
 \newblock {\em New Journal of Physics}, 13:013017, 2011.
+
+\bibitem{Saffman2010}
+M.~Saffman, T.~G. Walker, and K.~M{\o}lmer.
+\newblock {Quantum information with Rydberg atoms}.
+\newblock {\em Rev. Mod. Phys.}, 82(3):2313--2363, August 2010.
 
 \bibitem{sangouard2}
 Nicolas Sangouard, Romain Dubessy, and Christoph Simon.
@@ -956,6 +1083,11 @@ Peter~W. Shor.
 \newblock Polynomial-time algorithms for prime factorization and discrete
   logarithms on a quantum computer.
 \newblock {\em SIAM Journal on Computing}, 26:1484--1509, 1997.
+
+\bibitem{Shore1993}
+Bruce~W. Shore and Peter~L. Knight.
+\newblock The jaynes-cummings model.
+\newblock {\em Journal of Modern Optics}, 40(7):1195--1238, 1993.
 
 \bibitem{MSgate}
 Anders S\o{}rensen and Klaus M\o{}lmer.
@@ -1053,6 +1185,12 @@ G\"otz~S. Uhrig.
   sequences.
 \newblock {\em Phys. Rev. Lett.}, 98:100504, 2007.
 
+\bibitem{Urban2009}
+E.~Urban, T.~A. Johnson, T.~Henage, L.~Isenhower, D.~D. Yavuz, T.~G. Walker,
+  and M.~Saffman.
+\newblock Observation of rydberg blockade between two atoms.
+\newblock {\em Nature Physics}, 5:110--114, 2009.
+
 \bibitem{cirac2}
 S.~J. van Enk, J.~I. Cirac, and P.~Zoller.
 \newblock Ideal quantum communication over noisy channels: A quantum optical
@@ -1075,6 +1213,12 @@ E.~Verhagen, S.~Del\'{e}glise, S.~Weis, A.~Schliesser, and T.~J. Kippenberg.
 \newblock Quantum-coherent coupling of a mechanical oscillator to an optical
   cavity mode.
 \newblock {\em Nature}, 482:63--67, 2012.
+
+\bibitem{Walther2006}
+Herbert Walther, Benjamin T~H Varcoe, Berthold-Georg Englert, and Thomas
+  Becker.
+\newblock Cavity quantum electrodynamics.
+\newblock {\em Reports on Progress in Physics}, 69(5):1325, 2006.
 
 \bibitem{Weis2010}
 Stefan Weis, R\'{e}mi Rivi\`{e}re, Samuel Del\'{e}glise, Emanuel Gavartin,
@@ -1128,6 +1272,11 @@ Jun Ye, Jin-Long Peng, R.~Jason Jones, Kevin~W. Holman, John~L. Hall, David~J.
 \newblock Delivery of high-stability optical and microwave frequency standards
   over an optical fiber network.
 \newblock {\em J. Opt. Soc. Am. B}, 20:1459--1467, 2003.
+
+\bibitem{Yu2014}
+Nanfang Yu and Federico Capasso.
+\newblock Flat optics with designer metasurfaces.
+\newblock {\em Nature Materials}, 13:139--150, 2014.
 
 \bibitem{Zhang2003}
 Jing Zhang, Kunchi Peng, and Samuel~L. Braunstein.
