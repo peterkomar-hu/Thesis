@@ -426,6 +426,14 @@ Artur~K. Ekert.
 \newblock Quantum cryptography based on bell's theorem.
 \newblock {\em Phys. Rev. Lett.}, 67:661--663, 1991.
 
+\bibitem{Englund2005}
+Dirk Englund, David Fattal, Edo Waks, Glenn Solomon, Bingyang Zhang, Toshihiro
+  Nakaoka, Yasuhiko Arakawa, Yoshihisa Yamamoto, and Jelena Vu\ifmmode
+  \check{c}\else \v{c}\fi{}kovi\ifmmode~\acute{c}\else \'{c}\fi{}.
+\newblock Controlling the spontaneous emission rate of single quantum dots in a
+  two-dimensional photonic crystal.
+\newblock {\em Phys. Rev. Lett.}, 95:013904, Jul 2005.
+
 \bibitem{Escher:2011fn}
 B.~M. Escher, R.~L. de~Matos~Filho, and L.~Davidovich.
 \newblock General framework for estimating the ultimate precision limit in

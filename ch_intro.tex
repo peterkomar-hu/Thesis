@@ -4,7 +4,7 @@
 \section{Overview and Structure}
 The field of quantum science aims to answer conceptual and practical questions
 about the fundamental behavior, controllability and applicability of 
-systems governed by quantum mechanics. Such systems arise once a few 
+systems governed by quantum mechanics. Such systems arise whenever a few 
 degrees of freedom of a physical system become isolated from their macroscopic
 surroundings. 
 
@@ -19,15 +19,15 @@ Hamilton operator. Internal components of such a system are said to be ``strongl
 coupled'', and their dynamics ``coherent''.
 
 The variety of (``quantum'') states in the Hilbert space  gives rise
-to counter-intuitive phenomena such as superposition, tunnelling and
+to counter-intuitive phenomena such as superposition, tunneling and
 entanglement.
 Besides being academically exciting, these phenomena hold the promise that
 future devices and protocols relying on them will perform better than any
-concievable scheme based on solely classical dymanics. 
+conceivable scheme based on solely classical dynamics. 
 
 The discovery of
 efficient quantum algorithms for problems that are conjectured to be not
-efficiently computable fuelled the field of Quantum Computing. In Chapter
+efficiently computable fueled the field of Quantum Computing. In Chapter
 \ref{ch:Komar2013} and \ref{ch:Stannigel2012}, we analyze the
 capabilities of nano-scale optomechanical systems to perform coherent logical
 operations, the elemental steps of quantum computation.
@@ -39,15 +39,15 @@ computational complexity, is the main focus of Quantum Communication. In Chapter
 \ref{ch:Borregaard_PRL2015} and \ref{ch:Borregaard_PRA2015}, we describe how a system consisting of a few atoms
 isolated in an optical cavity can be used to realize a quantum gate with
 integrated error-detection, and we analyze its usefulness in a quantum
-communitation setting.
+communication setting.
 
 The idea of preparing a detector in quantum
 superposition in order to focus its sensitivity to the quantity of interest is
 the central topic of Quantum Metrology. In Chapter \ref{ch:Kessler2014},
 \ref{ch:Komar2014} and \ref{ch:Komar2015}, we present a
 protocol for operating a network of atomic clocks, which combines local and
-remote entanglement to surpass the accuracy of classical protocols and asymtotically
-reach the fundamental quantum limit of precision, the Heisenberg limit. 
+remote entanglement to surpass the accuracy of classical protocols and
+asymptotically reach the fundamental quantum limit of precision, the Heisenberg limit. 
 
 
  
@@ -63,25 +63,26 @@ materials \cite{Foresi1997}, non-linear inductive elements \cite{Makhlin1999},
 antenna arrays \cite{Yu2014}, optical cavities \cite{Painter2001}, and
 mechanical resonators of various shapes and sizes \cite{Aspelmeyer2014}.
 
-Engineering coupling between components with different physical nature can give
-rise to devices incorporating the best characteristics of each. Optical
-components are fast ($\sim 100\,\mathrm{THz}$) and fairly isolated, however
-making them interact with each other strongly is challenging \cite{Chang2007}.
-Mechanical components, however, are much slower ($\sim 10-100\,\mathrm{GHz}$),
-but usually much more sensitive to changes in their surroundings. Using
-mechanical elements as transducers between two optical degrees of freedom allows
-efficient filters and frequency converters \cite{Eichenfield2009} when driven by
-classical light.
+Coupling components with different physical nature can give rise to devices
+incorporating the best characteristics of each component.
+Optical components are fast ($\sim 100\,\mathrm{THz}$) and fairly isolated,
+however making them interact with each other strongly is challenging
+\cite{Chang2007}.
+Mechanical components, on the other hand, are much slower ($\sim
+10-100\,\mathrm{GHz}$), but usually much more sensitive to changes in their
+surroundings \cite{Aspelmeyer2014}. Using mechanical elements as transducers
+between two optical degrees of freedom allows efficient filters and frequency
+converters \cite{Eichenfield2009} when driven by classical light.
 
 The interaction between the light field and a mechanical surface, originates
 mainly from the light-pressure displacing the mechanics, giving rise to a
 non-linear parametric coupling between light intensity and mechanical motion
 \cite{Meystre2013}. In Chapter \ref{ch:Komar2013}, we
-analyze a quantum model of two optical cavities coupled by a mechanical
-oscillator. We find that if the system is driven by a weak laser pulse
-(accurately discribed by a Poission process of photon arrivals), the output
-light exhibits super- and sub-Poissionan charateristics. We found that if the
-system is properly tuned, such that the energy difference between
+analyze a quantum model of two optical cavities coupled and a mechanical
+oscillator coupled by this coupling. We find that if the system is driven by a
+weak laser pulse (accurately described by a Poisson-process of photon
+arrivals), the output light exhibits super- and sub-Poissionan characteristics.
+We found that if the system is properly tuned, such that the energy difference between
 the two optical modes is bridged by the mechanical mode, and it is sufficiently
 cooled down, such that it is in its ground state the majority of the time,
 then we can use the photons leaving the output port to herald the creation of a
@@ -90,13 +91,13 @@ single mechanical excitation.
 Using oscillators as quantum registers in a future quantum computer requires
 them to be anharmonic \cite{Majer2007}. Consecutive levels of an
 anharmonic oscillator are separated by unequal frequency intervals, which makes
-it possible to address certain transitions individually. The inherent
+it possible to address transitions independently. The inherent
 non-linearity of the optomechanical coupling holds the promise of rendering the
-coupled oscillator system sufficiently anharmonic for this task. In Chapter
-\ref{ch:Stannigel2012}, we propose an quantum logic architecture based on
+coupled oscillator system sufficiently anharmonic for computational tasks. In
+Chapter \ref{ch:Stannigel2012}, we propose a quantum logic architecture based on
 coupled optomechanical components. We find that with sufficiently strong cooling
-the system exhibits non-classical behaviors and able to store and perform
-quantum logic gates on qubits of information.
+the system exhibits non-classical behaviors and able to store information and
+perform logic gates on the qubits.
 
 
 
@@ -107,13 +108,13 @@ quantum logic gates on qubits of information.
 Coupling individual atoms to optical cavities is one of the most effective ways
 to realize a well-controllable and manifestly quantum system \cite{Mabuchi2002,
 Walther2006}.
-The first model, names after E. Jaynes and F. Cummings \cite{Jaynes1963,
-Shore1993}, describes the coherent dynamics of a single transition two levels of
-an atom and a single, confined optical mode. This model is exactly solvable and
-serves as a source of intuition.
+The first model, named after E. Jaynes and F. Cummings \cite{Jaynes1963,
+Shore1993}, describes the coherent dynamics of a single transition between two
+levels of an atom and a single, confined optical mode. This model is exactly
+solvable and serves as a great source of intuition.
 
 As the physical size of an optical cavity is decreased, the zero-point
-electric field correspoding to the ground state of its modes increases.
+electric field corresponding to the ground state of its modes increases.
 As a result, individual atoms placed inside such a cavity, coupled through their
 electric dipole moment, start to interact strongly with the optical modes. Once
 this interaction becomes much stronger than the atoms coupling to the radiation
@@ -123,9 +124,9 @@ resolvable splitting of the optical resonances.
 
 Optical cavities built on photonic crystal waveguides \cite{Tiecke} have
 high zero-point electric fields, and produce couplings
-to alkaline atoms larger than their spontaneous emission rate. Their
-observed lifetime is then considerebly decreased; an effect called
-Purcell-enhancement.
+to atoms larger than their spontaneous emission rate. Their
+observed lifetime is then considerably decreased \cite{Englund2005}; an effect
+called Purcell-enhancement.
 
 Once such strong interaction is demonstrated, the prospect of using these
 systems for coherent quantum logic operations becomes realistic. In Chapter
@@ -137,7 +138,7 @@ caused by the loss of a photon, by post-selecting on the third atom's
 state.
 
 \section{Quantum Repeaters}
-Creating quantum entanglement between degrees of freedom of system separated by
+Creating quantum entanglement between systems separated by
 large distances is the most important prerequisite of quantum communication
 protocols. Experimental realizations rely on exchanging weak light pulses
 via carefully monitored optical fibers \cite{Peev2009}. The
@@ -149,19 +150,19 @@ Classical communication solves the attenuation problem by incorporating fiber
 segments which amplify the signal. Conceptually, this classical amplification
 relies on detecting some of the signal's photons and emitting more in synchrony.
 Unfortunately, such a process fails for quantum channels using single-photon
-pulses. That is because the detection event can measure the photon only once,
-therefore it necessarily discards essential infromation about its quantum state.
+pulses, because the detection event can measure the photon only once,
+therefore it necessarily discards essential information about its quantum state.
 
 Overcoming the attenuation problem in quantum channels requires using more
-resources. The scheme of quantum repeaters consits of repeater stations placed
+resources. The scheme of quantum repeaters consists of repeater stations placed
 between the sender and the receiver \cite{bennett2, bennett, duan3}.
 These stations, instead of relaying the information forwards, create pairwise
 entanglement with their neighbors using direct photon transmission via the
-fibers which are much shorter than the total length. Once all etangled pairs are
-confirmed, each station performs a local quantum logic operation between the two
+fibers which are much shorter than the total length. Once all entangled pairs
+are confirmed, each station performs a local quantum logic operation between the two
 pairs they have access to. This is called entanglement connection, resulting in
-etanglement between the two outermost parties. And alternative solution is
-encoding the information in states of a many-photon pulse, and applying periodic
+entanglement between the two outermost parties. An alternative solution 
+encodes the information in states of a many-photon pulse, and apply periodic
 quantum error-correction along its way \cite{Muralidharan2015}.
 
 The reliability and transmission rate of such a quantum repeater protocol
@@ -179,11 +180,11 @@ used to keep and, in many cases, to broadcast a precise time and frequency
 standard. The workings of atomic clocks rely on two main components: the
 reference oscillator, realized by an isolated, narrow-linewidth electromagnetic
 transition of an atomic species \cite{Derevianko2011}; and the slaved
-oscillator, the microwave or optical source of strong, coherent light. The clock
-keeps time by periodically interrogating the atoms with the light of the slaved
-oscillator (laser), and measuring the deviation of their frequencies. The
-measurement result is used to correct the laser's frequency. This closes the
-feedback loop, and results in an actively stabilized laser field, which serves
+oscillator, the microwave or optical source of strong, coherent field. The
+clock keeps time by periodically interrogating the atoms with the field of the
+slaved oscillator (laser), and measuring the deviation of their frequencies.
+Then, the measurement result is  used to correct the laser's frequency. This
+closes the feedback loop, and results in an actively stabilized laser field, which serves
 as a clock signal \cite{Diddams2004}.
 
 The accuracy of an atomic clock, characterized by the average fractional
@@ -192,65 +193,65 @@ frequency deviation or Allan-deviation
 higher reference frequency, longer interrogation cycle time, longer averaging
 time and more atoms all improve the overall accuracy. Consequently, there are
 many ways to improve the accuracy. Choosing an atomic transition with optical
-frequency, instead of microwave, boosts the clock's performace by five orders of
-magnitude. The central frequency of current record-holder atomic clocks are all
+frequency, instead of microwave, boosts the clock's performance by five orders
+of magnitude. The central frequency of current record-holder atomic clocks are all
 in the optical domain \cite{Ludlow2015}. The optimal interrogation time usually
 falls slightly above the coherence time of the laser, and fails to improve the scheme
 beyond atomic coherence time even in schemes that eliminate the limiting effect
 of the laser \cite{Borregaard2013, Rosenband2013}. The maximal
-total averaging time is usually determined by the refresh rate of the time
-signal required by the application, and by other noises such as flicker noise of
-affecting the frequency \cite{Barnes1966}.
+total averaging time is usually determined by the refresh rate of the clock
+signal required by the application, and by other noises such as frequency
+flicker noise \cite{Barnes1966}.
 
-The dependence on the number of atoms is truly a quantum phenomena. It is due to
-the fundamental limit on the information a single measurement can obtain from a
-any atom. When $N$ atoms are measured independently, the Allen-deviation scales
-as $\propto N^{-1/2}$, and is said to be limited by ``projection noise'' or
-``Standard Quantum Limit''. It originates from the inherent uncertainty of
-the measurement result of a single two-level system preaperd in superposition
-\cite{Santarelli1998}.
+The dependence of the precision on the number of atoms is a true quantum
+phenomenon.
+It is due to the fundamental limit on the information a single measurement can
+obtain about any atom. When $N$ atoms are measured independently, the
+Allen-deviation scales as $\propto N^{-1/2}$, and is said to be limited by
+``projection noise'' or the ``Standard Quantum Limit''. It originates from the
+inherent uncertainty of the measurement result of a single two-level system
+prepared in superposition \cite{Santarelli1998}.
 
-The Standard Quantum Limit decribes the limit of precision if all atoms are
-perapred and measured independently, or as an uncorrelated ensemble, but it is
+The Standard Quantum Limit describes the limit of precision if all atoms are
+prepared and measured independently, or as an uncorrelated ensemble, but it is
 higher than the fundamental quantum limit, due to Heisenberg uncertainty, which
 predicts $\propto N^{-1}$ scaling of the precision with increasing atom number
-$N$. This gap, and proposals trying to close it, between the two limits is the
+$N$. This gap between the two limits, and proposals trying to close it, is the
 central topic of Quantum Metrology \cite{Giovanetti2011, Escher:2011fn}. By
 preparing the collection of atoms in an entangled state, the subsequent
 measurement will have lower uncertainty and provide more information about the
 detuning of the laser frequency form the atomic reference. States such as
 squeezed states \cite{Andre2004, Borregaard2013_nearHeisenberg},
 Greenberger-Horne-Zeilinger (GHZ) states \cite{Wineland1998, Bollinger1996}, and
-optimally entangled states \cite{Buzek1999, Berry2009},
-all promise a significant improvement, and some even allow asymptotically reaching the Heisenberg limit for very large
-$N$. In Chapter \ref{ch:Kessler2014}, we obatin a limit of the best achievable
-performance using a cascade of GHZ states, and compare it with the best
-classical algorithms. We find that for total averaging times shorter than the
-atomic coherence time, the precision of our scheme surpasses the best
-precision of the best classical protocol.
+optimally entangled states \cite{Buzek1999, Berry2009}, all promise a
+significant improvement, and some even reach the
+Heisenberg limit for large $N$. In Chapter \ref{ch:Kessler2014}, we calculate
+a limit on the best achievable performance using a cascade of GHZ states, and
+compare it with the other algorithms. We find that for total averaging
+times shorter than the atomic coherence time, the precision of our scheme
+surpasses the precision of the best classical protocol.
 
-Once we establish that entngling the atoms is beneficial, the optimal
-protocol for a network of atomic clocks it becomes an important question. In
+Once we establish that entangling the available atoms is beneficial, finding the
+optimal protocol for a network of atomic clocks becomes an important problem. In
 Chapter \ref{ch:Komar2014}, we assume that a large number of identical atomic
-clocks are joined together in a quantum network using quantum communication
-schemes. We show that this network can be operated in a way that all atoms in
-each clock are entangled with all atoms in every other clock, forming a global
-GHZ state. We charaterize the enhancement of overall precision and compare it
-with schemes using only local or no entanglement.
+clocks are joined together in a quantum network using a quantum communication
+scheme. We show that this network can be operated in a way that every clock
+atom is entangled with all atoms in the network, forming a global
+GHZ state. We characterize the enhancement of the overall precision and compare
+it with precisions of schemes using only local or no entanglement.
 
 
 
 
 
 \section{Rydberg Blockade}
-In most case, interactions between atoms in cold ensembles are accurately
+In most cases, interactions between atoms in cold ensembles are accurately
 modeled by short-range or contact interactions \cite{Cheng2010}.
-They can be neglected if the gas is not too dense ($ \lesssim
-10^{12}\,\mathrm{cm}^{-3}$), and the duration of the phenomena under
-investigation is short compared to the inverse of average collision rate. This
-breaks down when a few atoms acquire significant magnetic of electric dipole
-moments and, as a result, start interacting via dipole-dipole interaction, whose
-strength scales as $\propto R^{-3}$ with separation $R$.
+They can be neglected if the gas is not too dense, and the duration of the
+phenomena under investigation is short compared to the inverse of average
+collision rate. This breaks down when a few atoms acquire significant magnetic
+or electric dipole moments and, as a result, start interacting via dipole-dipole
+interaction, whose strength scales as $\propto R^{-3}$ with separation $R$.
 
 One way to induce a strong electric dipole moment in an atom is to optically
 excite the outermost electron to a level with high principle quantum number ($n
@@ -260,11 +261,11 @@ transition dipole moments ($\propto n^2$) \cite{Saffman2010}. These properties
 make Rydberg atoms a promising tool to realize fast and reliable quantum
 logic operations \cite{Lukin2001}.  
 
-Blockade between Rydberg atoms is an especially strong and promising phenomena.
+Blockade between Rydberg atoms is an especially strong and promising phenomenon.
 When one atom gets excited into a Rydberg state, the long-range interaction
 originating from its (transition) electric dipole moment shifts the Rydberg
 levels of the other atoms out of resonance, and prevents them from being excited
-\cite{Urban2009}. This effect creats a very strong non-linearity: it
+\cite{Urban2009}. This effect creates an exceptionally strong non-linearity: it
 limits the number of Rydberg excitations in the cloud to zero and one, allowing
 the cloud to be used as a qubit. In Chapter \ref{ch:Komar2015}, we present and
 analyze a quantum protocol that relies on strong Rydberg blockade to perform
@@ -273,7 +274,7 @@ to use different delocalized spin-waves of the atomic cloud to store
 information, and employing the Rydberg blockade to mediate interactions between
 them. We show that even after taking the physical imperfections into account,
 our scheme provides a feasible way to prepare the network-wide global GHZ state
-required by the quantum clock network protocol of Chapter \ref{ch:Komar2014}.
+required by the quantum clock network of Chapter \ref{ch:Komar2014}.
 
  
 
