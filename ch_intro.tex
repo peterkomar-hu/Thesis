@@ -243,10 +243,47 @@ with schemes using only local or no entanglement.
 
 
 
+\section{Rydberg Blockade}
+In most case, interactions between atoms in cold ensembles are accurately
+modeled by short-range or contact interactions [REF: cold atoms colliding,
+review(?)].
+They can be neglected if the gas is not too dense ($ \lesssim
+10^{12}\,\mathrm{cm}^{-3}$), and the duration of the phenomena under
+investigation is short compared to the inverse of average collision rate. This
+breaks down when a few atoms acquire significant magnetic of electric dipole
+moments and, as a result, start interacting via dipole-dipole interaction, whose
+strength scales as $\propto R^{-3}$ with separation $R$.
+
+One way to induce a strong electric dipole moment in an atom is to optically
+excite the outermost electron to a level with high principle quantum number ($n
+\gtrsim 30$), a Rydberg level. Rydberg levels have small energy spacing
+($\propto n^{-3}$), long spontaneous lifetimes ($\propto n^3$), and strong
+transition dipole moments ($\propto n^2$) [REF: review]. These properties make
+Rydberg atoms a promising tool to realize fast and reliable quantum
+logic operations [REF: Saffman]. 
+
+Blockade between Rydberg atoms is an especially strong and promising phenomena.
+When one atom gets excited into a Rydberg state, the long-range interaction
+originating from its (transition) electric dipole moment shifts the Rydberg
+levels of the other atoms out of resonance, and prevents them from being excited [REF: Rydberg
+blockade]. This effect creats a very strong non-linearity: it limits the number
+of Rydberg excitations in the cloud to zero and one, allowing the cloud to be
+used as a qubit. In Chapter \ref{ch:Komar2015}, we present and analyze a quantum
+protocol that relies on strong Rydberg blockade to perform fast, high-fidelity
+operations between different quantum registers. We propose to use different
+delocalized spin-waves of the atomic cloud to store information, and employing
+the Rydberg blockade to mediate interactions between them. We show that even
+after taking the physical imperfections into account, our scheme provides a
+feasible way to prepare the network-wide global GHZ state required by the
+quantum clock network protocol of Chapter \ref{ch:Komar2014}. 
+
+ 
 
 
 
-\section{Rydberg Interactions}
+
+
+
 
 
 
