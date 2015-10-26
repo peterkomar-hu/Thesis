@@ -2,17 +2,17 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Two-mode optomechanical system}}{14}{figure.2.1}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Lower level diagram of 2+1 optomechanical system}}{16}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Photon statistics in mode anti-symmetric mode, $a$}}{18}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Photon statisics in mode symmetric mode, $s$}}{19}{figure.2.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Photon statistics in the reflected mode, $R$}}{19}{figure.2.5}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Photon statistics in anti-symmetric mode, $a$}}{18}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Photon statistics in symmetric mode, $s$}}{19}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Photon statistics in reflected mode, $R$}}{19}{figure.2.5}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Illustration of dominant processes}}{22}{figure.2.6}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Aggregate photon statistics of both modes}}{25}{figure.2.7}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Aggregate photon statistics}}{25}{figure.2.7}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Temperature dependence of the relevant levels}}{26}{figure.2.8}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Effect of non-zero temperature on photon statistics of mode $a$}}{26}{figure.2.9}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Effect of non-zero temperature on photon statistics of mode $s$}}{27}{figure.2.10}
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Autocorrelation of mode $a$}}{33}{figure.2.11}
 \contentsline {figure}{\numberline {2.12}{\ignorespaces Autocorrelation of mode $s$}}{35}{figure.2.12}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Diagram with metastable subspace}}{36}{figure.2.13}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Diagram of the metastable subspace}}{36}{figure.2.13}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Model of two resonators}}{42}{figure.3.1}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Behavior of the coupled system}}{44}{figure.3.2}
@@ -24,13 +24,13 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Level structure of auxiliary atom}}{61}{figure.4.3}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces The general architecture of a quantum repeater}}{69}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Entanglement generation I}}{70}{figure.5.2}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Entanglement generation}}{70}{figure.5.2}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Schematics of the heralded CZ gate}}{72}{figure.5.3}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Secret key fraction}}{75}{figure.5.4}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Number of swap levels}}{77}{figure.5.5}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Purification}}{81}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces CNOT gate structure II}}{82}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces CNOT gates comparison}}{85}{figure.5.8}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces CNOT gate structure}}{82}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces CNOT gates comparison}}{86}{figure.5.8}
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Example of repeater architecture}}{87}{figure.5.9}
 \contentsline {figure}{\numberline {5.10}{\ignorespaces Optimal secret key rate I}}{89}{figure.5.10}
 \contentsline {figure}{\numberline {5.11}{\ignorespaces Optimal secret key rate II}}{90}{figure.5.11}
@@ -49,7 +49,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {C.1}{\ignorespaces Level structure of qubit an auxiliary atoms}}{149}{figure.C.1}
 \contentsline {figure}{\numberline {C.2}{\ignorespaces Error and success probability vs cooperativity}}{155}{figure.C.2}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Levels structure of auxiliary atom}}{156}{figure.C.3}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Level structure of auxiliary atom}}{156}{figure.C.3}
 \contentsline {figure}{\numberline {C.4}{\ignorespaces Gate time and success probability vs driving strength}}{163}{figure.C.4}
 \contentsline {figure}{\numberline {C.5}{\ignorespaces Conditional fidelity}}{164}{figure.C.5}
 \contentsline {figure}{\numberline {C.6}{\ignorespaces Gate time and success probability vs detuning}}{165}{figure.C.6}

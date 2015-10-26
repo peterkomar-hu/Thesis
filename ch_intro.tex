@@ -4,7 +4,7 @@
 \section{Overview and Structure}
 The field of quantum science aims to answer conceptual and practical questions
 about the fundamental behavior, controllability and applicability of 
-systems governed by quantum mechanics. Such systems arise whenever a few 
+systems governed by quantum physics. Such systems arise whenever a few 
 degrees of freedom of a physical system become isolated from their macroscopic
 surroundings. 
 
@@ -26,7 +26,7 @@ future devices and protocols relying on them will perform better than any
 conceivable scheme based on solely classical dynamics. 
 
 The discovery of
-efficient quantum algorithms for problems that are conjectured to be not
+efficient quantum algorithms for problems that are conjectured to not be
 efficiently computable fueled the field of Quantum Computing. In Chapter
 \ref{ch:Komar2013} and \ref{ch:Stannigel2012}, we analyze the
 capabilities of nano-scale optomechanical systems to perform coherent logical
@@ -63,10 +63,10 @@ materials \cite{Foresi1997}, non-linear inductive elements \cite{Makhlin1999},
 antenna arrays \cite{Yu2014}, optical cavities \cite{Painter2001}, and
 mechanical resonators of various shapes and sizes \cite{Aspelmeyer2014}.
 
-Coupling components with different physical nature can give rise to devices
-incorporating the best characteristics of each component.
+Coupling components with different physical properties can give rise to devices
+which incorporate the best characteristics of each component.
 Optical components are fast ($\sim 100\,\mathrm{THz}$) and fairly isolated,
-however making them interact with each other strongly is challenging
+however making them strongly interact with each other is challenging
 \cite{Chang2007}.
 Mechanical components, on the other hand, are much slower ($\sim
 10-100\,\mathrm{GHz}$), but usually much more sensitive to changes in their
@@ -77,16 +77,16 @@ converters \cite{Eichenfield2009} when driven by classical light.
 The interaction between the light field and a mechanical surface, originates
 mainly from the light-pressure displacing the mechanics, giving rise to a
 non-linear parametric coupling between light intensity and mechanical motion
-\cite{Meystre2013}. In Chapter \ref{ch:Komar2013}, we
-analyze a quantum model of two optical cavities coupled and a mechanical
-oscillator coupled by this coupling. We find that if the system is driven by a
-weak laser pulse (accurately described by a Poisson-process of photon
-arrivals), the output light exhibits super- and sub-Poissionan characteristics.
-We found that if the system is properly tuned, such that the energy difference between
-the two optical modes is bridged by the mechanical mode, and it is sufficiently
-cooled down, such that it is in its ground state the majority of the time,
-then we can use the photons leaving the output port to herald the creation of a
-single mechanical excitation.
+\cite{Meystre2013}. In Chapter \ref{ch:Komar2013}, we analyze a quantum model of
+two optical cavities and a mechanical oscillator interacting through this
+coupling. We find that if the system is driven by a weak laser pulse (accurately
+described by a Poisson-process of photon arrivals), the output light exhibits
+super- and sub-Poissonian characteristics.
+We found that if the system is properly tuned, such that the energy difference
+between the two optical modes is bridged by the mechanical mode, and it is
+sufficiently cooled down, such that it is in its ground state the majority of
+the time, then we can use the photons leaving the output port to herald the
+creation of a single mechanical excitation.
 
 Using oscillators as quantum registers in a future quantum computer requires
 them to be anharmonic \cite{Majer2007}. Consecutive levels of an
@@ -117,7 +117,7 @@ As the physical size of an optical cavity is decreased, the zero-point
 electric field corresponding to the ground state of its modes increases.
 As a result, individual atoms placed inside such a cavity, coupled through their
 electric dipole moment, start to interact strongly with the optical modes. Once
-this interaction becomes much stronger than the atoms coupling to the radiation
+this interaction becomes much stronger than the atoms' coupling to the radiation
 environment outside of the cavity, the system becomes strongly coupled, and
 their states hybridize. From a spectroscopic point of view, this results in a
 resolvable splitting of the optical resonances.
@@ -133,7 +133,7 @@ systems for coherent quantum logic operations becomes realistic. In Chapter
 \ref{ch:Borregaard_PRL2015}, we consider a model of three atoms placed inside
 and coupled by a single optical cavity. We show that, with tailored driving pulses
 and proper choice of atomic levels, this system can perform a controlled-NOT
-operation on two of the atoms can be made resistant to the dominating error,
+operation on two of the atoms and can be made resistant to the dominating error,
 caused by the loss of a photon, by post-selecting on the third atom's
 state.
 
@@ -148,7 +148,7 @@ achieved at telecom wavelength ($\sim 1\,\mu\mathrm{m}$).
 
 Classical communication solves the attenuation problem by incorporating fiber
 segments which amplify the signal. Conceptually, this classical amplification
-relies on detecting some of the signal's photons and emitting more in synchrony.
+relies on detecting some of the signal photons and emitting more in synchrony.
 Unfortunately, such a process fails for quantum channels using single-photon
 pulses, because the detection event can measure the photon only once,
 therefore it necessarily discards essential information about its quantum state.
@@ -165,59 +165,59 @@ entanglement between the two outermost parties. An alternative solution
 encodes the information in states of a many-photon pulse, and apply periodic
 quantum error-correction along its way \cite{Muralidharan2015}.
 
-The reliability and transmission rate of such a quantum repeater protocol
+The transmission rate  and reliability of such a quantum repeater protocol
 depends strongly on the fidelity of the entanglement connection step. In Chapter
-\ref{ch:Borregaard_PRA2015}, we show that the atom-cavity system described in
-Chapter \ref{ch:Borregaard_PRL2015}, used to perform the quantum logic gate,
-performs outstandingly for total distances $\sim
-100-1000\,\mathrm{km}$.
+\ref{ch:Borregaard_PRA2015}, we show that the atom-cavity system described
+in Chapter \ref{ch:Borregaard_PRL2015} would serve as a great quantum
+entanglement connection gate, and achieve outstanding quantum repeater
+performance for total distances $\sim 100-1000\,\mathrm{km}$.
 
 
 
 \section{Atomic Clocks and Quantum Metrology}
 Atomic clocks are the currently available best time-keeping devices. They are
-used to keep and, in many cases, to broadcast a precise time and frequency
-standard. The workings of atomic clocks rely on two main components: the
+used to create, in many cases, to broadcast a precise time and
+frequency standard. The workings of atomic clocks rely on two main components: the
 reference oscillator, realized by an isolated, narrow-linewidth electromagnetic
 transition of an atomic species \cite{Derevianko2011}; and the slaved
 oscillator, the microwave or optical source of strong, coherent field. The
 clock keeps time by periodically interrogating the atoms with the field of the
 slaved oscillator (laser), and measuring the deviation of their frequencies.
-Then, the measurement result is  used to correct the laser's frequency. This
-closes the feedback loop, and results in an actively stabilized laser field, which serves
-as a clock signal \cite{Diddams2004}.
+The measurement result is used to correct the laser's frequency; this
+closes the feedback loop, and results in an actively stabilized laser field,
+which serves as a clock signal \cite{Diddams2004}.
 
 The accuracy of an atomic clock, characterized by the average fractional
-frequency deviation or Allan-deviation 
-\cite{Allan1966, Rutman1978}, is determined by several factors. Employing
-higher reference frequency, longer interrogation cycle time, longer averaging
-time and more atoms all improve the overall accuracy. Consequently, there are
-many ways to improve the accuracy. Choosing an atomic transition with optical
-frequency, instead of microwave, boosts the clock's performance by five orders
-of magnitude. The central frequency of current record-holder atomic clocks are all
-in the optical domain \cite{Ludlow2015}. The optimal interrogation time usually
-falls slightly above the coherence time of the laser, and fails to improve the scheme
-beyond atomic coherence time even in schemes that eliminate the limiting effect
-of the laser \cite{Borregaard2013, Rosenband2013}. The maximal
-total averaging time is usually determined by the refresh rate of the clock
-signal required by the application, and by other noises such as frequency
+frequency deviation, or Allan-deviation \cite{Allan1966, Rutman1978}, is
+determined by several factors. Employing higher atomic reference frequency,
+longer interrogation cycles, longer averaging time and more atoms all improve
+the overall accuracy. Consequently, there are many ways to improve the accuracy:
+Choosing an atomic transition with optical frequency, instead of microwave,
+boosts the clock's performance by five orders of magnitude. The central
+frequency of current record-holder atomic clocks are all in the optical domain
+\cite{Ludlow2015}. The optimal length of the interrogation cycle usually falls
+slightly above the coherence time of the laser, and in any case, increasing it
+fails to help beyond the atomic coherence time even in schemes that eliminate
+the limiting effect of the laser \cite{Borregaard2013, Rosenband2013}. The
+maximal total averaging time is usually determined by the refresh rate of the
+clock signal required by the application, or by other noises such as frequency
 flicker noise \cite{Barnes1966}.
 
 The dependence of the precision on the number of atoms is a true quantum
 phenomenon.
-It is due to the fundamental limit on the information a single measurement can
-obtain about any atom. When $N$ atoms are measured independently, the
-Allen-deviation scales as $\propto N^{-1/2}$, and is said to be limited by
-``projection noise'' or the ``Standard Quantum Limit''. It originates from the
-inherent uncertainty of the measurement result of a single two-level system
-prepared in superposition \cite{Santarelli1998}.
-
+It is due to the fundamental limit on the maximal information a single
+measurement can obtain about the atoms. When $N$ atoms are measured
+independently, the Allen-deviation scales as $\propto N^{-1/2}$, and is said to
+be limited by ``projection noise'' or the ``Standard Quantum Limit''. It
+originates from the inherent uncertainty of a single
+two-level system prepared in superposition \cite{Santarelli1998}.
+ 
 The Standard Quantum Limit describes the limit of precision if all atoms are
 prepared and measured independently, or as an uncorrelated ensemble, but it is
 higher than the fundamental quantum limit, due to Heisenberg uncertainty, which
 predicts $\propto N^{-1}$ scaling of the precision with increasing atom number
-$N$. This gap between the two limits, and proposals trying to close it, is the
-central topic of Quantum Metrology \cite{Giovanetti2011, Escher:2011fn}. By
+$N$ \cite{Hall2012}. This gap between the two limits, and proposals trying to
+close it, form the central topic of Quantum Metrology \cite{Giovanetti2011, Escher:2011fn}. By
 preparing the collection of atoms in an entangled state, the subsequent
 measurement will have lower uncertainty and provide more information about the
 detuning of the laser frequency form the atomic reference. States such as
@@ -264,7 +264,7 @@ logic operations \cite{Lukin2001}.
 Blockade between Rydberg atoms is an especially strong and promising phenomenon.
 When one atom gets excited into a Rydberg state, the long-range interaction
 originating from its (transition) electric dipole moment shifts the Rydberg
-levels of the other atoms out of resonance, and prevents them from being excited
+levels of all other atoms out of resonance, and prevents them from being excited
 \cite{Urban2009}. This effect creates an exceptionally strong non-linearity: it
 limits the number of Rydberg excitations in the cloud to zero and one, allowing
 the cloud to be used as a qubit. In Chapter \ref{ch:Komar2015}, we present and

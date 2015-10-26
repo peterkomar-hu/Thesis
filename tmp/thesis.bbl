@@ -23,7 +23,7 @@ Boris Albrecht, Pau Farrera, Xavier Fernandez-Gonzalvo, Matteo Cristiani, and
 \bibitem{Allan1966}
 D.W. Allan.
 \newblock Statistics of atomic frequency standards.
-\newblock {\em Proceedings of the IEEE}, 54(2):221--230, Feb 1966.
+\newblock {\em Proceedings of the IEEE}, 54:221--230, 1966.
 
 \bibitem{Andersen2013}
 Ulrik~L. Andersen and Timothy~C. Ralph.
@@ -51,7 +51,7 @@ O.~Arcizet, P.-F. Cohadon, T.~Briant, M.~Pinard, and A.~Heidmann.
 \bibitem{Aspelmeyer2014}
 Markus Aspelmeyer, Tobias~J. Kippenberg, and Florian Marquardt.
 \newblock Cavity optomechanics.
-\newblock {\em Rev. Mod. Phys.}, 86:1391--1452, Dec 2014.
+\newblock {\em Rev. Mod. Phys.}, 86:1391--1452, 2014.
 
 \bibitem{AspelmeyerNJP2008}
 Markus Aspelmeyer and Keith Schwab.
@@ -61,7 +61,7 @@ Markus Aspelmeyer and Keith Schwab.
 \bibitem{Barnes1966}
 J.A. Barnes and D.W. Allan.
 \newblock A statistical model of flicker noise.
-\newblock {\em Proceedings of the IEEE}, 54(2):176--178, Feb 1966.
+\newblock {\em Proceedings of the IEEE}, 54:176--178, 1966.
 
 \bibitem{BasiriEsfahani2012}
 S~Basiri-Esfahani, U~Akram, and G~J Milburn.
@@ -112,7 +112,7 @@ H.~Bernien, B.~Hensen, W.~Pfaff, G.~Koolstra, M.~S. Blok, L.~Robledo, T.~H.
 D.~W. Berry, B.~L. Higgins, S.~D. Bartlett, M.~W. Mitchell, G.~J. Pryde, and
   H.~M. Wiseman.
 \newblock How to perform the most accurate possible phase measurements.
-\newblock {\em Phys. Rev. A}, 80:052114, Nov 2009.
+\newblock {\em Phys. Rev. A}, 80:052114, 2009.
 
 \bibitem{Bloom2013}
 B.~J. Bloom, T.~L. Nicholson, J.~R. Williams, S.~L. Campbell, M.~Bishof,
@@ -278,7 +278,7 @@ Andrew~M. Childs.
 \bibitem{Cheng2010}
 Cheng Chin, Rudolf Grimm, Paul Julienne, and Eite Tiesinga.
 \newblock Feshbach resonances in ultracold gases.
-\newblock {\em Rev. Mod. Phys.}, 82:1225--1286, Apr 2010.
+\newblock {\em Rev. Mod. Phys.}, 82:1225--1286, 2010.
 
 \bibitem{Chou2010}
 C.~W. Chou, D.~B. Hume, J.~C.~J. Koelemeij, D.~J. Wineland, and T.~Rosenband.
@@ -326,7 +326,7 @@ Mark de~Burgh and Stephen~D. Bartlett.
 \bibitem{Derevianko2011}
 Andrei Derevianko and Hidetoshi Katori.
 \newblock \textit{Colloquium} : Physics of optical lattice clocks.
-\newblock {\em Rev. Mod. Phys.}, 83:331--347, May 2011.
+\newblock {\em Rev. Mod. Phys.}, 83:331--347, \ 2011.
 
 \bibitem{deutsch}
 David Deutsch, Artur Ekert, Richard Jozsa, Chiara Macchiavello, Sandu Popescu,
@@ -338,7 +338,7 @@ David Deutsch, Artur Ekert, Richard Jozsa, Chiara Macchiavello, Sandu Popescu,
 \bibitem{Diddams2004}
 S.~A. Diddams, J.~C. Bergquist, S.~R. Jefferts, and C.~W. Oates.
 \newblock Standards of time and frequency at the outset of the 21st century.
-\newblock {\em Science}, 306(5700):1318--1324, 2004.
+\newblock {\em Science}, 306:1318--1324, 2004.
 
 \bibitem{Ding2011}
 L.~Ding, C.~Baker, P.~Senellart, A.~Lemaitre, S.~Ducci, G.~Leo, and I.~Favero.
@@ -432,7 +432,7 @@ Dirk Englund, David Fattal, Edo Waks, Glenn Solomon, Bingyang Zhang, Toshihiro
   \check{c}\else \v{c}\fi{}kovi\ifmmode~\acute{c}\else \'{c}\fi{}.
 \newblock Controlling the spontaneous emission rate of single quantum dots in a
   two-dimensional photonic crystal.
-\newblock {\em Phys. Rev. Lett.}, 95:013904, Jul 2005.
+\newblock {\em Phys. Rev. Lett.}, 95:013904, 2005.
 
 \bibitem{Escher:2011fn}
 B.~M. Escher, R.~L. de~Matos~Filho, and L.~Davidovich.
@@ -531,6 +531,12 @@ Subhadeep Gupta, Kevin~L. Moore, Kater~W. Murch, and Dan~M. Stamper-Kurn.
   motion.
 \newblock {\em Phys. Rev. Lett.}, 99:213601, 2007.
 
+\bibitem{Hall2012}
+Michael J.~W. Hall, Dominic~W. Berry, Marcin Zwierz, and Howard~M. Wiseman.
+\newblock {Universality of the Heisenberg limit for estimates of random phase
+  shifts}.
+\newblock {\em Physical Review A}, 85(4):041802, April 2012.
+
 \bibitem{hammerer}
 Klemens Hammerer, Anders~S. S\o{}rensen, and Eugene~S. Polzik.
 \newblock Quantum interface between light and atomic ensembles.
@@ -568,7 +574,7 @@ S.~F. Huelga, C.~Macchiavello, T.~Pellizzari, A.~K. Ekert, M.~B. Plenio, and
 E.T. Jaynes and F.W. Cummings.
 \newblock Comparison of quantum and semiclassical radiation theories with
   application to the beam maser.
-\newblock {\em Proceedings of the IEEE}, 51(1):89--109, Jan 1963.
+\newblock {\em Proceedings of the IEEE}, 51:89--109, 1963.
 
 \bibitem{jiang2007}
 Liang Jiang, Jacob~M. Taylor, Navin Khaneja, and Mikhail~D. Lukin.
@@ -675,8 +681,7 @@ Anne Louchet-Chauvet, J\"{u}rgen Appel, Jelmer~J Renema, Daniel Oblak, Niels
 \bibitem{Ludlow2015}
 Andrew~D. Ludlow and Jun Ye.
 \newblock Progress on the optical lattice clock.
-\newblock {\em Comptes Rendus Physique}, 16(5):499 -- 505, 2015.
-\newblock The measurement of time / La mesure du temps.
+\newblock {\em Comptes Rendus Physique}, 16:499 -- 505, 2015.
 
 \bibitem{Ludwig2008}
 Max Ludwig, Björn Kubala, and Florian Marquardt.
@@ -699,7 +704,7 @@ M.~D. Lukin, M.~Fleischhauer, R.~Cote, L~M Duan, D~Jaksch, J~I Cirac, and
   P~Zoller.
 \newblock {Dipole blockade and quantum information processing in mesoscopic
   atomic ensembles.}
-\newblock {\em Physical review letters}, 87(3):037901, June 2001.
+\newblock {\em Physical review letters}, 87:037901, 2001.
 
 \bibitem{Ma2012}
 Xiao-Song Ma, Thomas Herbst, Thomas Scheidl, Daqing Wang, Sebastian
@@ -712,7 +717,7 @@ Xiao-Song Ma, Thomas Herbst, Thomas Scheidl, Daqing Wang, Sebastian
 \bibitem{Mabuchi2002}
 H.~Mabuchi and A.~C. Doherty.
 \newblock Cavity quantum electrodynamics: Coherence in context.
-\newblock {\em Science}, 298(5597):1372--1377, 2002.
+\newblock {\em Science}, 298:1372--1377, 2002.
 
 \bibitem{Majer2007}
 J.~Majer, J.~M. Chow, J.~M. Gambetta, Jens Koch, B.~R. Johnson, J.~A. Schreier,
@@ -779,7 +784,7 @@ D~Meiser, Jun Ye, and M~J Holland.
 Attila Mekis, J.~C. Chen, I.~Kurland, Shanhui Fan, Pierre~R. Villeneuve, and
   J.~D. Joannopoulos.
 \newblock High transmission through sharp bends in photonic crystal waveguides.
-\newblock {\em Phys. Rev. Lett.}, 77:3787--3790, Oct 1996.
+\newblock {\em Phys. Rev. Lett.}, 77:3787--3790, 1996.
 
 \bibitem{Metzger2004}
 Constanze~H\"{o}hberger Metzger and Khaled Karrai.
@@ -789,7 +794,7 @@ Constanze~H\"{o}hberger Metzger and Khaled Karrai.
 \bibitem{Meystre2013}
 Pierre Meystre.
 \newblock {A short walk through quantum optomechanics}.
-\newblock {\em Annalen der Physik}, 525(3):215--233, March 2013.
+\newblock {\em Annalen der Physik}, 525:215--233, 2013.
 
 \bibitem{Miao2009}
 Haixing Miao, Stefan Danilishin, Thomas Corbitt, and Yanbei Chen.
@@ -867,7 +872,7 @@ Oskar Painter, Kartik Srinivasan, John~D O'Brien, Axel Scherer, and P~Daniel
   Dapkus.
 \newblock Tailoring of the resonant mode properties of optical nanocavities in
   two-dimensional photonic crystal slab waveguides.
-\newblock {\em Journal of Optics A: Pure and Applied Optics}, 3(6):S161, 2001.
+\newblock {\em Journal of Optics A: Pure and Applied Optics}, 3:S161, 2001.
 
 \bibitem{pan}
 Jian-Wei Pan, Christoph Simon, \v{C}aslav Brukner, and Anton Zeilinger.
@@ -886,7 +891,7 @@ M~Peev, C~Pacher, R~All\'{e}aume, C~Barreiro, J~Bouda, W~Boxleitner,
   F~Vannel, N~Walenta, H~Weier, H~Weinfurter, I~Wimberger, Z~L Yuan, H~Zbinden,
   and A~Zeilinger.
 \newblock The secoqc quantum key distribution network in vienna.
-\newblock {\em New Journal of Physics}, 11(7):075001, 2009.
+\newblock {\em New Journal of Physics}, 11:075001, 2009.
 
 \bibitem{pellizari}
 T.~Pellizzari, S.~A. Gardiner, J.~I. Cirac, and P.~Zoller.
@@ -986,7 +991,7 @@ Till Rosenband.
 J.~Rutman.
 \newblock Characterization of phase and frequency instabilities in precision
   frequency sources: Fifteen years of progress.
-\newblock {\em Proceedings of the IEEE}, 66(9):1048--1075, Sept 1978.
+\newblock {\em Proceedings of the IEEE}, 66:1048--1075, 1978.
 
 \bibitem{Safavi-Naeini2011}
 A.~H. Safavi-Naeini, T.~P.~Mayer Alegre, J.~Chan, M.~Eichenfield, M.~Winger,
@@ -1004,7 +1009,7 @@ Amir~H Safavi-Naeini and Oskar Painter.
 \bibitem{Saffman2010}
 M.~Saffman, T.~G. Walker, and K.~M{\o}lmer.
 \newblock {Quantum information with Rydberg atoms}.
-\newblock {\em Rev. Mod. Phys.}, 82(3):2313--2363, August 2010.
+\newblock {\em Rev. Mod. Phys.}, 82:2313--2363, 2010.
 
 \bibitem{sangouard2}
 Nicolas Sangouard, Romain Dubessy, and Christoph Simon.
@@ -1095,7 +1100,7 @@ Peter~W. Shor.
 \bibitem{Shore1993}
 Bruce~W. Shore and Peter~L. Knight.
 \newblock The jaynes-cummings model.
-\newblock {\em Journal of Modern Optics}, 40(7):1195--1238, 1993.
+\newblock {\em Journal of Modern Optics}, 40:1195--1238, 1993.
 
 \bibitem{MSgate}
 Anders S\o{}rensen and Klaus M\o{}lmer.
@@ -1226,7 +1231,7 @@ E.~Verhagen, S.~Del\'{e}glise, S.~Weis, A.~Schliesser, and T.~J. Kippenberg.
 Herbert Walther, Benjamin T~H Varcoe, Berthold-Georg Englert, and Thomas
   Becker.
 \newblock Cavity quantum electrodynamics.
-\newblock {\em Reports on Progress in Physics}, 69(5):1325, 2006.
+\newblock {\em Reports on Progress in Physics}, 69:1325, 2006.
 
 \bibitem{Weis2010}
 Stefan Weis, R\'{e}mi Rivi\`{e}re, Samuel Del\'{e}glise, Emanuel Gavartin,
