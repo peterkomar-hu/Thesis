@@ -67,7 +67,7 @@ previous heralded gates in optical cavities, which relied on the null detection
 of photons leaving the cavity \cite{pachos,beige, vitali}, the final heralding
 measurement on the atom can then be performed very efficiently.
 
-In our approach, the auxiliary atom has two metastable states $\ket{g},\ket{f}$,
+In our approach, the auxiliary atom has two metastable states $\ket{g},\ket{f}$
 which can be coupled through an excited state $\ket{E}$ (see
 \reffig{fig:levels}(a)). We assume the $\ket{E}\leftrightarrow\ket{f}$ transition
 to be energetically close to the cavity frequency and to be a nearly closed
@@ -118,7 +118,7 @@ $\ket{E}\leftrightarrow\ket{f}$ is a closed transition, i.e. $\gamma_{g}=0$.  }
 
 \subsection{Model}
 We now analyze the performance of the gates and derive the success
-probabilities, gate times and gate errors (see Tab.~S1 in Appendix
+probabilities, gate times and gate errors (see Tab. \ref{tab:table1} in Appendix
 \ref{app:Borregaard_PRL2015}) The Hamiltonian in a proper rotating frame is (see
 \reffig{fig:levels})
 \begin{eqnarray} 
@@ -230,12 +230,11 @@ $t_{\text{T}}\sim4\pi\sqrt{C}\gamma/\Omega^{2}$ and for the CZ-gate we have
 $t_{\text{CZ}}\sim15\pi\sqrt{C}\gamma/(2\Omega^{2})$ for $C\gg1$. Since
 $t_{\text{CZ}}>t_{\text{T}}$ we focus on $t_{\text{CZ}}$. The gate time is set
 by the strength ($\Omega$) of the driving pulse, which is limited by
-non-adiabatic errors. This is investigated in the supplemental material where we
-also verify our analytical results numerically in Appendix
-\ref{app:Borregaard_PRL2015}.
-Assuming realisitc parameters of $\kappa=100\gamma$ \cite{thompson,Tiecke}, we find that a driving
-of $\Omega=\sqrt{C}\gamma/4$ keeps the non-adiabatic error of the gate below
-$4\cdot10^{-5}$ for $C\leq1000$. The gate times decreases as $1/\sqrt{C}$ as
+non-adiabatic errors. This is investigated and we also verify our analytical
+results numerically in Appendix \ref{app:Borregaard_PRL2015}.
+Assuming realistic parameters of $\kappa=100\gamma$ \cite{thompson,Tiecke}, we
+find that a driving of $\Omega=\sqrt{C}\gamma/4$ keeps the non-adiabatic error of the gate below
+$4\times 10^{-5}$ for $C\leq1000$. The gate times decreases as $1/\sqrt{C}$ as
 shown in \reffig{fig:prob}. For a cooperativity of $100$ the gate time is
 $\approx1$ $\mu$s  for typical atomic decay rates.
 \begin{figure}  
@@ -267,12 +266,12 @@ $\ket{E}\to\ket{g}$. In real atoms, there will, however, always be some decay
 $\ket{E}\to\ket{g}$ with a decay rate $\gamma_{g}>0$. The result of such an
 undetectable decay is that both the CZ-gate and the Toffoli gate will have an
 error $\sim \gamma_{g}/(\gamma\sqrt{C})$. To make this error small, it is thus essential to suppress the
-branching ratio $\gamma_{g}/\gamma$. Below we show how to suppress $\gamma_{g}$ by driving the $\ket{g}\to\ket{E}$
-transition with a two photon process. As a result, we realize a CZ gate with an
+branching ratio $\gamma_{g}/\gamma$. Below, we show how to suppress $\gamma_{g}$
+by driving the $\ket{g}\to\ket{E}$ transition with a two photon process. As a result, we realize a CZ gate with an
 error arbitrary close to zero and a Toffoli gate with an error scaling  as $1/C$
 even for a realistic atomic system.
 
-Specifically we think of a level structure for the auxiliary atom, shown in
+Specifically, we think of a level structure for the auxiliary atom, shown in
 \reffig{fig:control},
 \begin{figure} 
 \centering
@@ -375,6 +374,6 @@ built-in error detection process, which removes the necessity of extracting the
 error by the more complicated process of entanglement purification or quantum
 error correction. Our gate is designed for the specific case of optical
 cavities, and allows exploiting realistic systems for quantum communication, even though the error rate would inhibit this with deterministic gates. Similar
-advantages can be realised in other systems such as those based on circuit QED, where certain errors could be
-heralded and thus alleviate the daunting requirements of fault tolerant
+advantages can be realized in other systems such as those based on circuit QED,
+where certain errors could be heralded and thus alleviate the daunting requirements of fault tolerant
 computation. 
