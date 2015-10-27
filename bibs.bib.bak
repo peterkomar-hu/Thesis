@@ -1,5 +1,5 @@
 % This file was created with JabRef 2.8.1.
-% Encoding: Cp1252 
+% Encoding: Cp1252
 
 @ARTICLE{Abramovici1992,
   author = {Abramovici, Alex and Althouse, William E. and Drever, Ronald W. P.
@@ -453,7 +453,7 @@
 
 @ARTICLE{Borregaard2015b,
   author = {Borregaard, J and K\'{o}m\'{a}r, P. and Kessler, E. M. and Lukin,
-	M. D. and S\o rensen, A. S.},
+	M. D. and S{\o}rensen, A. S.},
   title = {Long-distance entanglement distribution using individual atoms in
 	optical cavities},
   journal = {Phys. Rev. A},
@@ -467,7 +467,7 @@
 }
 
 @ARTICLE{Borregaard2015a,
-  author = {Borregaard, J. and K\'{o}m\'{a}r, P. and Kessler, E. M. and S\o rensen,
+  author = {Borregaard, J. and K\'{o}m\'{a}r, P. and Kessler, E. M. and S{\o}rensen,
 	A. S. and Lukin, M. D.},
   title = {Heralded Quantum Gates with Integrated Error Detection in Optical
 	Cavities},
@@ -482,7 +482,7 @@
 }
 
 @ARTICLE{Borregaard2013,
-  author = {Borregaard, J. and S\o{}rensen, A. S.},
+  author = {Borregaard, J. and S{\o}rensen, A. S.},
   title = {Efficient Atomic Clocks Operated with Several Atomic Ensembles},
   journal = {Phys. Rev. Lett.},
   year = {2013},
@@ -496,7 +496,7 @@
 }
 
 @ARTICLE{Borregaard2013_nearHeisenberg,
-  author = {Borregaard, J. and S\o{}rensen, A. S.},
+  author = {Borregaard, J. and S{\o}rensen, A. S.},
   title = {Near-Heisenberg-Limited Atomic Clocks in the Presence of Decoherence},
   journal = {Phys. Rev. Lett.},
   year = {2013},

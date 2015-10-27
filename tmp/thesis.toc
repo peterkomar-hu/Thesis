@@ -60,7 +60,7 @@
 \contentsline {chapter}{\numberline {6}Heisenberg-Limited Atom Clocks Based on Entangled Qubits}{97}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction}{97}{section.6.1}
 \contentsline {section}{\numberline {6.2}Feedback loop}{103}{section.6.2}
-\contentsline {section}{\numberline {6.3}Spectroscopic nosies}{104}{section.6.3}
+\contentsline {section}{\numberline {6.3}Spectroscopic noises}{104}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Phase estimation with multiple GHZ groups}{105}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Optimization}{106}{subsection.6.3.2}
 \contentsline {section}{\numberline {6.4}Comparison with other schemes}{107}{section.6.4}

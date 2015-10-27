@@ -16,7 +16,7 @@ Additionally, the development of optical frequency combs
 link between the optical and radio frequencies -- enabled the application
 of optical frequency standards to a wide range of scientific and technological
 fields including astronomy, molecular spectroscopy and global
-positioning systems (GPS).
+positioning systems.
 
 % The improvement of frequency standards using quantum resources, such as
 % entanglement, has attracted wide attention in recent years \cite{Buzek1999,
@@ -42,7 +42,7 @@ However, a characterization of the improvement obtainable by using entanglement
   It is well known that fully entangled states (e.g.,
   Greenberger-Horne-Zeilinger (GHZ) states) allow for improved spectroscopic sensitivity, but in the same way
  that these states benefit from their increased sensitivity in the laser
- interrogation, they are generically prone to various types of noise sources
+ interrogation, they are generally prone to various types of noise sources
  canceling any quantum gain. It has therefore been long believed that such
  states fail to increase clock stability regardless of the noise model being used
  \cite{Bollinger1996, Wineland1998, Rosenband2012_numerical,Huelga1997}. On the other hand, it has been shown that
@@ -59,8 +59,8 @@ measurement scheme \cite{Borregaard2013_nearHeisenberg}.
 a logarithmic cost in $N$ by interrogating uncorrelated atomic
 ensembles for suitably chosen times \cite{Rosenband2013, Borregaard2013}.
 
-In this Letter, we  introduce a protocol involving groups of sequentially larger
-GHZ states to estimate local oscillator deviations from the atomic reference in
+In this chapter, we  introduce a protocol involving groups of sequentially
+larger GHZ states to estimate local oscillator deviations from the atomic reference in
 a manner reminiscent of the phase estimation algorithm \cite{Nielsen_Chuang}.
 Furthermore, we unify previous treatments of decoherence for atomic clocks 
 and incorporate previous proposals involving uncorrelated atoms to
@@ -114,13 +114,13 @@ to its maximum value $T\rightarrow\tau$ \cite{Braunstein:1992bx}.
 A single GHZ state consisting of $N$ entangled atoms -- whose state after the
 interrogation is $\ket{\mathrm{GHZ}}_T \propto \ket{0}^{\otimes N} + \mathrm{exp}(-i
 N\Phi_{\mathrm{LO}}) \ket{1}^{\otimes N}$ -- accumulates the laser phase (denoted
-by $\Phi_{LO}$) $N$ times faster than an uncorrelated state, allowin a more precise
-phase measurement \cite{Giovanetti2011}. However, fluctuations in the
+by $\Phi_{LO}$) $N$ times faster than an uncorrelated state, allowing a more
+precise phase measurement \cite{Giovanetti2011}. However, fluctuations in the
 laser frequency renders the laser phase a
 random variable with a probability distribution that grows in width as we
 increase  the Ramsey time $T$.
 Whenever the laser phase realized in a particular Ramsey cycle induces a full
-phase wrap on the state [i.e., the atomic phase $N \Phi_{LO}\notin[-\pi,\pi)$]
+phase wrap on the state [i.e., the atomic phase $N \Phi_{LO}\notin[-\pi,\pi)$],
 a subsequent measurement yields a $2\pi$ error in the estimation. For a single GHZ
 state, this accounts for a strict limitation on the maximally allowed Ramsey
 time in order  to limit the initial variance of $\Phi_\mathrm{LO}$, and the resulting
@@ -182,7 +182,7 @@ useless.
 In our protocol, these digits are found by an additional, simultaneous
 interrogation with successively smaller GHZ states of $2^{M-2},2^{M-3},\hdots$
 entangled atoms (see \reffig{fig:phase_estimation}). Each of these states
-picks up a phase proportional to its size  $\Phi_{j} = 2^{j}
+picks up a phase proportional to its size,  $\Phi_{j} = 2^{j}
 \Phi_\mathrm{LO}~\mathrm{mod}~ [-\pi,\pi)$, and this
 phase gets a contribution of $\pi (Z_j-1)$.
 By distinguishing whether the phase is shifted by $\pi$ or not, we can 
@@ -245,7 +245,7 @@ This estimate in turn is used to readjust the frequency of the LO:  $\omega(t_k)
 \rightarrow \omega(t_k) - \alpha\Phi^\mathrm{est}_\mathrm{LO}(t_k)/T$, where
 $\Phi^\mathrm{est}_\mathrm{LO}(t_k)$ represents a suited estimator of the phase
 $\Phi_\mathrm{LO}(t_k)$ \footnote{Alternatively, it is also possible to perform direct phase
-feedback.}, and $\alpha < 1$ is an suitably chosen
+feedback.}, and $\alpha < 1$ is a suitably chosen
 gain.
 %Phase feedback
 %is chosen since it performs better in the presence of white noise
@@ -293,7 +293,7 @@ neglected in the following.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
-\section{Spectroscopic nosies}
+\section{Spectroscopic noises}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 
@@ -330,7 +330,7 @@ However, unlike the individual particle noise resulting in the finite atom
 linewidth $\gamma_\mathrm{ind}$, the LO frequency fluctuations affect all clock
 atoms alike, and this \textit{collective noise} does not represent a fundamental
 metrological limitation.
-Ee can use a cascade of GHZ states of varying size to measure the
+We can use a cascade of GHZ states of varying size to measure the
 $\Phi_\mathrm{LO}$ in a binary representation, as discussed above.
 In general, the phase does not have an exact binary representation ending at the
 digit $Z_{M}$. We therefore employ $n_0$ duplicates  at each level of the
