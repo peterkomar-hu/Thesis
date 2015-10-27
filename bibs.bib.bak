@@ -1,5 +1,5 @@
 % This file was created with JabRef 2.8.1.
-% Encoding: Cp1252
+% Encoding: Cp1252 
 
 @ARTICLE{Abramovici1992,
   author = {Abramovici, Alex and Althouse, William E. and Drever, Ronald W. P.
@@ -1062,7 +1062,6 @@
   year = {2004},
   volume = {306},
   pages = {1318-1324},
-  number = {\},
   abstract = {After 50 years of development, microwave atomic clocks based on cesium
 	have achieved fractional uncertainties below 1 part in 1015, a level
 	unequaled in all of metrology. The past 5 years have seen the accelerated

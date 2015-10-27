@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.30)  26 OCT 2015 15:37
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.30)  27 OCT 2015 13:30
 entering extended mode
 **thesis.tex
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.tex
@@ -755,7 +755,7 @@ File: ./figs_Borregaard_PRA2015/figureX4.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figureX4.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRA2015/figureX4.pdf used on input l
-ine 338.
+ine 339.
 (pdftex.def)             Requested size: 281.85034pt x 220.93767pt.
  [77 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA2015/figure
 X4.pdf>] [78] [79] [80]
@@ -764,7 +764,7 @@ File: ./figs_Borregaard_PRA2015/figureX3.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figureX3.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRA2015/figureX3.pdf used on input l
-ine 458.
+ine 459.
 (pdftex.def)             Requested size: 260.17464pt x 204.92017pt.
 
 <./figs_Borregaard_PRA2015/figure4a.pdf, id=4282, 193.81592pt x 154.99628pt>
@@ -772,7 +772,7 @@ File: ./figs_Borregaard_PRA2015/figure4a.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figure4a.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRA2015/figure4a.pdf used on input l
-ine 485.
+ine 486.
 (pdftex.def)             Requested size: 173.44534pt x 138.70778pt.
 
 <./figs_Borregaard_PRA2015/figure4b.pdf, id=4283, 193.93835pt x 154.97218pt>
@@ -780,7 +780,7 @@ File: ./figs_Borregaard_PRA2015/figure4b.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figure4b.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRA2015/figure4b.pdf used on input l
-ine 486.
+ine 487.
 (pdftex.def)             Requested size: 173.44534pt x 138.59636pt.
  [81 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA2015/figure
 X3.pdf>] [82 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA201
@@ -791,7 +791,7 @@ File: ./figs_Borregaard_PRA2015/figureX2.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figureX2.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRA2015/figureX2.pdf used on input l
-ine 555.
+ine 556.
 (pdftex.def)             Requested size: 260.17464pt x 200.31024pt.
  [83]
 <./figs_Borregaard_PRA2015/figureX6.pdf, id=4650, 659.46375pt x 521.95pt>
@@ -799,12 +799,12 @@ File: ./figs_Borregaard_PRA2015/figureX6.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figureX6.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRA2015/figureX6.pdf used on input l
-ine 612.
+ine 613.
 (pdftex.def)             Requested size: 281.85034pt x 223.08018pt.
  [84] [85] [86 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA2
 015/figureX2.pdf>] [87 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borrega
 ard_PRA2015/figureX6.pdf>]
-LaTeX Font Info:    Try loading font information for U+dsrom on input line 649.
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 650.
 
 
 (C:\Users\Petya\AppData\Roaming\MiKTeX\2.9\tex\latex\dstroke\udsrom.fd
@@ -815,7 +815,7 @@ File: ./figs_Borregaard_PRA2015/figureX7.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figureX7.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRA2015/figureX7.pdf used on input l
-ine 664.
+ine 665.
 (pdftex.def)             Requested size: 433.62pt x 221.31303pt.
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ´ in font cmr12!
@@ -839,7 +839,7 @@ File: ./figs_Borregaard_PRA2015/figureX8.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRA2015/figureX8.pdf>
 Package pdftex.def Info: ./figs_Borregaard_PRA2015/figureX8.pdf used on input l
-ine 689.
+ine 690.
 (pdftex.def)             Requested size: 433.62pt x 228.39441pt.
  [88] [89 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRA2015/f
 igureX7.pdf>] [90 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_P
@@ -1369,7 +1369,7 @@ eX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Petya/AppData/Roamin
 g/MiKTeX/2.9/fonts/type1/public/dstroke/dsrom12.pfb><C:/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/symbols/msam10.pfb><C:/Programs/MiKTeX 2.9/fonts/type1
 /public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (278 pages, 8346187 bytes).
+Output written on thesis.pdf (278 pages, 8346428 bytes).
 PDF statistics:
  8161 PDF objects out of 8907 (max. 8388607)
  971 named destinations out of 1000 (max. 500000)
