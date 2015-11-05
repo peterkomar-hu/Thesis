@@ -1221,7 +1221,8 @@
 %
 \def\ps@myheadings{\let\@mkboth\@gobbletwo
  \def\@oddhead{{\slshape\rightmark}\hfil \rmfamily\thepage}%
- \def\@oddfoot{}\def\@evenhead{\rmfamily \thepage\hfil\slshape\leftmark}%
+ \def\@oddfoot{}\def\@evenhead{\rmfamily
+ \thepage\hfil\slshape\leftmark}%
  \def\@evenfoot{}\def\chaptermark##1{}\def\sectionmark##1{}%
  \def\subsectionmark##1{}}
 
@@ -1305,7 +1306,8 @@
 \else
 \fancyhead[LE,LO]{\nouppercase{\itshape \leftmark}}
 \fi
-\fancyhead[RE,RO]{\thepage}
+%\fancyhead[RE,RO]{\thepage}
+\fancyfoot[CE,CO]{\thepage}  %% Changed by Peter Komar 2015
 \fi
 
 \fancypagestyle{plain}{

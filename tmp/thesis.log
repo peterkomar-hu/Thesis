@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.30)  5 NOV 2015 15:53
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.30)  5 NOV 2015 17:50
 entering extended mode
 **thesis.tex
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.tex
@@ -40,11 +40,11 @@ Document Class: huthesis 2007/09/20 v1.4 Harvard University Thesis Class
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 1306.
+less on input line 1307.
 
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 1308.
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 1310.
 
 ) ("C:\Programs\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
@@ -1110,7 +1110,7 @@ Missing character: There is no ï in font cmr12!
 Missing character: There is no ¿ in font cmr12!
 Missing character: There is no ½ in font cmr12!
 
-<./figs_Stannigel2012/Figure_suppl.pdf, id=6489, 533.60756pt x 206.7725pt>
+<./figs_Stannigel2012/Figure_suppl.pdf, id=6495, 533.60756pt x 206.7725pt>
 File: ./figs_Stannigel2012/Figure_suppl.pdf Graphic file (type pdf)
 
 <use ./figs_Stannigel2012/Figure_suppl.pdf>
@@ -1147,7 +1147,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ]
-<./figs_Borregaard_PRL2015/figureS1a.pdf, id=6588, 170.52068pt x 175.60577pt>
+<./figs_Borregaard_PRL2015/figureS1a.pdf, id=6594, 170.52068pt x 175.60577pt>
 File: ./figs_Borregaard_PRL2015/figureS1a.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figureS1a.pdf>
@@ -1155,7 +1155,7 @@ Package pdftex.def Info: ./figs_Borregaard_PRL2015/figureS1a.pdf used on input
 line 57.
 (pdftex.def)             Requested size: 151.76964pt x 156.29935pt.
 
-<./figs_Borregaard_PRL2015/figureS1b.pdf, id=6589, 170.90335pt x 175.62755pt>
+<./figs_Borregaard_PRL2015/figureS1b.pdf, id=6595, 170.90335pt x 175.62755pt>
 File: ./figs_Borregaard_PRL2015/figureS1b.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figureS1b.pdf>
@@ -1175,7 +1175,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 183.
 
 [165] [166]
-<./figs_Borregaard_PRL2015/figure2a.pdf, id=7053, 524.96124pt x 449.68pt>
+<./figs_Borregaard_PRL2015/figure2a.pdf, id=7059, 524.96124pt x 449.68pt>
 File: ./figs_Borregaard_PRL2015/figure2a.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figure2a.pdf>
@@ -1183,7 +1183,7 @@ Package pdftex.def Info: ./figs_Borregaard_PRL2015/figure2a.pdf used on input l
 ine 243.
 (pdftex.def)             Requested size: 199.4681pt x 170.85959pt.
 
-<./figs_Borregaard_PRL2015/figure2b.pdf, id=7054, 516.38852pt x 443.9575pt>
+<./figs_Borregaard_PRL2015/figure2b.pdf, id=7060, 516.38852pt x 443.9575pt>
 File: ./figs_Borregaard_PRL2015/figure2b.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figure2b.pdf>
@@ -1193,7 +1193,7 @@ ine 245.
  [167] [168 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRL2015
 /figure2a.pdf> <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Borregaard_PRL2
 015/figure2b.pdf>]
-<./figs_Borregaard_PRL2015/figureS2.pdf, id=7123, 348.84785pt x 176.14256pt>
+<./figs_Borregaard_PRL2015/figureS2.pdf, id=7129, 348.84785pt x 176.14256pt>
 File: ./figs_Borregaard_PRL2015/figureS2.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figureS2.pdf>
@@ -1207,7 +1207,7 @@ Overfull \hbox (13.42093pt too wide) in alignment at lines 327--356
  []
 
 [170] [171] [172] [173] [174]
-<./figs_Borregaard_PRL2015/figureSN1.pdf, id=7431, 500.11513pt x 399.98807pt>
+<./figs_Borregaard_PRL2015/figureSN1.pdf, id=7437, 500.11513pt x 399.98807pt>
 File: ./figs_Borregaard_PRL2015/figureSN1.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figureSN1.pdf>
@@ -1215,7 +1215,7 @@ Package pdftex.def Info: ./figs_Borregaard_PRL2015/figureSN1.pdf used on input
 line 562.
 (pdftex.def)             Requested size: 208.13574pt x 166.4619pt.
 
-<./figs_Borregaard_PRL2015/figureSN2.pdf, id=7432, 498.86375pt x 394.47375pt>
+<./figs_Borregaard_PRL2015/figureSN2.pdf, id=7438, 498.86375pt x 394.47375pt>
 File: ./figs_Borregaard_PRL2015/figureSN2.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figureSN2.pdf>
@@ -1228,7 +1228,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Missing character: There is no Î in font cmr12!
 Missing character: There is no © in font cmr12!
-<./figs_Borregaard_PRL2015/figureSN3.pdf, id=7434, 506.89375pt x 402.50375pt>
+<./figs_Borregaard_PRL2015/figureSN3.pdf, id=7440, 506.89375pt x 402.50375pt>
 File: ./figs_Borregaard_PRL2015/figureSN3.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figureSN3.pdf>
@@ -1239,7 +1239,7 @@ line 585.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figs_Borregaard_PRL2015/figureSN4.pdf, id=7443, 506.70775pt x 386.6852pt>
+<./figs_Borregaard_PRL2015/figureSN4.pdf, id=7449, 506.70775pt x 386.6852pt>
 File: ./figs_Borregaard_PRL2015/figureSN4.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figureSN4.pdf>
@@ -1247,7 +1247,7 @@ Package pdftex.def Info: ./figs_Borregaard_PRL2015/figureSN4.pdf used on input
 line 607.
 (pdftex.def)             Requested size: 208.13574pt x 158.83107pt.
 
-<./figs_Borregaard_PRL2015/figureSN5.pdf, id=7444, 507.8975pt x 390.45876pt>
+<./figs_Borregaard_PRL2015/figureSN5.pdf, id=7450, 507.8975pt x 390.45876pt>
 File: ./figs_Borregaard_PRL2015/figureSN5.pdf Graphic file (type pdf)
 
 <use ./figs_Borregaard_PRL2015/figureSN5.pdf>
@@ -1380,7 +1380,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 
-] [224] <./figs_Komar2014/fig_supp.pdf, id=8018, 417.43398pt x 480.984pt>
+] [224] <./figs_Komar2014/fig_supp.pdf, id=8024, 417.43398pt x 480.984pt>
 File: ./figs_Komar2014/fig_supp.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2014/fig_supp.pdf>
@@ -1417,7 +1417,7 @@ Appendix G.
 
 
 ] [246] [247] [248]
-<./figs_Komar2015/coupling_1_2_smalln_only1.pdf, id=8231, 592.03177pt x 260.962
+<./figs_Komar2015/coupling_1_2_smalln_only1.pdf, id=8237, 592.03177pt x 260.962
 28pt>
 File: ./figs_Komar2015/coupling_1_2_smalln_only1.pdf Graphic file (type pdf)
  <use ./figs_Komar2015/coupling_1_2_smalln_only1.pdf>
@@ -1484,7 +1484,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 LaTeX Warning: Citation `Topcu2015' on page 256 undefined on input line 511.
 
 [256] [257]
-<./figs_Komar2015/n_omega_delta_2d3d.pdf, id=8321, 292.40125pt x 198.90083pt>
+<./figs_Komar2015/n_omega_delta_2d3d.pdf, id=8327, 292.40125pt x 198.90083pt>
 File: ./figs_Komar2015/n_omega_delta_2d3d.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2015/n_omega_delta_2d3d.pdf>
@@ -1495,7 +1495,7 @@ line 639.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figs_Komar2015/Eone_2d3d.pdf, id=8323, 291.55121pt x 193.37581pt>
+<./figs_Komar2015/Eone_2d3d.pdf, id=8329, 291.55121pt x 193.37581pt>
 File: ./figs_Komar2015/Eone_2d3d.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2015/Eone_2d3d.pdf>
@@ -1509,7 +1509,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [259 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2015/n_omega_delta_2
 d3d.pdf>] [260] [261] [262 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Kom
 ar2015/Eone_2d3d.pdf>] [263]
-<./figs_Komar2015/Fisher_inf.pdf, id=9359, 298.40077pt x 210.62039pt>
+<./figs_Komar2015/Fisher_inf.pdf, id=9365, 298.40077pt x 210.62039pt>
 File: ./figs_Komar2015/Fisher_inf.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2015/Fisher_inf.pdf>
@@ -1524,14 +1524,14 @@ Overfull \hbox (10.67227pt too wide) in paragraph at lines 961--967
 L/cmm/m/it/12 G[] \OMS/cmsy/m/n/12  [] [][]$\OT1/cmr/m/n/12 .
  []
 
-<./figs_Komar2015/NnK_2d3d.pdf, id=9561, 296.01384pt x 203.15263pt>
+<./figs_Komar2015/NnK_2d3d.pdf, id=9567, 296.01384pt x 203.15263pt>
 File: ./figs_Komar2015/NnK_2d3d.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2015/NnK_2d3d.pdf>
 Package pdftex.def Info: ./figs_Komar2015/NnK_2d3d.pdf used on input line 977.
 (pdftex.def)             Requested size: 346.89731pt x 238.0813pt.
  [267]
-<./figs_Komar2015/gain_2d3d.pdf, id=9571, 294.10126pt x 204.42587pt>
+<./figs_Komar2015/gain_2d3d.pdf, id=9577, 294.10126pt x 204.42587pt>
 File: ./figs_Komar2015/gain_2d3d.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2015/gain_2d3d.pdf>
@@ -1584,7 +1584,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1055.
 
-[270] <./figs_Komar2015/circles.pdf, id=10490, 208.95702pt x 152.63332pt>
+[270] <./figs_Komar2015/circles.pdf, id=10496, 208.95702pt x 152.63332pt>
 File: ./figs_Komar2015/circles.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2015/circles.pdf>
@@ -1889,7 +1889,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
 Here is how much of TeX's memory you used:
  8824 strings out of 494045
  131395 string characters out of 3150402
- 216572 words of memory out of 3000000
+ 216569 words of memory out of 3000000
  10640 multiletter control sequences out of 15000+200000
  22469 words of font info for 88 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -1919,9 +1919,9 @@ nts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Petya/AppData/Roaming/MiKTeX/
 2.9/fonts/type1/public/dstroke/dsrom12.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/symbols/msam10.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/a
 msfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (327 pages, 9275272 bytes).
+Output written on thesis.pdf (327 pages, 9276354 bytes).
 PDF statistics:
- 11029 PDF objects out of 12825 (max. 8388607)
+ 11035 PDF objects out of 12825 (max. 8388607)
  1185 named destinations out of 1200 (max. 500000)
  1899 words of extra memory for PDF output out of 10000 (max. 10000000)
 
