@@ -43,17 +43,29 @@
 \contentsline {figure}{\numberline {7.3}{\ignorespaces Performance of different operation schemes}}{122}{figure.7.3}
 \contentsline {figure}{\numberline {7.4}{\ignorespaces Schematics of security countermeasures}}{126}{figure.7.4}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Steps to generate of pairwise entanglement}}{134}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Connecting links into non-local GHZ state}}{136}{figure.8.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Local GHZ creation}}{137}{figure.8.3}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Implementation with Yb levels}}{139}{figure.8.4}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Comparison of effective and exact description}}{143}{figure.B.1}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Comparison of effective and exact description}}{156}{figure.B.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Level structure of qubit an auxiliary atoms}}{149}{figure.C.1}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Error and success probability vs cooperativity}}{155}{figure.C.2}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Level structure of auxiliary atom}}{156}{figure.C.3}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Gate time and success probability vs driving strength}}{163}{figure.C.4}
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Conditional fidelity}}{164}{figure.C.5}
-\contentsline {figure}{\numberline {C.6}{\ignorespaces Gate time and success probability vs detuning}}{165}{figure.C.6}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Level structure of qubit an auxiliary atoms}}{162}{figure.C.1}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Error and success probability vs cooperativity}}{168}{figure.C.2}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Level structure of auxiliary atom}}{169}{figure.C.3}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Gate time and success probability vs driving strength}}{176}{figure.C.4}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Conditional fidelity}}{177}{figure.C.5}
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Gate time and success probability vs detuning}}{178}{figure.C.6}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {F.1}{\ignorespaces GHZ cascade protocol for $K$ clocks}}{213}{figure.F.1}
+\contentsline {figure}{\numberline {F.1}{\ignorespaces GHZ cascade protocol for $K$ clocks}}{226}{figure.F.1}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {G.1}{\ignorespaces Coupling through doubly excited states}}{250}{figure.G.1}
+\contentsline {figure}{\numberline {G.2}{\ignorespaces Optimal parameter values}}{259}{figure.G.2}
+\contentsline {figure}{\numberline {G.3}{\ignorespaces Minimal error per atom}}{262}{figure.G.3}
+\contentsline {figure}{\numberline {G.4}{\ignorespaces Average Fisher information}}{265}{figure.G.4}
+\contentsline {figure}{\numberline {G.5}{\ignorespaces Optimal network size}}{268}{figure.G.5}
+\contentsline {figure}{\numberline {G.6}{\ignorespaces Maximal gain over classical schemes}}{269}{figure.G.6}
+\contentsline {figure}{\numberline {G.7}{\ignorespaces Arc length in a circular cloud}}{272}{figure.G.7}

@@ -128,25 +128,25 @@ J.~J~. Bollinger, Wayne~M. Itano, D.~J. Wineland, and D.~J. Heinzen.
 
 \bibitem{Borregaard2015b}
 J~Borregaard, P.~K\'{o}m\'{a}r, E.~M. Kessler, M.~D. Lukin, and A.~S.
-  S\o~rensen.
+  S{\o}rensen.
 \newblock Long-distance entanglement distribution using individual atoms in
   optical cavities.
 \newblock {\em Phys. Rev. A}, 92:012307, 2015.
 
 \bibitem{Borregaard2015a}
-J.~Borregaard, P.~K\'{o}m\'{a}r, E.~M. Kessler, A.~S. S\o~rensen, and M.~D.
+J.~Borregaard, P.~K\'{o}m\'{a}r, E.~M. Kessler, A.~S. S{\o}rensen, and M.~D.
   Lukin.
 \newblock Heralded quantum gates with integrated error detection in optical
   cavities.
 \newblock {\em Phys. Rev. Lett.}, 114:110502, 2015.
 
 \bibitem{Borregaard2013}
-J.~Borregaard and A.~S. S\o{}rensen.
+J.~Borregaard and A.~S. S{\o}rensen.
 \newblock Efficient atomic clocks operated with several atomic ensembles.
 \newblock {\em Phys. Rev. Lett.}, 111:090802, 2013.
 
 \bibitem{Borregaard2013_nearHeisenberg}
-J.~Borregaard and A.~S. S\o{}rensen.
+J.~Borregaard and A.~S. S{\o}rensen.
 \newblock Near-heisenberg-limited atomic clocks in the presence of decoherence.
 \newblock {\em Phys. Rev. Lett.}, 111:090801, 2013.
 
@@ -211,8 +211,7 @@ V.~Bu\v{z}ek, R.~Derka, and S.~Massar.
 
 \bibitem{Carmichael1991}
 H.J. Carmichael, R.J. Brecha, and P.R. Rice.
-\newblock Quantum interference and collapse of the wavefunction in cavity
-  \{QED\}.
+\newblock Quantum interference and collapse of the wavefunction in cavity qed.
 \newblock {\em Optics Communications}, 82:73 -- 79, 1991.
 
 \bibitem{Carmon2007}
@@ -472,9 +471,8 @@ C.~Gardiner and P.~Zoller.
 \bibitem{Genes2009}
 C.~Genes, A.~Mari, D.~Vitali, and P.~Tombesi.
 \newblock Chapter 2 quantum effects in optomechanical systems.
-\newblock In {\em Advances in Atomic Molecular and Optical Physics}, volume~57
-  of {\em Advances In Atomic, Molecular, and Optical Physics}, pages 33 -- 86.
-  Academic Press, 2009.
+\newblock In {\em Advances in Atomic Molecular and Optical Physics}, volume~57,
+  pages 33 -- 86. Academic Press, 2009.
 
 \bibitem{Giedke2006}
 G.~Giedke, J.~M. Taylor, D.~D'Alessandro, M.~D. Lukin, and
@@ -535,7 +533,7 @@ Subhadeep Gupta, Kevin~L. Moore, Kater~W. Murch, and Dan~M. Stamper-Kurn.
 Michael J.~W. Hall, Dominic~W. Berry, Marcin Zwierz, and Howard~M. Wiseman.
 \newblock {Universality of the Heisenberg limit for estimates of random phase
   shifts}.
-\newblock {\em Physical Review A}, 85(4):041802, April 2012.
+\newblock {\em Phys. Rev. A}, 85(4):041802, April 2012.
 
 \bibitem{hammerer}
 Klemens Hammerer, Anders~S. S\o{}rensen, and Eugene~S. Polzik.
@@ -626,7 +624,7 @@ E.~Knill, R.~Laflamme, and G.~J. Milburn.
 \newblock {\em Nature}, 409:46--52, 2001.
 
 \bibitem{Komar2014}
-P.~K\'{o}m\'{a}r, E.~M. Kessler, M.~Bishof, L.~Jiang, a.~S. S\o~rensen, J.~Ye,
+P.~K\'{o}m\'{a}r, E.~M. Kessler, M.~Bishof, L.~Jiang, a.~S. S{\o}rensen, J.~Ye,
   and M.~D. Lukin.
 \newblock A quantum network of clocks.
 \newblock {\em Nature Physics}, 10:582--587, 2014.
@@ -704,7 +702,7 @@ M.~D. Lukin, M.~Fleischhauer, R.~Cote, L~M Duan, D~Jaksch, J~I Cirac, and
   P~Zoller.
 \newblock {Dipole blockade and quantum information processing in mesoscopic
   atomic ensembles.}
-\newblock {\em Physical review letters}, 87:037901, 2001.
+\newblock {\em Phys. Rev. Lett.}, 87:037901, 2001.
 
 \bibitem{Ma2012}
 Xiao-Song Ma, Thomas Herbst, Thomas Scheidl, Daqing Wang, Sebastian
@@ -722,7 +720,7 @@ H.~Mabuchi and A.~C. Doherty.
 \bibitem{Majer2007}
 J.~Majer, J.~M. Chow, J.~M. Gambetta, Jens Koch, B.~R. Johnson, J.~A. Schreier,
   L.~Frunzio, D.~I. Schuster, A.~A. Houck, A.~Wallraff, A.~Blais, M.~H.
-  Devoret, S.~M. Girvin, and R.~J. Schoelkopf1.
+  Devoret, S.~M. Girvin, and R.~J. Schoelkopf.
 \newblock Coupling superconducting qubits via a cavity bus.
 \newblock {\em Nature}, 449:443--447, 2007.
 
@@ -872,7 +870,7 @@ Oskar Painter, Kartik Srinivasan, John~D O'Brien, Axel Scherer, and P~Daniel
   Dapkus.
 \newblock Tailoring of the resonant mode properties of optical nanocavities in
   two-dimensional photonic crystal slab waveguides.
-\newblock {\em Journal of Optics A: Pure and Applied Optics}, 3:S161, 2001.
+\newblock {\em Journal of Optics A}, 3:S161, 2001.
 
 \bibitem{pan}
 Jian-Wei Pan, Christoph Simon, \v{C}aslav Brukner, and Anton Zeilinger.

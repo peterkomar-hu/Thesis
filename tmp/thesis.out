@@ -73,75 +73,124 @@
 \BOOKMARK [1][-]{section.7.6}{Stability analysis}{chapter.7}% 73
 \BOOKMARK [1][-]{section.7.7}{Security}{chapter.7}% 74
 \BOOKMARK [1][-]{section.7.8}{Outlook}{chapter.7}% 75
-\BOOKMARK [0][-]{chapter.8}{Entangling collective Rydberg excitations of remote atomic ensembles}{}% 76
+\BOOKMARK [0][-]{chapter.8}{Quantum network of neutral atom clocks}{}% 76
 \BOOKMARK [1][-]{section.8.1}{Introduction}{chapter.8}% 77
-\BOOKMARK [0][-]{appendix.A}{Appendices for Chapter 2}{}% 78
-\BOOKMARK [1][-]{section.A.1}{Derivation of reflected mode operator}{appendix.A}% 79
-\BOOKMARK [1][-]{section.A.2}{Analytic model}{appendix.A}% 80
-\BOOKMARK [0][-]{appendix.B}{Appendices for Chapter 3}{}% 81
-\BOOKMARK [1][-]{section.B.1}{Phonon nonlinearities}{appendix.B}% 82
-\BOOKMARK [2][-]{subsection.B.1.1}{Model}{section.B.1}% 83
-\BOOKMARK [2][-]{subsection.B.1.2}{Displaced frame}{section.B.1}% 84
-\BOOKMARK [2][-]{subsection.B.1.3}{Hybridized modes}{section.B.1}% 85
-\BOOKMARK [2][-]{subsection.B.1.4}{Adiabatic elimination of the cavity mode}{section.B.1}% 86
-\BOOKMARK [2][-]{subsection.B.1.5}{Simple perturbation theory}{section.B.1}% 87
-\BOOKMARK [2][-]{subsection.B.1.6}{Corrections}{section.B.1}% 88
-\BOOKMARK [2][-]{subsection.B.1.7}{Numerical simulation}{section.B.1}% 89
-\BOOKMARK [1][-]{section.B.2}{Phonon-phonon interactions}{appendix.B}% 90
-\BOOKMARK [0][-]{appendix.C}{Appendices for Chapter 4}{}% 91
-\BOOKMARK [1][-]{section.C.1}{Perturbation theory}{appendix.C}% 92
-\BOOKMARK [2][-]{subsection.C.1.1}{Success probability and fidelity}{section.C.1}% 93
-\BOOKMARK [2][-]{subsection.C.1.2}{N-qubit Toffoli gate}{section.C.1}% 94
-\BOOKMARK [2][-]{subsection.C.1.3}{CZ-gate}{section.C.1}% 95
-\BOOKMARK [2][-]{subsection.C.1.4}{Two-photon driving}{section.C.1}% 96
-\BOOKMARK [1][-]{section.C.2}{Gate time}{appendix.C}% 97
-\BOOKMARK [1][-]{section.C.3}{Numerical simulation}{appendix.C}% 98
-\BOOKMARK [1][-]{section.C.4}{Additional errors}{appendix.C}% 99
-\BOOKMARK [0][-]{appendix.D}{Appendices for Chapter 5}{}% 100
-\BOOKMARK [1][-]{section.D.1}{Error analysis of the single-photon scheme}{appendix.D}% 101
-\BOOKMARK [1][-]{section.D.2}{Error analysis of the two-photon scheme}{appendix.D}% 102
-\BOOKMARK [1][-]{section.D.3}{Deterministic CNOT gate}{appendix.D}% 103
-\BOOKMARK [1][-]{section.D.4}{Rate analysis}{appendix.D}% 104
-\BOOKMARK [2][-]{subsection.D.4.1}{Deterministic gates}{section.D.4}% 105
-\BOOKMARK [2][-]{subsection.D.4.2}{Probabilistic gates}{section.D.4}% 106
-\BOOKMARK [0][-]{appendix.E}{Appendices for Chapter 6}{}% 107
-\BOOKMARK [1][-]{section.E.1}{Figure of merit: Allan-variance}{appendix.E}% 108
-\BOOKMARK [1][-]{section.E.2}{Single-step Uncorrelated ensemble}{appendix.E}% 109
-\BOOKMARK [2][-]{subsection.E.2.1}{Sub-ensembles and projection noise}{section.E.2}% 110
-\BOOKMARK [2][-]{subsection.E.2.2}{Effects of laser fluctuations: Phase slip errors}{section.E.2}% 111
-\BOOKMARK [2][-]{subsection.E.2.3}{Optimal Ramsey time}{section.E.2}% 112
-\BOOKMARK [1][-]{section.E.3}{Cascaded interrogation using GHZ states}{appendix.E}% 113
-\BOOKMARK [2][-]{subsection.E.3.1}{Parity measurement}{section.E.3}% 114
-\BOOKMARK [2][-]{subsection.E.3.2}{Failure of the maximally entangled GHZ}{section.E.3}% 115
-\BOOKMARK [2][-]{subsection.E.3.3}{Cascaded GHZ scheme}{section.E.3}% 116
-\BOOKMARK [2][-]{subsection.E.3.4}{Rounding errors: finding the optimal n0}{section.E.3}% 117
-\BOOKMARK [2][-]{subsection.E.3.5}{Phase slip errors: limitations to the Ramsey time T from laser noise}{section.E.3}% 118
-\BOOKMARK [2][-]{subsection.E.3.6}{Extending the Ramsey time beyond the laser noise limit}{section.E.3}% 119
-\BOOKMARK [2][-]{subsection.E.3.7}{Individual qubit noise and final result}{section.E.3}% 120
-\BOOKMARK [1][-]{section.E.4}{Analytic solution of xn = Aexp[-1/x]}{appendix.E}% 121
-\BOOKMARK [1][-]{section.E.5}{Upper bound on the tail of the distribution of the estimated phase}{appendix.E}% 122
-\BOOKMARK [2][-]{subsection.E.5.1}{Upper bound on the tail of the binomial distribution}{section.E.5}% 123
-\BOOKMARK [2][-]{subsection.E.5.2}{Upper bound on the distribution of the estimated phase}{section.E.5}% 124
-\BOOKMARK [1][-]{section.E.6}{Threshold fidelity}{appendix.E}% 125
-\BOOKMARK [0][-]{appendix.F}{Appendices for Chapter 7}{}% 126
-\BOOKMARK [1][-]{section.F.1}{GHZ cascade in a network of K clocks}{appendix.F}% 127
-\BOOKMARK [2][-]{subsection.F.1.1}{Parity measurement}{section.F.1}% 128
-\BOOKMARK [2][-]{subsection.F.1.2}{Cascaded GHZ scheme}{section.F.1}% 129
-\BOOKMARK [2][-]{subsection.F.1.3}{Rounding errors}{section.F.1}% 130
-\BOOKMARK [2][-]{subsection.F.1.4}{Phase slip errors}{section.F.1}% 131
-\BOOKMARK [2][-]{subsection.F.1.5}{Pre-narrowing the linewidth}{section.F.1}% 132
-\BOOKMARK [2][-]{subsection.F.1.6}{Individual qubit dephasing noise}{section.F.1}% 133
-\BOOKMARK [1][-]{section.F.2}{Security countermeasures}{appendix.F}% 134
-\BOOKMARK [2][-]{subsection.F.2.1}{Sabotage}{section.F.2}% 135
-\BOOKMARK [2][-]{subsection.F.2.2}{Eavesdropping}{section.F.2}% 136
-\BOOKMARK [2][-]{subsection.F.2.3}{Rotating center role}{section.F.2}% 137
-\BOOKMARK [1][-]{section.F.3}{Network operation}{appendix.F}% 138
-\BOOKMARK [2][-]{subsection.F.3.1}{Different degree of feedback}{section.F.3}% 139
-\BOOKMARK [2][-]{subsection.F.3.2}{Timing}{section.F.3}% 140
-\BOOKMARK [2][-]{subsection.F.3.3}{Dick effect}{section.F.3}% 141
-\BOOKMARK [2][-]{subsection.F.3.4}{More general architectures}{section.F.3}% 142
-\BOOKMARK [2][-]{subsection.F.3.5}{Accuracy}{section.F.3}% 143
-\BOOKMARK [2][-]{subsection.F.3.6}{Efficient use of qubits}{section.F.3}% 144
-\BOOKMARK [2][-]{subsection.F.3.7}{Required EPR generation rate}{section.F.3}% 145
-\BOOKMARK [2][-]{subsection.F.3.8}{Threshold fidelity}{section.F.3}% 146
-\BOOKMARK [0][-]{appendix*.4}{Bibliography}{}% 147
+\BOOKMARK [1][-]{section.8.2}{Description of the protocol}{chapter.8}% 78
+\BOOKMARK [2][-]{subsection.8.2.1}{Collective excitations}{section.8.2}% 79
+\BOOKMARK [2][-]{subsection.8.2.2}{Non-local connection}{section.8.2}% 80
+\BOOKMARK [2][-]{subsection.8.2.3}{Local connection}{section.8.2}% 81
+\BOOKMARK [2][-]{subsection.8.2.4}{Local GHZ growing}{section.8.2}% 82
+\BOOKMARK [1][-]{section.8.3}{Implementation}{chapter.8}% 83
+\BOOKMARK [1][-]{section.8.4}{Clock network optimization}{chapter.8}% 84
+\BOOKMARK [1][-]{section.8.5}{Conclusion}{chapter.8}% 85
+\BOOKMARK [0][-]{appendix.A}{Appendices for Chapter 2}{}% 86
+\BOOKMARK [1][-]{section.A.1}{Derivation of reflected mode operator}{appendix.A}% 87
+\BOOKMARK [1][-]{section.A.2}{Analytic model}{appendix.A}% 88
+\BOOKMARK [0][-]{appendix.B}{Appendices for Chapter 3}{}% 89
+\BOOKMARK [1][-]{section.B.1}{Phonon nonlinearities}{appendix.B}% 90
+\BOOKMARK [2][-]{subsection.B.1.1}{Model}{section.B.1}% 91
+\BOOKMARK [2][-]{subsection.B.1.2}{Displaced frame}{section.B.1}% 92
+\BOOKMARK [2][-]{subsection.B.1.3}{Hybridized modes}{section.B.1}% 93
+\BOOKMARK [2][-]{subsection.B.1.4}{Adiabatic elimination of the cavity mode}{section.B.1}% 94
+\BOOKMARK [2][-]{subsection.B.1.5}{Simple perturbation theory}{section.B.1}% 95
+\BOOKMARK [2][-]{subsection.B.1.6}{Corrections}{section.B.1}% 96
+\BOOKMARK [2][-]{subsection.B.1.7}{Numerical simulation}{section.B.1}% 97
+\BOOKMARK [1][-]{section.B.2}{Phonon-phonon interactions}{appendix.B}% 98
+\BOOKMARK [0][-]{appendix.C}{Appendices for Chapter 4}{}% 99
+\BOOKMARK [1][-]{section.C.1}{Perturbation theory}{appendix.C}% 100
+\BOOKMARK [2][-]{subsection.C.1.1}{Success probability and fidelity}{section.C.1}% 101
+\BOOKMARK [2][-]{subsection.C.1.2}{N-qubit Toffoli gate}{section.C.1}% 102
+\BOOKMARK [2][-]{subsection.C.1.3}{CZ-gate}{section.C.1}% 103
+\BOOKMARK [2][-]{subsection.C.1.4}{Two-photon driving}{section.C.1}% 104
+\BOOKMARK [1][-]{section.C.2}{Gate time}{appendix.C}% 105
+\BOOKMARK [1][-]{section.C.3}{Numerical simulation}{appendix.C}% 106
+\BOOKMARK [1][-]{section.C.4}{Additional errors}{appendix.C}% 107
+\BOOKMARK [0][-]{appendix.D}{Appendices for Chapter 5}{}% 108
+\BOOKMARK [1][-]{section.D.1}{Error analysis of the single-photon scheme}{appendix.D}% 109
+\BOOKMARK [1][-]{section.D.2}{Error analysis of the two-photon scheme}{appendix.D}% 110
+\BOOKMARK [1][-]{section.D.3}{Deterministic CNOT gate}{appendix.D}% 111
+\BOOKMARK [1][-]{section.D.4}{Rate analysis}{appendix.D}% 112
+\BOOKMARK [2][-]{subsection.D.4.1}{Deterministic gates}{section.D.4}% 113
+\BOOKMARK [2][-]{subsection.D.4.2}{Probabilistic gates}{section.D.4}% 114
+\BOOKMARK [0][-]{appendix.E}{Appendices for Chapter 6}{}% 115
+\BOOKMARK [1][-]{section.E.1}{Figure of merit: Allan-variance}{appendix.E}% 116
+\BOOKMARK [1][-]{section.E.2}{Single-step Uncorrelated ensemble}{appendix.E}% 117
+\BOOKMARK [2][-]{subsection.E.2.1}{Sub-ensembles and projection noise}{section.E.2}% 118
+\BOOKMARK [2][-]{subsection.E.2.2}{Effects of laser fluctuations: Phase slip errors}{section.E.2}% 119
+\BOOKMARK [2][-]{subsection.E.2.3}{Optimal Ramsey time}{section.E.2}% 120
+\BOOKMARK [1][-]{section.E.3}{Cascaded interrogation using GHZ states}{appendix.E}% 121
+\BOOKMARK [2][-]{subsection.E.3.1}{Parity measurement}{section.E.3}% 122
+\BOOKMARK [2][-]{subsection.E.3.2}{Failure of the maximally entangled GHZ}{section.E.3}% 123
+\BOOKMARK [2][-]{subsection.E.3.3}{Cascaded GHZ scheme}{section.E.3}% 124
+\BOOKMARK [2][-]{subsection.E.3.4}{Rounding errors: finding the optimal n0}{section.E.3}% 125
+\BOOKMARK [2][-]{subsection.E.3.5}{Phase slip errors: limitations to the Ramsey time T from laser noise}{section.E.3}% 126
+\BOOKMARK [2][-]{subsection.E.3.6}{Extending the Ramsey time beyond the laser noise limit}{section.E.3}% 127
+\BOOKMARK [2][-]{subsection.E.3.7}{Individual qubit noise and final result}{section.E.3}% 128
+\BOOKMARK [1][-]{section.E.4}{Analytic solution of xn = Aexp[-1/x]}{appendix.E}% 129
+\BOOKMARK [1][-]{section.E.5}{Upper bound on the tail of the distribution of the estimated phase}{appendix.E}% 130
+\BOOKMARK [2][-]{subsection.E.5.1}{Upper bound on the tail of the binomial distribution}{section.E.5}% 131
+\BOOKMARK [2][-]{subsection.E.5.2}{Upper bound on the distribution of the estimated phase}{section.E.5}% 132
+\BOOKMARK [1][-]{section.E.6}{Threshold fidelity}{appendix.E}% 133
+\BOOKMARK [0][-]{appendix.F}{Appendices for Chapter 7}{}% 134
+\BOOKMARK [1][-]{section.F.1}{GHZ cascade in a network of K clocks}{appendix.F}% 135
+\BOOKMARK [2][-]{subsection.F.1.1}{Parity measurement}{section.F.1}% 136
+\BOOKMARK [2][-]{subsection.F.1.2}{Cascaded GHZ scheme}{section.F.1}% 137
+\BOOKMARK [2][-]{subsection.F.1.3}{Rounding errors}{section.F.1}% 138
+\BOOKMARK [2][-]{subsection.F.1.4}{Phase slip errors}{section.F.1}% 139
+\BOOKMARK [2][-]{subsection.F.1.5}{Pre-narrowing the linewidth}{section.F.1}% 140
+\BOOKMARK [2][-]{subsection.F.1.6}{Individual qubit dephasing noise}{section.F.1}% 141
+\BOOKMARK [1][-]{section.F.2}{Security countermeasures}{appendix.F}% 142
+\BOOKMARK [2][-]{subsection.F.2.1}{Sabotage}{section.F.2}% 143
+\BOOKMARK [2][-]{subsection.F.2.2}{Eavesdropping}{section.F.2}% 144
+\BOOKMARK [2][-]{subsection.F.2.3}{Rotating center role}{section.F.2}% 145
+\BOOKMARK [1][-]{section.F.3}{Network operation}{appendix.F}% 146
+\BOOKMARK [2][-]{subsection.F.3.1}{Different degree of feedback}{section.F.3}% 147
+\BOOKMARK [2][-]{subsection.F.3.2}{Timing}{section.F.3}% 148
+\BOOKMARK [2][-]{subsection.F.3.3}{Dick effect}{section.F.3}% 149
+\BOOKMARK [2][-]{subsection.F.3.4}{More general architectures}{section.F.3}% 150
+\BOOKMARK [2][-]{subsection.F.3.5}{Accuracy}{section.F.3}% 151
+\BOOKMARK [2][-]{subsection.F.3.6}{Efficient use of qubits}{section.F.3}% 152
+\BOOKMARK [2][-]{subsection.F.3.7}{Required EPR generation rate}{section.F.3}% 153
+\BOOKMARK [2][-]{subsection.F.3.8}{Threshold fidelity}{section.F.3}% 154
+\BOOKMARK [0][-]{appendix.G}{Appendices for Chapter 8}{}% 155
+\BOOKMARK [1][-]{section.G.1}{Local entangling errors}{appendix.G}% 156
+\BOOKMARK [2][-]{subsection.G.1.1}{Imperfect blockade}{section.G.1}% 157
+\BOOKMARK [2][-]{subsection.G.1.2}{Decaying Rydberg states}{section.G.1}% 158
+\BOOKMARK [2][-]{subsection.G.1.3}{Rydberg interaction induced broadening}{section.G.1}% 159
+\BOOKMARK [1][-]{section.G.2}{Non-local entangling errors}{appendix.G}% 160
+\BOOKMARK [2][-]{subsection.G.2.1}{Imperfect blockade}{section.G.2}% 161
+\BOOKMARK [2][-]{subsection.G.2.2}{Rydberg state decay}{section.G.2}% 162
+\BOOKMARK [2][-]{subsection.G.2.3}{Photon propagation and detection errors}{section.G.2}% 163
+\BOOKMARK [2][-]{subsection.G.2.4}{Memory loss}{section.G.2}% 164
+\BOOKMARK [2][-]{subsection.G.2.5}{Imperfect branching ratios}{section.G.2}% 165
+\BOOKMARK [1][-]{section.G.3}{Implementation with Yb}{appendix.G}% 166
+\BOOKMARK [2][-]{subsection.G.3.1}{Rydberg lifetimes}{section.G.3}% 167
+\BOOKMARK [2][-]{subsection.G.3.2}{Self-blockade, 11}{section.G.3}% 168
+\BOOKMARK [2][-]{subsection.G.3.3}{Cross-blockade, 12}{section.G.3}% 169
+\BOOKMARK [2][-]{subsection.G.3.4}{Decay rates of lower levels}{section.G.3}% 170
+\BOOKMARK [2][-]{subsection.G.3.5}{Photon channels}{section.G.3}% 171
+\BOOKMARK [1][-]{section.G.4}{Optimization}{appendix.G}% 172
+\BOOKMARK [2][-]{subsection.G.4.1}{Optimal parameters}{section.G.4}% 173
+\BOOKMARK [2][-]{subsection.G.4.2}{Comparison of error sources}{section.G.4}% 174
+\BOOKMARK [1][-]{section.G.5}{Clock precision}{appendix.G}% 175
+\BOOKMARK [2][-]{subsection.G.5.1}{Imperfect initialization}{section.G.5}% 176
+\BOOKMARK [2][-]{subsection.G.5.2}{Measurement}{section.G.5}% 177
+\BOOKMARK [2][-]{subsection.G.5.3}{Fisher information}{section.G.5}% 178
+\BOOKMARK [2][-]{subsection.G.5.4}{Cram\351r-Rao bound}{section.G.5}% 179
+\BOOKMARK [2][-]{subsection.G.5.5}{Allan-deviation}{section.G.5}% 180
+\BOOKMARK [2][-]{subsection.G.5.6}{Comparison to non-entangled interrogation}{section.G.5}% 181
+\BOOKMARK [2][-]{subsection.G.5.7}{Optimal clock network size}{section.G.5}% 182
+\BOOKMARK [1][-]{section.G.6}{Multiple local ensembles}{appendix.G}% 183
+\BOOKMARK [1][-]{section.G.7}{Calculating Var\(j,k\)}{appendix.G}% 184
+\BOOKMARK [2][-]{subsection.G.7.1}{Calculating < j,k >}{section.G.7}% 185
+\BOOKMARK [2][-]{subsection.G.7.2}{Calculating < j,k2 >}{section.G.7}% 186
+\BOOKMARK [2][-]{subsection.G.7.3}{Result for Var\(j,k\)}{section.G.7}% 187
+\BOOKMARK [1][-]{section.G.8}{Calculating Var\(j\)}{appendix.G}% 188
+\BOOKMARK [2][-]{subsection.G.8.1}{Calculating < j >}{section.G.8}% 189
+\BOOKMARK [2][-]{subsection.G.8.2}{Calculating < j2 >}{section.G.8}% 190
+\BOOKMARK [2][-]{subsection.G.8.3}{Result for Var\(j\)}{section.G.8}% 191
+\BOOKMARK [1][-]{section.G.9}{Calculating Var\(j\)}{appendix.G}% 192
+\BOOKMARK [2][-]{subsection.G.9.1}{Calculating < j >}{section.G.9}% 193
+\BOOKMARK [2][-]{subsection.G.9.2}{Calculating < j2 >}{section.G.9}% 194
+\BOOKMARK [2][-]{subsection.G.9.3}{Result for Var\(j\)}{section.G.9}% 195
+\BOOKMARK [0][-]{appendix*.4}{Bibliography}{}% 196
