@@ -255,7 +255,7 @@ gain.
 The stability of the actively stabilized LO, after a total averaging time
 $\tau$, is characterized by the Allan deviation (ADEV) which is directly
 proportional to the measurement uncertainty $\Delta\Phi_\mathrm{LO}(t_k)$ after
-each Ramsey cycle (see Appendix \ref{app:Kessler2014}),
+each Ramsey cycle (see Appendix \ref{app:Allan_variance}),
 \bel
 	\label{eq:Allan-variance}
 	\sigma_y(\tau) \equiv \frac{1}{\omega_0 \tau}
@@ -318,7 +318,7 @@ chosen such that the prior distribution of $\Phi(t_k)$ is well localized
 within $[-\pi,\pi)$.
 This limits the maximally allowed Ramsey time to a value $T_\mathrm{max}
 \sim\gamma_\mathrm{LO}^{-1}/N^2$ (see 
-Appendix \ref{app:Kessler2014}), where we assumed a white frequency noise
+Appendix \ref{app:GHZ_cascade}), where we assumed a white frequency noise
 spectrum of the LO, $S_\omega(f) = \gamma_\mathrm{LO}$ (for $1/f$-noise one finds the less stringent
 condition $T_\mathrm{max} \sim\gamma_\mathrm{LO}^{-1}/N$). In most cases, this value
 lies below the optimal (i.e., maximal) value implied by
@@ -421,13 +421,13 @@ $P_\mathrm{re} = 2\intop_{\pi/2}^{\infty}\d{\phi}
 % \eel
 and $\rho(\phi)$ is the Gaussian probability distribution of the error
 $\Phi_j^\mathrm{est} - \Phi_j$ with a width proportional to $1/\sqrt n_0$  
-(see Appendix \ref{app:Kessler2014}).
+(see Appendix \ref{app:GHZ_cascade}).
 Consequently, rounding errors can be exponentially suppressed by choosing a
 sufficiently large value for $n_0$. The total
 measurement uncertainty of this estimation scheme is thus
 $(\Delta\Phi_\mathrm{LO})^2 = (\Delta\Phi_\mathrm{LO})_\mathrm{pr}^2
 +(\Delta\Phi_\mathrm{LO})_\mathrm{re}^2$.
-In Appendix \ref{app:Kessler2014}, we show that the optimal allocation of
+In Appendix \ref{app:GHZ_cascade}, we show that the optimal allocation of
 resources is achieved for the choice $n_{0}^{\mathrm{opt}} \sim
 \frac{16}{\pi^2}\log\left(N\right)$, for which rounding errors are negligible,
 yielding the total measurement accuracy
@@ -483,13 +483,13 @@ Its width grows with $ \gamma_\mathrm{LO} T$, which puts a constraint on the
 maximally allowed Ramsey time $T
 \leq\frac{\pi^2}{4}\gamma_\mathrm{LO}^{-1}[\log(\gamma_\mathrm{LO}\tau N)]^{-1}$,
 and thus the achievable ADEV $\sigma_y~(\propto 1/\sqrt T)$
- as we demonstrate in Appendix \ref{app:Kessler2014}.
+ as we demonstrate in Appendix \ref{app:GHZ_cascade}.
 
 This, however, does not represent a fundamental limitation as we can
 extend the scheme by adding additional classical measurements with a shorter
 Ramsey periods to assess the number of phase slips of
 the laser phase itself $\hdots Z_{-3}Z_{-2}Z_{-1}Z_0$. As demonstrated in
-Appendix \ref{app:Kessler2014}, this allows  extending the Ramsey time by a
+Appendix \ref{app:GHZ_cascade}, this allows  extending the Ramsey time by a
 factor $k$ adding only a negligible number of atoms $N^{*}\approx
 \frac{8}{\pi^2} \log\left(k N^2\right)\log_2(k)\ll N$.
 % This procedure can be understood as a classical pre-narrowing of the laser
@@ -595,7 +595,7 @@ particle noise \cite{Escher:2011fn}. As we have seen, the proposed protocol
 reaches this optimal value rapidly after the averaging time $\tau_0 \sim  
 \gamma_\mathrm{ind}^{-1} \mathrm{log}(N)/N$ (cf. \reffig{fig:sigma_tau}),
 $N/\mathrm{log}(N)$ times faster than any classical scheme.
-In Appendix \ref{app:Kessler2014} we derive the necessary threshold fidelities in
+In Appendix \ref{app:Threshold_fidelity} we derive the necessary threshold fidelities in
 the GHZ state preparation our scheme can tolerate without compromising the stability
 in Eqs.~(\ref{eq:sigma(1)}) \& (\ref{eq:sigma(2)}).
 

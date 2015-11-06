@@ -119,7 +119,7 @@ $\ket{E}\leftrightarrow\ket{f}$ is a closed transition, i.e. $\gamma_{g}=0$.  }
 \subsection{Model}
 We now analyze the performance of the gates and derive the success
 probabilities, gate times and gate errors (see Tab. \ref{tab:table1} in Appendix
-\ref{app:Borregaard_PRL2015}) The Hamiltonian in a proper rotating frame is (see
+\ref{app:Perturbative_theory}) The Hamiltonian in a proper rotating frame is (see
 \reffig{fig:levels})
 \begin{eqnarray} 
 \hat{H}&=&
@@ -163,7 +163,7 @@ nC}\right\}\label{eq:detunings}
 and $\hat{P}_{n}$ projects on the states with $n$ qubits in state $\ket{1}$. For
 simplicity, we have assumed that the auxiliary atom is identical to the qubit
 atoms such that $g_{f}=g$ and $\gamma_{f}=\gamma$ (see Appendix
-\ref{app:Borregaard_PRL2015} for a more general treatment) and we have defined
+\ref{app:Perturbative_theory} for a more general treatment) and we have defined
 the cooperativity $C=g^{2}/\gamma\kappa$.
 We consider the limit $C\gg1$ and from Eq.~\eqref{eq:detunings} we find that the
 energy shift, in the case when all qubit atoms are in $\ket{0}$, becomes very
@@ -191,14 +191,14 @@ conditioning on measuring the auxiliary atom in state $\ket{g}$ at the end of
 the gate, the detectable errors from cavity decay and spontaneous emission only
 reduce the success probability instead of reducing the fidelity. Consequently,
 the fidelity becomes limited by more subtle, undetectable errors (see
-Appendix \ref{app:Borregaard_PRL2015}). The dominant error originates from the
+Appendix \ref{app:Perturbative_theory}). The dominant error originates from the
 qubit dependent decay rate, $\Gamma_{n}$, of $\ket{g}\to\ket{f}$. As we
-demonstrate in Appendix \ref{app:Borregaard_PRL2015}), this leads to a fidelity lower bounded by $1-F
+demonstrate in Appendix \ref{app:Perturbative_theory}), this leads to a fidelity lower bounded by $1-F
 \lesssim 0.3/C$, with a success probability of $P_{\text{s}} \sim 1 -
 3/\sqrt{C}$. Thus is a substantial improvement over the leading error in the
 case of deterministic cavity-assisted gates. For generic states, the fidelity
 can even be markedly higher, and improving with increasing particle number $N$,
-see Appendix \ref{app:Borregaard_PRL2015}.
+see Appendix \ref{app:Perturbative_theory}.
 
 In the special case of only two qubits, the Toffoli gate is referred to as a
 CZ-gate, and in this case, we can even improve the gate to have an arbitrarily
@@ -231,7 +231,7 @@ $t_{\text{CZ}}\sim15\pi\sqrt{C}\gamma/(2\Omega^{2})$ for $C\gg1$. Since
 $t_{\text{CZ}}>t_{\text{T}}$ we focus on $t_{\text{CZ}}$. The gate time is set
 by the strength ($\Omega$) of the driving pulse, which is limited by
 non-adiabatic errors. This is investigated and we also verify our analytical
-results numerically in Appendix \ref{app:Borregaard_PRL2015}.
+results numerically in Appendix \ref{app:Numerical_simulations}.
 Assuming realistic parameters of $\kappa=100\gamma$ \cite{thompson,Tiecke}, we
 find that a driving of $\Omega=\sqrt{C}\gamma/4$ keeps the non-adiabatic error of the gate below
 $4\times 10^{-5}$ for $C\leq1000$. The gate times decreases as $1/\sqrt{C}$ as
@@ -325,7 +325,7 @@ $\mu$s for typical atomic decay rates and $C\lesssim1000$, see Appendix
 As an example implementation, we consider ultra-cold ${}^{87}$Rb atoms coupled
 to nanophotonic cavities~\cite{thompson,Tiecke}. There are some additional
 errors originating from the extra states in the ${}^{87}$Rb atoms in this case.
-In Appendix \ref{app:Borregaard_PRL2015}, we treat these errors and find that with a detuning of
+In Appendix \ref{app:Additional_errors}, we treat these errors and find that with a detuning of
 $\Delta_{E2}=100\gamma$ and a cooperativity of $C\approx100$, a heralded CZ gate
 with $\sim67\%$ success probability and a heralded error of $\approx 10^{-3}$
 can be realized in $\approx10$ $\mu$s time. This justifies neglecting atomic
