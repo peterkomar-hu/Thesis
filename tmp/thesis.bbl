@@ -42,6 +42,13 @@ Axel Andr\'{e}.
   and New Applications}.
 \newblock PhD thesis, Harvard University, 2005.
 
+\bibitem{Antezza2014}
+Mauro Antezza, Caterina Braggio, Giovanni Carugno, Antonio Noto, Roberto
+  Passante, Lucia Rizzuto, Giuseppe Ruoso, and Salvatore Spagnolo.
+\newblock {Optomechanical Rydberg-atom excitation via dynamic Casimir-Polder
+  coupling}.
+\newblock {\em Phys. Rev. Lett.}, 113:023601, 2014.
+
 \bibitem{Arcizet2006}
 O.~Arcizet, P.-F. Cohadon, T.~Briant, M.~Pinard, and A.~Heidmann.
 \newblock Radiation-pressure cooling and optomechanical instability of a
@@ -57,6 +64,12 @@ Markus Aspelmeyer, Tobias~J. Kippenberg, and Florian Marquardt.
 Markus Aspelmeyer and Keith Schwab.
 \newblock Focus on mechanical systems at the quantum limit.
 \newblock {\em New Journal of Physics}, 10:095001, 2008.
+
+\bibitem{Bariani2012}
+F~Bariani, Y~O Dudin, T.~A~B Kennedy, and A~Kuzmich.
+\newblock {Dephasing of multiparticle Rydberg excitations for fast entanglement
+  generation}.
+\newblock {\em Phys. Rev. Lett.}, 108:030501, 2012.
 
 \bibitem{Barnes1966}
 J.A. Barnes and D.W. Allan.
@@ -75,11 +88,6 @@ Almut Beige, Daniel Braun, Ben Tregenna, and Peter~L. Knight.
 \newblock {\em Phys. Rev. Lett.}, 85:1762--1765, 2000.
 
 \bibitem{blatt1}
-Jan Benhelm, Gerhard Kirchmair, Christian~F. Roos, and Rainer Blatt.
-\newblock Towards fault-tolerant quantum computing with trapped ions.
-\newblock {\em Nature Physics}, 4:463--466, 2008.
-
-\bibitem{Benhelm2008}
 Jan Benhelm, Gerhard Kirchmair, Christian~F. Roos, and Rainer Blatt.
 \newblock Towards fault-tolerant quantum computing with trapped ions.
 \newblock {\em Nature Physics}, 4:463--466, 2008.
@@ -113,6 +121,14 @@ D.~W. Berry, B.~L. Higgins, S.~D. Bartlett, M.~W. Mitchell, G.~J. Pryde, and
   H.~M. Wiseman.
 \newblock How to perform the most accurate possible phase measurements.
 \newblock {\em Phys. Rev. A}, 80:052114, 2009.
+
+\bibitem{Beterov2013}
+I.~I. Beterov, M.~Saffman, E.~A. Yakshina, V.~P. Zhukov, D.~B. Tretyakov, V.~M.
+  Entin, I.~I. Ryabtsev, C.~W. Mansell, C.~MacCormick, S.~Bergamini, and M.~P.
+  Fedoruk.
+\newblock {Quantum gates in mesoscopic atomic ensembles based on adiabatic
+  passage and Rydberg blockade}.
+\newblock {\em Phys. Rev. A}, 88(1):010303, July 2013.
 
 \bibitem{Bloom2013}
 B.~J. Bloom, T.~L. Nicholson, J.~R. Williams, S.~L. Campbell, M.~Bishof,
@@ -251,6 +267,12 @@ Darrick~E. Chang, Anders~S. S{\o}rensen, Eugene~A. Demler, and Mikhail~D.
 \newblock A single-photon transistor using nanoscale surface plasmons.
 \newblock {\em Nature Physics}, 3:807--812, 2007.
 
+\bibitem{Chen2010}
+Yu-Ao Chen, Xiao-Hui Bao, Zhen-Sheng Yuan, Shuai Chen, Bo~Zhao, and Jian-Wei
+  Pan.
+\newblock {Heralded Generation of an Atomic NOON State}.
+\newblock {\em Phys. Rev. Lett.}, 104(4):043601, January 2010.
+
 \bibitem{Cheung2011}
 H.~K. Cheung and C.~K. Law.
 \newblock Nonadiabatic optomechanical hamiltonian of a moving dielectric
@@ -297,6 +319,11 @@ J.~I. Cirac, P.~Zoller, H.~J. Kimble, and H.~Mabuchi.
 \newblock Quantum state transfer and entanglement distribution among distant
   nodes in a quantum network.
 \newblock {\em Phys. Rev. Lett.}, 78:3221--3224, 1997.
+
+\bibitem{Conover2011}
+C.~W~S Conover.
+\newblock {Effects of pulse shape on strongly driven two-level systems}.
+\newblock {\em Phys. Rev. A}, 84(December):1--15, 2011.
 
 \bibitem{Corbitt2007}
 Thomas Corbitt, Christopher Wipf, Timothy Bodiya, David Ottaway, Daniel Sigg,
@@ -399,6 +426,17 @@ Lu-Ming Duan, G.~Giedke, J.~I. Cirac, and P.~Zoller.
   states.
 \newblock {\em Phys. Rev. Lett.}, 84:4002--4005, 2000.
 
+\bibitem{Dudin2012}
+Y~O Dudin and A~Kuzmich.
+\newblock {Strongly interacting Rydberg excitations of a cold atomic gas.}
+\newblock {\em Science}, 336(6083):887--9, May 2012.
+
+\bibitem{Dudin2010}
+Y~O Dudin, A~G Radnaev, R~Zhao, J~Z Blumoff, T~A~B Kennedy, and A~Kuzmich.
+\newblock {Entanglement of light-shift compensated atomic spin waves with
+  telecom light}.
+\newblock {\em Phys. Rev. Lett.}, 105:260502, 2010.
+
 \bibitem{briegel2}
 W~D\"{u}r and H~J Briegel.
 \newblock Entanglement purification and quantum error correction.
@@ -408,6 +446,11 @@ W~D\"{u}r and H~J Briegel.
 W.~D\"{u}r, H.-J. Briegel, J.~I. Cirac, and P.~Zoller.
 \newblock Quantum repeaters based on entanglement purification.
 \newblock {\em Phys. Rev. A}, 59:169--181, 1999.
+
+\bibitem{Ebert2015}
+M.~Ebert, M.~Kwon, T.~G. Walker, and M.~Saffman.
+\newblock Coherence and rydberg blockade of atomic ensemble qubits.
+\newblock {\em Phys. Rev. Lett.}, 115:093601, Aug 2015.
 
 \bibitem{Eckstein1978}
 J.~N. Eckstein, A.~I. Ferguson, and T.~W. H\"ansch.
@@ -439,6 +482,12 @@ B.~M. Escher, R.~L. de~Matos~Filho, and L.~Davidovich.
   noisy quantum-enhanced metrology.
 \newblock {\em Nature Physics}, 7:406--411, 2011.
 
+\bibitem{Fang2011}
+Da-Wei Fang, Wei-Jun Xie, Yi~Zhang, Xiao Hu, and Yu-Yan Liu.
+\newblock Radiative lifetimes of rydberg state of ytterbium.
+\newblock {\em Journal of Quantitative Spectroscopy and Radiative Transfer},
+  69:469–473, 2001.
+
 \bibitem{Favero2009}
 Ivan Favero and Khaled Karrai.
 \newblock Optomechanics of deformable optical cavities.
@@ -456,6 +505,12 @@ Victor Fiore, Yong Yang, Mark~C. Kuzyk, Russell Barbour, Lin Tian, and Hailin
 \newblock Storing optical information as a mechanical excitation in a silica
   optomechanical resonator.
 \newblock {\em Phys. Rev. Lett.}, 107:133601, 2011.
+
+\bibitem{Firstenberg2013}
+Ofer Firstenberg, Thibault Peyronel, Qi-Yu Liang, Alexey~V Gorshkov, Mikhail~D
+  Lukin, and Vladan Vuleti\'{c}.
+\newblock {Attractive photons in a quantum nonlinear medium.}
+\newblock {\em Nature}, 502:71--5, 2013.
 
 \bibitem{Foresi1997}
 J.~S. Foresi, P.~R. Villeneuve, J.~Ferrera, E.~R. Thoen, G.~Steinmeyer, S.~Fan,
@@ -506,6 +561,13 @@ Nicolas Gisin, Gr\'egoire Ribordy, Wolfgang Tittel, and Hugo Zbinden.
 \newblock Quantum cryptography.
 \newblock {\em Rev. Mod. Phys.}, 74:145--195, 2002.
 
+\bibitem{Goerz2014}
+Michael~H Goerz, Eli~J Halperin, Jon~M Aytac, Christiane~P Koch, and K~Birgitta
+  Whaley.
+\newblock {Robustness of high-fidelity Rydberg gates with single-site
+  addressability}.
+\newblock {\em Phys. Rev. A}, 90:032329, 2014.
+
 \bibitem{grassi}
 M.~Grassl, Th. Beth, and T.~Pellizzari.
 \newblock Codes for the quantum erasure channel.
@@ -540,6 +602,12 @@ Klemens Hammerer, Anders~S. S\o{}rensen, and Eugene~S. Polzik.
 \newblock Quantum interface between light and atomic ensembles.
 \newblock {\em Rev. Mod. Phys.}, 82:1041--1093, 2010.
 
+\bibitem{Han2010}
+Yang Han, Bing He, Khabat Heshami, Cheng-Zu Li, and Christoph Simon.
+\newblock {Quantum repeaters based on Rydberg-blockade-coupled atomic
+  ensembles}.
+\newblock {\em Phys. Rev. A}, 81(5):052311, May 2010.
+
 \bibitem{Higgins2007}
 B.~L. Higgins, D.~W. Berry, S.~D. Bartlett, H.~M. Wiseman, and G.~J. Pryde.
 \newblock Entanglement-free heisenberg-limited phase estimation.
@@ -555,6 +623,12 @@ N.~Hinkley, J.~A. Sherman, N.~B. Phillips, M.~Schioppo, N.~D. Lemke, K.~Beloy,
   M.~Pizzocaro, C.~W. Oates, and A.~D. Ludlow.
 \newblock An atomic clock with $10^-{18}$ instability.
 \newblock {\em Science}, 341:1215--1218, 2013.
+
+\bibitem{Honjo2007}
+T~Honjo, H~Takesue, H~Kamada, Y~Nishida, O~Tadanaga, M~Asobe, and K~Inoue.
+\newblock {Long-distance distribution of time-bin entangled photon pairs over
+  100 km using frequency up-conversion detectors}.
+\newblock {\em Optics Express}, 15(21):13957, 2007.
 
 \bibitem{monroe2014}
 D.~Hucul, I.~V. Inlek, G.~Vittorini, C.~Crocker, S.~Debnath, S.~M. Clark, and
@@ -664,6 +738,11 @@ Ian~D. Leroux, Monika~H. Schleier-Smith, and Vladan
   Vuleti\ifmmode~\acute{c}\else \'{c}\fi{}.
 \newblock Implementation of cavity squeezing of a collective atomic spin.
 \newblock {\em Phys. Rev. Lett.}, 104:073602, 2010.
+
+\bibitem{Li2013}
+L.~Li, Y.~O. Dudin, and A.~Kuzmich.
+\newblock {Entanglement between light and an optical atomic excitation}.
+\newblock {\em Nature}, 498(7455):466--469, June 2013.
 
 \bibitem{Liao2012}
 Jie-Qiao Liao and C.~K. Law.
@@ -812,6 +891,12 @@ Thomas Monz, Philipp Schindler, Julio~T. Barreiro, Michael Chwalla, Daniel
 \newblock 14-qubit entanglement: Creation and coherence.
 \newblock {\em Phys. Rev. Lett.}, 106:130506, 2011.
 
+\bibitem{Muller2009}
+M.~M\"{u}ller, I.~Lesanovsky, H.~Weimer, H.~P. B\"{u}chler, and P.~Zoller.
+\newblock {Mesoscopic Rydberg Gate Based on Electromagnetically Induced
+  Transparency}.
+\newblock {\em Phys. Rev. Lett.}, 102(17):170502, April 2009.
+
 \bibitem{Muralidharan2015}
 Sreraman Muralidharan, Linshu Li, Jungsang Kim, Norbert L\"{u}tkenhaus,
   Mikhail~D. Lukin, and Liang Jiang.
@@ -825,6 +910,14 @@ T.~L. Nicholson, M.~J. Martin, J.~R. Williams, B.~J. Bloom, M.~Bishof, M.~D.
   $1\mathbf{\ifmmode\times\else\texttimes\fi{}}{10}^{-17}$ stability at
   ${10}^{3}\,\mathbf{s}$.
 \newblock {\em Phys. Rev. Lett.}, 109:230801, 2012.
+
+\bibitem{Nicholson2015}
+T.L. Nicholson, S.L. Campbell, R.B. Hutson, G.E. Marti, B.J. Bloom, R.L.
+  McNally, W.~Zhang, M.D. Barrett, M.S. Safronova, G.F. Strouse, W.L. Tew, and
+  J.~Ye.
+\newblock {Systematic evaluation of an atomic clock at $2 \times 10^{-18}
+  total$ uncertainty}.
+\newblock {\em Nature Communications}, 6:6896, 2015.
 
 \bibitem{nickerson}
 Naomi~H. Nickerson, Joseph~F. Fitzsimons, and Simon~C. Benjamin.
@@ -985,6 +1078,12 @@ Till Rosenband.
 \newblock Numerical test of few-qubit clock protocols.
 \newblock {\em arXiv:}, 1203.0288, 2012.
 
+\bibitem{Rubenok2013}
+A.~Rubenok, J.~A. Slater, P.~Chan, I.~Lucio-Martinez, and W.~Tittel.
+\newblock {Real-World Two-Photon Interference and Proof-of-Principle Quantum
+  Key Distribution Immune to Detector Attacks}.
+\newblock {\em Phys. Rev. Lett.}, 111(13):130501, September 2013.
+
 \bibitem{Rutman1978}
 J.~Rutman.
 \newblock Characterization of phase and frequency instabilities in precision
@@ -1003,6 +1102,12 @@ Amir~H Safavi-Naeini and Oskar Painter.
 \newblock Proposal for an optomechanical traveling wave phonon-photon
   translator.
 \newblock {\em New Journal of Physics}, 13:013017, 2011.
+
+\bibitem{Saffman2009}
+M.~Saffman and K.~M{\o}lmer.
+\newblock {Efficient multiparticle entanglement via asymmetric rydberg
+  blockade}.
+\newblock {\em Phys. Rev. Lett.}, 102(24):240502, June 2009.
 
 \bibitem{Saffman2010}
 M.~Saffman, T.~G. Walker, and K.~M{\o}lmer.
@@ -1100,6 +1205,16 @@ Bruce~W. Shore and Peter~L. Knight.
 \newblock The jaynes-cummings model.
 \newblock {\em Journal of Modern Optics}, 40:1195--1238, 1993.
 
+\bibitem{Shwa2013}
+David Shwa, Raphael~D. Cohen, Alex Retzker, and Nadav Katz.
+\newblock {Heralded generation of Bell states using atomic ensembles}.
+\newblock {\em Phys. Rev. A}, 88(6):063844, December 2013.
+
+\bibitem{Sorensen1999}
+Anders S{\o}rensen and Klaus M{\o}lmer.
+\newblock {Quantum computation with ions in thermal motion}.
+\newblock {\em Phys. Rev. Lett.}, 82(9):1971--1974, 1999.
+
 \bibitem{MSgate}
 Anders S\o{}rensen and Klaus M\o{}lmer.
 \newblock Entanglement and quantum computation with ions in thermal motion.
@@ -1190,6 +1305,22 @@ E.~Togan, Y.~Chu, A.~S. Trifonov, L.~Jiang, J.~Maze, L.~Childress, M.~V.~G.
   qubit.
 \newblock {\em Nature}, 466:730--734, 2010.
 
+\bibitem{Topcu2015}
+Turker Topcu.
+\newblock {\em in preparation}.
+
+\bibitem{Topcu2013}
+Turker Topcu and Andrei Derevianko.
+\newblock {Intensity landscape and the possibility of magic trapping of
+  alkali-metal Rydberg atoms in infrared optical lattices}.
+\newblock {\em Phys. Rev. A}, 88(4):043407, October 2013.
+
+\bibitem{Topcu2014}
+Turker Topcu and Andrei Derevianko.
+\newblock {Divalent Rydberg atoms in optical lattices: Intensity landscape and
+  magic trapping}.
+\newblock {\em Phys. Rev. A}, 89(2):023411, February 2014.
+
 \bibitem{ddc}
 G\"otz~S. Uhrig.
 \newblock Keeping a quantum bit alive by optimized $\ensuremath{\pi}$-pulse
@@ -1230,6 +1361,19 @@ Herbert Walther, Benjamin T~H Varcoe, Berthold-Georg Englert, and Thomas
   Becker.
 \newblock Cavity quantum electrodynamics.
 \newblock {\em Reports on Progress in Physics}, 69:1325, 2006.
+
+\bibitem{Weber2015}
+T.~M. Weber, M.~H\"{o}ning, T.~Niederpr\"{u}m, T.~Manthey, O.~Thomas,
+  V.~Guarrera, M.~Fleischhauer, G.~Barontini, and H.~Ott.
+\newblock {Mesoscopic Rydberg-blockaded ensembles in the superatom regime and
+  beyond}.
+\newblock {\em Nature Physics}, 11(January):157--161, January 2015.
+
+\bibitem{Weimer2010}
+Hendrik Weimer, Markus M\"{u}ller, Igor Lesanovsky, Peter Zoller, and
+  Hans~Peter B\"{u}chler.
+\newblock A rydberg quantum simulator.
+\newblock {\em Nature Physics}, 6:382--388, 2010.
 
 \bibitem{Weis2010}
 Stefan Weis, R\'{e}mi Rivi\`{e}re, Samuel Del\'{e}glise, Emanuel Gavartin,
@@ -1299,6 +1443,11 @@ Mian Zhang, Gustavo~S. Wiederhecker, Sasikanth Manipatruni, Arthur Barnard,
   Paul McEuen, and Michal Lipson.
 \newblock Synchronization of micromechanical oscillators using light.
 \newblock {\em Phys. Rev. Lett.}, 109:233906, 2012.
+
+\bibitem{Zhao2010}
+Bo~Zhao, Markus M\"{u}ller, Klemens Hammerer, and Peter Zoller.
+\newblock {Efficient quantum repeater based on deterministic Rydberg gates}.
+\newblock {\em Phys. Rev. A}, 81(5):052329, May 2010.
 
 \bibitem{zheng}
 Shi-Biao Zheng.

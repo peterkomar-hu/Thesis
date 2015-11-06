@@ -11,7 +11,7 @@ The current record in clock precision is held by ytterbium and strontium clocks
 \cite{Ludlow2015}, capable of reaching $\sim 10^{-18}$ total fractional
 frequency uncertainty. Apart from the enormous amount of effort and innovation,
 this unprecedented accuracy was attainable due to the large number of clock
-atoms ($10^3-10^4$) \cite{Hinkley2013, Bloom2014, Nicholson2015}.
+atoms ($10^3-10^4$) \cite{Hinkley2013, Bloom2013, Nicholson2015}.
 In our recent work \cite{Komar2014}, we showed that a quantum network of atomic
 clocks can result in substantial boost of the overall accuracy if multiple
 clocks are connected in quantum entanglement. The proposed globally entangled
@@ -26,7 +26,7 @@ Imperfections during creation of the GHZ state are the main obstacles for
 experimental realizations of a quantum clock network. Errors arising during the
 distribution of entanglement add up, and limit the total number of atoms and
 clocks with which the fidelity does not drop significantly. Efforts are being
-made to make both the non-local \cite{Sangouard2011} and local entanglement
+made to make both the non-local \cite{sangouard3} and local entanglement
 distribution \cite{Sorensen1999, Saffman2010} faster and more reliable. Of
 particular interest are applications of these ideas to neutral atom clocks.
 
@@ -154,7 +154,7 @@ $t_j$ and $t_k$.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 In the third step, pairs of time-bin encoded photon pulses from two neighboring
 ensembles are detected by interfering the two pulses on a beam splitter and
-measuring two-photon coincidences \cite{Duan2001, Honjo2007, Rubenok2013}.
+measuring two-photon coincidences \cite{duan3, Honjo2007, Rubenok2013}.
 As a result, entangled states between neighboring atomic ensembles, $k$ and
 $k+1$, are created \cite{Lukin2003, Shwa2013},
 \bel
@@ -323,7 +323,7 @@ $r_1, r_2$ need to be created via two-photon transitions. We imagine the atoms
 being held in position by a 2D or 3D optical lattice with period $a =
 275.75~\mathrm{nm}$, each potential minimum holding a single Yb atom. (The lattice
 intensity can be modulated during the Rydberg state excitation
-\cite{Tiecke2014}.)  (We found that the performance difference between the 2D
+\cite{Tiecke}.)  (We found that the performance difference between the 2D
 and 3D lattice is less than a factor of two. See Appendix \ref{app:clock_precision}.)
 % The quantization axis is set perpendicular to the plane of
 % the lattice, which ensures that the dipole-dipole interaction between
@@ -403,7 +403,7 @@ clock network and a non-entangled network, and find an optimal entangled atom
 number $N_\mathrm{opt}$ by maximizing the precision gain over the non-entangled
 scheme,
 \bel
-\label{eq:gain}
+\label{eq:gainKomar2015}
 	G = \frac{\sigma_\mathrm{non-ent}}{\sigma_\mathrm{ent}/(2F-1)} =
 	e^{-EN}\frac{\pi}{8}\sqrt{\frac{N}{\log N}},
 \eel 
@@ -417,7 +417,7 @@ The additional factor of $2F-1 = e^{-EN}$ is due to the reduced Fisher
 information of a non-pure GHZ state, where $E$ is the error per atom and $F$
 is the fidelity of the initial state.
 (See supplementary materials for details.) For $E = E_\mathrm{min} = 6.7\times
-10^{-5}$, \refeq{eq:gain} is maximal at $N_\mathrm{opt} \approx
+10^{-5}$, \refeq{eq:gainKomar2015} is maximal at $N_\mathrm{opt} \approx
 1/(2E_\mathrm{min}) \approx 7500$, where $G_\mathrm{max} = 6.9$, and $F =
 [1+e^{-N_\mathrm{opt} E_\mathrm{min}}]/2 = 0.82$.
 

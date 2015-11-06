@@ -24,7 +24,7 @@
 \usepackage{dcolumn}% Align table columns on decimal point
 \usepackage{bm}% bold math
 \usepackage{color}
-\usepackage{hyperref}% add hypertext capabilities
+\usepackage[hidelinks]{hyperref}% add hypertext capabilities
  
 %% choose which files to process
 %% stolen from the mitthesis suite
@@ -73,12 +73,12 @@
 \include{app_Komar2014} 
 \include{app_Komar2015} 
 
-\bibliography{bibs}  
 % bibliography:
 % if it does not compile automatically, move it out of the \ssp brackets,
 % compile, then move it back
 {\ssp % single-spacing
 
+\bibliography{bibs}  
 
 }
 

@@ -17,35 +17,11 @@ A level-1 auxiliary file: app_Kessler2014.aux
 A level-1 auxiliary file: app_Komar2014.aux
 A level-1 auxiliary file: app_Komar2015.aux
 Database file #1: bibs.bib
-Warning--I didn't find a database entry for "Bloom2014"
-Warning--I didn't find a database entry for "Nicholson2015"
-Warning--I didn't find a database entry for "Sangouard2011"
-Warning--I didn't find a database entry for "Sorensen1999"
-Warning--I didn't find a database entry for "Dudin2012"
-Warning--I didn't find a database entry for "Dudin2010"
-Warning--I didn't find a database entry for "Ebert2015"
-Warning--I didn't find a database entry for "Muller2009"
-Warning--I didn't find a database entry for "Zhao2010"
-Warning--I didn't find a database entry for "Han2010"
-Warning--I didn't find a database entry for "Goerz2014"
-Warning--I didn't find a database entry for "Chen2010"
-Warning--I didn't find a database entry for "Bariani2012"
-Warning--I didn't find a database entry for "Firstenberg2013"
-Warning--I didn't find a database entry for "Antezza2014"
-Warning--I didn't find a database entry for "Weber2015"
-Warning--I didn't find a database entry for "Topcu2013"
-Warning--I didn't find a database entry for "Beterov2013"
-Warning--I didn't find a database entry for "Topcu2014"
-Warning--I didn't find a database entry for "Li2013"
-Warning--I didn't find a database entry for "Duan2001"
-Warning--I didn't find a database entry for "Honjo2007"
-Warning--I didn't find a database entry for "Rubenok2013"
-Warning--I didn't find a database entry for "Shwa2013"
-Warning--I didn't find a database entry for "Saffman2009"
-Warning--I didn't find a database entry for "Weimer2010"
-Warning--I didn't find a database entry for "Tiecke2014"
-Warning--I didn't find a database entry for "Conover2011"
-Warning--I didn't find a database entry for "Fang2011"
-Warning--I didn't find a database entry for "Topcu2015"
+Repeated entry---line 2090 of file bibs.bib
+ : @article{Jiang2007
+ :                   ,
+I'm skipping whatever remains of this entry
 Warning--empty title in bennett2
-(There were 31 warnings)
+Warning--empty title in Topcu2015
+Warning--empty year in Topcu2015
+(There was 1 error message)
