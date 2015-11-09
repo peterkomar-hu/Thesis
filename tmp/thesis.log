@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.30)  6 NOV 2015 12:54
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.30)  9 NOV 2015 12:25
 entering extended mode
 **thesis.tex
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.tex
@@ -453,7 +453,7 @@ Overfull \hbox (0.71802pt too wide) detected at line 8
  [13
 
 ]
-Overfull \hbox (7.22266pt too wide) in paragraph at lines 90--105
+Overfull \hbox (7.22266pt too wide) in paragraph at lines 78--93
 [][]\OT1/cmr/m/n/12 Chapter []2[]: ``Single-photon non-lin-ear-i-ties in two-mo
 de op-tome-chan-ics,'' P. Komar,
  []
@@ -472,7 +472,7 @@ Chapter 2.
 
 
 
-] [12] <./figs_Komar2013/fig1a.pdf, id=1461, 277.06645pt x 91.14539pt>
+] [12] <./figs_Komar2013/fig1a.pdf, id=1460, 277.06645pt x 91.14539pt>
 File: ./figs_Komar2013/fig1a.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig1a.pdf>
@@ -480,7 +480,7 @@ Package pdftex.def Info: ./figs_Komar2013/fig1a.pdf used on input line 193.
 (pdftex.def)             Requested size: 281.85034pt x 92.7195pt.
  [13] [14 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig1a.pdf>
 ]
-<./figs_Komar2013/fig1b.pdf, id=1495, 248.0871pt x 191.52805pt>
+<./figs_Komar2013/fig1b.pdf, id=1494, 248.0871pt x 191.52805pt>
 File: ./figs_Komar2013/fig1b.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig1b.pdf>
@@ -488,21 +488,21 @@ Package pdftex.def Info: ./figs_Komar2013/fig1b.pdf used on input line 387.
 (pdftex.def)             Requested size: 260.17464pt x 200.87656pt.
  [15] [16 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig1b.pdf>
 ]
-<./figs_Komar2013/fig2a.pdf, id=1520, 560.30429pt x 272.51791pt>
+<./figs_Komar2013/fig2a.pdf, id=1519, 560.30429pt x 272.51791pt>
 File: ./figs_Komar2013/fig2a.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig2a.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig2a.pdf used on input line 539.
 (pdftex.def)             Requested size: 346.89731pt x 168.72649pt.
  [17]
-<./figs_Komar2013/fig2b.pdf, id=1531, 560.22202pt x 272.24301pt>
+<./figs_Komar2013/fig2b.pdf, id=1530, 560.22202pt x 272.24301pt>
 File: ./figs_Komar2013/fig2b.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig2b.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig2b.pdf used on input line 560.
 (pdftex.def)             Requested size: 346.89731pt x 168.57706pt.
 
-<./figs_Komar2013/fig2c.pdf, id=1536, 542.40546pt x 264.25725pt>
+<./figs_Komar2013/fig2c.pdf, id=1535, 542.40546pt x 264.25725pt>
 File: ./figs_Komar2013/fig2c.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig2c.pdf>
@@ -511,7 +511,7 @@ Package pdftex.def Info: ./figs_Komar2013/fig2c.pdf used on input line 580.
  [18 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig2a.pdf>] [19
  <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig2b.pdf> <C:/Doc/
 Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig2c.pdf>] [20] [21]
-<./figs_Komar2013/fig2d.pdf, id=1660, 544.45908pt x 201.70355pt>
+<./figs_Komar2013/fig2d.pdf, id=1659, 544.45908pt x 201.70355pt>
 File: ./figs_Komar2013/fig2d.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig2d.pdf>
@@ -530,28 +530,28 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 924.
 
-[23] <./figs_Komar2013/fig3.pdf, id=1694, 578.16pt x 289.08pt>
+[23] <./figs_Komar2013/fig3.pdf, id=1693, 578.16pt x 289.08pt>
 File: ./figs_Komar2013/fig3.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig3.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig3.pdf used on input line 1060.
 (pdftex.def)             Requested size: 346.89731pt x 173.44933pt.
  [24]
-<./figs_Komar2013/fig4a.pdf, id=1707, 295.71075pt x 169.91606pt>
+<./figs_Komar2013/fig4a.pdf, id=1706, 295.71075pt x 169.91606pt>
 File: ./figs_Komar2013/fig4a.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig4a.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig4a.pdf used on input line 1135.
 (pdftex.def)             Requested size: 346.89731pt x 199.34285pt.
 
-<./figs_Komar2013/fig4b.pdf, id=1708, 243.12793pt x 155.26582pt>
+<./figs_Komar2013/fig4b.pdf, id=1707, 243.12793pt x 155.26582pt>
 File: ./figs_Komar2013/fig4b.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig4b.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig4b.pdf used on input line 1149.
 (pdftex.def)             Requested size: 346.89731pt x 221.53563pt.
 
-<./figs_Komar2013/fig4c.pdf, id=1709, 243.12793pt x 155.26582pt>
+<./figs_Komar2013/fig4c.pdf, id=1708, 243.12793pt x 155.26582pt>
 File: ./figs_Komar2013/fig4c.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig4c.pdf>
@@ -561,21 +561,21 @@ Package pdftex.def Info: ./figs_Komar2013/fig4c.pdf used on input line 1167.
 <C:/Doc/Harvard/graduation/Thesis/TheThesis/figs_Komar2013/fig4a.pdf> <C:/Doc/H
 arvard/graduation/Thesis/TheThesis/figs_Komar2013/fig4b.pdf>] [27 <C:/Doc/Harva
 rd/graduation/Thesis/TheThesis/figs_Komar2013/fig4c.pdf>] [28] [29] [30] [31]
-<./figs_Komar2013/fig5a.pdf, id=1938, 657.45625pt x 361.35pt>
+<./figs_Komar2013/fig5a.pdf, id=1937, 657.45625pt x 361.35pt>
 File: ./figs_Komar2013/fig5a.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig5a.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig5a.pdf used on input line 1511.
 (pdftex.def)             Requested size: 390.25534pt x 214.4959pt.
 
-<./figs_Komar2013/fig5b.pdf, id=1939, 657.45625pt x 361.35pt>
+<./figs_Komar2013/fig5b.pdf, id=1938, 657.45625pt x 361.35pt>
 File: ./figs_Komar2013/fig5b.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig5b.pdf>
 Package pdftex.def Info: ./figs_Komar2013/fig5b.pdf used on input line 1512.
 (pdftex.def)             Requested size: 390.25534pt x 214.4959pt.
 
-<./figs_Komar2013/fig6.pdf, id=1948, 492.84125pt x 361.35pt>
+<./figs_Komar2013/fig6.pdf, id=1947, 492.84125pt x 361.35pt>
 File: ./figs_Komar2013/fig6.pdf Graphic file (type pdf)
 
 <use ./figs_Komar2013/fig6.pdf>
@@ -1808,7 +1808,7 @@ nts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Petya/AppData/Roaming/MiKTeX/
 2.9/fonts/type1/public/dstroke/dsrom12.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/symbols/msam10.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/a
 msfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (317 pages, 9281511 bytes).
+Output written on thesis.pdf (317 pages, 9281496 bytes).
 PDF statistics:
  11053 PDF objects out of 12825 (max. 8388607)
  1200 named destinations out of 1200 (max. 500000)
