@@ -31,14 +31,14 @@ efficiently computable fueled the field of Quantum Computing. In Chapters
 capabilities of nano-scale optomechanical systems to perform coherent logical
 operations, the elemental steps of quantum computation.
 
-Protocols that
-rely on entanglement to distribute secret keys between distant parties with
-perfect security, which relies on fundamental physical limitation rather than
-computational complexity, are the main focus of Quantum Communication. In
-Chapters \ref{ch:Borregaard_PRL2015} and \ref{ch:Borregaard_PRA2015}, we
-describe how a system consisting of a few atoms isolated in an optical cavity can be used to realize a quantum gate with
-integrated error detection, and we analyze its usefulness in a quantum
-communication setup.
+Protocols that rely on entanglement to distribute secret keys between distant
+parties are the main focus of Quantum Communication. Their security is based on
+fundamental physical limitations, rather than practical one due to
+computational complexity.
+In Chapters \ref{ch:Borregaard_PRL2015} and \ref{ch:Borregaard_PRA2015}, we
+describe how a system consisting of a few atoms isolated in an optical cavity
+can be used to realize a quantum gate with integrated error detection, and we
+analyze its usefulness in a quantum communication setup.
 
 The idea of preparing a detector in a quantum
 superposition in order to focus its sensitivity to the quantity of interest is
@@ -82,12 +82,12 @@ non-linear parametric coupling between light intensity and mechanical motion
 two optical cavities and a mechanical oscillator interacting through this
 coupling. We find that if the system is driven by a weak laser pulse (accurately
 described by a Poisson-process of photon arrivals), the output light exhibits
-super- and sub-Poissonian characteristics.
-We find that if the system is properly tuned, such that the energy difference
-between the two optical modes is bridged by the mechanical mode, and it is
-sufficiently cooled down, such that it is in its ground state for the majority
-of the time, then we can use the photons leaving the output port to herald the
-creation of a single mechanical excitation.
+super- and sub-Poissonian characteristics. We find that if the system is
+properly tuned, and is sufficiently cooled down, then it can be used for
+coherent quantum operations.
+If the energy difference between the two optical modes is bridged by the
+mechanical mode, then we can use the photons leaving the output port to herald
+the creation of a single mechanical excitation.
 
 Using oscillators as quantum registers in a future quantum computer requires
 them to be anharmonic \cite{Majer2007}. This is because consecutive levels of an
@@ -96,8 +96,8 @@ it possible to address transitions independently. The inherent
 non-linearity of the optomechanical coupling holds the promise of rendering the
 coupled oscillator system sufficiently anharmonic for computational tasks. In
 Chapter \ref{ch:Stannigel2012}, we propose a quantum logic architecture based on
-coupled optomechanical components. We find that, with sufficiently strong
-cooling, the system exhibits non-classical behaviors and is able to store
+coupled optomechanical components. We find that, under sufficiently strong
+cooling, the system exhibits non-classical behavior and is able to store
 information and perform logic gates on the qubits.
 
 
@@ -132,8 +132,8 @@ called Purcell-enhancement.
 Once such strong interaction is demonstrated, the prospect of using these
 systems for coherent quantum logic operations becomes realistic. In Chapter
 \ref{ch:Borregaard_PRL2015}, we consider a model of three atoms placed inside
-and coupled by a single optical cavity. We show that, with tailored driving pulses
-and a proper choice of atomic levels, this system can perform a controlled-NOT
+and coupled by a single optical cavity. We show that with tailored driving pulses
+and a proper choice of atomic levels this system can perform a controlled-NOT
 operation on two of the atoms and can be made tolerant to the dominating error,
 caused by the loss of a photon, by post-selecting on the state of the third
 atom.
@@ -157,12 +157,12 @@ therefore it necessarily discards essential information about its quantum state.
 Overcoming the attenuation problem in quantum channels requires using more
 resources. The scheme of quantum repeaters consists of repeater stations placed
 between the sender and the receiver \cite{bennett2, bennett, duan3}.
-These stations, instead of relaying the information forwards, create pairwise
-entanglement with their neighbors using direct photon transmission via the
-fibers which are much shorter than the total length. Once all entangled pairs
+These stations, instead of relaying the information forward, create pairwise
+entanglement with their neighbors using direct photon transmission via 
+fibers, which are much shorter than the total length. Once all entangled pairs
 are heralded, each station performs a local quantum logic operation between the
-two pairs they have access to. This is called entanglement connection, resulting in
-entanglement between the two outermost parties. An alternative solution 
+two pairs that they have access to. This is called entanglement connection,
+resulting in entanglement between the two outermost parties. An alternative solution 
 encodes the information in states of a many-photon pulse, and applies periodic
 quantum error-correction along its way \cite{Muralidharan2015}.
 
@@ -177,10 +177,10 @@ performance for total distances of $\sim 100-1000\,\mathrm{km}$.
 
 \section{Atomic Clocks and Quantum Metrology}
 Currently, atomic clocks are the best time-keeping devices. They are
-used to create and, in many cases, to broadcast a precise time and
+used to create and broadcast a precise time and
 frequency standard. The workings of atomic clocks rely on two main components: the
 reference oscillator, realized by an isolated, narrow-linewidth electromagnetic
-transition of an atomic species \cite{Derevianko2011}; and the slaved
+transition of an atomic species, \cite{Derevianko2011} and the slaved
 oscillator, the microwave or optical source of a strong, coherent field. The
 clock keeps time by periodically interrogating the atoms with the field of the
 slaved oscillator (laser), and measuring the deviation of their frequencies.
@@ -191,7 +191,7 @@ field, which serves as the clock signal \cite{Diddams2004}.
 The accuracy of an atomic clock, characterized by the average fractional
 frequency deviation, the Allan-deviation \cite{Allan1966, Rutman1978}, is
 determined by several factors. Employing higher atomic reference frequency,
-longer interrogation cycles, longer averaging time and more atoms all improve
+longer interrogation cycles, longer averaging time and more atoms improve
 the overall accuracy. Consequently, there are many independent ways to improve
 the accuracy:
 Choosing an atomic transition with optical frequency, instead of microwave,
@@ -214,12 +214,14 @@ by projection noise. This limit is called the ``Standard Quantum Limit''. It
 originates from the inherent uncertainty of a single two-level system prepared in superposition \cite{Santarelli1998}.
  
 The Standard Quantum Limit describes the limit of precision if all atoms are
-prepared and measured independently, or as an uncorrelated ensemble, but it is
-higher than the fundamental quantum limit, due to Heisenberg uncertainty, which
-predicts $\propto N^{-1}$ scaling of the precision with increasing atom number
-$N$ \cite{Hall2012}. This gap between the two limits, and proposals trying to
-close it, incorporate the central topic of Quantum Metrology
-\cite{Giovanetti2011, Escher:2011fn}. By preparing the collection of atoms in an
+prepared and measured independently, or as an uncorrelated ensemble. Although it
+is accurate in most cases, it is higher than the fundamental quantum limit, due
+to Heisenberg uncertainty. The latter predicts $\propto N^{-1}$ scaling of the
+precision with atom number $N$ \cite{Hall2012}. The gap between the
+two limits, and proposals trying to close it, is the main focus of
+Quantum Metrology \cite{Giovanetti2011, Escher:2011fn}.
+
+By preparing the collection of atoms in an
 entangled state, the subsequent measurement will have lower uncertainty and will
 provide more information about the detuning of the laser frequency from the
 atomic reference. States such as squeezed states \cite{Andre2004,
