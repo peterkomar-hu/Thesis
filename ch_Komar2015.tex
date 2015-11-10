@@ -421,24 +421,31 @@ is the fidelity of the initial state.
 1/(2E_\mathrm{min}) \approx 7500$, where $G_\mathrm{max} = 6.9$, and $F =
 [1+e^{-N_\mathrm{opt} E_\mathrm{min}}]/2 = 0.82$.
 
-Given that the optimal number of atoms at each clock is $n_\mathrm{opt} \approx
-300$, the optimal number of clocks is $K_\mathrm{opt} = N_\mathrm{opt} /
-n_\mathrm{opt} \approx 22$. We can entangle 22 clocks, each consisting of $\sim
-300$ atoms, and gain about  a factor of $\sim 7$ in terms of clock precision
-over the classical scheme. If multiples of 7500 atoms are available, then the
-best way to utilize them is to create multiple independent GHZ states (either in
-a single clock or in a network), and combine the measurement results
-classically. The overall gain of a factor of $7$ means that we can use $50$
-times less atoms to reach the same precision as any non-entangled clock
-(network). 
+% Given that the optimal number of atoms at each clock is $n_\text{opt} \approx
+% 300$, the optimal number of clocks is $K_\text{opt} = N_\text{opt} /
+% n_\text{opt} \approx 22$. We can entangle 22 clocks, each consisting of $\sim
+% 300$ atoms, and gain about  a factor of $\sim 7$ in terms of clock precision
+% over the classical scheme. If multiples of 7500 atoms are available, then the
+% best way to utilize them is to create multiple independent GHZ states (either in
+% a single clock or in a network), and combine the measurement results
+% classically. The overall gain of a factor of $7$ means that we can use $50$
+% times less atoms to reach the same precision as any non-entangled clock
+% (network).
 
-We note that the same construction can be imagined
-with distinct atomic ensembles in a single vacuum chamber. The ensembles can be
-brought into entanglement using either the same method of two-photon emission
-and detection, or moving a single Rydberg atom close to each ensemble, and
-sequentially entangling them through blockade. We estimate the errors to be
-similar (see Appendix \ref{app:Multiple_local_ensembles}), resulting in the same optimal GHZ size
-and gain.
+The above optimum is achieved by 7500 atoms distributed in $K_\mathrm{opt} =
+N_\mathrm{opt}/n_\mathrm{opt} \approx 22$ clocks. Since current lattice clocks can
+employ $10^3-10^4$ atoms, we can imagine entangling this many atoms in
+a single vacuum chamber. With realistic atom densities, the atoms need to be
+separated into $\sim 10^2$ ensembles, for efficient Rydberg blockade. We imagine
+using an individually addressed ``messenger'' atom, that can be moved to the
+vicinity of each ensemble, and can be brought to entanglement with them using
+dipole-dipole interaction.
+(See Supplementary for more details.) Such a scheme is free from imperfections
+affection the photons in the previous scheme, and thus can reach a higher
+fidelity for a given number of atoms, or use more atoms to achieve a higher
+gain. We find that, at the optimum, the gain over the classical scheme is $\sim
+14$, twice the gain of the network scheme.
+
 
 % Any additional clocks or atoms we are
 % better off using to create copies of this construction, running them in

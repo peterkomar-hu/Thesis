@@ -1,6 +1,36 @@
 \chapter{Appendices for Chapter \ref{ch:Komar2015}}
 \label{app:Komar2015}
 
+\section{Overview of optimization}
+In section \ref{app:clock_precision}, we show that the figure of merit, the
+precision gain with respect to non-entangled schemes, can be written as
+\bel
+\label{eq:G_first}
+	G(N,E) = \frac{\pi}{8}e^{-E N}\sqrt{\frac{N}{\log N}},
+\eel
+where $N$ is the total number of entangled atoms in the global GHZ state, and
+$E = E(n,\Delta,\omega)$ is the total error (contrast loss) divided by the total
+number of atoms. $E$ depends on the number of atoms at a single clock, $n$, and the
+detuning and Rabi-frequency of the dressing field used for local entanglement
+growing.
+
+We seperate out the
+minimization of $E$ (through finding the optimal $n, \Delta, \omega$
+parameters), and the maximization of $G$ (through finding the optimal $N$). In
+other words, we find
+\bel
+	G_\mathrm{max} = \max_N \,G\left(N,\,\min_{n,\Delta,\omega} E\right).
+\eel
+This two-step procedure gives identical results to the full optimization,
+\bel
+	G_\mathrm{max} = \max_{N,n,\Delta,\omega} G\Big(N, E(n,\Delta,\omega)\Big),
+\eel
+bacause both the maximum of $G$ and the optimal value of $N$ is
+monotonically decreasing function of $E$, for large $N$ (as can be read off from
+\refeq{eq:G_first}).
+We choose the two-step precedure because it is easier to carry out and
+interpret.
+
 
 \section{Local entangling errors}
 \label{app:local_entanging_errors}
@@ -1015,31 +1045,65 @@ For $\tilde n = 120$, the gain is $G_\mathrm{max} = 4.3$ (2D) and $6.9$ (3D).
 
 \section{Multiple local ensembles}
 \label{app:Multiple_local_ensembles}
-Although, in the rest of the paper, we assume that ensembles are separated such
+Although, in the rest of the work, we assume that ensembles are separated such
 that we need to use photons to generate entanglement between them, one can
 imagine employing multiple atomic ensembles in the same vacuum chamber. With
 proper optical control, this allows entangling the ensembles by moving a single
 Rydberg atom to the vicinity of each ensemble sequentially, such that the its
-blockade radius covers one the of clouds entirely.
+blockade radius covers one of the clouds entirely.
+
+Staring from the state
+\bel
+	\ket{g}^{
+	nK}\big(\ket{s} + \ket{r_2}\big),
+\eel
+where the first $nK$ ket stand for the state of all atoms in the $K$
+ensembles (each having $n$ atoms), and the last one represents the state of the
+messenger atom. In a sequence, we imagine the messenger atom to be brought to
+the vicinity of each ensemble, and the pulse sequence $[\pi/2]_{g,f},
+[\pi(\Delta)]_{f,r1}, [\pi/2]_{g,f}$ (where $[\pi(\Delta)]_{f,r1}$ is the same
+dressing field as described in the main text), performs a collective flip
+conditioned on the state of the messenger atom. This plays out as follows
+\bal
+&&\rightarrow\ket{g}^{n(K-1)}\Big(\ket{f}^n\ket{s} + \ket{g}^n\ket{r_2}\Big)
+\\
+&&\rightarrow\ket{g}^{n(K-2)}\Big(\ket{f}^{2n}\ket{s} +
+\ket{g}^{2n}\ket{r_2}\Big)
+\\
+&&\vdots
+\\
+&&\rightarrow \Big(\ket{f}^{Kn}\ket{s} + \ket{g}^{Kn}\ket{r_2}\Big),
+\eal
+which then only requires the messenger atom to be measured in the $\ket{\pm} =
+(\ket{s} \pm \ket{r_2})$ basis, resulting in 
+\bel
+	\rightarrow \ket{f}^{Kn} \pm \ket{g}^{Kn},
+\eel
+the global GHZ state.
 
 Disregarding the technical difficulties of trapping multiple atomic ensembles in
 the same vacuum chamber, this entangling method has a higher fidelity than the
 previous, photon-based, protocol, since it does not suffer from the errors
 affecting the photon emission, propagation and detection. We model the
 imperfections of this scheme by summing the error terms $\eps_1 + \eps_2 +
-\eps_3 + \eps_4 + \eps_5$ only (from Eq.
-(\ref{eq:f1}), (\ref{eq:f2}), (\ref{eq:f3}), (\ref{eq:f4}), (\ref{eq:f5})).
+\eps_3 + \eps_4$ only (from Eq.
+(\ref{eq:f1}), (\ref{eq:f2}), (\ref{eq:f3}), (\ref{eq:f4})).
 
-In both the 2D and the 3D case the error from the imperfect branching ratio
-($e_8$) makes up $30-40\%$ of the total error, and $e_6$ and $e_7$ are
-negligible. This translates to a $\sim 30\%$ decrease in total error per atom
-($E_\mathrm{one}$), which makes the final gain $G$ about $10\%$ higher.
+If the different ensembles are stored in different parts of a 3D lattice, and we
+disregard the errors that can occur during the transport of the messenger
+atom, then we can optimize the total error per atom $E = e_1 + e_2 + e_3 + e_4$.
+Without constraints this would suggest $n = 1$ (i.e. each ensemble containing a
+single atom), and very high $\Omega$ and $\Delta$ values. Instead of this
+unrealistic result, we optimize $E$ for a fixed $n = 100$, which is a realistic
+ number of atoms that can fit inside the blockade radius in
+current atomic lattice clocks.
 
-This means that if the total number of available atoms in a single vacuum
-chamber is higher than $n_\mathrm{opt}$, then the best strategy is to create
-multiple ensembles of size $n_\mathrm{opt}$ in the chamber, and entangle them with
-the above described operation.
-The gain is still a factor of $\sim 8$ on top of any classical scheme.
+For principle quantum number $\tilde n = 120$ and for fixed $n = 100$, we find
+$\omega = 4.4\times 10^5$, $\delta = 3.1\times 10^5$ and $E_\mathrm{min} = 1.49\times 10^{-5}$, which translates to
+$G_\mathrm{max} = 13.5$ for $N_\mathrm{max} = 3\times 10^5$ and $K_\mathrm{opt}
+\approx 300$. This means that if we can employ enough atoms in a single clock,
+than the overall gain factor $G$ can be improved by a factor of 2, compared to
+the network realization.
 
 
 \section{Calculating $\mathrm{Var}(\phi_{j,k})$}
