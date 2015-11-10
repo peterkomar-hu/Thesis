@@ -80,7 +80,10 @@ performs a local CNOT operation to connect the two collective excitations. The
 result is a set of $K$ entangled collective excitations, one in each clock,
 which serve as "seeds" for a global GHZ state.
 In the fifth, and final, step the clocks locally "grow" a GHZ state out of each
-seed, and thus a global GHZ state is obtained. In the following, we provide detailed description and analysis of these five steps, discuss the specific realization in Yb atoms and analyze most important sources of imperfections and errors. 
+seed, and thus a global GHZ state is obtained. In the following, we provide
+detailed description and analysis of these five steps, discuss the specific
+realization in Yb atoms and analyze the most important sources of imperfections
+and errors.
 
 
 
@@ -145,7 +148,7 @@ separated light pulses, which are entangled with the two spin waves,
 	\Big)
 \label{eq:step2}
 \eal
-where $\ket{t_j}\ket{t_k}$ is a two photon state with photons emitted at times
+where $\ket{t_j}\ket{t_k}$ is a two-photon state with photons emitted at times
 $t_j$ and $t_k$.
 
 
@@ -229,9 +232,9 @@ Refs.
 Since the previous steps have already entangled the $f$ excitations across the
 ensembles, a transition that conditionally excites all local atoms will create a
 global GHZ state of every atom in the network. The pulse sequence $[\pi]_{f,s}$,
-$[\pi]_{s,r2}$, $[\pi/2]_{g,f}$, $[\pi(\Delta)]_{g,r1}$, $[\pi/2]_{g,f}$,
-$[\pi]_{s,r2}$, shown in \reffig{fig:GHZ}(a),  does exactly that, where
-$[\pi(\Delta)]_{g,r1}$ is an off-resonant dressing pulse, whose Rabi frequency
+ $[\pi/2]_{g,f}$, $[\pi]_{s,r2}$, $[\pi(\Delta)]_{g,r1}$, $[\pi]_{s,r2}$,
+ $[\pi/2]_{g,f}$, shown in \reffig{fig:GHZ}(a),  does exactly that, where
+ $[\pi(\Delta)]_{g,r1}$ is an off-resonant dressing pulse, whose Rabi frequency
 $\Omega$ and duration is set properly in order to introduce a conditional $\pi$
 phase shift on level $g$.
 This sequence transfers the atoms from $g$ to $f$ only if $r_2$ is unoccupied,
@@ -315,7 +318,7 @@ $\ket{g} =
 levels $\ket{r_1} = \ket{6s\tilde n s({}^1\!S_0)}$ and $\ket{r_2} =
 \ket{6s\tilde n p_{m=+1}({}^1\!P_1)}$ with the same principle
 quantum number $\tilde n$. 
-Although the branching ratio for $e\rightarrow g$ decay is not unity, the
+Although the branching ratio for the $e\rightarrow g$ decay is not unity, the
 large population in $g$ collectively enhances this decay channel, and the
 transition becomes effectively closed. Due to the different symmetries of these
 states, the coherent coupling between $f,e, s$ levels and the Rydberg levels
@@ -347,9 +350,9 @@ number of local atoms $n$, for principle quantum numbers, $50\leq \tilde n \leq
 150$ of the Rydberg levels, in order to find the minimal
 error per atom, $E := \eps_\mathrm{tot}/N$.
  
-To illustrate, for $\tilde n = 120$, we find the optimum at $n_\mathrm{opt} =
-298$, $\Delta = 10.9\times 10^4 \,\gamma$ and $\Omega = 8.33\times
-10^4\,\gamma$, where $\gamma \sim 1\,\mathrm{kHz}$ is the natural linewidth of the
+To illustrate, for Rydberg states $\tilde n = 120$, we find the optimum at
+$n_\mathrm{opt} \approx 300$, $\Delta = 10.9\times 10^4 \,\gamma$ and $\Omega =
+8.33\times 10^4\,\gamma$, where $\gamma \sim 1\,\mathrm{kHz}$ is the natural linewidth of the
 Rydberg levels. In this case, the error per atom is $E_\mathrm{min}=
 [\eps_\mathrm{tot}/N]_\mathrm{min} = 6.7\times 10^{-5}$ and the fidelity is
 $F_\mathrm{max} = [1 + \exp(-6.7\times 10^{-5}\,N)]/2$.
@@ -416,8 +419,8 @@ is the central frequency and $\tau$ is the total available measurement time.
 The additional factor of $2F-1 = e^{-EN}$ is due to the reduced Fisher
 information of a non-pure GHZ state, where $E$ is the error per atom and $F$
 is the fidelity of the initial state.
-(See supplementary materials for details.) For $E = E_\mathrm{min} = 6.7\times
-10^{-5}$, \refeq{eq:gainKomar2015} is maximal at $N_\mathrm{opt} \approx
+(See Appendix \ref{app:clock_precision} for details.) For $E = E_\mathrm{min} =
+6.7\times 10^{-5}$, \refeq{eq:gainKomar2015} is maximal at $N_\mathrm{opt} \approx
 1/(2E_\mathrm{min}) \approx 7500$, where $G_\mathrm{max} = 6.9$, and $F =
 [1+e^{-N_\mathrm{opt} E_\mathrm{min}}]/2 = 0.82$.
 
@@ -440,9 +443,9 @@ separated into $\sim 10^2$ ensembles, for efficient Rydberg blockade. We imagine
 using an individually addressed ``messenger'' atom, that can be moved to the
 vicinity of each ensemble, and can be brought to entanglement with them using
 dipole-dipole interaction.
-(See Supplementary for more details.) Such a scheme is free from imperfections
-affection the photons in the previous scheme, and thus can reach a higher
-fidelity for a given number of atoms, or use more atoms to achieve a higher
+(See Appendix \ref{app:Multiple_local_ensembles} for more details.) Such a
+scheme is free from imperfections affecting the photons in the previous scheme,
+and thus can reach a higher fidelity for a given number of atoms, or use more atoms to achieve a higher
 gain. We find that, at the optimum, the gain over the classical scheme is $\sim
 14$, twice the gain of the network scheme.
 
@@ -467,5 +470,5 @@ coupling, suppressed photon propagation errors and long atomic memory lifetimes.
 We showed that our scheme, in particular a realization with neutral Yb
 ensembles, is feasible and provides significant gain over non-entangled schemes
 even in the light of physical imperfections. Our results provide the first
-detailed proposal for a network that can serve as a first prototype of the
+detailed proposal for a network that can serve as a prototype of the
 global quantum clock network outlined in \cite{Komar2014}.

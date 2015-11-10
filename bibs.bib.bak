@@ -481,8 +481,6 @@
   year = {2013},
   volume = {88},
   pages = {010303},
-  number = {1},
-  month = jul,
   doi = {10.1103/PhysRevA.88.010303},
   file = {:C$\backslash$:/Doc/Harvard/Research/Papers/Beterov\_PRA\_2013.pdf:pdf},
   issn = {1050-2947},
@@ -669,7 +667,6 @@
 	Symposium on},
   year = {2009},
   pages = {517-526},
-  month = {Oct},
   doi = {10.1109/FOCS.2009.36},
   issn = {0272-5428},
   keywords = {cryptographic protocols;quantum cryptography;theorem proving;authentication
@@ -867,8 +864,6 @@
   year = {2010},
   volume = {104},
   pages = {043601},
-  number = {4},
-  month = jan,
   doi = {10.1103/PhysRevLett.104.043601},
   file = {:C$\backslash$:/Doc/Harvard/Research/Papers/Chen\_PRL\_2010.pdf:pdf},
   issn = {0031-9007},
@@ -1026,7 +1021,6 @@
   year = {2011},
   volume = {84},
   pages = {1--15},
-  number = {December},
   abstract = {We present an experimental study of the dynamics of a two-level system
 	driven by strong nonresonant electromagnetic pulses as a function
 	of pulse intensity and detuning. We have explored the qualitative
@@ -1148,7 +1142,6 @@
   year = {2011},
   volume = {83},
   pages = {331--347},
-  month = {\},
   doi = {10.1103/RevModPhys.83.331},
   issue = {2},
   numpages = {0},
@@ -1345,8 +1338,6 @@
   year = {2012},
   volume = {336},
   pages = {887--9},
-  number = {6083},
-  month = may,
   abstract = {Highly excited Rydberg atoms have many exaggerated properties. In
 	particular, the interaction strength between such atoms can be varied
 	over an enormous range. In a mesoscopic ensemble, such strong, long-range
@@ -1405,7 +1396,6 @@
   year = {2015},
   volume = {115},
   pages = {093601},
-  month = {Aug},
   doi = {10.1103/PhysRevLett.115.093601},
   issue = {9},
   numpages = {5},
@@ -1817,7 +1807,6 @@
   year = {2012},
   volume = {109},
   pages = {235309},
-  month = {Dec},
   doi = {10.1103/PhysRevLett.109.235309},
   issue = {23},
   numpages = {5},
@@ -1852,8 +1841,6 @@
   year = {2012},
   volume = {85},
   pages = {041802},
-  number = {4},
-  month = apr,
   doi = {10.1103/PhysRevA.85.041802},
   file = {:C$\backslash$:/Doc/Harvard/Research/Papers/Hall\_PRA\_2012.pdf:pdf},
   issn = {1050-2947},
@@ -1885,7 +1872,6 @@
   year = {2013},
   volume = {60},
   pages = {255--265},
-  month = sep,
   abstract = {Abstract Driven Raman processes – nearly resonant two-photon transitions
 	through an intermediate state that is non-resonantly coupled and
 	does not acquire a sizeable population – are commonly treated with
@@ -1919,8 +1905,6 @@
   year = {2010},
   volume = {81},
   pages = {052311},
-  number = {5},
-  month = may,
   doi = {10.1103/PhysRevA.81.052311},
   file = {:C$\backslash$:/Doc/Harvard/Research/Papers/Han\_PRA\_2010.pdf:pdf},
   issn = {1050-2947},
@@ -1988,7 +1972,6 @@
   year = {2007},
   volume = {15},
   pages = {13957},
-  number = {21},
   abstract = {We report an experimental demonstration of the distribution of time-bin
 	entangled photon pairs over 100 km of optical fiber. In our experiment,
 	1.5-mum non-degenerated time-bin entangled photon pairs were generated
@@ -2456,8 +2439,6 @@
   year = {2013},
   volume = {498},
   pages = {466--469},
-  number = {7455},
-  month = jun,
   doi = {10.1038/nature12227},
   file = {:C$\backslash$:/Doc/Harvard/Research/Papers/Dudin\_Nature\_2013.pdf:pdf},
   issn = {0028-0836},
@@ -2612,8 +2593,6 @@
   year = {2009},
   volume = {102},
   pages = {170502},
-  number = {17},
-  month = apr,
   abstract = {We demonstrate theoretically a parallelized C-NOT gate which allows
 	us to entangle a mesoscopic ensemble of atoms with a single control
 	atom in a single step, with high fidelity and on a microsecond time
@@ -3067,6 +3046,20 @@
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.107.063602}
 }
 
+@ARTICLE{O'Connell2010,
+  author = {A. D. O'Connell and M. Hofheinz and M. Ansmann and Radoslaw C. Bialczak
+	and M. Lenander and Erik Lucero and M. Neeley and D. Sank and H.
+	Wang and M. Weides and J. Wenner and John M. Martinis and A. N. Cleland},
+  title = {Quantum ground state and single-phonon control of a mechanical resonator},
+  journal = {Nature},
+  year = {2010},
+  volume = {464},
+  pages = {697--703},
+  doi = {10.1038/nature08967},
+  owner = {Peter Komar},
+  timestamp = {2015.10.01}
+}
+
 @ARTICLE{Olmschenk2009,
   author = {Olmschenk, S. and Matsukevich, D. N. and Maunz, P. and Hayes, D.
 	and Duan, L.-M. and Monroe, C.},
@@ -3089,20 +3082,6 @@
   doi = {10.1126/science.1167209},
   eprint = {http://www.sciencemag.org/content/323/5913/486.full.pdf},
   url = {http://www.sciencemag.org/content/323/5913/486.abstract}
-}
-
-@ARTICLE{O'Connell2010,
-  author = {A. D. O’Connell and M. Hofheinz and M. Ansmann and Radoslaw C. Bialczak
-	and M. Lenander and Erik Lucero and M. Neeley and D. Sank and H.
-	Wang and M. Weides and J. Wenner and John M. Martinis and A. N. Cleland},
-  title = {Quantum ground state and single-phonon control of a mechanical resonator},
-  journal = {Nature},
-  year = {2010},
-  volume = {464},
-  pages = {697--703},
-  doi = {10.1038/nature08967},
-  owner = {Peter Komar},
-  timestamp = {2015.10.01}
 }
 
 @ARTICLE{pachos,
@@ -3258,7 +3237,6 @@
   year = {2015},
   volume = {91},
   pages = {043402},
-  month = {Apr},
   doi = {10.1103/PhysRevA.91.043402},
   issue = {4},
   numpages = {5},
@@ -3342,7 +3320,6 @@
 @MISC{Raussendorf2012,
   author = {Raussendorf, Robert and Wei, Tzu-chieh},
   title = {{Quantum Computation by Local Measurement}},
-  month = jul,
   year = {2012},
   abstract = {Quantum computation is a novel way of information processing which
 	allows, for certain classes of problems, exponential speedups over
@@ -3522,8 +3499,6 @@
   year = {2013},
   volume = {111},
   pages = {130501},
-  number = {13},
-  month = sep,
   doi = {10.1103/PhysRevLett.111.130501},
   file = {:C$\backslash$:/Doc/Harvard/Research/Papers/Rubenok\_PRL\_2013.pdf:pdf},
   issn = {0031-9007},
@@ -3554,7 +3529,6 @@
   year = {1999},
   volume = {82},
   pages = {1971--1974},
-  number = {9},
   doi = {10.1103/PhysRevLett.82.1971},
   file = {:C$\backslash$:/Doc/Harvard/Research/Papers/Molmer\_PRL\_1971.pdf:pdf},
   isbn = {1050-2947},
@@ -3648,8 +3622,6 @@
   year = {2009},
   volume = {102},
   pages = {240502},
-  number = {24},
-  month = jun,
   abstract = {We present an efficient method for producing N particle entangled
 	states using Rydberg blockade interactions. Optical excitation of
 	Rydberg states that interact weakly, yet have a strong coupling to
@@ -3911,8 +3883,6 @@
   year = {2013},
   volume = {88},
   pages = {063844},
-  number = {6},
-  month = dec,
   doi = {10.1103/PhysRevA.88.063844},
   file = {:C$\backslash$:/Doc/Harvard/Research/Papers/Shwa\_PRA\_2013.pdf:pdf},
   issn = {1050-2947},
@@ -4158,8 +4128,6 @@
   year = {2014},
   volume = {89},
   pages = {023411},
-  number = {2},
-  month = feb,
   doi = {10.1103/PhysRevA.89.023411},
   file = {:C$\backslash$:/Doc/Harvard/Research/Papers/Topcu\_PRA\_2014.pdf:pdf},
   issn = {1050-2947},
@@ -4176,8 +4144,6 @@
   year = {2013},
   volume = {88},
   pages = {043407},
-  number = {4},
-  month = oct,
   doi = {10.1103/PhysRevA.88.043407},
   file = {:C$\backslash$:/Doc/Harvard/Research/Papers/Topcu\_PRA\_2013.pdf:pdf},
   issn = {1050-2947},
@@ -4286,8 +4252,6 @@
   year = {2015},
   volume = {11},
   pages = {157--161},
-  number = {January},
-  month = jan,
   doi = {10.1038/nphys3214},
   file = {:C$\backslash$:/Doc/Harvard/Research/Papers/Weber\_NatPhys\_2015.pdf:pdf},
   issn = {1745-2473},
@@ -4526,8 +4490,6 @@
   year = {2010},
   volume = {81},
   pages = {052329},
-  number = {5},
-  month = may,
   doi = {10.1103/PhysRevA.81.052329},
   file = {:C$\backslash$:/Doc/Harvard/Research/Papers/Zhao\_PRA\_2010.pdf:pdf},
   issn = {1050-2947},

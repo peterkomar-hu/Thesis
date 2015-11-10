@@ -33,7 +33,7 @@ operations, the elemental steps of quantum computation.
 
 Protocols that rely on entanglement to distribute secret keys between distant
 parties are the main focus of Quantum Communication. Their security is based on
-fundamental physical limitations, rather than practical one due to
+fundamental physical limitations, rather than practical limitations arising from
 computational complexity.
 In Chapters \ref{ch:Borregaard_PRL2015} and \ref{ch:Borregaard_PRA2015}, we
 describe how a system consisting of a few atoms isolated in an optical cavity
@@ -66,17 +66,17 @@ band-gap materials \cite{Foresi1997}, non-linear inductive elements
 Coupling components with different physical properties can give rise to devices
 which incorporate the best characteristics of each component.
 Optical components are fast ($\sim 100-1000\,\mathrm{THz}$) and fairly isolated,
-however, making them strongly interact with each other is challenging
+but making them strongly interact with each other is challenging
 \cite{Chang2007}.
 Mechanical components, on the other hand, are much slower ($\sim
 0.01-10\,\mathrm{GHz}$), but are usually much more sensitive to changes in their
 surroundings \cite{Aspelmeyer2014}. One successful application is using
-mechanical elements as transducers between two optical degrees of freedom allows
-for efficient filtering and frequency conversion \cite{Eichenfield2009} when
+mechanical elements as transducers between two optical degrees of freedom 
+for efficient filtering and frequency conversion \cite{Eichenfield2009}, while
 driven by classical light.
 
-The interaction between the light field and a mechanical surface originates
-mainly from the light-pressure displacing the mechanics, and gives rise to a
+The interaction between a light field and a mechanical surface originates
+mainly from the light-pressure displacing the mechanics. This gives rise to a
 non-linear parametric coupling between light intensity and mechanical motion
 \cite{Meystre2013}. In Chapter \ref{ch:Komar2013}, we analyze a quantum model of
 two optical cavities and a mechanical oscillator interacting through this
@@ -86,8 +86,9 @@ super- and sub-Poissonian characteristics. We find that if the system is
 properly tuned, and is sufficiently cooled down, then it can be used for
 coherent quantum operations.
 If the energy difference between the two optical modes is bridged by the
-mechanical mode, then we can use the photons leaving the output port to herald
-the creation of a single mechanical excitation.
+mechanical mode, then we can use the photons leaving the output
+port with the lower frequency to herald the creation of a single mechanical
+excitation.
 
 Using oscillators as quantum registers in a future quantum computer requires
 them to be anharmonic \cite{Majer2007}. This is because consecutive levels of an
@@ -128,7 +129,6 @@ high zero-point electric fields, and produce couplings
 to atoms larger than their spontaneous emission rate. Their
 observed lifetime is then considerably decreased \cite{Englund2005}; an effect
 called Purcell-enhancement.
-
 Once such strong interaction is demonstrated, the prospect of using these
 systems for coherent quantum logic operations becomes realistic. In Chapter
 \ref{ch:Borregaard_PRL2015}, we consider a model of three atoms placed inside
@@ -145,7 +145,7 @@ protocols. Experimental realizations rely on exchanging weak light pulses
 via carefully monitored optical fibers \cite{Peev2009}. The
 reliability of direct transmission of photon pulses is limited by the
 fiber attenuation length, the maximum of which ($\sim 20\,\mathrm{km}$) is
-achieved at telecom wavelength ($\sim 1\,\mu\mathrm{m}$).
+achieved at telecom wavelength ($\sim 1.5\,\mu\mathrm{m}$).
 
 Classical communication solves the attenuation problem by incorporating fiber
 segments which amplify the signal. Conceptually, this classical amplification
@@ -180,7 +180,7 @@ Currently, atomic clocks are the best time-keeping devices. They are
 used to create and broadcast a precise time and
 frequency standard. The workings of atomic clocks rely on two main components: the
 reference oscillator, realized by an isolated, narrow-linewidth electromagnetic
-transition of an atomic species, \cite{Derevianko2011} and the slaved
+transition of an atomic species \cite{Derevianko2011}, and the slaved
 oscillator, the microwave or optical source of a strong, coherent field. The
 clock keeps time by periodically interrogating the atoms with the field of the
 slaved oscillator (laser), and measuring the deviation of their frequencies.
@@ -205,20 +205,20 @@ maximal total averaging time is usually determined by the refresh rate of the
 clock signal required by the application, or by other noises such as frequency
 flicker noise \cite{Barnes1966}.
 
-The dependence of the precision on the number of atoms is a true quantum
-phenomenon.
-It is due to the fundamental limit on the maximal information a single
-measurement can obtain about the atoms. When $N$ atoms are measured
-independently, the Allen-deviation scales as $\propto N^{-1/2}$, and is limited
-by projection noise. This limit is called the ``Standard Quantum Limit''. It
-originates from the inherent uncertainty of a single two-level system prepared in superposition \cite{Santarelli1998}.
+The precision of a clock depends on the total number of interrogated atoms.
+This is a true quantum phenomenon, which is due to the fundamental limit on the
+maximal information a single measurement can obtain about the atoms. When $N$
+atoms are measured independently, the Allan-deviation scales as $\propto
+N^{-1/2}$, and is limited by projection noise. This limit is called the
+``Standard Quantum Limit''. It originates from the inherent uncertainty of a
+single two-level system prepared in superposition \cite{Santarelli1998}.
  
 The Standard Quantum Limit describes the limit of precision if all atoms are
 prepared and measured independently, or as an uncorrelated ensemble. Although it
-is accurate in most cases, it is higher than the fundamental quantum limit, due
-to Heisenberg uncertainty. The latter predicts $\propto N^{-1}$ scaling of the
-precision with atom number $N$ \cite{Hall2012}. The gap between the
-two limits, and proposals trying to close it, is the main focus of
+is accurate in most cases, it gives a higher bound than the fundamental quantum
+limit, which is due to Heisenberg uncertainty. The latter predicts $\propto
+N^{-1}$ scaling of the precision with atom number $N$ \cite{Hall2012}. The gap
+between the two limits, and proposals trying to close it, is the main focus of
 Quantum Metrology \cite{Giovanetti2011, Escher:2011fn}.
 
 By preparing the collection of atoms in an
@@ -230,7 +230,7 @@ Borregaard2013_nearHeisenberg}, Greenberger-Horne-Zeilinger (GHZ) states
 \cite{Buzek1999, Berry2009}, all promise a significant improvement, and some
 even reach the Heisenberg limit for large $N$. In Chapter \ref{ch:Kessler2014},
 we calculate a limit on the best achievable performance using a cascade of GHZ
-states, and compare it with the other algorithms. We find that for total
+states, and compare it with other algorithms. We find that for total
 averaging times shorter than the atomic coherence time, the precision of our
 scheme surpasses the precision of the best classical protocol.
 

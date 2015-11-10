@@ -9,25 +9,25 @@ precision gain with respect to non-entangled schemes, can be written as
 	G(N,E) = \frac{\pi}{8}e^{-E N}\sqrt{\frac{N}{\log N}},
 \eel
 where $N$ is the total number of entangled atoms in the global GHZ state, and
-$E = E(n,\Delta,\omega)$ is the total error (contrast loss) divided by the total
+$E = E(n,\Delta,\Omega)$ is the total error (contrast loss) divided by the total
 number of atoms. $E$ depends on the number of atoms at a single clock, $n$, and the
-detuning and Rabi-frequency of the dressing field used for local entanglement
-growing.
+detuning ($\Delta$) and Rabi-frequency ($\Omega$) of the dressing field used for
+local entanglement growing.
 
 We seperate out the
-minimization of $E$ (through finding the optimal $n, \Delta, \omega$
+minimization of $E$ (through finding the optimal $n, \Delta, \Omega$
 parameters), and the maximization of $G$ (through finding the optimal $N$). In
 other words, we find
 \bel
-	G_\mathrm{max} = \max_N \,G\left(N,\,\min_{n,\Delta,\omega} E\right).
+	G_\mathrm{max} = \max_N \,G\left(N,\,\min_{n,\Delta,\Omega} E\right).
 \eel
 This two-step procedure gives identical results to the full optimization,
 \bel
-	G_\mathrm{max} = \max_{N,n,\Delta,\omega} G\Big(N, E(n,\Delta,\omega)\Big),
+	G_\mathrm{max} = \max_{N,n,\Delta,\Omega} G\Big(N, E(n,\Delta,\Omega)\Big),
 \eel
-bacause both the maximum of $G$ and the optimal value of $N$ is
-monotonically decreasing function of $E$, for large $N$ (as can be read off from
-\refeq{eq:G_first}).
+bacause both the maximum of $G$ is a
+monotonically decreasing function of $E$, for large $N_\mathrm{opt}$ values (as
+can be read off from \refeq{eq:G_first}).
 We choose the two-step precedure because it is easier to carry out and
 interpret.
 
@@ -77,7 +77,7 @@ Ideally, starting from
 \eel
 (where $\ket{1_x} = \sum_j\ket{x}_j/\sqrt{n}$ for $x=s,r_2$),
 after time $t = 4\pi\Delta/\Omega^2$, the part
-of the wavefunction with no $r_2$ excitaion picks up a $\pi$ phase, 
+of the wavefunction with no $r_2$ excitation picks up a $\pi$ phase, 
 \bel
 	\ket{1_s}\Big(e^{-i\pi}\ket{g} + \ket{f}\Big)^{\otimes (n-1)},
 \eel
@@ -125,7 +125,7 @@ we can write
 \eel
 We approximate
 \bel
-	\sum_k (\phi_j,k - \phi_0)^2 \approx n
+	\sum_k (\phi_{j,k} - \phi_0)^2 \approx n
 	\mathrm{Var}\left(\phi_{j,k}\right),
 \eel
 where the variance is taken over all pairs of $(j,k)$, and we take it out of the
@@ -280,7 +280,7 @@ These states are all orthogonal to $\ket{S}$, normalized, and span an $n-1$
 dimensional space, therefore they are overcomplete by a factor of $n/(n-1)$, and
 they are also almost orthogonal to each other:
 $
-	|\ev{\tilde j | \tilde k}| =
+	\left|\ev{\tilde j | \tilde k}\right| =
 	\frac{1}{n} + \frac{1}{n^2} = \OO(1/n).
 $
 Let us imagine starting the system in
@@ -353,7 +353,7 @@ We denote the fidelity of a single connection by $F_\mathrm{non-local} =
 with the  sum of individual errors $\sum_i \eps_i$, detailed below.
 
 \subsection{Imperfect blockade}
-When exciting a single collective excitations, imperfect self-blockade can
+When exciting a single collective excitation, imperfect self-blockade can
 result in leakage into double excited states. The probability of this can be
 exponentially reduced by applying a smooth driving pulse. E.g., in case of a
 Gaussian pulse of width $\tau$, and area $\pi$, exciting the $g
@@ -426,7 +426,7 @@ On average, every link relies on one $s$ qubit. The time it takes to attempt the
 creation of a link is $\sim 2L/c$, the time it takes for a light pulse to do a
 round-trip between two stations.
 During this time, quantum information is stored in qubit $s$, which is subject
-decoherence happening at a rate $\gamma_s$.
+to decoherence happening at a rate $\gamma_s$.
 The infidelity of the link originating from this error is
 \bel
 \label{eq:f7}
@@ -607,9 +607,9 @@ where the error contributions are from Eq. (\ref{eq:f1}, \ref{eq:f2},
  and \ref{eq:f8}). 
 Independently from the total atom number, $N$, there is an optimal group size,
 $n_\mathrm{opt}$, for which $\sum_i\eps_i / n$ is minimal. If the total number of
-atoms is increased, it is best to create multiple groups of the same size. Below
-we find the optimal values of the parameters $\Omega$, $\Delta$ (the Rabi
-frequency and the detuning of the dressing scheme), and $n$ (the size of the
+atoms is increased, it is best to create multiple groups of the same size.
+Below, we find the optimal values of the parameters $\Omega$, $\Delta$ (the Rabi
+frequency and the detuning of the dressing field), and $n$ (the size of the
 local groups) for fixed values of $\tilde n$ (the principle quantum number of
 the Rydberg state) and  $a = 275.75\,\mathrm{nm}$.
 
@@ -1022,7 +1022,7 @@ regions of $\tilde n$, for the 2D and 3D setup.}
 \end{figure}
 For $\tilde n = 120$, we find $N_\mathrm{max} \approx 2500$ (2D) and $\approx
 7500$ (3D). Using the $n_\mathrm{opt}$ values from before ($\approx 150$ and
-$\approx 300$ ), we find $K_\mathrm{opt} = 14$ and $22$, for 2D and 3D,
+$\approx 300$), we find $K_\mathrm{opt} = 14$ and $22$, for 2D and 3D,
 respectively.
 
 With the optimal architecture, we can plot the maximal gain $G_\mathrm{max}$
@@ -1049,8 +1049,8 @@ Although, in the rest of the work, we assume that ensembles are separated such
 that we need to use photons to generate entanglement between them, one can
 imagine employing multiple atomic ensembles in the same vacuum chamber. With
 proper optical control, this allows entangling the ensembles by moving a single
-Rydberg atom to the vicinity of each ensemble sequentially, such that the its
-blockade radius covers one of the clouds entirely.
+Rydberg atom to the vicinity of each ensemble sequentially, such that its
+blockade radius covers the nearest cloud entirely.
 
 Staring from the state
 \bel
@@ -1083,10 +1083,10 @@ the global GHZ state.
 
 Disregarding the technical difficulties of trapping multiple atomic ensembles in
 the same vacuum chamber, this entangling method has a higher fidelity than the
-previous, photon-based, protocol, since it does not suffer from the errors
+previous protocol, since it does not suffer from the errors
 affecting the photon emission, propagation and detection. We model the
 imperfections of this scheme by summing the error terms $\eps_1 + \eps_2 +
-\eps_3 + \eps_4$ only (from Eq.
+\eps_3 + \eps_4$ (from Eq.
 (\ref{eq:f1}), (\ref{eq:f2}), (\ref{eq:f3}), (\ref{eq:f4})).
 
 If the different ensembles are stored in different parts of a 3D lattice, and we
@@ -1100,7 +1100,7 @@ current atomic lattice clocks.
 
 For principle quantum number $\tilde n = 120$ and for fixed $n = 100$, we find
 $\omega = 4.4\times 10^5$, $\delta = 3.1\times 10^5$ and $E_\mathrm{min} = 1.49\times 10^{-5}$, which translates to
-$G_\mathrm{max} = 13.5$ for $N_\mathrm{max} = 3\times 10^5$ and $K_\mathrm{opt}
+$G_\mathrm{max} = 13.5$ for $N_\mathrm{max} = 3\times 10^4$ and $K_\mathrm{opt}
 \approx 300$. This means that if we can employ enough atoms in a single clock,
 than the overall gain factor $G$ can be improved by a factor of 2, compared to
 the network realization.
