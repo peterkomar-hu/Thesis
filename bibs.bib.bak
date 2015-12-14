@@ -1,5 +1,5 @@
 % This file was created with JabRef 2.8.1.
-% Encoding: Cp1252 
+% Encoding: Cp1252
 
 @ARTICLE{Abramovici1992,
   author = {Abramovici, Alex and Althouse, William E. and Drever, Ronald W. P.
@@ -3006,7 +3006,7 @@
 
 @BOOK{Nielsen_Chuang,
   title = {Quantum Computation and Quantum Information},
-  publisher = {Cambridge University Press, Cambridge, England,},
+  publisher = {Cambridge University Press, Cambridge, England},
   year = {2011},
   author = {M. A. Nielsen and I. L. Chuang},
   owner = {Peter Komar},

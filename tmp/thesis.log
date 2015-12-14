@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.30)  10 NOV 2015 15:58
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.30)  14 DEC 2015 12:21
 entering extended mode
 **thesis.tex
 (C:\Doc\Harvard\graduation\Thesis\TheThesis\thesis.tex
@@ -1771,10 +1771,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
  ) 
 Here is how much of TeX's memory you used:
- 8861 strings out of 494045
- 132170 string characters out of 3150402
+ 8860 strings out of 494045
+ 132154 string characters out of 3150402
  218329 words of memory out of 3000000
- 10654 multiletter control sequences out of 15000+200000
+ 10653 multiletter control sequences out of 15000+200000
  22469 words of font info for 88 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  34i,17n,53p,1126b,473s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1803,7 +1803,7 @@ nts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Petya/AppData/Roaming/MiKTeX/
 2.9/fonts/type1/public/dstroke/dsrom12.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/symbols/msam10.pfb><C:/Programs/MiKTeX 2.9/fonts/type1/public/a
 msfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (318 pages, 9288324 bytes).
+Output written on thesis.pdf (318 pages, 9288327 bytes).
 PDF statistics:
  11073 PDF objects out of 12825 (max. 8388607)
  1208 named destinations out of 1440 (max. 500000)
